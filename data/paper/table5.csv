@@ -1,0 +1,169 @@
+os,row_function,col_trigger,paper_pct
+android,Com/Adp,Bor Con,1.40
+android,Com/Adp,Con/Mul Thr,0.00
+android,Com/Adp,Env Dep,0.20
+android,Com/Adp,Mul/Loc Dep,0.00
+android,Com/Adp,Per/Ide Dep,0.00
+android,Com/Adp,Reg Ope,0.20
+android,Com/Adp,Sta Dep,1.20
+linux,Com/Adp,Bor Con,1.80
+linux,Com/Adp,Con/Mul Thr,0.20
+linux,Com/Adp,Env Dep,35.80
+linux,Com/Adp,Mul/Loc Dep,0.20
+linux,Com/Adp,Per/Ide Dep,0.00
+linux,Com/Adp,Reg Ope,1.60
+linux,Com/Adp,Sta Dep,1.60
+harmony,Com/Adp,Bor Con,1.40
+harmony,Com/Adp,Con/Mul Thr,0.20
+harmony,Com/Adp,Env Dep,0.40
+harmony,Com/Adp,Mul/Loc Dep,0.00
+harmony,Com/Adp,Per/Ide Dep,0.00
+harmony,Com/Adp,Reg Ope,0.20
+harmony,Com/Adp,Sta Dep,0.20
+android,Dev/Drv,Bor Con,5.40
+android,Dev/Drv,Con/Mul Thr,0.80
+android,Dev/Drv,Env Dep,0.00
+android,Dev/Drv,Mul/Loc Dep,0.00
+android,Dev/Drv,Per/Ide Dep,0.00
+android,Dev/Drv,Reg Ope,0.60
+android,Dev/Drv,Sta Dep,0.40
+linux,Dev/Drv,Bor Con,1.60
+linux,Dev/Drv,Con/Mul Thr,0.20
+linux,Dev/Drv,Env Dep,13.20
+linux,Dev/Drv,Mul/Loc Dep,0.00
+linux,Dev/Drv,Per/Ide Dep,0.00
+linux,Dev/Drv,Reg Ope,1.60
+linux,Dev/Drv,Sta Dep,0.60
+harmony,Dev/Drv,Bor Con,7.60
+harmony,Dev/Drv,Con/Mul Thr,3.60
+harmony,Dev/Drv,Env Dep,0.40
+harmony,Dev/Drv,Mul/Loc Dep,0.00
+harmony,Dev/Drv,Per/Ide Dep,0.00
+harmony,Dev/Drv,Reg Ope,0.40
+harmony,Dev/Drv,Sta Dep,1.60
+android,Gra/Ren,Bor Con,2.00
+android,Gra/Ren,Con/Mul Thr,0.40
+android,Gra/Ren,Env Dep,0.20
+android,Gra/Ren,Mul/Loc Dep,0.00
+android,Gra/Ren,Per/Ide Dep,0.00
+android,Gra/Ren,Reg Ope,0.80
+android,Gra/Ren,Sta Dep,2.40
+linux,Gra/Ren,Bor Con,1.60
+linux,Gra/Ren,Con/Mul Thr,0.80
+linux,Gra/Ren,Env Dep,2.80
+linux,Gra/Ren,Mul/Loc Dep,0.00
+linux,Gra/Ren,Per/Ide Dep,0.00
+linux,Gra/Ren,Reg Ope,1.00
+linux,Gra/Ren,Sta Dep,0.80
+harmony,Gra/Ren,Bor Con,1.00
+harmony,Gra/Ren,Con/Mul Thr,2.00
+harmony,Gra/Ren,Env Dep,0.20
+harmony,Gra/Ren,Mul/Loc Dep,0.00
+harmony,Gra/Ren,Per/Ide Dep,0.00
+harmony,Gra/Ren,Reg Ope,0.20
+harmony,Gra/Ren,Sta Dep,0.40
+android,Mem/Res Mng,Bor Con,7.20
+android,Mem/Res Mng,Con/Mul Thr,4.60
+android,Mem/Res Mng,Env Dep,0.00
+android,Mem/Res Mng,Mul/Loc Dep,0.00
+android,Mem/Res Mng,Per/Ide Dep,0.00
+android,Mem/Res Mng,Reg Ope,0.20
+android,Mem/Res Mng,Sta Dep,0.40
+linux,Mem/Res Mng,Bor Con,1.20
+linux,Mem/Res Mng,Con/Mul Thr,0.20
+linux,Mem/Res Mng,Env Dep,0.00
+linux,Mem/Res Mng,Mul/Loc Dep,0.00
+linux,Mem/Res Mng,Per/Ide Dep,0.00
+linux,Mem/Res Mng,Reg Ope,0.40
+linux,Mem/Res Mng,Sta Dep,0.20
+harmony,Mem/Res Mng,Bor Con,14.40
+harmony,Mem/Res Mng,Con/Mul Thr,3.60
+harmony,Mem/Res Mng,Env Dep,0.40
+harmony,Mem/Res Mng,Mul/Loc Dep,0.00
+harmony,Mem/Res Mng,Per/Ide Dep,0.00
+harmony,Mem/Res Mng,Reg Ope,1.20
+harmony,Mem/Res Mng,Sta Dep,3.20
+android,Net/Com,Bor Con,1.80
+android,Net/Com,Con/Mul Thr,0.20
+android,Net/Com,Env Dep,0.00
+android,Net/Com,Mul/Loc Dep,0.00
+android,Net/Com,Per/Ide Dep,0.40
+android,Net/Com,Reg Ope,0.40
+android,Net/Com,Sta Dep,0.40
+linux,Net/Com,Bor Con,1.80
+linux,Net/Com,Con/Mul Thr,0.20
+linux,Net/Com,Env Dep,2.60
+linux,Net/Com,Mul/Loc Dep,0.00
+linux,Net/Com,Per/Ide Dep,0.00
+linux,Net/Com,Reg Ope,0.80
+linux,Net/Com,Sta Dep,1.20
+harmony,Net/Com,Bor Con,10.00
+harmony,Net/Com,Con/Mul Thr,6.40
+harmony,Net/Com,Env Dep,0.60
+harmony,Net/Com,Mul/Loc Dep,0.00
+harmony,Net/Com,Per/Ide Dep,0.00
+harmony,Net/Com,Reg Ope,1.40
+harmony,Net/Com,Sta Dep,1.60
+android,Pro/Tas Sch,Bor Con,1.00
+android,Pro/Tas Sch,Con/Mul Thr,0.80
+android,Pro/Tas Sch,Env Dep,0.20
+android,Pro/Tas Sch,Mul/Loc Dep,0.00
+android,Pro/Tas Sch,Per/Ide Dep,0.20
+android,Pro/Tas Sch,Reg Ope,1.00
+android,Pro/Tas Sch,Sta Dep,1.60
+linux,Pro/Tas Sch,Bor Con,0.80
+linux,Pro/Tas Sch,Con/Mul Thr,0.40
+linux,Pro/Tas Sch,Env Dep,1.40
+linux,Pro/Tas Sch,Mul/Loc Dep,0.00
+linux,Pro/Tas Sch,Per/Ide Dep,0.00
+linux,Pro/Tas Sch,Reg Ope,1.00
+linux,Pro/Tas Sch,Sta Dep,0.00
+harmony,Pro/Tas Sch,Bor Con,1.40
+harmony,Pro/Tas Sch,Con/Mul Thr,2.60
+harmony,Pro/Tas Sch,Env Dep,0.20
+harmony,Pro/Tas Sch,Mul/Loc Dep,0.00
+harmony,Pro/Tas Sch,Per/Ide Dep,0.00
+harmony,Pro/Tas Sch,Reg Ope,0.60
+harmony,Pro/Tas Sch,Sta Dep,0.80
+android,Sec/Perm,Bor Con,16.40
+android,Sec/Perm,Con/Mul Thr,0.40
+android,Sec/Perm,Env Dep,0.40
+android,Sec/Perm,Mul/Loc Dep,0.00
+android,Sec/Perm,Per/Ide Dep,30.00
+android,Sec/Perm,Reg Ope,4.80
+android,Sec/Perm,Sta Dep,8.00
+linux,Sec/Perm,Bor Con,5.80
+linux,Sec/Perm,Con/Mul Thr,0.20
+linux,Sec/Perm,Env Dep,4.00
+linux,Sec/Perm,Mul/Loc Dep,0.00
+linux,Sec/Perm,Per/Ide Dep,1.60
+linux,Sec/Perm,Reg Ope,2.20
+linux,Sec/Perm,Sta Dep,0.20
+harmony,Sec/Perm,Bor Con,9.80
+harmony,Sec/Perm,Con/Mul Thr,1.80
+harmony,Sec/Perm,Env Dep,0.00
+harmony,Sec/Perm,Mul/Loc Dep,0.00
+harmony,Sec/Perm,Per/Ide Dep,2.80
+harmony,Sec/Perm,Reg Ope,2.20
+harmony,Sec/Perm,Sta Dep,1.40
+android,Sto Mng,Bor Con,1.80
+android,Sto Mng,Con/Mul Thr,0.00
+android,Sto Mng,Env Dep,0.00
+android,Sto Mng,Mul/Loc Dep,0.00
+android,Sto Mng,Per/Ide Dep,0.60
+android,Sto Mng,Reg Ope,0.80
+android,Sto Mng,Sta Dep,0.40
+linux,Sto Mng,Bor Con,4.40
+linux,Sto Mng,Con/Mul Thr,0.80
+linux,Sto Mng,Env Dep,2.20
+linux,Sto Mng,Mul/Loc Dep,0.00
+linux,Sto Mng,Per/Ide Dep,0.00
+linux,Sto Mng,Reg Ope,0.40
+linux,Sto Mng,Sta Dep,0.60
+harmony,Sto Mng,Bor Con,7.00
+harmony,Sto Mng,Con/Mul Thr,3.80
+harmony,Sto Mng,Env Dep,0.60
+harmony,Sto Mng,Mul/Loc Dep,0.00
+harmony,Sto Mng,Per/Ide Dep,0.00
+harmony,Sto Mng,Reg Ope,0.40
+harmony,Sto Mng,Sta Dep,2.00

@@ -1,0 +1,60 @@
+Determinism check for the CS340 OS-defect reproduction
+
+runs: 3
+reproduce.py sha256: 72aba43bfd69a116f6a13e0c795b488b0b2d3feda6bba24c19438e249dc086be
+output files compared: 11
+
+SHA-256 per run:
+  expected_summary.json
+    run1: 0c4a50690d658fa6ee61709b9e48e617035b13cf17aaf9c4d0ba56f88323a25b
+    run2: 0c4a50690d658fa6ee61709b9e48e617035b13cf17aaf9c4d0ba56f88323a25b
+    run3: 0c4a50690d658fa6ee61709b9e48e617035b13cf17aaf9c4d0ba56f88323a25b
+  fig2_reproduction.csv
+    run1: 7e65246e7d08cace16fa62e38a670ca22f35f9c9f94164ad8c801d21e6fb263e
+    run2: 7e65246e7d08cace16fa62e38a670ca22f35f9c9f94164ad8c801d21e6fb263e
+    run3: 7e65246e7d08cace16fa62e38a670ca22f35f9c9f94164ad8c801d21e6fb263e
+  fig3_reproduction.csv
+    run1: 4266ebedf898783b2907f7c8e12b066f5b71bcdeadc661f610fe2b66ead3aea7
+    run2: 4266ebedf898783b2907f7c8e12b066f5b71bcdeadc661f610fe2b66ead3aea7
+    run3: 4266ebedf898783b2907f7c8e12b066f5b71bcdeadc661f610fe2b66ead3aea7
+  fig4_overall_candidates.csv
+    run1: 41321aac7111f804403f341ca79a412042e9dd6b5cceb7f51b6929da2591b636
+    run2: 41321aac7111f804403f341ca79a412042e9dd6b5cceb7f51b6929da2591b636
+    run3: 41321aac7111f804403f341ca79a412042e9dd6b5cceb7f51b6929da2591b636
+  fig4_reproduction.csv
+    run1: ac9828c1ef77a20c225e1585532175032481ebe73c195810414f84b8d2383b9a
+    run2: ac9828c1ef77a20c225e1585532175032481ebe73c195810414f84b8d2383b9a
+    run3: ac9828c1ef77a20c225e1585532175032481ebe73c195810414f84b8d2383b9a
+  summary.json
+    run1: 7943d7e5940145f36927f49a9484e480e5eaecc4799e8ce3deec90706f0a8440
+    run2: 7943d7e5940145f36927f49a9484e480e5eaecc4799e8ce3deec90706f0a8440
+    run3: 7943d7e5940145f36927f49a9484e480e5eaecc4799e8ce3deec90706f0a8440
+  SUMMARY.md
+    run1: 995ebb5263ecc30f394c6bebef8c9fe126405a837a0458d49a96517b48f53ac5
+    run2: 995ebb5263ecc30f394c6bebef8c9fe126405a837a0458d49a96517b48f53ac5
+    run3: 995ebb5263ecc30f394c6bebef8c9fe126405a837a0458d49a96517b48f53ac5
+  table2_reproduction.csv
+    run1: bfd5d88de853b774fda8c1845e035a7663826cad30d274acb8fef458f1c99af8
+    run2: bfd5d88de853b774fda8c1845e035a7663826cad30d274acb8fef458f1c99af8
+    run3: bfd5d88de853b774fda8c1845e035a7663826cad30d274acb8fef458f1c99af8
+  table3_reproduction.csv
+    run1: 4406fc98f312eb8b673a75b3ae1d3c4596f9d058e50cf84f693b36083a33b87d
+    run2: 4406fc98f312eb8b673a75b3ae1d3c4596f9d058e50cf84f693b36083a33b87d
+    run3: 4406fc98f312eb8b673a75b3ae1d3c4596f9d058e50cf84f693b36083a33b87d
+  table4_reproduction.csv
+    run1: d13547296c1c7ba8cee8773c90fdbf906e2866aaf1eaf5ae5de433e90a372dd6
+    run2: d13547296c1c7ba8cee8773c90fdbf906e2866aaf1eaf5ae5de433e90a372dd6
+    run3: d13547296c1c7ba8cee8773c90fdbf906e2866aaf1eaf5ae5de433e90a372dd6
+  table5_reproduction.csv
+    run1: c3cebf3e0d05b08c575c2ca2add3bbf054b2fb719584eb873783caa9173b3b51
+    run2: c3cebf3e0d05b08c575c2ca2add3bbf054b2fb719584eb873783caa9173b3b51
+    run3: c3cebf3e0d05b08c575c2ca2add3bbf054b2fb719584eb873783caa9173b3b51
+
+verdict: IDENTICAL
+files differing between runs: none
+standard deviation of every reported percentage across the three runs: 0.00 pp
+
+Interpretation: the pipeline has no randomness and puts no timestamps in its
+output, so the three runs give identical files and the standard deviation is
+0.00. This check is about run-to-run variation, not about sampling error in the
+paper's 500-defect sample.

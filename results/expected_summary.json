@@ -1,0 +1,43 @@
+{
+  "total_values": 603,
+  "matched_values": 600,
+  "match_rate_pct": 99.5,
+  "mismatch_count": 3,
+  "checks": {
+    "table2": {
+      "total": 114,
+      "matched": 114,
+      "match_rate_pct": 100.0
+    },
+    "table3": {
+      "total": 144,
+      "matched": 144,
+      "match_rate_pct": 100.0
+    },
+    "table4": {
+      "total": 126,
+      "matched": 126,
+      "match_rate_pct": 100.0
+    },
+    "table5": {
+      "total": 168,
+      "matched": 168,
+      "match_rate_pct": 100.0
+    },
+    "fig2": {
+      "total": 15,
+      "matched": 15,
+      "match_rate_pct": 100.0
+    },
+    "fig3": {
+      "total": 24,
+      "matched": 24,
+      "match_rate_pct": 100.0
+    },
+    "fig4": {
+      "total": 12,
+      "matched": 9,
+      "match_rate_pct": 75.0
+    }
+  }
+}

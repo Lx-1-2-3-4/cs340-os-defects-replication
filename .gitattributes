@@ -1,0 +1,17 @@
+* text=auto
+
+# Keep analysis artefacts byte-stable across operating systems: the pipeline
+# writes UTF-8 with Unix newlines and the committed copies must stay identical.
+*.py       text eol=lf
+*.md       text eol=lf
+*.csv      text eol=lf
+*.json     text eol=lf
+*.yml      text eol=lf
+Makefile   text eol=lf
+Dockerfile text eol=lf
+.gitignore text eol=lf
+
+# Released dataset snapshot: exact bytes matter, do not transform.
+data/defects_android.json -text
+data/defects_harmony.json -text
+data/defects_linux.json   -text
