@@ -9,5 +9,6 @@ submission in a separate folder.
 | [`liuxin1240013249/`](liuxin1240013249/) | 刘鑫 (1240013249) |
 
 Open the README inside a member's folder for that submission's details. The
-repository root only holds this index and the shared `.gitignore`; other members
-add their folders when they submit.
+repository root only holds this index and the shared repository files
+(`.gitignore`, `.gitattributes`, `.github/workflows/`); other members add their
+folders when they submit.

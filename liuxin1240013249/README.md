@@ -39,8 +39,9 @@ above.
 
 ## Running it
 
-Everything uses the Python standard library only. The last run was CPython 3.14.6
-on Windows 11; the Dockerfile pins 3.12.7.
+All commands below are run from this folder (`liuxin1240013249/`). Everything uses
+the Python standard library only. The last run was CPython 3.14.6 on Windows 11;
+the Dockerfile pins 3.12.7.
 
 ```bash
 python scripts/fetch_data.py --check     # check the snapshot against data/PROVENANCE.json
@@ -49,7 +50,8 @@ python scripts/validate_results.py       # compare with results/expected_summary
 ```
 
 `make reproduce` and `make validate` run the same two steps. The whole thing takes
-a few seconds.
+a few seconds. (`make` is optional: on Windows without make, use the Python
+commands above.)
 
 Docker:
 
