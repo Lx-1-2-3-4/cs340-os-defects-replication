@@ -27,3 +27,6 @@ jobs:
         run: |
           make reproduce
           make validate
+
+      - name: Run the extension experiments
+        run: make extension

@@ -1,15 +1,19 @@
 PYTHON ?= python3
 SHELL := /bin/sh
 
-.PHONY: all fetch reproduce validate check clean docker-build docker-run
+.PHONY: all fetch reproduce extension validate check clean docker-build docker-run
 
-all: reproduce validate
+all: reproduce validate extension
 
 fetch:
 	$(PYTHON) scripts/fetch_data.py
 
 reproduce:
 	$(PYTHON) scripts/run_triplicate.py
+
+extension:
+	$(PYTHON) extension/subsample_sensitivity.py --runs 3 --resamples 500
+	$(PYTHON) extension/severity_missing_labels.py
 
 validate:
 	$(PYTHON) scripts/validate_results.py

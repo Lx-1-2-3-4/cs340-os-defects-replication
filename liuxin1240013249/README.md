@@ -117,11 +117,29 @@ label-to-table mapping, the aggregation rules and the transcription of the paper
 values. It does not test the labels themselves, and the one result that does not
 match (Figure 4d) is more informative than the 600 that do.
 
+## Extension
+
+Two experiments change one factor at a time, using the same dataset and label
+mappings as the reproduction. [`extension/README.md`](extension/README.md) has
+the design and the full results; in short:
+
+- **Sample-size sensitivity.** Subsampling the 500 defects per system down to
+  n = 100 keeps 11 of the 15 (OS, dimension) top categories stable. HarmonyOS
+  affected function, Linux code elements and Android trigger scenario become
+  sample-size dependent. Bootstrap intervals for all 114 Table II percentages
+  are in `extension/results/table2_bootstrap_ci.csv`.
+- **Missing severity labels.** Linux has 65.20% `Undecided` severity records;
+  excluding them moves the top Linux category from `Undecided` to `High`
+  (18.60% → 53.45% of the labelled subset).
+
+Run `make extension`, or the two scripts directly from this folder.
+
 ## Repository layout
 
 ```
 data/       dataset snapshot, provenance, transcribed paper values
 scripts/    fetch, reproduce, three-run check, validation
+extension/  two extension experiments and their results
 results/    generated CSVs, summary, run logs
 docs/       claims, deviations, Figure 4d discrepancy analysis
 ```
