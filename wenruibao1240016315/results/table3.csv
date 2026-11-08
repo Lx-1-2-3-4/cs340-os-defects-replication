@@ -1,0 +1,145 @@
+os,row_layer,col_function,count,our_pct
+android,Application,Com/Adp,3,0.6
+android,Application,Dev/Drv,1,0.2
+android,Application,Gra/Ren,6,1.2
+android,Application,Mem/Res Mng,0,0.0
+android,Application,Net/Com,0,0.0
+android,Application,Pro/Tas Sch,3,0.6
+android,Application,Sec/Perm,68,13.6
+android,Application,Sto Mng,2,0.4
+android,Framework,Com/Adp,5,1.0
+android,Framework,Dev/Drv,3,0.6
+android,Framework,Gra/Ren,9,1.8
+android,Framework,Mem/Res Mng,4,0.8
+android,Framework,Net/Com,3,0.6
+android,Framework,Pro/Tas Sch,2,0.4
+android,Framework,Sec/Perm,61,12.2
+android,Framework,Sto Mng,3,0.6
+android,Kernel,Com/Adp,1,0.2
+android,Kernel,Dev/Drv,8,1.6
+android,Kernel,Gra/Ren,0,0.0
+android,Kernel,Mem/Res Mng,10,2.0
+android,Kernel,Net/Com,4,0.8
+android,Kernel,Pro/Tas Sch,0,0.0
+android,Kernel,Sec/Perm,7,1.4
+android,Kernel,Sto Mng,0,0.0
+android,RuntimeVM,Com/Adp,0,0.0
+android,RuntimeVM,Dev/Drv,0,0.0
+android,RuntimeVM,Gra/Ren,0,0.0
+android,RuntimeVM,Mem/Res Mng,0,0.0
+android,RuntimeVM,Net/Com,0,0.0
+android,RuntimeVM,Pro/Tas Sch,0,0.0
+android,RuntimeVM,Sec/Perm,2,0.4
+android,RuntimeVM,Sto Mng,0,0.0
+android,SystemLib,Com/Adp,2,0.4
+android,SystemLib,Dev/Drv,21,4.2
+android,SystemLib,Gra/Ren,11,2.2
+android,SystemLib,Mem/Res Mng,38,7.6
+android,SystemLib,Net/Com,6,1.2
+android,SystemLib,Pro/Tas Sch,1,0.2
+android,SystemLib,Sec/Perm,19,3.8
+android,SystemLib,Sto Mng,3,0.6
+android,SystemService,Com/Adp,4,0.8
+android,SystemService,Dev/Drv,3,0.6
+android,SystemService,Gra/Ren,3,0.6
+android,SystemService,Mem/Res Mng,10,2.0
+android,SystemService,Net/Com,3,0.6
+android,SystemService,Pro/Tas Sch,18,3.6
+android,SystemService,Sec/Perm,143,28.6
+android,SystemService,Sto Mng,10,2.0
+linux,Application,Com/Adp,128,25.6
+linux,Application,Dev/Drv,23,4.6
+linux,Application,Gra/Ren,15,3.0
+linux,Application,Mem/Res Mng,8,1.6
+linux,Application,Net/Com,22,4.4
+linux,Application,Pro/Tas Sch,11,2.2
+linux,Application,Sec/Perm,49,9.8
+linux,Application,Sto Mng,15,3.0
+linux,Framework,Com/Adp,4,0.8
+linux,Framework,Dev/Drv,1,0.2
+linux,Framework,Gra/Ren,12,2.4
+linux,Framework,Mem/Res Mng,0,0.0
+linux,Framework,Net/Com,0,0.0
+linux,Framework,Pro/Tas Sch,0,0.0
+linux,Framework,Sec/Perm,1,0.2
+linux,Framework,Sto Mng,0,0.0
+linux,Kernel,Com/Adp,26,5.2
+linux,Kernel,Dev/Drv,34,6.8
+linux,Kernel,Gra/Ren,5,1.0
+linux,Kernel,Mem/Res Mng,0,0.0
+linux,Kernel,Net/Com,2,0.4
+linux,Kernel,Pro/Tas Sch,0,0.0
+linux,Kernel,Sec/Perm,2,0.4
+linux,Kernel,Sto Mng,10,2.0
+linux,RuntimeVM,Com/Adp,0,0.0
+linux,RuntimeVM,Dev/Drv,0,0.0
+linux,RuntimeVM,Gra/Ren,0,0.0
+linux,RuntimeVM,Mem/Res Mng,0,0.0
+linux,RuntimeVM,Net/Com,0,0.0
+linux,RuntimeVM,Pro/Tas Sch,1,0.2
+linux,RuntimeVM,Sec/Perm,0,0.0
+linux,RuntimeVM,Sto Mng,0,0.0
+linux,SystemLib,Com/Adp,41,8.2
+linux,SystemLib,Dev/Drv,14,2.8
+linux,SystemLib,Gra/Ren,3,0.6
+linux,SystemLib,Mem/Res Mng,1,0.2
+linux,SystemLib,Net/Com,6,1.2
+linux,SystemLib,Pro/Tas Sch,4,0.8
+linux,SystemLib,Sec/Perm,12,2.4
+linux,SystemLib,Sto Mng,13,2.6
+linux,SystemService,Com/Adp,7,1.4
+linux,SystemService,Dev/Drv,14,2.8
+linux,SystemService,Gra/Ren,0,0.0
+linux,SystemService,Mem/Res Mng,1,0.2
+linux,SystemService,Net/Com,3,0.6
+linux,SystemService,Pro/Tas Sch,2,0.4
+linux,SystemService,Sec/Perm,6,1.2
+linux,SystemService,Sto Mng,4,0.8
+harmony,Application,Com/Adp,0,0.0
+harmony,Application,Dev/Drv,0,0.0
+harmony,Application,Gra/Ren,4,0.8
+harmony,Application,Mem/Res Mng,3,0.6
+harmony,Application,Net/Com,1,0.2
+harmony,Application,Pro/Tas Sch,4,0.8
+harmony,Application,Sec/Perm,11,2.2
+harmony,Application,Sto Mng,2,0.4
+harmony,Framework,Com/Adp,1,0.2
+harmony,Framework,Dev/Drv,0,0.0
+harmony,Framework,Gra/Ren,6,1.2
+harmony,Framework,Mem/Res Mng,2,0.4
+harmony,Framework,Net/Com,2,0.4
+harmony,Framework,Pro/Tas Sch,0,0.0
+harmony,Framework,Sec/Perm,3,0.6
+harmony,Framework,Sto Mng,0,0.0
+harmony,Kernel,Com/Adp,7,1.4
+harmony,Kernel,Dev/Drv,68,13.6
+harmony,Kernel,Gra/Ren,5,1.0
+harmony,Kernel,Mem/Res Mng,57,11.4
+harmony,Kernel,Net/Com,91,18.2
+harmony,Kernel,Pro/Tas Sch,24,4.8
+harmony,Kernel,Sec/Perm,41,8.2
+harmony,Kernel,Sto Mng,66,13.2
+harmony,RuntimeVM,Com/Adp,2,0.4
+harmony,RuntimeVM,Dev/Drv,0,0.0
+harmony,RuntimeVM,Gra/Ren,0,0.0
+harmony,RuntimeVM,Mem/Res Mng,42,8.4
+harmony,RuntimeVM,Net/Com,0,0.0
+harmony,RuntimeVM,Pro/Tas Sch,0,0.0
+harmony,RuntimeVM,Sec/Perm,0,0.0
+harmony,RuntimeVM,Sto Mng,0,0.0
+harmony,SystemLib,Com/Adp,0,0.0
+harmony,SystemLib,Dev/Drv,0,0.0
+harmony,SystemLib,Gra/Ren,3,0.6
+harmony,SystemLib,Mem/Res Mng,8,1.6
+harmony,SystemLib,Net/Com,2,0.4
+harmony,SystemLib,Pro/Tas Sch,0,0.0
+harmony,SystemLib,Sec/Perm,21,4.2
+harmony,SystemLib,Sto Mng,0,0.0
+harmony,SystemService,Com/Adp,2,0.4
+harmony,SystemService,Dev/Drv,0,0.0
+harmony,SystemService,Gra/Ren,1,0.2
+harmony,SystemService,Mem/Res Mng,2,0.4
+harmony,SystemService,Net/Com,4,0.8
+harmony,SystemService,Pro/Tas Sch,0,0.0
+harmony,SystemService,Sec/Perm,14,2.8
+harmony,SystemService,Sto Mng,1,0.2

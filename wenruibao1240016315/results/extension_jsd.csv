@@ -1,0 +1,13 @@
+panel,pair,spearman,jsd,rank_spearman,rank_jsd,same_rank
+a_os_layer,android-linux,0.26,0.4636,1,1,yes
+a_os_layer,android-harmony,-0.66,0.6878,3,3,yes
+a_os_layer,linux-harmony,0.09,0.6113,2,2,yes
+b_affected_function,android-linux,-0.19,0.5575,2,3,NO
+b_affected_function,android-harmony,0.43,0.4223,1,1,yes
+b_affected_function,linux-harmony,-0.52,0.5133,3,2,NO
+c_trigger_scenario,android-linux,0.21,0.6647,3,3,yes
+c_trigger_scenario,android-harmony,0.38,0.3881,2,1,NO
+c_trigger_scenario,linux-harmony,0.41,0.6153,1,2,NO
+d_overall,android-linux,0.16,0.5679,1,2,NO
+d_overall,android-harmony,0.08,0.5171,2,1,NO
+d_overall,linux-harmony,0.05,0.5819,3,3,yes

@@ -1,0 +1,14 @@
+{
+  "values_recomputed": 603,
+  "dataset": {
+    "defects_android.json": "a7fff6ef6ab1474d31a1c247e68d3818382e1f095ebd29e09e8443c4f7513be1",
+    "defects_linux.json": "a21079dee00f037ed3d6b42ae458422b78e4ba1b1fc933f1fb7518953754f2ee",
+    "defects_harmony.json": "49c36edbe9c1ff44d2e6b5218d37bfdc328af70e0decc3fb7738b20e109f2b69"
+  },
+  "environment": {
+    "python": "3.14.7",
+    "implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64"
+  }
+}

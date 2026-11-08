@@ -7,6 +7,7 @@ submission in a separate folder.
 | Folder | Member |
 | --- | --- |
 | [`liuxin1240013249/`](liuxin1240013249/) | 刘鑫 (1240013249) |
+| [`wenruibao1240016315/`](wenruibao1240016315/) | Wen Ruibao (1240016315) |
 
 Open the README inside a member's folder for that submission's details. The
 repository root only holds this index and the shared repository files

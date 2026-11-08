@@ -1,0 +1,145 @@
+os,row_layer,col_function,paper_pct
+android,Application,Com/Adp,0.60
+android,Application,Dev/Drv,0.20
+android,Application,Gra/Ren,1.20
+android,Application,Mem/Res Mng,0.00
+android,Application,Net/Com,0.00
+android,Application,Pro/Tas Sch,0.60
+android,Application,Sec/Perm,13.60
+android,Application,Sto Mng,0.40
+linux,Application,Com/Adp,25.60
+linux,Application,Dev/Drv,4.60
+linux,Application,Gra/Ren,3.00
+linux,Application,Mem/Res Mng,1.60
+linux,Application,Net/Com,4.40
+linux,Application,Pro/Tas Sch,2.20
+linux,Application,Sec/Perm,9.80
+linux,Application,Sto Mng,3.00
+harmony,Application,Com/Adp,0.00
+harmony,Application,Dev/Drv,0.00
+harmony,Application,Gra/Ren,0.80
+harmony,Application,Mem/Res Mng,0.60
+harmony,Application,Net/Com,0.20
+harmony,Application,Pro/Tas Sch,0.80
+harmony,Application,Sec/Perm,2.20
+harmony,Application,Sto Mng,0.40
+android,Framework,Com/Adp,1.00
+android,Framework,Dev/Drv,0.60
+android,Framework,Gra/Ren,1.80
+android,Framework,Mem/Res Mng,0.80
+android,Framework,Net/Com,0.60
+android,Framework,Pro/Tas Sch,0.40
+android,Framework,Sec/Perm,12.20
+android,Framework,Sto Mng,0.60
+linux,Framework,Com/Adp,0.80
+linux,Framework,Dev/Drv,0.20
+linux,Framework,Gra/Ren,2.40
+linux,Framework,Mem/Res Mng,0.00
+linux,Framework,Net/Com,0.00
+linux,Framework,Pro/Tas Sch,0.00
+linux,Framework,Sec/Perm,0.20
+linux,Framework,Sto Mng,0.00
+harmony,Framework,Com/Adp,0.20
+harmony,Framework,Dev/Drv,0.00
+harmony,Framework,Gra/Ren,1.20
+harmony,Framework,Mem/Res Mng,0.40
+harmony,Framework,Net/Com,0.40
+harmony,Framework,Pro/Tas Sch,0.00
+harmony,Framework,Sec/Perm,0.60
+harmony,Framework,Sto Mng,0.00
+android,Kernel,Com/Adp,0.20
+android,Kernel,Dev/Drv,1.60
+android,Kernel,Gra/Ren,0.00
+android,Kernel,Mem/Res Mng,2.00
+android,Kernel,Net/Com,0.80
+android,Kernel,Pro/Tas Sch,0.00
+android,Kernel,Sec/Perm,1.40
+android,Kernel,Sto Mng,0.00
+linux,Kernel,Com/Adp,5.20
+linux,Kernel,Dev/Drv,6.80
+linux,Kernel,Gra/Ren,1.00
+linux,Kernel,Mem/Res Mng,0.00
+linux,Kernel,Net/Com,0.40
+linux,Kernel,Pro/Tas Sch,0.00
+linux,Kernel,Sec/Perm,0.40
+linux,Kernel,Sto Mng,2.00
+harmony,Kernel,Com/Adp,1.40
+harmony,Kernel,Dev/Drv,13.60
+harmony,Kernel,Gra/Ren,1.00
+harmony,Kernel,Mem/Res Mng,11.40
+harmony,Kernel,Net/Com,18.20
+harmony,Kernel,Pro/Tas Sch,4.80
+harmony,Kernel,Sec/Perm,8.20
+harmony,Kernel,Sto Mng,13.20
+android,RuntimeVM,Com/Adp,0.00
+android,RuntimeVM,Dev/Drv,0.00
+android,RuntimeVM,Gra/Ren,0.00
+android,RuntimeVM,Mem/Res Mng,0.00
+android,RuntimeVM,Net/Com,0.00
+android,RuntimeVM,Pro/Tas Sch,0.00
+android,RuntimeVM,Sec/Perm,0.40
+android,RuntimeVM,Sto Mng,0.00
+linux,RuntimeVM,Com/Adp,0.00
+linux,RuntimeVM,Dev/Drv,0.00
+linux,RuntimeVM,Gra/Ren,0.00
+linux,RuntimeVM,Mem/Res Mng,0.00
+linux,RuntimeVM,Net/Com,0.00
+linux,RuntimeVM,Pro/Tas Sch,0.20
+linux,RuntimeVM,Sec/Perm,0.00
+linux,RuntimeVM,Sto Mng,0.00
+harmony,RuntimeVM,Com/Adp,0.40
+harmony,RuntimeVM,Dev/Drv,0.00
+harmony,RuntimeVM,Gra/Ren,0.00
+harmony,RuntimeVM,Mem/Res Mng,8.40
+harmony,RuntimeVM,Net/Com,0.00
+harmony,RuntimeVM,Pro/Tas Sch,0.00
+harmony,RuntimeVM,Sec/Perm,0.00
+harmony,RuntimeVM,Sto Mng,0.00
+android,SystemLib,Com/Adp,0.40
+android,SystemLib,Dev/Drv,4.20
+android,SystemLib,Gra/Ren,2.20
+android,SystemLib,Mem/Res Mng,7.60
+android,SystemLib,Net/Com,1.20
+android,SystemLib,Pro/Tas Sch,0.20
+android,SystemLib,Sec/Perm,3.80
+android,SystemLib,Sto Mng,0.60
+linux,SystemLib,Com/Adp,8.20
+linux,SystemLib,Dev/Drv,2.80
+linux,SystemLib,Gra/Ren,0.60
+linux,SystemLib,Mem/Res Mng,0.20
+linux,SystemLib,Net/Com,1.20
+linux,SystemLib,Pro/Tas Sch,0.80
+linux,SystemLib,Sec/Perm,2.40
+linux,SystemLib,Sto Mng,2.60
+harmony,SystemLib,Com/Adp,0.00
+harmony,SystemLib,Dev/Drv,0.00
+harmony,SystemLib,Gra/Ren,0.60
+harmony,SystemLib,Mem/Res Mng,1.60
+harmony,SystemLib,Net/Com,0.40
+harmony,SystemLib,Pro/Tas Sch,0.00
+harmony,SystemLib,Sec/Perm,4.20
+harmony,SystemLib,Sto Mng,0.00
+android,SystemService,Com/Adp,0.80
+android,SystemService,Dev/Drv,0.60
+android,SystemService,Gra/Ren,0.60
+android,SystemService,Mem/Res Mng,2.00
+android,SystemService,Net/Com,0.60
+android,SystemService,Pro/Tas Sch,3.60
+android,SystemService,Sec/Perm,28.60
+android,SystemService,Sto Mng,2.00
+linux,SystemService,Com/Adp,1.40
+linux,SystemService,Dev/Drv,2.80
+linux,SystemService,Gra/Ren,0.00
+linux,SystemService,Mem/Res Mng,0.20
+linux,SystemService,Net/Com,0.60
+linux,SystemService,Pro/Tas Sch,0.40
+linux,SystemService,Sec/Perm,1.20
+linux,SystemService,Sto Mng,0.80
+harmony,SystemService,Com/Adp,0.40
+harmony,SystemService,Dev/Drv,0.00
+harmony,SystemService,Gra/Ren,0.20
+harmony,SystemService,Mem/Res Mng,0.40
+harmony,SystemService,Net/Com,0.80
+harmony,SystemService,Pro/Tas Sch,0.00
+harmony,SystemService,Sec/Perm,2.80
+harmony,SystemService,Sto Mng,0.20

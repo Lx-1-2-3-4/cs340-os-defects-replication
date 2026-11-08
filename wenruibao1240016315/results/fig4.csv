@@ -1,0 +1,13 @@
+panel,pair,our_rho
+a_os_layer,android-linux,0.26
+a_os_layer,android-harmony,-0.66
+a_os_layer,linux-harmony,0.09
+b_affected_function,android-linux,-0.19
+b_affected_function,android-harmony,0.43
+b_affected_function,linux-harmony,-0.52
+c_trigger_scenario,android-linux,0.21
+c_trigger_scenario,android-harmony,0.38
+c_trigger_scenario,linux-harmony,0.41
+d_overall,android-linux,0.16
+d_overall,android-harmony,0.08
+d_overall,linux-harmony,0.05

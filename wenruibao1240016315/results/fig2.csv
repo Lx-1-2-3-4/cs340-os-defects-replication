@@ -1,0 +1,16 @@
+os,bucket,count,our_pct
+android,0-10,170,34.0
+android,10-30,154,30.8
+android,30-50,75,15.0
+android,50-100,62,12.4
+android,100-500,39,7.8
+linux,0-10,228,45.6
+linux,10-30,116,23.2
+linux,30-50,51,10.2
+linux,50-100,46,9.2
+linux,100-500,59,11.8
+harmony,0-10,259,51.8
+harmony,10-30,129,25.8
+harmony,30-50,34,6.8
+harmony,50-100,46,9.2
+harmony,100-500,32,6.4

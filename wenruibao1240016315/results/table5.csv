@@ -1,0 +1,169 @@
+os,row_function,col_trigger,count,our_pct
+android,Com/Adp,Per/Ide Dep,0,0.0
+android,Com/Adp,Reg Ope,1,0.2
+android,Com/Adp,Bor Con,7,1.4
+android,Com/Adp,Con/Mul Thr,0,0.0
+android,Com/Adp,Sta Dep,6,1.2
+android,Com/Adp,Env Dep,1,0.2
+android,Com/Adp,Mul/Loc Dep,0,0.0
+android,Dev/Drv,Per/Ide Dep,0,0.0
+android,Dev/Drv,Reg Ope,3,0.6
+android,Dev/Drv,Bor Con,27,5.4
+android,Dev/Drv,Con/Mul Thr,4,0.8
+android,Dev/Drv,Sta Dep,2,0.4
+android,Dev/Drv,Env Dep,0,0.0
+android,Dev/Drv,Mul/Loc Dep,0,0.0
+android,Gra/Ren,Per/Ide Dep,0,0.0
+android,Gra/Ren,Reg Ope,4,0.8
+android,Gra/Ren,Bor Con,10,2.0
+android,Gra/Ren,Con/Mul Thr,2,0.4
+android,Gra/Ren,Sta Dep,12,2.4
+android,Gra/Ren,Env Dep,1,0.2
+android,Gra/Ren,Mul/Loc Dep,0,0.0
+android,Mem/Res Mng,Per/Ide Dep,0,0.0
+android,Mem/Res Mng,Reg Ope,1,0.2
+android,Mem/Res Mng,Bor Con,36,7.2
+android,Mem/Res Mng,Con/Mul Thr,23,4.6
+android,Mem/Res Mng,Sta Dep,2,0.4
+android,Mem/Res Mng,Env Dep,0,0.0
+android,Mem/Res Mng,Mul/Loc Dep,0,0.0
+android,Net/Com,Per/Ide Dep,2,0.4
+android,Net/Com,Reg Ope,2,0.4
+android,Net/Com,Bor Con,9,1.8
+android,Net/Com,Con/Mul Thr,1,0.2
+android,Net/Com,Sta Dep,2,0.4
+android,Net/Com,Env Dep,0,0.0
+android,Net/Com,Mul/Loc Dep,0,0.0
+android,Pro/Tas Sch,Per/Ide Dep,1,0.2
+android,Pro/Tas Sch,Reg Ope,5,1.0
+android,Pro/Tas Sch,Bor Con,5,1.0
+android,Pro/Tas Sch,Con/Mul Thr,4,0.8
+android,Pro/Tas Sch,Sta Dep,8,1.6
+android,Pro/Tas Sch,Env Dep,1,0.2
+android,Pro/Tas Sch,Mul/Loc Dep,0,0.0
+android,Sec/Perm,Per/Ide Dep,150,30.0
+android,Sec/Perm,Reg Ope,24,4.8
+android,Sec/Perm,Bor Con,82,16.4
+android,Sec/Perm,Con/Mul Thr,2,0.4
+android,Sec/Perm,Sta Dep,40,8.0
+android,Sec/Perm,Env Dep,2,0.4
+android,Sec/Perm,Mul/Loc Dep,0,0.0
+android,Sto Mng,Per/Ide Dep,3,0.6
+android,Sto Mng,Reg Ope,4,0.8
+android,Sto Mng,Bor Con,9,1.8
+android,Sto Mng,Con/Mul Thr,0,0.0
+android,Sto Mng,Sta Dep,2,0.4
+android,Sto Mng,Env Dep,0,0.0
+android,Sto Mng,Mul/Loc Dep,0,0.0
+linux,Com/Adp,Per/Ide Dep,0,0.0
+linux,Com/Adp,Reg Ope,8,1.6
+linux,Com/Adp,Bor Con,9,1.8
+linux,Com/Adp,Con/Mul Thr,1,0.2
+linux,Com/Adp,Sta Dep,8,1.6
+linux,Com/Adp,Env Dep,179,35.8
+linux,Com/Adp,Mul/Loc Dep,1,0.2
+linux,Dev/Drv,Per/Ide Dep,0,0.0
+linux,Dev/Drv,Reg Ope,8,1.6
+linux,Dev/Drv,Bor Con,8,1.6
+linux,Dev/Drv,Con/Mul Thr,1,0.2
+linux,Dev/Drv,Sta Dep,3,0.6
+linux,Dev/Drv,Env Dep,66,13.2
+linux,Dev/Drv,Mul/Loc Dep,0,0.0
+linux,Gra/Ren,Per/Ide Dep,0,0.0
+linux,Gra/Ren,Reg Ope,5,1.0
+linux,Gra/Ren,Bor Con,8,1.6
+linux,Gra/Ren,Con/Mul Thr,4,0.8
+linux,Gra/Ren,Sta Dep,4,0.8
+linux,Gra/Ren,Env Dep,14,2.8
+linux,Gra/Ren,Mul/Loc Dep,0,0.0
+linux,Mem/Res Mng,Per/Ide Dep,0,0.0
+linux,Mem/Res Mng,Reg Ope,2,0.4
+linux,Mem/Res Mng,Bor Con,6,1.2
+linux,Mem/Res Mng,Con/Mul Thr,1,0.2
+linux,Mem/Res Mng,Sta Dep,1,0.2
+linux,Mem/Res Mng,Env Dep,0,0.0
+linux,Mem/Res Mng,Mul/Loc Dep,0,0.0
+linux,Net/Com,Per/Ide Dep,0,0.0
+linux,Net/Com,Reg Ope,4,0.8
+linux,Net/Com,Bor Con,9,1.8
+linux,Net/Com,Con/Mul Thr,1,0.2
+linux,Net/Com,Sta Dep,6,1.2
+linux,Net/Com,Env Dep,13,2.6
+linux,Net/Com,Mul/Loc Dep,0,0.0
+linux,Pro/Tas Sch,Per/Ide Dep,0,0.0
+linux,Pro/Tas Sch,Reg Ope,5,1.0
+linux,Pro/Tas Sch,Bor Con,4,0.8
+linux,Pro/Tas Sch,Con/Mul Thr,2,0.4
+linux,Pro/Tas Sch,Sta Dep,0,0.0
+linux,Pro/Tas Sch,Env Dep,7,1.4
+linux,Pro/Tas Sch,Mul/Loc Dep,0,0.0
+linux,Sec/Perm,Per/Ide Dep,8,1.6
+linux,Sec/Perm,Reg Ope,11,2.2
+linux,Sec/Perm,Bor Con,29,5.8
+linux,Sec/Perm,Con/Mul Thr,1,0.2
+linux,Sec/Perm,Sta Dep,1,0.2
+linux,Sec/Perm,Env Dep,20,4.0
+linux,Sec/Perm,Mul/Loc Dep,0,0.0
+linux,Sto Mng,Per/Ide Dep,0,0.0
+linux,Sto Mng,Reg Ope,2,0.4
+linux,Sto Mng,Bor Con,22,4.4
+linux,Sto Mng,Con/Mul Thr,4,0.8
+linux,Sto Mng,Sta Dep,3,0.6
+linux,Sto Mng,Env Dep,11,2.2
+linux,Sto Mng,Mul/Loc Dep,0,0.0
+harmony,Com/Adp,Per/Ide Dep,0,0.0
+harmony,Com/Adp,Reg Ope,1,0.2
+harmony,Com/Adp,Bor Con,7,1.4
+harmony,Com/Adp,Con/Mul Thr,1,0.2
+harmony,Com/Adp,Sta Dep,1,0.2
+harmony,Com/Adp,Env Dep,2,0.4
+harmony,Com/Adp,Mul/Loc Dep,0,0.0
+harmony,Dev/Drv,Per/Ide Dep,0,0.0
+harmony,Dev/Drv,Reg Ope,2,0.4
+harmony,Dev/Drv,Bor Con,38,7.6
+harmony,Dev/Drv,Con/Mul Thr,18,3.6
+harmony,Dev/Drv,Sta Dep,8,1.6
+harmony,Dev/Drv,Env Dep,2,0.4
+harmony,Dev/Drv,Mul/Loc Dep,0,0.0
+harmony,Gra/Ren,Per/Ide Dep,0,0.0
+harmony,Gra/Ren,Reg Ope,1,0.2
+harmony,Gra/Ren,Bor Con,5,1.0
+harmony,Gra/Ren,Con/Mul Thr,10,2.0
+harmony,Gra/Ren,Sta Dep,2,0.4
+harmony,Gra/Ren,Env Dep,1,0.2
+harmony,Gra/Ren,Mul/Loc Dep,0,0.0
+harmony,Mem/Res Mng,Per/Ide Dep,0,0.0
+harmony,Mem/Res Mng,Reg Ope,6,1.2
+harmony,Mem/Res Mng,Bor Con,72,14.4
+harmony,Mem/Res Mng,Con/Mul Thr,18,3.6
+harmony,Mem/Res Mng,Sta Dep,16,3.2
+harmony,Mem/Res Mng,Env Dep,2,0.4
+harmony,Mem/Res Mng,Mul/Loc Dep,0,0.0
+harmony,Net/Com,Per/Ide Dep,0,0.0
+harmony,Net/Com,Reg Ope,7,1.4
+harmony,Net/Com,Bor Con,50,10.0
+harmony,Net/Com,Con/Mul Thr,32,6.4
+harmony,Net/Com,Sta Dep,8,1.6
+harmony,Net/Com,Env Dep,3,0.6
+harmony,Net/Com,Mul/Loc Dep,0,0.0
+harmony,Pro/Tas Sch,Per/Ide Dep,0,0.0
+harmony,Pro/Tas Sch,Reg Ope,3,0.6
+harmony,Pro/Tas Sch,Bor Con,7,1.4
+harmony,Pro/Tas Sch,Con/Mul Thr,13,2.6
+harmony,Pro/Tas Sch,Sta Dep,4,0.8
+harmony,Pro/Tas Sch,Env Dep,1,0.2
+harmony,Pro/Tas Sch,Mul/Loc Dep,0,0.0
+harmony,Sec/Perm,Per/Ide Dep,14,2.8
+harmony,Sec/Perm,Reg Ope,11,2.2
+harmony,Sec/Perm,Bor Con,49,9.8
+harmony,Sec/Perm,Con/Mul Thr,9,1.8
+harmony,Sec/Perm,Sta Dep,7,1.4
+harmony,Sec/Perm,Env Dep,0,0.0
+harmony,Sec/Perm,Mul/Loc Dep,0,0.0
+harmony,Sto Mng,Per/Ide Dep,0,0.0
+harmony,Sto Mng,Reg Ope,2,0.4
+harmony,Sto Mng,Bor Con,35,7.0
+harmony,Sto Mng,Con/Mul Thr,19,3.8
+harmony,Sto Mng,Sta Dep,10,2.0
+harmony,Sto Mng,Env Dep,3,0.6
+harmony,Sto Mng,Mul/Loc Dep,0,0.0

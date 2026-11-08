@@ -1,0 +1,115 @@
+panel,os,category,count,our_pct
+os_layer,android,Kernel,30,6.0
+os_layer,android,SystemLib,101,20.2
+os_layer,android,RuntimeVM,2,0.4
+os_layer,android,Framework,90,18.0
+os_layer,android,SystemService,194,38.8
+os_layer,android,Application,83,16.6
+os_layer,linux,Kernel,79,15.8
+os_layer,linux,SystemLib,94,18.8
+os_layer,linux,RuntimeVM,1,0.2
+os_layer,linux,Framework,18,3.6
+os_layer,linux,SystemService,37,7.4
+os_layer,linux,Application,271,54.2
+os_layer,harmony,Kernel,359,71.8
+os_layer,harmony,SystemLib,34,6.8
+os_layer,harmony,RuntimeVM,44,8.8
+os_layer,harmony,Framework,14,2.8
+os_layer,harmony,SystemService,24,4.8
+os_layer,harmony,Application,25,5.0
+affected_function,android,Mem/Res Mng,62,12.4
+affected_function,android,Pro/Tas Sch,24,4.8
+affected_function,android,Sto Mng,18,3.6
+affected_function,android,Dev/Drv,36,7.2
+affected_function,android,Net/Com,16,3.2
+affected_function,android,Com/Adp,15,3.0
+affected_function,android,Sec/Perm,300,60.0
+affected_function,android,Gra/Ren,29,5.8
+affected_function,linux,Mem/Res Mng,10,2.0
+affected_function,linux,Pro/Tas Sch,18,3.6
+affected_function,linux,Sto Mng,42,8.4
+affected_function,linux,Dev/Drv,86,17.2
+affected_function,linux,Net/Com,33,6.6
+affected_function,linux,Com/Adp,206,41.2
+affected_function,linux,Sec/Perm,70,14.0
+affected_function,linux,Gra/Ren,35,7.0
+affected_function,harmony,Mem/Res Mng,114,22.8
+affected_function,harmony,Pro/Tas Sch,28,5.6
+affected_function,harmony,Sto Mng,69,13.8
+affected_function,harmony,Dev/Drv,68,13.6
+affected_function,harmony,Net/Com,100,20.0
+affected_function,harmony,Com/Adp,12,2.4
+affected_function,harmony,Sec/Perm,90,18.0
+affected_function,harmony,Gra/Ren,19,3.8
+trigger_scenario,android,Per/Ide Dep,156,31.2
+trigger_scenario,android,Reg Ope,44,8.8
+trigger_scenario,android,Bor Con,185,37.0
+trigger_scenario,android,Con/Mul Thr,36,7.2
+trigger_scenario,android,Sta Dep,74,14.8
+trigger_scenario,android,Env Dep,5,1.0
+trigger_scenario,android,Mul/Loc Dep,0,0.0
+trigger_scenario,linux,Per/Ide Dep,8,1.6
+trigger_scenario,linux,Reg Ope,45,9.0
+trigger_scenario,linux,Bor Con,95,19.0
+trigger_scenario,linux,Con/Mul Thr,15,3.0
+trigger_scenario,linux,Sta Dep,26,5.2
+trigger_scenario,linux,Env Dep,310,62.0
+trigger_scenario,linux,Mul/Loc Dep,1,0.2
+trigger_scenario,harmony,Per/Ide Dep,14,2.8
+trigger_scenario,harmony,Reg Ope,33,6.6
+trigger_scenario,harmony,Bor Con,263,52.6
+trigger_scenario,harmony,Con/Mul Thr,120,24.0
+trigger_scenario,harmony,Sta Dep,56,11.2
+trigger_scenario,harmony,Env Dep,14,2.8
+trigger_scenario,harmony,Mul/Loc Dep,0,0.0
+severity,android,Critical,43,8.6
+severity,android,High,455,91.0
+severity,android,Medium,2,0.4
+severity,android,Low,0,0.0
+severity,android,Undecided,0,0.0
+severity,linux,Critical,13,2.6
+severity,linux,High,93,18.6
+severity,linux,Medium,57,11.4
+severity,linux,Low,11,2.2
+severity,linux,Undecided,326,65.2
+severity,harmony,Critical,1,0.2
+severity,harmony,High,112,22.4
+severity,harmony,Medium,257,51.4
+severity,harmony,Low,124,24.8
+severity,harmony,Undecided,6,1.2
+code_element,android,Class,16,3.2
+code_element,android,Function,178,35.6
+code_element,android,Signature,78,15.6
+code_element,android,Loop,19,3.8
+code_element,android,If,265,53.0
+code_element,android,Exception,41,8.2
+code_element,android,Call,317,63.4
+code_element,android,Assignment,142,28.4
+code_element,android,Return,77,15.4
+code_element,android,Condition,94,18.8
+code_element,android,Object,13,2.6
+code_element,android,Variable,238,47.6
+code_element,linux,Class,11,2.2
+code_element,linux,Function,77,15.4
+code_element,linux,Signature,61,12.2
+code_element,linux,Loop,21,4.2
+code_element,linux,If,187,37.4
+code_element,linux,Exception,11,2.2
+code_element,linux,Call,244,48.8
+code_element,linux,Assignment,272,54.4
+code_element,linux,Return,22,4.4
+code_element,linux,Condition,119,23.8
+code_element,linux,Object,19,3.8
+code_element,linux,Variable,234,46.8
+code_element,harmony,Class,7,1.4
+code_element,harmony,Function,68,13.6
+code_element,harmony,Signature,38,7.6
+code_element,harmony,Loop,15,3.0
+code_element,harmony,If,230,46.0
+code_element,harmony,Exception,1,0.2
+code_element,harmony,Call,309,61.8
+code_element,harmony,Assignment,159,31.8
+code_element,harmony,Return,101,20.2
+code_element,harmony,Condition,106,21.2
+code_element,harmony,Object,2,0.4
+code_element,harmony,Variable,191,38.2

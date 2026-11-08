@@ -1,0 +1,604 @@
+item,key,paper,ours,count,match
+table2,os_layer|android|Kernel,6.00,6.00,30,yes
+table2,os_layer|android|SystemLib,20.20,20.20,101,yes
+table2,os_layer|android|RuntimeVM,0.40,0.40,2,yes
+table2,os_layer|android|Framework,18.00,18.00,90,yes
+table2,os_layer|android|SystemService,38.80,38.80,194,yes
+table2,os_layer|android|Application,16.60,16.60,83,yes
+table2,os_layer|linux|Kernel,15.80,15.80,79,yes
+table2,os_layer|linux|SystemLib,18.80,18.80,94,yes
+table2,os_layer|linux|RuntimeVM,0.20,0.20,1,yes
+table2,os_layer|linux|Framework,3.60,3.60,18,yes
+table2,os_layer|linux|SystemService,7.40,7.40,37,yes
+table2,os_layer|linux|Application,54.20,54.20,271,yes
+table2,os_layer|harmony|Kernel,71.80,71.80,359,yes
+table2,os_layer|harmony|SystemLib,6.80,6.80,34,yes
+table2,os_layer|harmony|RuntimeVM,8.80,8.80,44,yes
+table2,os_layer|harmony|Framework,2.80,2.80,14,yes
+table2,os_layer|harmony|SystemService,4.80,4.80,24,yes
+table2,os_layer|harmony|Application,5.00,5.00,25,yes
+table2,affected_function|android|Mem/Res Mng,12.40,12.40,62,yes
+table2,affected_function|android|Pro/Tas Sch,4.80,4.80,24,yes
+table2,affected_function|android|Sto Mng,3.60,3.60,18,yes
+table2,affected_function|android|Dev/Drv,7.20,7.20,36,yes
+table2,affected_function|android|Net/Com,3.20,3.20,16,yes
+table2,affected_function|android|Com/Adp,3.00,3.00,15,yes
+table2,affected_function|android|Sec/Perm,60.00,60.00,300,yes
+table2,affected_function|android|Gra/Ren,5.80,5.80,29,yes
+table2,affected_function|linux|Mem/Res Mng,2.00,2.00,10,yes
+table2,affected_function|linux|Pro/Tas Sch,3.60,3.60,18,yes
+table2,affected_function|linux|Sto Mng,8.40,8.40,42,yes
+table2,affected_function|linux|Dev/Drv,17.20,17.20,86,yes
+table2,affected_function|linux|Net/Com,6.60,6.60,33,yes
+table2,affected_function|linux|Com/Adp,41.20,41.20,206,yes
+table2,affected_function|linux|Sec/Perm,14.00,14.00,70,yes
+table2,affected_function|linux|Gra/Ren,7.00,7.00,35,yes
+table2,affected_function|harmony|Mem/Res Mng,22.80,22.80,114,yes
+table2,affected_function|harmony|Pro/Tas Sch,5.60,5.60,28,yes
+table2,affected_function|harmony|Sto Mng,13.80,13.80,69,yes
+table2,affected_function|harmony|Dev/Drv,13.60,13.60,68,yes
+table2,affected_function|harmony|Net/Com,20.00,20.00,100,yes
+table2,affected_function|harmony|Com/Adp,2.40,2.40,12,yes
+table2,affected_function|harmony|Sec/Perm,18.00,18.00,90,yes
+table2,affected_function|harmony|Gra/Ren,3.80,3.80,19,yes
+table2,trigger_scenario|android|Per/Ide Dep,31.20,31.20,156,yes
+table2,trigger_scenario|android|Reg Ope,8.80,8.80,44,yes
+table2,trigger_scenario|android|Bor Con,37.00,37.00,185,yes
+table2,trigger_scenario|android|Con/Mul Thr,7.20,7.20,36,yes
+table2,trigger_scenario|android|Sta Dep,14.80,14.80,74,yes
+table2,trigger_scenario|android|Env Dep,1.00,1.00,5,yes
+table2,trigger_scenario|android|Mul/Loc Dep,0.00,0.00,0,yes
+table2,trigger_scenario|linux|Per/Ide Dep,1.60,1.60,8,yes
+table2,trigger_scenario|linux|Reg Ope,9.00,9.00,45,yes
+table2,trigger_scenario|linux|Bor Con,19.00,19.00,95,yes
+table2,trigger_scenario|linux|Con/Mul Thr,3.00,3.00,15,yes
+table2,trigger_scenario|linux|Sta Dep,5.20,5.20,26,yes
+table2,trigger_scenario|linux|Env Dep,62.00,62.00,310,yes
+table2,trigger_scenario|linux|Mul/Loc Dep,0.20,0.20,1,yes
+table2,trigger_scenario|harmony|Per/Ide Dep,2.80,2.80,14,yes
+table2,trigger_scenario|harmony|Reg Ope,6.60,6.60,33,yes
+table2,trigger_scenario|harmony|Bor Con,52.60,52.60,263,yes
+table2,trigger_scenario|harmony|Con/Mul Thr,24.00,24.00,120,yes
+table2,trigger_scenario|harmony|Sta Dep,11.20,11.20,56,yes
+table2,trigger_scenario|harmony|Env Dep,2.80,2.80,14,yes
+table2,trigger_scenario|harmony|Mul/Loc Dep,0.00,0.00,0,yes
+table2,severity|android|Critical,8.60,8.60,43,yes
+table2,severity|android|High,91.00,91.00,455,yes
+table2,severity|android|Medium,0.40,0.40,2,yes
+table2,severity|android|Low,0.00,0.00,0,yes
+table2,severity|android|Undecided,0.00,0.00,0,yes
+table2,severity|linux|Critical,2.60,2.60,13,yes
+table2,severity|linux|High,18.60,18.60,93,yes
+table2,severity|linux|Medium,11.40,11.40,57,yes
+table2,severity|linux|Low,2.20,2.20,11,yes
+table2,severity|linux|Undecided,65.20,65.20,326,yes
+table2,severity|harmony|Critical,0.20,0.20,1,yes
+table2,severity|harmony|High,22.40,22.40,112,yes
+table2,severity|harmony|Medium,51.40,51.40,257,yes
+table2,severity|harmony|Low,24.80,24.80,124,yes
+table2,severity|harmony|Undecided,1.20,1.20,6,yes
+table2,code_element|android|Class,3.20,3.20,16,yes
+table2,code_element|android|Function,35.60,35.60,178,yes
+table2,code_element|android|Signature,15.60,15.60,78,yes
+table2,code_element|android|Loop,3.80,3.80,19,yes
+table2,code_element|android|If,53.00,53.00,265,yes
+table2,code_element|android|Exception,8.20,8.20,41,yes
+table2,code_element|android|Call,63.40,63.40,317,yes
+table2,code_element|android|Assignment,28.40,28.40,142,yes
+table2,code_element|android|Return,15.40,15.40,77,yes
+table2,code_element|android|Condition,18.80,18.80,94,yes
+table2,code_element|android|Object,2.60,2.60,13,yes
+table2,code_element|android|Variable,47.60,47.60,238,yes
+table2,code_element|linux|Class,2.20,2.20,11,yes
+table2,code_element|linux|Function,15.40,15.40,77,yes
+table2,code_element|linux|Signature,12.20,12.20,61,yes
+table2,code_element|linux|Loop,4.20,4.20,21,yes
+table2,code_element|linux|If,37.40,37.40,187,yes
+table2,code_element|linux|Exception,2.20,2.20,11,yes
+table2,code_element|linux|Call,48.80,48.80,244,yes
+table2,code_element|linux|Assignment,54.40,54.40,272,yes
+table2,code_element|linux|Return,4.40,4.40,22,yes
+table2,code_element|linux|Condition,23.80,23.80,119,yes
+table2,code_element|linux|Object,3.80,3.80,19,yes
+table2,code_element|linux|Variable,46.80,46.80,234,yes
+table2,code_element|harmony|Class,1.40,1.40,7,yes
+table2,code_element|harmony|Function,13.60,13.60,68,yes
+table2,code_element|harmony|Signature,7.60,7.60,38,yes
+table2,code_element|harmony|Loop,3.00,3.00,15,yes
+table2,code_element|harmony|If,46.00,46.00,230,yes
+table2,code_element|harmony|Exception,0.20,0.20,1,yes
+table2,code_element|harmony|Call,61.80,61.80,309,yes
+table2,code_element|harmony|Assignment,31.80,31.80,159,yes
+table2,code_element|harmony|Return,20.20,20.20,101,yes
+table2,code_element|harmony|Condition,21.20,21.20,106,yes
+table2,code_element|harmony|Object,0.40,0.40,2,yes
+table2,code_element|harmony|Variable,38.20,38.20,191,yes
+table3,android|Application|Com/Adp,0.60,0.60,3,yes
+table3,android|Application|Dev/Drv,0.20,0.20,1,yes
+table3,android|Application|Gra/Ren,1.20,1.20,6,yes
+table3,android|Application|Mem/Res Mng,0.00,0.00,0,yes
+table3,android|Application|Net/Com,0.00,0.00,0,yes
+table3,android|Application|Pro/Tas Sch,0.60,0.60,3,yes
+table3,android|Application|Sec/Perm,13.60,13.60,68,yes
+table3,android|Application|Sto Mng,0.40,0.40,2,yes
+table3,linux|Application|Com/Adp,25.60,25.60,128,yes
+table3,linux|Application|Dev/Drv,4.60,4.60,23,yes
+table3,linux|Application|Gra/Ren,3.00,3.00,15,yes
+table3,linux|Application|Mem/Res Mng,1.60,1.60,8,yes
+table3,linux|Application|Net/Com,4.40,4.40,22,yes
+table3,linux|Application|Pro/Tas Sch,2.20,2.20,11,yes
+table3,linux|Application|Sec/Perm,9.80,9.80,49,yes
+table3,linux|Application|Sto Mng,3.00,3.00,15,yes
+table3,harmony|Application|Com/Adp,0.00,0.00,0,yes
+table3,harmony|Application|Dev/Drv,0.00,0.00,0,yes
+table3,harmony|Application|Gra/Ren,0.80,0.80,4,yes
+table3,harmony|Application|Mem/Res Mng,0.60,0.60,3,yes
+table3,harmony|Application|Net/Com,0.20,0.20,1,yes
+table3,harmony|Application|Pro/Tas Sch,0.80,0.80,4,yes
+table3,harmony|Application|Sec/Perm,2.20,2.20,11,yes
+table3,harmony|Application|Sto Mng,0.40,0.40,2,yes
+table3,android|Framework|Com/Adp,1.00,1.00,5,yes
+table3,android|Framework|Dev/Drv,0.60,0.60,3,yes
+table3,android|Framework|Gra/Ren,1.80,1.80,9,yes
+table3,android|Framework|Mem/Res Mng,0.80,0.80,4,yes
+table3,android|Framework|Net/Com,0.60,0.60,3,yes
+table3,android|Framework|Pro/Tas Sch,0.40,0.40,2,yes
+table3,android|Framework|Sec/Perm,12.20,12.20,61,yes
+table3,android|Framework|Sto Mng,0.60,0.60,3,yes
+table3,linux|Framework|Com/Adp,0.80,0.80,4,yes
+table3,linux|Framework|Dev/Drv,0.20,0.20,1,yes
+table3,linux|Framework|Gra/Ren,2.40,2.40,12,yes
+table3,linux|Framework|Mem/Res Mng,0.00,0.00,0,yes
+table3,linux|Framework|Net/Com,0.00,0.00,0,yes
+table3,linux|Framework|Pro/Tas Sch,0.00,0.00,0,yes
+table3,linux|Framework|Sec/Perm,0.20,0.20,1,yes
+table3,linux|Framework|Sto Mng,0.00,0.00,0,yes
+table3,harmony|Framework|Com/Adp,0.20,0.20,1,yes
+table3,harmony|Framework|Dev/Drv,0.00,0.00,0,yes
+table3,harmony|Framework|Gra/Ren,1.20,1.20,6,yes
+table3,harmony|Framework|Mem/Res Mng,0.40,0.40,2,yes
+table3,harmony|Framework|Net/Com,0.40,0.40,2,yes
+table3,harmony|Framework|Pro/Tas Sch,0.00,0.00,0,yes
+table3,harmony|Framework|Sec/Perm,0.60,0.60,3,yes
+table3,harmony|Framework|Sto Mng,0.00,0.00,0,yes
+table3,android|Kernel|Com/Adp,0.20,0.20,1,yes
+table3,android|Kernel|Dev/Drv,1.60,1.60,8,yes
+table3,android|Kernel|Gra/Ren,0.00,0.00,0,yes
+table3,android|Kernel|Mem/Res Mng,2.00,2.00,10,yes
+table3,android|Kernel|Net/Com,0.80,0.80,4,yes
+table3,android|Kernel|Pro/Tas Sch,0.00,0.00,0,yes
+table3,android|Kernel|Sec/Perm,1.40,1.40,7,yes
+table3,android|Kernel|Sto Mng,0.00,0.00,0,yes
+table3,linux|Kernel|Com/Adp,5.20,5.20,26,yes
+table3,linux|Kernel|Dev/Drv,6.80,6.80,34,yes
+table3,linux|Kernel|Gra/Ren,1.00,1.00,5,yes
+table3,linux|Kernel|Mem/Res Mng,0.00,0.00,0,yes
+table3,linux|Kernel|Net/Com,0.40,0.40,2,yes
+table3,linux|Kernel|Pro/Tas Sch,0.00,0.00,0,yes
+table3,linux|Kernel|Sec/Perm,0.40,0.40,2,yes
+table3,linux|Kernel|Sto Mng,2.00,2.00,10,yes
+table3,harmony|Kernel|Com/Adp,1.40,1.40,7,yes
+table3,harmony|Kernel|Dev/Drv,13.60,13.60,68,yes
+table3,harmony|Kernel|Gra/Ren,1.00,1.00,5,yes
+table3,harmony|Kernel|Mem/Res Mng,11.40,11.40,57,yes
+table3,harmony|Kernel|Net/Com,18.20,18.20,91,yes
+table3,harmony|Kernel|Pro/Tas Sch,4.80,4.80,24,yes
+table3,harmony|Kernel|Sec/Perm,8.20,8.20,41,yes
+table3,harmony|Kernel|Sto Mng,13.20,13.20,66,yes
+table3,android|RuntimeVM|Com/Adp,0.00,0.00,0,yes
+table3,android|RuntimeVM|Dev/Drv,0.00,0.00,0,yes
+table3,android|RuntimeVM|Gra/Ren,0.00,0.00,0,yes
+table3,android|RuntimeVM|Mem/Res Mng,0.00,0.00,0,yes
+table3,android|RuntimeVM|Net/Com,0.00,0.00,0,yes
+table3,android|RuntimeVM|Pro/Tas Sch,0.00,0.00,0,yes
+table3,android|RuntimeVM|Sec/Perm,0.40,0.40,2,yes
+table3,android|RuntimeVM|Sto Mng,0.00,0.00,0,yes
+table3,linux|RuntimeVM|Com/Adp,0.00,0.00,0,yes
+table3,linux|RuntimeVM|Dev/Drv,0.00,0.00,0,yes
+table3,linux|RuntimeVM|Gra/Ren,0.00,0.00,0,yes
+table3,linux|RuntimeVM|Mem/Res Mng,0.00,0.00,0,yes
+table3,linux|RuntimeVM|Net/Com,0.00,0.00,0,yes
+table3,linux|RuntimeVM|Pro/Tas Sch,0.20,0.20,1,yes
+table3,linux|RuntimeVM|Sec/Perm,0.00,0.00,0,yes
+table3,linux|RuntimeVM|Sto Mng,0.00,0.00,0,yes
+table3,harmony|RuntimeVM|Com/Adp,0.40,0.40,2,yes
+table3,harmony|RuntimeVM|Dev/Drv,0.00,0.00,0,yes
+table3,harmony|RuntimeVM|Gra/Ren,0.00,0.00,0,yes
+table3,harmony|RuntimeVM|Mem/Res Mng,8.40,8.40,42,yes
+table3,harmony|RuntimeVM|Net/Com,0.00,0.00,0,yes
+table3,harmony|RuntimeVM|Pro/Tas Sch,0.00,0.00,0,yes
+table3,harmony|RuntimeVM|Sec/Perm,0.00,0.00,0,yes
+table3,harmony|RuntimeVM|Sto Mng,0.00,0.00,0,yes
+table3,android|SystemLib|Com/Adp,0.40,0.40,2,yes
+table3,android|SystemLib|Dev/Drv,4.20,4.20,21,yes
+table3,android|SystemLib|Gra/Ren,2.20,2.20,11,yes
+table3,android|SystemLib|Mem/Res Mng,7.60,7.60,38,yes
+table3,android|SystemLib|Net/Com,1.20,1.20,6,yes
+table3,android|SystemLib|Pro/Tas Sch,0.20,0.20,1,yes
+table3,android|SystemLib|Sec/Perm,3.80,3.80,19,yes
+table3,android|SystemLib|Sto Mng,0.60,0.60,3,yes
+table3,linux|SystemLib|Com/Adp,8.20,8.20,41,yes
+table3,linux|SystemLib|Dev/Drv,2.80,2.80,14,yes
+table3,linux|SystemLib|Gra/Ren,0.60,0.60,3,yes
+table3,linux|SystemLib|Mem/Res Mng,0.20,0.20,1,yes
+table3,linux|SystemLib|Net/Com,1.20,1.20,6,yes
+table3,linux|SystemLib|Pro/Tas Sch,0.80,0.80,4,yes
+table3,linux|SystemLib|Sec/Perm,2.40,2.40,12,yes
+table3,linux|SystemLib|Sto Mng,2.60,2.60,13,yes
+table3,harmony|SystemLib|Com/Adp,0.00,0.00,0,yes
+table3,harmony|SystemLib|Dev/Drv,0.00,0.00,0,yes
+table3,harmony|SystemLib|Gra/Ren,0.60,0.60,3,yes
+table3,harmony|SystemLib|Mem/Res Mng,1.60,1.60,8,yes
+table3,harmony|SystemLib|Net/Com,0.40,0.40,2,yes
+table3,harmony|SystemLib|Pro/Tas Sch,0.00,0.00,0,yes
+table3,harmony|SystemLib|Sec/Perm,4.20,4.20,21,yes
+table3,harmony|SystemLib|Sto Mng,0.00,0.00,0,yes
+table3,android|SystemService|Com/Adp,0.80,0.80,4,yes
+table3,android|SystemService|Dev/Drv,0.60,0.60,3,yes
+table3,android|SystemService|Gra/Ren,0.60,0.60,3,yes
+table3,android|SystemService|Mem/Res Mng,2.00,2.00,10,yes
+table3,android|SystemService|Net/Com,0.60,0.60,3,yes
+table3,android|SystemService|Pro/Tas Sch,3.60,3.60,18,yes
+table3,android|SystemService|Sec/Perm,28.60,28.60,143,yes
+table3,android|SystemService|Sto Mng,2.00,2.00,10,yes
+table3,linux|SystemService|Com/Adp,1.40,1.40,7,yes
+table3,linux|SystemService|Dev/Drv,2.80,2.80,14,yes
+table3,linux|SystemService|Gra/Ren,0.00,0.00,0,yes
+table3,linux|SystemService|Mem/Res Mng,0.20,0.20,1,yes
+table3,linux|SystemService|Net/Com,0.60,0.60,3,yes
+table3,linux|SystemService|Pro/Tas Sch,0.40,0.40,2,yes
+table3,linux|SystemService|Sec/Perm,1.20,1.20,6,yes
+table3,linux|SystemService|Sto Mng,0.80,0.80,4,yes
+table3,harmony|SystemService|Com/Adp,0.40,0.40,2,yes
+table3,harmony|SystemService|Dev/Drv,0.00,0.00,0,yes
+table3,harmony|SystemService|Gra/Ren,0.20,0.20,1,yes
+table3,harmony|SystemService|Mem/Res Mng,0.40,0.40,2,yes
+table3,harmony|SystemService|Net/Com,0.80,0.80,4,yes
+table3,harmony|SystemService|Pro/Tas Sch,0.00,0.00,0,yes
+table3,harmony|SystemService|Sec/Perm,2.80,2.80,14,yes
+table3,harmony|SystemService|Sto Mng,0.20,0.20,1,yes
+table4,android|Application|Bor Con,2.40,2.40,12,yes
+table4,android|Application|Con/Mul Thr,0.40,0.40,2,yes
+table4,android|Application|Env Dep,0.40,0.40,2,yes
+table4,android|Application|Mul/Loc Dep,0.00,0.00,0,yes
+table4,android|Application|Per/Ide Dep,8.20,8.20,41,yes
+table4,android|Application|Reg Ope,1.60,1.60,8,yes
+table4,android|Application|Sta Dep,3.60,3.60,18,yes
+table4,linux|Application|Bor Con,12.60,12.60,63,yes
+table4,linux|Application|Con/Mul Thr,1.00,1.00,5,yes
+table4,linux|Application|Env Dep,29.80,29.80,149,yes
+table4,linux|Application|Mul/Loc Dep,0.20,0.20,1,yes
+table4,linux|Application|Per/Ide Dep,1.40,1.40,7,yes
+table4,linux|Application|Reg Ope,6.60,6.60,33,yes
+table4,linux|Application|Sta Dep,2.60,2.60,13,yes
+table4,harmony|Application|Bor Con,1.60,1.60,8,yes
+table4,harmony|Application|Con/Mul Thr,1.00,1.00,5,yes
+table4,harmony|Application|Env Dep,0.00,0.00,0,yes
+table4,harmony|Application|Mul/Loc Dep,0.00,0.00,0,yes
+table4,harmony|Application|Per/Ide Dep,0.00,0.00,0,yes
+table4,harmony|Application|Reg Ope,1.40,1.40,7,yes
+table4,harmony|Application|Sta Dep,1.00,1.00,5,yes
+table4,android|Framework|Bor Con,5.40,5.40,27,yes
+table4,android|Framework|Con/Mul Thr,0.00,0.00,0,yes
+table4,android|Framework|Env Dep,0.00,0.00,0,yes
+table4,android|Framework|Mul/Loc Dep,0.00,0.00,0,yes
+table4,android|Framework|Per/Ide Dep,6.80,6.80,34,yes
+table4,android|Framework|Reg Ope,2.80,2.80,14,yes
+table4,android|Framework|Sta Dep,3.00,3.00,15,yes
+table4,linux|Framework|Bor Con,0.00,0.00,0,yes
+table4,linux|Framework|Con/Mul Thr,0.60,0.60,3,yes
+table4,linux|Framework|Env Dep,1.80,1.80,9,yes
+table4,linux|Framework|Mul/Loc Dep,0.00,0.00,0,yes
+table4,linux|Framework|Per/Ide Dep,0.00,0.00,0,yes
+table4,linux|Framework|Reg Ope,0.40,0.40,2,yes
+table4,linux|Framework|Sta Dep,0.80,0.80,4,yes
+table4,harmony|Framework|Bor Con,1.00,1.00,5,yes
+table4,harmony|Framework|Con/Mul Thr,1.00,1.00,5,yes
+table4,harmony|Framework|Env Dep,0.00,0.00,0,yes
+table4,harmony|Framework|Mul/Loc Dep,0.00,0.00,0,yes
+table4,harmony|Framework|Per/Ide Dep,0.00,0.00,0,yes
+table4,harmony|Framework|Reg Ope,0.80,0.80,4,yes
+table4,harmony|Framework|Sta Dep,0.00,0.00,0,yes
+table4,android|Kernel|Bor Con,3.20,3.20,16,yes
+table4,android|Kernel|Con/Mul Thr,1.40,1.40,7,yes
+table4,android|Kernel|Env Dep,0.00,0.00,0,yes
+table4,android|Kernel|Mul/Loc Dep,0.00,0.00,0,yes
+table4,android|Kernel|Per/Ide Dep,0.00,0.00,0,yes
+table4,android|Kernel|Reg Ope,0.60,0.60,3,yes
+table4,android|Kernel|Sta Dep,0.80,0.80,4,yes
+table4,linux|Kernel|Bor Con,0.60,0.60,3,yes
+table4,linux|Kernel|Con/Mul Thr,0.40,0.40,2,yes
+table4,linux|Kernel|Env Dep,14.00,14.00,70,yes
+table4,linux|Kernel|Mul/Loc Dep,0.00,0.00,0,yes
+table4,linux|Kernel|Per/Ide Dep,0.00,0.00,0,yes
+table4,linux|Kernel|Reg Ope,0.60,0.60,3,yes
+table4,linux|Kernel|Sta Dep,0.20,0.20,1,yes
+table4,harmony|Kernel|Bor Con,39.60,39.60,198,yes
+table4,harmony|Kernel|Con/Mul Thr,19.40,19.40,97,yes
+table4,harmony|Kernel|Env Dep,2.60,2.60,13,yes
+table4,harmony|Kernel|Mul/Loc Dep,0.00,0.00,0,yes
+table4,harmony|Kernel|Per/Ide Dep,0.40,0.40,2,yes
+table4,harmony|Kernel|Reg Ope,3.40,3.40,17,yes
+table4,harmony|Kernel|Sta Dep,6.40,6.40,32,yes
+table4,android|RuntimeVM|Bor Con,0.00,0.00,0,yes
+table4,android|RuntimeVM|Con/Mul Thr,0.00,0.00,0,yes
+table4,android|RuntimeVM|Env Dep,0.00,0.00,0,yes
+table4,android|RuntimeVM|Mul/Loc Dep,0.00,0.00,0,yes
+table4,android|RuntimeVM|Per/Ide Dep,0.00,0.00,0,yes
+table4,android|RuntimeVM|Reg Ope,0.40,0.40,2,yes
+table4,android|RuntimeVM|Sta Dep,0.00,0.00,0,yes
+table4,linux|RuntimeVM|Bor Con,0.00,0.00,0,yes
+table4,linux|RuntimeVM|Con/Mul Thr,0.00,0.00,0,yes
+table4,linux|RuntimeVM|Env Dep,0.00,0.00,0,yes
+table4,linux|RuntimeVM|Mul/Loc Dep,0.00,0.00,0,yes
+table4,linux|RuntimeVM|Per/Ide Dep,0.00,0.00,0,yes
+table4,linux|RuntimeVM|Reg Ope,0.20,0.20,1,yes
+table4,linux|RuntimeVM|Sta Dep,0.00,0.00,0,yes
+table4,harmony|RuntimeVM|Bor Con,5.40,5.40,27,yes
+table4,harmony|RuntimeVM|Con/Mul Thr,0.40,0.40,2,yes
+table4,harmony|RuntimeVM|Env Dep,0.00,0.00,0,yes
+table4,harmony|RuntimeVM|Mul/Loc Dep,0.00,0.00,0,yes
+table4,harmony|RuntimeVM|Per/Ide Dep,0.00,0.00,0,yes
+table4,harmony|RuntimeVM|Reg Ope,0.80,0.80,4,yes
+table4,harmony|RuntimeVM|Sta Dep,2.20,2.20,11,yes
+table4,android|SystemLib|Bor Con,13.40,13.40,67,yes
+table4,android|SystemLib|Con/Mul Thr,4.00,4.00,20,yes
+table4,android|SystemLib|Env Dep,0.00,0.00,0,yes
+table4,android|SystemLib|Mul/Loc Dep,0.00,0.00,0,yes
+table4,android|SystemLib|Per/Ide Dep,0.20,0.20,1,yes
+table4,android|SystemLib|Reg Ope,1.60,1.60,8,yes
+table4,android|SystemLib|Sta Dep,1.00,1.00,5,yes
+table4,linux|SystemLib|Bor Con,3.60,3.60,18,yes
+table4,linux|SystemLib|Con/Mul Thr,0.80,0.80,4,yes
+table4,linux|SystemLib|Env Dep,12.60,12.60,63,yes
+table4,linux|SystemLib|Mul/Loc Dep,0.00,0.00,0,yes
+table4,linux|SystemLib|Per/Ide Dep,0.00,0.00,0,yes
+table4,linux|SystemLib|Reg Ope,0.60,0.60,3,yes
+table4,linux|SystemLib|Sta Dep,1.20,1.20,6,yes
+table4,harmony|SystemLib|Bor Con,4.00,4.00,20,yes
+table4,harmony|SystemLib|Con/Mul Thr,1.20,1.20,6,yes
+table4,harmony|SystemLib|Env Dep,0.20,0.20,1,yes
+table4,harmony|SystemLib|Mul/Loc Dep,0.00,0.00,0,yes
+table4,harmony|SystemLib|Per/Ide Dep,0.00,0.00,0,yes
+table4,harmony|SystemLib|Reg Ope,0.20,0.20,1,yes
+table4,harmony|SystemLib|Sta Dep,1.20,1.20,6,yes
+table4,android|SystemService|Bor Con,12.60,12.60,63,yes
+table4,android|SystemService|Con/Mul Thr,1.40,1.40,7,yes
+table4,android|SystemService|Env Dep,0.60,0.60,3,yes
+table4,android|SystemService|Mul/Loc Dep,0.00,0.00,0,yes
+table4,android|SystemService|Per/Ide Dep,16.00,16.00,80,yes
+table4,android|SystemService|Reg Ope,1.80,1.80,9,yes
+table4,android|SystemService|Sta Dep,6.40,6.40,32,yes
+table4,linux|SystemService|Bor Con,2.20,2.20,11,yes
+table4,linux|SystemService|Con/Mul Thr,0.20,0.20,1,yes
+table4,linux|SystemService|Env Dep,3.80,3.80,19,yes
+table4,linux|SystemService|Mul/Loc Dep,0.00,0.00,0,yes
+table4,linux|SystemService|Per/Ide Dep,0.20,0.20,1,yes
+table4,linux|SystemService|Reg Ope,0.60,0.60,3,yes
+table4,linux|SystemService|Sta Dep,0.40,0.40,2,yes
+table4,harmony|SystemService|Bor Con,1.00,1.00,5,yes
+table4,harmony|SystemService|Con/Mul Thr,1.00,1.00,5,yes
+table4,harmony|SystemService|Env Dep,0.00,0.00,0,yes
+table4,harmony|SystemService|Mul/Loc Dep,0.00,0.00,0,yes
+table4,harmony|SystemService|Per/Ide Dep,2.40,2.40,12,yes
+table4,harmony|SystemService|Reg Ope,0.00,0.00,0,yes
+table4,harmony|SystemService|Sta Dep,0.40,0.40,2,yes
+table5,android|Com/Adp|Bor Con,1.40,1.40,7,yes
+table5,android|Com/Adp|Con/Mul Thr,0.00,0.00,0,yes
+table5,android|Com/Adp|Env Dep,0.20,0.20,1,yes
+table5,android|Com/Adp|Mul/Loc Dep,0.00,0.00,0,yes
+table5,android|Com/Adp|Per/Ide Dep,0.00,0.00,0,yes
+table5,android|Com/Adp|Reg Ope,0.20,0.20,1,yes
+table5,android|Com/Adp|Sta Dep,1.20,1.20,6,yes
+table5,linux|Com/Adp|Bor Con,1.80,1.80,9,yes
+table5,linux|Com/Adp|Con/Mul Thr,0.20,0.20,1,yes
+table5,linux|Com/Adp|Env Dep,35.80,35.80,179,yes
+table5,linux|Com/Adp|Mul/Loc Dep,0.20,0.20,1,yes
+table5,linux|Com/Adp|Per/Ide Dep,0.00,0.00,0,yes
+table5,linux|Com/Adp|Reg Ope,1.60,1.60,8,yes
+table5,linux|Com/Adp|Sta Dep,1.60,1.60,8,yes
+table5,harmony|Com/Adp|Bor Con,1.40,1.40,7,yes
+table5,harmony|Com/Adp|Con/Mul Thr,0.20,0.20,1,yes
+table5,harmony|Com/Adp|Env Dep,0.40,0.40,2,yes
+table5,harmony|Com/Adp|Mul/Loc Dep,0.00,0.00,0,yes
+table5,harmony|Com/Adp|Per/Ide Dep,0.00,0.00,0,yes
+table5,harmony|Com/Adp|Reg Ope,0.20,0.20,1,yes
+table5,harmony|Com/Adp|Sta Dep,0.20,0.20,1,yes
+table5,android|Dev/Drv|Bor Con,5.40,5.40,27,yes
+table5,android|Dev/Drv|Con/Mul Thr,0.80,0.80,4,yes
+table5,android|Dev/Drv|Env Dep,0.00,0.00,0,yes
+table5,android|Dev/Drv|Mul/Loc Dep,0.00,0.00,0,yes
+table5,android|Dev/Drv|Per/Ide Dep,0.00,0.00,0,yes
+table5,android|Dev/Drv|Reg Ope,0.60,0.60,3,yes
+table5,android|Dev/Drv|Sta Dep,0.40,0.40,2,yes
+table5,linux|Dev/Drv|Bor Con,1.60,1.60,8,yes
+table5,linux|Dev/Drv|Con/Mul Thr,0.20,0.20,1,yes
+table5,linux|Dev/Drv|Env Dep,13.20,13.20,66,yes
+table5,linux|Dev/Drv|Mul/Loc Dep,0.00,0.00,0,yes
+table5,linux|Dev/Drv|Per/Ide Dep,0.00,0.00,0,yes
+table5,linux|Dev/Drv|Reg Ope,1.60,1.60,8,yes
+table5,linux|Dev/Drv|Sta Dep,0.60,0.60,3,yes
+table5,harmony|Dev/Drv|Bor Con,7.60,7.60,38,yes
+table5,harmony|Dev/Drv|Con/Mul Thr,3.60,3.60,18,yes
+table5,harmony|Dev/Drv|Env Dep,0.40,0.40,2,yes
+table5,harmony|Dev/Drv|Mul/Loc Dep,0.00,0.00,0,yes
+table5,harmony|Dev/Drv|Per/Ide Dep,0.00,0.00,0,yes
+table5,harmony|Dev/Drv|Reg Ope,0.40,0.40,2,yes
+table5,harmony|Dev/Drv|Sta Dep,1.60,1.60,8,yes
+table5,android|Gra/Ren|Bor Con,2.00,2.00,10,yes
+table5,android|Gra/Ren|Con/Mul Thr,0.40,0.40,2,yes
+table5,android|Gra/Ren|Env Dep,0.20,0.20,1,yes
+table5,android|Gra/Ren|Mul/Loc Dep,0.00,0.00,0,yes
+table5,android|Gra/Ren|Per/Ide Dep,0.00,0.00,0,yes
+table5,android|Gra/Ren|Reg Ope,0.80,0.80,4,yes
+table5,android|Gra/Ren|Sta Dep,2.40,2.40,12,yes
+table5,linux|Gra/Ren|Bor Con,1.60,1.60,8,yes
+table5,linux|Gra/Ren|Con/Mul Thr,0.80,0.80,4,yes
+table5,linux|Gra/Ren|Env Dep,2.80,2.80,14,yes
+table5,linux|Gra/Ren|Mul/Loc Dep,0.00,0.00,0,yes
+table5,linux|Gra/Ren|Per/Ide Dep,0.00,0.00,0,yes
+table5,linux|Gra/Ren|Reg Ope,1.00,1.00,5,yes
+table5,linux|Gra/Ren|Sta Dep,0.80,0.80,4,yes
+table5,harmony|Gra/Ren|Bor Con,1.00,1.00,5,yes
+table5,harmony|Gra/Ren|Con/Mul Thr,2.00,2.00,10,yes
+table5,harmony|Gra/Ren|Env Dep,0.20,0.20,1,yes
+table5,harmony|Gra/Ren|Mul/Loc Dep,0.00,0.00,0,yes
+table5,harmony|Gra/Ren|Per/Ide Dep,0.00,0.00,0,yes
+table5,harmony|Gra/Ren|Reg Ope,0.20,0.20,1,yes
+table5,harmony|Gra/Ren|Sta Dep,0.40,0.40,2,yes
+table5,android|Mem/Res Mng|Bor Con,7.20,7.20,36,yes
+table5,android|Mem/Res Mng|Con/Mul Thr,4.60,4.60,23,yes
+table5,android|Mem/Res Mng|Env Dep,0.00,0.00,0,yes
+table5,android|Mem/Res Mng|Mul/Loc Dep,0.00,0.00,0,yes
+table5,android|Mem/Res Mng|Per/Ide Dep,0.00,0.00,0,yes
+table5,android|Mem/Res Mng|Reg Ope,0.20,0.20,1,yes
+table5,android|Mem/Res Mng|Sta Dep,0.40,0.40,2,yes
+table5,linux|Mem/Res Mng|Bor Con,1.20,1.20,6,yes
+table5,linux|Mem/Res Mng|Con/Mul Thr,0.20,0.20,1,yes
+table5,linux|Mem/Res Mng|Env Dep,0.00,0.00,0,yes
+table5,linux|Mem/Res Mng|Mul/Loc Dep,0.00,0.00,0,yes
+table5,linux|Mem/Res Mng|Per/Ide Dep,0.00,0.00,0,yes
+table5,linux|Mem/Res Mng|Reg Ope,0.40,0.40,2,yes
+table5,linux|Mem/Res Mng|Sta Dep,0.20,0.20,1,yes
+table5,harmony|Mem/Res Mng|Bor Con,14.40,14.40,72,yes
+table5,harmony|Mem/Res Mng|Con/Mul Thr,3.60,3.60,18,yes
+table5,harmony|Mem/Res Mng|Env Dep,0.40,0.40,2,yes
+table5,harmony|Mem/Res Mng|Mul/Loc Dep,0.00,0.00,0,yes
+table5,harmony|Mem/Res Mng|Per/Ide Dep,0.00,0.00,0,yes
+table5,harmony|Mem/Res Mng|Reg Ope,1.20,1.20,6,yes
+table5,harmony|Mem/Res Mng|Sta Dep,3.20,3.20,16,yes
+table5,android|Net/Com|Bor Con,1.80,1.80,9,yes
+table5,android|Net/Com|Con/Mul Thr,0.20,0.20,1,yes
+table5,android|Net/Com|Env Dep,0.00,0.00,0,yes
+table5,android|Net/Com|Mul/Loc Dep,0.00,0.00,0,yes
+table5,android|Net/Com|Per/Ide Dep,0.40,0.40,2,yes
+table5,android|Net/Com|Reg Ope,0.40,0.40,2,yes
+table5,android|Net/Com|Sta Dep,0.40,0.40,2,yes
+table5,linux|Net/Com|Bor Con,1.80,1.80,9,yes
+table5,linux|Net/Com|Con/Mul Thr,0.20,0.20,1,yes
+table5,linux|Net/Com|Env Dep,2.60,2.60,13,yes
+table5,linux|Net/Com|Mul/Loc Dep,0.00,0.00,0,yes
+table5,linux|Net/Com|Per/Ide Dep,0.00,0.00,0,yes
+table5,linux|Net/Com|Reg Ope,0.80,0.80,4,yes
+table5,linux|Net/Com|Sta Dep,1.20,1.20,6,yes
+table5,harmony|Net/Com|Bor Con,10.00,10.00,50,yes
+table5,harmony|Net/Com|Con/Mul Thr,6.40,6.40,32,yes
+table5,harmony|Net/Com|Env Dep,0.60,0.60,3,yes
+table5,harmony|Net/Com|Mul/Loc Dep,0.00,0.00,0,yes
+table5,harmony|Net/Com|Per/Ide Dep,0.00,0.00,0,yes
+table5,harmony|Net/Com|Reg Ope,1.40,1.40,7,yes
+table5,harmony|Net/Com|Sta Dep,1.60,1.60,8,yes
+table5,android|Pro/Tas Sch|Bor Con,1.00,1.00,5,yes
+table5,android|Pro/Tas Sch|Con/Mul Thr,0.80,0.80,4,yes
+table5,android|Pro/Tas Sch|Env Dep,0.20,0.20,1,yes
+table5,android|Pro/Tas Sch|Mul/Loc Dep,0.00,0.00,0,yes
+table5,android|Pro/Tas Sch|Per/Ide Dep,0.20,0.20,1,yes
+table5,android|Pro/Tas Sch|Reg Ope,1.00,1.00,5,yes
+table5,android|Pro/Tas Sch|Sta Dep,1.60,1.60,8,yes
+table5,linux|Pro/Tas Sch|Bor Con,0.80,0.80,4,yes
+table5,linux|Pro/Tas Sch|Con/Mul Thr,0.40,0.40,2,yes
+table5,linux|Pro/Tas Sch|Env Dep,1.40,1.40,7,yes
+table5,linux|Pro/Tas Sch|Mul/Loc Dep,0.00,0.00,0,yes
+table5,linux|Pro/Tas Sch|Per/Ide Dep,0.00,0.00,0,yes
+table5,linux|Pro/Tas Sch|Reg Ope,1.00,1.00,5,yes
+table5,linux|Pro/Tas Sch|Sta Dep,0.00,0.00,0,yes
+table5,harmony|Pro/Tas Sch|Bor Con,1.40,1.40,7,yes
+table5,harmony|Pro/Tas Sch|Con/Mul Thr,2.60,2.60,13,yes
+table5,harmony|Pro/Tas Sch|Env Dep,0.20,0.20,1,yes
+table5,harmony|Pro/Tas Sch|Mul/Loc Dep,0.00,0.00,0,yes
+table5,harmony|Pro/Tas Sch|Per/Ide Dep,0.00,0.00,0,yes
+table5,harmony|Pro/Tas Sch|Reg Ope,0.60,0.60,3,yes
+table5,harmony|Pro/Tas Sch|Sta Dep,0.80,0.80,4,yes
+table5,android|Sec/Perm|Bor Con,16.40,16.40,82,yes
+table5,android|Sec/Perm|Con/Mul Thr,0.40,0.40,2,yes
+table5,android|Sec/Perm|Env Dep,0.40,0.40,2,yes
+table5,android|Sec/Perm|Mul/Loc Dep,0.00,0.00,0,yes
+table5,android|Sec/Perm|Per/Ide Dep,30.00,30.00,150,yes
+table5,android|Sec/Perm|Reg Ope,4.80,4.80,24,yes
+table5,android|Sec/Perm|Sta Dep,8.00,8.00,40,yes
+table5,linux|Sec/Perm|Bor Con,5.80,5.80,29,yes
+table5,linux|Sec/Perm|Con/Mul Thr,0.20,0.20,1,yes
+table5,linux|Sec/Perm|Env Dep,4.00,4.00,20,yes
+table5,linux|Sec/Perm|Mul/Loc Dep,0.00,0.00,0,yes
+table5,linux|Sec/Perm|Per/Ide Dep,1.60,1.60,8,yes
+table5,linux|Sec/Perm|Reg Ope,2.20,2.20,11,yes
+table5,linux|Sec/Perm|Sta Dep,0.20,0.20,1,yes
+table5,harmony|Sec/Perm|Bor Con,9.80,9.80,49,yes
+table5,harmony|Sec/Perm|Con/Mul Thr,1.80,1.80,9,yes
+table5,harmony|Sec/Perm|Env Dep,0.00,0.00,0,yes
+table5,harmony|Sec/Perm|Mul/Loc Dep,0.00,0.00,0,yes
+table5,harmony|Sec/Perm|Per/Ide Dep,2.80,2.80,14,yes
+table5,harmony|Sec/Perm|Reg Ope,2.20,2.20,11,yes
+table5,harmony|Sec/Perm|Sta Dep,1.40,1.40,7,yes
+table5,android|Sto Mng|Bor Con,1.80,1.80,9,yes
+table5,android|Sto Mng|Con/Mul Thr,0.00,0.00,0,yes
+table5,android|Sto Mng|Env Dep,0.00,0.00,0,yes
+table5,android|Sto Mng|Mul/Loc Dep,0.00,0.00,0,yes
+table5,android|Sto Mng|Per/Ide Dep,0.60,0.60,3,yes
+table5,android|Sto Mng|Reg Ope,0.80,0.80,4,yes
+table5,android|Sto Mng|Sta Dep,0.40,0.40,2,yes
+table5,linux|Sto Mng|Bor Con,4.40,4.40,22,yes
+table5,linux|Sto Mng|Con/Mul Thr,0.80,0.80,4,yes
+table5,linux|Sto Mng|Env Dep,2.20,2.20,11,yes
+table5,linux|Sto Mng|Mul/Loc Dep,0.00,0.00,0,yes
+table5,linux|Sto Mng|Per/Ide Dep,0.00,0.00,0,yes
+table5,linux|Sto Mng|Reg Ope,0.40,0.40,2,yes
+table5,linux|Sto Mng|Sta Dep,0.60,0.60,3,yes
+table5,harmony|Sto Mng|Bor Con,7.00,7.00,35,yes
+table5,harmony|Sto Mng|Con/Mul Thr,3.80,3.80,19,yes
+table5,harmony|Sto Mng|Env Dep,0.60,0.60,3,yes
+table5,harmony|Sto Mng|Mul/Loc Dep,0.00,0.00,0,yes
+table5,harmony|Sto Mng|Per/Ide Dep,0.00,0.00,0,yes
+table5,harmony|Sto Mng|Reg Ope,0.40,0.40,2,yes
+table5,harmony|Sto Mng|Sta Dep,2.00,2.00,10,yes
+fig2,android|0-10,34.00,34.00,170,yes
+fig2,android|10-30,30.80,30.80,154,yes
+fig2,android|30-50,15.00,15.00,75,yes
+fig2,android|50-100,12.40,12.40,62,yes
+fig2,android|100-500,7.80,7.80,39,yes
+fig2,linux|0-10,45.60,45.60,228,yes
+fig2,linux|10-30,23.20,23.20,116,yes
+fig2,linux|30-50,10.20,10.20,51,yes
+fig2,linux|50-100,9.20,9.20,46,yes
+fig2,linux|100-500,11.80,11.80,59,yes
+fig2,harmony|0-10,51.80,51.80,259,yes
+fig2,harmony|10-30,25.80,25.80,129,yes
+fig2,harmony|30-50,6.80,6.80,34,yes
+fig2,harmony|50-100,9.20,9.20,46,yes
+fig2,harmony|100-500,6.40,6.40,32,yes
+fig3,android|functions|0-3,67.00,67.00,335,yes
+fig3,android|functions|3-5,16.80,16.80,84,yes
+fig3,android|functions|5-10,13.00,13.00,65,yes
+fig3,android|functions|10-50,3.20,3.20,16,yes
+fig3,android|files|0-3,78.00,78.00,390,yes
+fig3,android|files|3-5,13.60,13.60,68,yes
+fig3,android|files|5-10,8.00,8.00,40,yes
+fig3,android|files|10-50,0.40,0.40,2,yes
+fig3,linux|functions|0-3,75.80,75.80,379,yes
+fig3,linux|functions|3-5,9.40,9.40,47,yes
+fig3,linux|functions|5-10,9.80,9.80,49,yes
+fig3,linux|functions|10-50,5.00,5.00,25,yes
+fig3,linux|files|0-3,62.40,62.40,312,yes
+fig3,linux|files|3-5,21.80,21.80,109,yes
+fig3,linux|files|5-10,11.60,11.60,58,yes
+fig3,linux|files|10-50,4.20,4.20,21,yes
+fig3,harmony|functions|0-3,74.40,74.40,372,yes
+fig3,harmony|functions|3-5,13.80,13.80,69,yes
+fig3,harmony|functions|5-10,9.00,9.00,45,yes
+fig3,harmony|functions|10-50,2.80,2.80,14,yes
+fig3,harmony|files|0-3,79.40,79.40,397,yes
+fig3,harmony|files|3-5,12.20,12.20,61,yes
+fig3,harmony|files|5-10,6.20,6.20,31,yes
+fig3,harmony|files|10-50,2.20,2.20,11,yes
+fig4,a_os_layer|android-linux,0.26,0.26,,yes
+fig4,a_os_layer|android-harmony,-0.66,-0.66,,yes
+fig4,a_os_layer|linux-harmony,0.09,0.09,,yes
+fig4,b_affected_function|android-linux,-0.19,-0.19,,yes
+fig4,b_affected_function|android-harmony,0.43,0.43,,yes
+fig4,b_affected_function|linux-harmony,-0.52,-0.52,,yes
+fig4,c_trigger_scenario|android-linux,0.21,0.21,,yes
+fig4,c_trigger_scenario|android-harmony,0.38,0.38,,yes
+fig4,c_trigger_scenario|linux-harmony,0.41,0.41,,yes
+fig4,d_overall|android-linux,0.05,0.16,,NO
+fig4,d_overall|android-harmony,-0.11,0.08,,NO
+fig4,d_overall|linux-harmony,-0.04,0.05,,NO

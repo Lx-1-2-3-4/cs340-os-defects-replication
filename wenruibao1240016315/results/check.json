@@ -1,0 +1,36 @@
+{
+  "per_item": {
+    "table2": {
+      "values": 114,
+      "matched": 114
+    },
+    "table3": {
+      "values": 144,
+      "matched": 144
+    },
+    "table4": {
+      "values": 126,
+      "matched": 126
+    },
+    "table5": {
+      "values": 168,
+      "matched": 168
+    },
+    "fig2": {
+      "values": 15,
+      "matched": 15
+    },
+    "fig3": {
+      "values": 24,
+      "matched": 24
+    },
+    "fig4": {
+      "values": 12,
+      "matched": 9
+    }
+  },
+  "total": {
+    "values": 603,
+    "matched": 600
+  }
+}

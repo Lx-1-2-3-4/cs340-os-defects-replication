@@ -1,0 +1,25 @@
+rule,pair,rho,paper,match
+"a-c pooled, drop shared zeros",android-linux,0.16,0.05,NO
+"a-c pooled, drop shared zeros",android-harmony,0.08,-0.11,NO
+"a-c pooled, drop shared zeros",linux-harmony,0.05,-0.04,NO
+"a-c pooled, keep zeros",android-linux,0.16,0.05,NO
+"a-c pooled, keep zeros",android-harmony,0.21,-0.11,NO
+"a-c pooled, keep zeros",linux-harmony,0.05,-0.04,NO
+"a-e pooled, drop shared zeros",android-linux,0.35,0.05,NO
+"a-e pooled, drop shared zeros",android-harmony,0.35,-0.11,NO
+"a-e pooled, drop shared zeros",linux-harmony,0.34,-0.04,NO
+"a-e pooled, keep zeros",android-linux,0.35,0.05,NO
+"a-e pooled, keep zeros",android-harmony,0.39,-0.11,NO
+"a-e pooled, keep zeros",linux-harmony,0.34,-0.04,NO
+mean of panel coefficients (a-c),android-linux,0.09,0.05,NO
+mean of panel coefficients (a-c),android-harmony,0.13,-0.11,NO
+mean of panel coefficients (a-c),linux-harmony,-0.01,-0.04,NO
+Fisher-z mean of panels (a-c),android-linux,0.10,0.05,NO
+Fisher-z mean of panels (a-c),android-harmony,0.13,-0.11,NO
+Fisher-z mean of panels (a-c),linux-harmony,-0.02,-0.04,NO
+mean of panel coefficients (a-e),android-linux,0.25,0.05,NO
+mean of panel coefficients (a-e),android-harmony,0.22,-0.11,NO
+mean of panel coefficients (a-e),linux-harmony,0.14,-0.04,NO
+Fisher-z mean of panels (a-e),android-linux,0.33,0.05,NO
+Fisher-z mean of panels (a-e),android-harmony,0.32,-0.11,NO
+Fisher-z mean of panels (a-e),linux-harmony,0.26,-0.04,NO
