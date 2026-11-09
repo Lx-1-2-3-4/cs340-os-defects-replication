@@ -1,0 +1,33 @@
+# reproduce run 2 of 3
+started_utc: 2026-11-06T14:21:43Z
+command: D:\Dev\Miniconda3\python.exe scripts/reproduce.py --out-dir results
+python: 3.14.6
+reproduce.py sha256: 72aba43bfd69a116f6a13e0c795b488b0b2d3feda6bba24c19438e249dc086be
+returncode: 0
+
+## stdout
+loading dataset and paper values...
+checking Table II (five distribution panels)...
+checking Tables III-V (joint distributions)...
+checking Figures 2-3 (change size distributions)...
+checking Figure 4 (cross-OS similarity)...
+
+[table2] 114/114 values match (100.00%)
+[table3] 144/144 values match (100.00%)
+[table4] 126/126 values match (100.00%)
+[table5] 168/168 values match (100.00%)
+[fig2] 15/15 values match (100.00%)
+[fig3] 24/24 values match (100.00%)
+[fig4] 9/12 values match (75.00%)
+GRAND TOTAL: 600/603 values match (99.50%)
+
+mismatches:
+  - fig4: android-linux d_overall: paper=0.05 ours=0.16 diff=+0.11
+  - fig4: android-harmony d_overall: paper=-0.11 ours=0.08 diff=+0.19
+  - fig4: linux-harmony d_overall: paper=-0.04 ours=0.05 diff=+0.09
+
+wrote 8 CSV files, summary.json and SUMMARY.md to results
+
+
+## stderr
+
