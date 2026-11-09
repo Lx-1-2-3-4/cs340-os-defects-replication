@@ -1,0 +1,91 @@
+size,os,dimension,full_top_category,full_share_pct,mean_share_pct,std_share_pct,mean_recovery_pct,std_recovery_pct
+50,android,os_layer,SystemService,38.80,38.86,0.55,94.40,0.53
+50,android,affected_function,Sec/Perm,60.00,60.01,0.26,100.00,0.00
+50,android,trigger_scenario,Bor Con,37.00,36.89,0.05,66.00,2.27
+50,android,severity,High,91.00,90.97,0.33,100.00,0.00
+50,android,code_element,Call,63.40,63.34,0.11,83.93,0.42
+50,linux,os_layer,Application,54.20,54.05,0.18,99.87,0.12
+50,linux,affected_function,Com/Adp,41.20,41.42,0.34,98.93,0.12
+50,linux,trigger_scenario,Env Dep,62.00,61.93,0.16,99.93,0.12
+50,linux,severity,Undecided,65.20,65.25,0.12,100.00,0.00
+50,linux,code_element,Assignment,54.40,54.30,0.29,61.93,1.33
+50,harmony,os_layer,Kernel,71.80,71.90,0.27,100.00,0.00
+50,harmony,affected_function,Mem/Res Mng,22.80,22.75,0.26,51.73,0.81
+50,harmony,trigger_scenario,Bor Con,52.60,52.24,0.27,99.73,0.23
+50,harmony,severity,Medium,51.40,51.47,0.20,99.20,0.35
+50,harmony,code_element,Call,61.80,61.92,0.07,94.53,1.01
+100,android,os_layer,SystemService,38.80,38.79,0.27,99.67,0.12
+100,android,affected_function,Sec/Perm,60.00,59.84,0.10,100.00,0.00
+100,android,trigger_scenario,Bor Con,37.00,36.91,0.08,76.80,0.72
+100,android,severity,High,91.00,91.08,0.02,100.00,0.00
+100,android,code_element,Call,63.40,63.40,0.17,92.80,0.69
+100,linux,os_layer,Application,54.20,54.44,0.10,100.00,0.00
+100,linux,affected_function,Com/Adp,41.20,41.21,0.22,100.00,0.00
+100,linux,trigger_scenario,Env Dep,62.00,62.06,0.09,100.00,0.00
+100,linux,severity,Undecided,65.20,65.31,0.31,100.00,0.00
+100,linux,code_element,Assignment,54.40,54.35,0.14,76.53,0.50
+100,harmony,os_layer,Kernel,71.80,71.70,0.17,100.00,0.00
+100,harmony,affected_function,Mem/Res Mng,22.80,22.82,0.12,63.73,0.76
+100,harmony,trigger_scenario,Bor Con,52.60,52.75,0.12,100.00,0.00
+100,harmony,severity,Medium,51.40,51.35,0.25,100.00,0.00
+100,harmony,code_element,Call,61.80,61.82,0.23,99.13,0.58
+200,android,os_layer,SystemService,38.80,38.83,0.17,100.00,0.00
+200,android,affected_function,Sec/Perm,60.00,60.04,0.14,100.00,0.00
+200,android,trigger_scenario,Bor Con,37.00,36.96,0.11,89.20,0.53
+200,android,severity,High,91.00,91.05,0.06,100.00,0.00
+200,android,code_element,Call,63.40,63.44,0.04,99.47,0.58
+200,linux,os_layer,Application,54.20,54.23,0.07,100.00,0.00
+200,linux,affected_function,Com/Adp,41.20,41.33,0.12,100.00,0.00
+200,linux,trigger_scenario,Env Dep,62.00,62.11,0.06,100.00,0.00
+200,linux,severity,Undecided,65.20,65.22,0.22,100.00,0.00
+200,linux,code_element,Assignment,54.40,54.46,0.14,92.00,2.80
+200,harmony,os_layer,Kernel,71.80,71.79,0.05,100.00,0.00
+200,harmony,affected_function,Mem/Res Mng,22.80,22.80,0.17,77.00,1.25
+200,harmony,trigger_scenario,Bor Con,52.60,52.65,0.16,100.00,0.00
+200,harmony,severity,Medium,51.40,51.38,0.06,100.00,0.00
+200,harmony,code_element,Call,61.80,61.88,0.01,100.00,0.00
+300,android,os_layer,SystemService,38.80,38.78,0.01,100.00,0.00
+300,android,affected_function,Sec/Perm,60.00,60.02,0.10,100.00,0.00
+300,android,trigger_scenario,Bor Con,37.00,37.02,0.11,97.00,0.87
+300,android,severity,High,91.00,90.99,0.02,100.00,0.00
+300,android,code_element,Call,63.40,63.33,0.04,100.00,0.00
+300,linux,os_layer,Application,54.20,54.23,0.05,100.00,0.00
+300,linux,affected_function,Com/Adp,41.20,41.13,0.03,100.00,0.00
+300,linux,trigger_scenario,Env Dep,62.00,62.03,0.09,100.00,0.00
+300,linux,severity,Undecided,65.20,65.17,0.06,100.00,0.00
+300,linux,code_element,Assignment,54.40,54.45,0.08,98.27,0.23
+300,harmony,os_layer,Kernel,71.80,71.77,0.04,100.00,0.00
+300,harmony,affected_function,Mem/Res Mng,22.80,22.79,0.03,87.60,1.40
+300,harmony,trigger_scenario,Bor Con,52.60,52.59,0.13,100.00,0.00
+300,harmony,severity,Medium,51.40,51.44,0.07,100.00,0.00
+300,harmony,code_element,Call,61.80,61.80,0.07,100.00,0.00
+400,android,os_layer,SystemService,38.80,38.78,0.08,100.00,0.00
+400,android,affected_function,Sec/Perm,60.00,60.02,0.01,100.00,0.00
+400,android,trigger_scenario,Bor Con,37.00,37.00,0.01,99.93,0.12
+400,android,severity,High,91.00,91.02,0.04,100.00,0.00
+400,android,code_element,Call,63.40,63.43,0.01,100.00,0.00
+400,linux,os_layer,Application,54.20,54.23,0.04,100.00,0.00
+400,linux,affected_function,Com/Adp,41.20,41.21,0.01,100.00,0.00
+400,linux,trigger_scenario,Env Dep,62.00,61.98,0.05,100.00,0.00
+400,linux,severity,Undecided,65.20,65.17,0.00,100.00,0.00
+400,linux,code_element,Assignment,54.40,54.42,0.03,100.00,0.00
+400,harmony,os_layer,Kernel,71.80,71.83,0.03,100.00,0.00
+400,harmony,affected_function,Mem/Res Mng,22.80,22.79,0.01,97.13,0.31
+400,harmony,trigger_scenario,Bor Con,52.60,52.63,0.05,100.00,0.00
+400,harmony,severity,Medium,51.40,51.32,0.03,100.00,0.00
+400,harmony,code_element,Call,61.80,61.86,0.10,100.00,0.00
+500,android,os_layer,SystemService,38.80,38.80,0.00,100.00,0.00
+500,android,affected_function,Sec/Perm,60.00,60.00,0.00,100.00,0.00
+500,android,trigger_scenario,Bor Con,37.00,37.00,0.00,100.00,0.00
+500,android,severity,High,91.00,91.00,0.00,100.00,0.00
+500,android,code_element,Call,63.40,63.40,0.00,100.00,0.00
+500,linux,os_layer,Application,54.20,54.20,0.00,100.00,0.00
+500,linux,affected_function,Com/Adp,41.20,41.20,0.00,100.00,0.00
+500,linux,trigger_scenario,Env Dep,62.00,62.00,0.00,100.00,0.00
+500,linux,severity,Undecided,65.20,65.20,0.00,100.00,0.00
+500,linux,code_element,Assignment,54.40,54.40,0.00,100.00,0.00
+500,harmony,os_layer,Kernel,71.80,71.80,0.00,100.00,0.00
+500,harmony,affected_function,Mem/Res Mng,22.80,22.80,0.00,100.00,0.00
+500,harmony,trigger_scenario,Bor Con,52.60,52.60,0.00,100.00,0.00
+500,harmony,severity,Medium,51.40,51.40,0.00,100.00,0.00
+500,harmony,code_element,Call,61.80,61.80,0.00,100.00,0.00

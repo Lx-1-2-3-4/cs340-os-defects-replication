@@ -1,0 +1,115 @@
+panel,os,category,defects,paper_pct,ours_pct,match,diff_pp
+os_layer,android,Kernel,30,6.00,6.00,yes,+0.00
+os_layer,android,SystemLib,101,20.20,20.20,yes,+0.00
+os_layer,android,RuntimeVM,2,0.40,0.40,yes,+0.00
+os_layer,android,Framework,90,18.00,18.00,yes,+0.00
+os_layer,android,SystemService,194,38.80,38.80,yes,+0.00
+os_layer,android,Application,83,16.60,16.60,yes,+0.00
+os_layer,linux,Kernel,79,15.80,15.80,yes,+0.00
+os_layer,linux,SystemLib,94,18.80,18.80,yes,+0.00
+os_layer,linux,RuntimeVM,1,0.20,0.20,yes,+0.00
+os_layer,linux,Framework,18,3.60,3.60,yes,+0.00
+os_layer,linux,SystemService,37,7.40,7.40,yes,+0.00
+os_layer,linux,Application,271,54.20,54.20,yes,+0.00
+os_layer,harmony,Kernel,359,71.80,71.80,yes,+0.00
+os_layer,harmony,SystemLib,34,6.80,6.80,yes,+0.00
+os_layer,harmony,RuntimeVM,44,8.80,8.80,yes,+0.00
+os_layer,harmony,Framework,14,2.80,2.80,yes,+0.00
+os_layer,harmony,SystemService,24,4.80,4.80,yes,+0.00
+os_layer,harmony,Application,25,5.00,5.00,yes,+0.00
+affected_function,android,Mem/Res Mng,62,12.40,12.40,yes,+0.00
+affected_function,android,Pro/Tas Sch,24,4.80,4.80,yes,+0.00
+affected_function,android,Sto Mng,18,3.60,3.60,yes,+0.00
+affected_function,android,Dev/Drv,36,7.20,7.20,yes,+0.00
+affected_function,android,Net/Com,16,3.20,3.20,yes,+0.00
+affected_function,android,Com/Adp,15,3.00,3.00,yes,+0.00
+affected_function,android,Sec/Perm,300,60.00,60.00,yes,+0.00
+affected_function,android,Gra/Ren,29,5.80,5.80,yes,+0.00
+affected_function,linux,Mem/Res Mng,10,2.00,2.00,yes,+0.00
+affected_function,linux,Pro/Tas Sch,18,3.60,3.60,yes,+0.00
+affected_function,linux,Sto Mng,42,8.40,8.40,yes,+0.00
+affected_function,linux,Dev/Drv,86,17.20,17.20,yes,+0.00
+affected_function,linux,Net/Com,33,6.60,6.60,yes,+0.00
+affected_function,linux,Com/Adp,206,41.20,41.20,yes,+0.00
+affected_function,linux,Sec/Perm,70,14.00,14.00,yes,+0.00
+affected_function,linux,Gra/Ren,35,7.00,7.00,yes,+0.00
+affected_function,harmony,Mem/Res Mng,114,22.80,22.80,yes,+0.00
+affected_function,harmony,Pro/Tas Sch,28,5.60,5.60,yes,+0.00
+affected_function,harmony,Sto Mng,69,13.80,13.80,yes,+0.00
+affected_function,harmony,Dev/Drv,68,13.60,13.60,yes,+0.00
+affected_function,harmony,Net/Com,100,20.00,20.00,yes,+0.00
+affected_function,harmony,Com/Adp,12,2.40,2.40,yes,+0.00
+affected_function,harmony,Sec/Perm,90,18.00,18.00,yes,+0.00
+affected_function,harmony,Gra/Ren,19,3.80,3.80,yes,+0.00
+trigger_scenario,android,Per/Ide Dep,156,31.20,31.20,yes,+0.00
+trigger_scenario,android,Reg Ope,44,8.80,8.80,yes,+0.00
+trigger_scenario,android,Bor Con,185,37.00,37.00,yes,+0.00
+trigger_scenario,android,Con/Mul Thr,36,7.20,7.20,yes,+0.00
+trigger_scenario,android,Sta Dep,74,14.80,14.80,yes,+0.00
+trigger_scenario,android,Env Dep,5,1.00,1.00,yes,+0.00
+trigger_scenario,android,Mul/Loc Dep,0,0.00,0.00,yes,+0.00
+trigger_scenario,linux,Per/Ide Dep,8,1.60,1.60,yes,+0.00
+trigger_scenario,linux,Reg Ope,45,9.00,9.00,yes,+0.00
+trigger_scenario,linux,Bor Con,95,19.00,19.00,yes,+0.00
+trigger_scenario,linux,Con/Mul Thr,15,3.00,3.00,yes,+0.00
+trigger_scenario,linux,Sta Dep,26,5.20,5.20,yes,+0.00
+trigger_scenario,linux,Env Dep,310,62.00,62.00,yes,+0.00
+trigger_scenario,linux,Mul/Loc Dep,1,0.20,0.20,yes,+0.00
+trigger_scenario,harmony,Per/Ide Dep,14,2.80,2.80,yes,+0.00
+trigger_scenario,harmony,Reg Ope,33,6.60,6.60,yes,+0.00
+trigger_scenario,harmony,Bor Con,263,52.60,52.60,yes,+0.00
+trigger_scenario,harmony,Con/Mul Thr,120,24.00,24.00,yes,+0.00
+trigger_scenario,harmony,Sta Dep,56,11.20,11.20,yes,+0.00
+trigger_scenario,harmony,Env Dep,14,2.80,2.80,yes,+0.00
+trigger_scenario,harmony,Mul/Loc Dep,0,0.00,0.00,yes,+0.00
+severity,android,Critical,43,8.60,8.60,yes,+0.00
+severity,android,High,455,91.00,91.00,yes,+0.00
+severity,android,Medium,2,0.40,0.40,yes,+0.00
+severity,android,Low,0,0.00,0.00,yes,+0.00
+severity,android,Undecided,0,0.00,0.00,yes,+0.00
+severity,linux,Critical,13,2.60,2.60,yes,+0.00
+severity,linux,High,93,18.60,18.60,yes,+0.00
+severity,linux,Medium,57,11.40,11.40,yes,+0.00
+severity,linux,Low,11,2.20,2.20,yes,+0.00
+severity,linux,Undecided,326,65.20,65.20,yes,+0.00
+severity,harmony,Critical,1,0.20,0.20,yes,+0.00
+severity,harmony,High,112,22.40,22.40,yes,+0.00
+severity,harmony,Medium,257,51.40,51.40,yes,+0.00
+severity,harmony,Low,124,24.80,24.80,yes,+0.00
+severity,harmony,Undecided,6,1.20,1.20,yes,+0.00
+code_element,android,Class,16,3.20,3.20,yes,+0.00
+code_element,android,Function,178,35.60,35.60,yes,+0.00
+code_element,android,Signature,78,15.60,15.60,yes,+0.00
+code_element,android,Loop,19,3.80,3.80,yes,+0.00
+code_element,android,If,265,53.00,53.00,yes,+0.00
+code_element,android,Exception,41,8.20,8.20,yes,+0.00
+code_element,android,Call,317,63.40,63.40,yes,+0.00
+code_element,android,Assignment,142,28.40,28.40,yes,+0.00
+code_element,android,Return,77,15.40,15.40,yes,+0.00
+code_element,android,Condition,94,18.80,18.80,yes,+0.00
+code_element,android,Object,13,2.60,2.60,yes,+0.00
+code_element,android,Variable,238,47.60,47.60,yes,+0.00
+code_element,linux,Class,11,2.20,2.20,yes,+0.00
+code_element,linux,Function,77,15.40,15.40,yes,+0.00
+code_element,linux,Signature,61,12.20,12.20,yes,+0.00
+code_element,linux,Loop,21,4.20,4.20,yes,+0.00
+code_element,linux,If,187,37.40,37.40,yes,+0.00
+code_element,linux,Exception,11,2.20,2.20,yes,+0.00
+code_element,linux,Call,244,48.80,48.80,yes,+0.00
+code_element,linux,Assignment,272,54.40,54.40,yes,+0.00
+code_element,linux,Return,22,4.40,4.40,yes,+0.00
+code_element,linux,Condition,119,23.80,23.80,yes,+0.00
+code_element,linux,Object,19,3.80,3.80,yes,+0.00
+code_element,linux,Variable,234,46.80,46.80,yes,+0.00
+code_element,harmony,Class,7,1.40,1.40,yes,+0.00
+code_element,harmony,Function,68,13.60,13.60,yes,+0.00
+code_element,harmony,Signature,38,7.60,7.60,yes,+0.00
+code_element,harmony,Loop,15,3.00,3.00,yes,+0.00
+code_element,harmony,If,230,46.00,46.00,yes,+0.00
+code_element,harmony,Exception,1,0.20,0.20,yes,+0.00
+code_element,harmony,Call,309,61.80,61.80,yes,+0.00
+code_element,harmony,Assignment,159,31.80,31.80,yes,+0.00
+code_element,harmony,Return,101,20.20,20.20,yes,+0.00
+code_element,harmony,Condition,106,21.20,21.20,yes,+0.00
+code_element,harmony,Object,2,0.40,0.40,yes,+0.00
+code_element,harmony,Variable,191,38.20,38.20,yes,+0.00

@@ -1,0 +1,16 @@
+rule,pair,rho,categories
+concat_21_drop_shared_zeros,android-linux,0.16,21
+concat_21_drop_shared_zeros,android-harmony,0.08,20
+concat_21_drop_shared_zeros,linux-harmony,0.05,21
+concat_21_no_filter,android-linux,0.16,21
+concat_21_no_filter,android-harmony,0.21,21
+concat_21_no_filter,linux-harmony,0.05,21
+concat_26_with_severity,android-linux,0.13,26
+concat_26_with_severity,android-harmony,0.14,26
+concat_26_with_severity,linux-harmony,0.03,26
+concat_38_with_severity_and_code_elements,android-linux,0.35,38
+concat_38_with_severity_and_code_elements,android-harmony,0.39,38
+concat_38_with_severity_and_code_elements,linux-harmony,0.34,38
+mean_of_marginal_panels,android-linux,0.09,
+mean_of_marginal_panels,android-harmony,0.05,
+mean_of_marginal_panels,linux-harmony,-0.01,

@@ -1,0 +1,115 @@
+panel,os,category,ours_pct,ci95_low,ci95_high,ci95_width_pp
+os_layer,android,Kernel,6.00,4.00,8.20,4.20
+os_layer,android,SystemLib,20.20,16.80,23.60,6.80
+os_layer,android,RuntimeVM,0.40,0.00,1.00,1.00
+os_layer,android,Framework,18.00,14.80,21.40,6.60
+os_layer,android,SystemService,38.80,34.40,42.60,8.20
+os_layer,android,Application,16.60,13.40,20.00,6.60
+os_layer,linux,Kernel,15.80,13.00,19.00,6.01
+os_layer,linux,SystemLib,18.80,15.40,22.00,6.60
+os_layer,linux,RuntimeVM,0.20,0.00,0.60,0.60
+os_layer,linux,Framework,3.60,2.20,5.20,3.00
+os_layer,linux,SystemService,7.40,5.40,10.00,4.60
+os_layer,linux,Application,54.20,49.60,58.60,9.00
+os_layer,harmony,Kernel,71.80,67.40,75.60,8.20
+os_layer,harmony,SystemLib,6.80,4.80,9.00,4.20
+os_layer,harmony,RuntimeVM,8.80,6.40,11.20,4.80
+os_layer,harmony,Framework,2.80,1.40,4.40,3.00
+os_layer,harmony,SystemService,4.80,3.00,6.80,3.80
+os_layer,harmony,Application,5.00,3.00,7.00,4.00
+affected_function,android,Mem/Res Mng,12.40,9.60,15.60,6.00
+affected_function,android,Pro/Tas Sch,4.80,3.20,6.80,3.60
+affected_function,android,Sto Mng,3.60,2.20,5.40,3.20
+affected_function,android,Dev/Drv,7.20,5.20,9.40,4.20
+affected_function,android,Net/Com,3.20,1.80,4.80,3.00
+affected_function,android,Com/Adp,3.00,1.60,4.60,3.00
+affected_function,android,Sec/Perm,60.00,55.80,64.40,8.60
+affected_function,android,Gra/Ren,5.80,3.80,7.80,4.00
+affected_function,linux,Mem/Res Mng,2.00,1.00,3.20,2.20
+affected_function,linux,Pro/Tas Sch,3.60,2.00,5.20,3.20
+affected_function,linux,Sto Mng,8.40,6.00,10.80,4.80
+affected_function,linux,Dev/Drv,17.20,14.00,20.80,6.80
+affected_function,linux,Net/Com,6.60,4.60,8.80,4.20
+affected_function,linux,Com/Adp,41.20,36.60,45.60,9.00
+affected_function,linux,Sec/Perm,14.00,11.20,17.00,5.80
+affected_function,linux,Gra/Ren,7.00,4.80,9.40,4.60
+affected_function,harmony,Mem/Res Mng,22.80,19.00,26.60,7.60
+affected_function,harmony,Pro/Tas Sch,5.60,3.60,7.80,4.20
+affected_function,harmony,Sto Mng,13.80,10.80,17.00,6.20
+affected_function,harmony,Dev/Drv,13.60,10.80,16.40,5.60
+affected_function,harmony,Net/Com,20.00,16.59,23.60,7.01
+affected_function,harmony,Com/Adp,2.40,1.20,3.80,2.60
+affected_function,harmony,Sec/Perm,18.00,14.60,21.60,7.00
+affected_function,harmony,Gra/Ren,3.80,2.20,5.60,3.40
+trigger_scenario,android,Per/Ide Dep,31.20,27.20,35.40,8.20
+trigger_scenario,android,Reg Ope,8.80,6.40,11.40,5.00
+trigger_scenario,android,Bor Con,37.00,33.20,41.40,8.20
+trigger_scenario,android,Con/Mul Thr,7.20,5.00,9.60,4.60
+trigger_scenario,android,Sta Dep,14.80,11.80,18.20,6.40
+trigger_scenario,android,Env Dep,1.00,0.20,2.00,1.80
+trigger_scenario,android,Mul/Loc Dep,0.00,0.00,0.00,0.00
+trigger_scenario,linux,Per/Ide Dep,1.60,0.60,2.80,2.20
+trigger_scenario,linux,Reg Ope,9.00,6.40,11.60,5.20
+trigger_scenario,linux,Bor Con,19.00,15.60,22.80,7.20
+trigger_scenario,linux,Con/Mul Thr,3.00,1.60,4.60,3.00
+trigger_scenario,linux,Sta Dep,5.20,3.20,7.20,4.00
+trigger_scenario,linux,Env Dep,62.00,58.00,65.80,7.80
+trigger_scenario,linux,Mul/Loc Dep,0.20,0.00,0.60,0.60
+trigger_scenario,harmony,Per/Ide Dep,2.80,1.60,4.40,2.80
+trigger_scenario,harmony,Reg Ope,6.60,4.60,8.80,4.20
+trigger_scenario,harmony,Bor Con,52.60,48.00,57.20,9.20
+trigger_scenario,harmony,Con/Mul Thr,24.00,20.20,27.80,7.60
+trigger_scenario,harmony,Sta Dep,11.20,8.79,13.80,5.01
+trigger_scenario,harmony,Env Dep,2.80,1.40,4.40,3.00
+trigger_scenario,harmony,Mul/Loc Dep,0.00,0.00,0.00,0.00
+severity,android,Critical,8.60,6.20,11.20,5.00
+severity,android,High,91.00,88.40,93.40,5.00
+severity,android,Medium,0.40,0.00,1.00,1.00
+severity,android,Low,0.00,0.00,0.00,0.00
+severity,android,Undecided,0.00,0.00,0.00,0.00
+severity,linux,Critical,2.60,1.40,4.00,2.60
+severity,linux,High,18.60,15.20,22.00,6.80
+severity,linux,Medium,11.40,9.00,14.20,5.20
+severity,linux,Low,2.20,0.80,3.60,2.80
+severity,linux,Undecided,65.20,61.00,69.20,8.20
+severity,harmony,Critical,0.20,0.00,0.60,0.60
+severity,harmony,High,22.40,19.00,26.40,7.40
+severity,harmony,Medium,51.40,47.00,55.60,8.60
+severity,harmony,Low,24.80,21.00,28.40,7.40
+severity,harmony,Undecided,1.20,0.40,2.20,1.80
+code_element,android,Class,3.20,1.80,5.00,3.20
+code_element,android,Function,35.60,31.20,40.00,8.80
+code_element,android,Signature,15.60,12.80,18.80,6.00
+code_element,android,Loop,3.80,2.20,5.40,3.20
+code_element,android,If,53.00,48.80,57.40,8.60
+code_element,android,Exception,8.20,5.80,10.40,4.60
+code_element,android,Call,63.40,59.40,67.40,8.00
+code_element,android,Assignment,28.40,24.40,32.20,7.80
+code_element,android,Return,15.40,12.20,18.60,6.40
+code_element,android,Condition,18.80,15.60,22.40,6.80
+code_element,android,Object,2.60,1.40,4.00,2.60
+code_element,android,Variable,47.60,43.00,52.00,9.00
+code_element,linux,Class,2.20,1.00,3.60,2.60
+code_element,linux,Function,15.40,12.40,18.60,6.20
+code_element,linux,Signature,12.20,9.40,15.20,5.80
+code_element,linux,Loop,4.20,2.60,6.00,3.40
+code_element,linux,If,37.40,33.40,41.60,8.20
+code_element,linux,Exception,2.20,1.00,3.40,2.40
+code_element,linux,Call,48.80,44.20,53.20,9.00
+code_element,linux,Assignment,54.40,50.00,59.00,9.00
+code_element,linux,Return,4.40,2.80,6.20,3.40
+code_element,linux,Condition,23.80,20.20,27.60,7.40
+code_element,linux,Object,3.80,2.20,5.40,3.20
+code_element,linux,Variable,46.80,42.60,51.40,8.80
+code_element,harmony,Class,1.40,0.40,2.60,2.20
+code_element,harmony,Function,13.60,10.60,16.80,6.20
+code_element,harmony,Signature,7.60,5.40,10.00,4.60
+code_element,harmony,Loop,3.00,1.60,4.60,3.00
+code_element,harmony,If,46.00,41.40,50.40,9.00
+code_element,harmony,Exception,0.20,0.00,0.60,0.60
+code_element,harmony,Call,61.80,57.60,66.00,8.40
+code_element,harmony,Assignment,31.80,27.80,35.60,7.80
+code_element,harmony,Return,20.20,16.80,24.00,7.20
+code_element,harmony,Condition,21.20,17.60,24.80,7.20
+code_element,harmony,Object,0.40,0.00,1.00,1.00
+code_element,harmony,Variable,38.20,34.20,42.80,8.60

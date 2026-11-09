@@ -1,0 +1,10 @@
+panel,panel_label,pair,category_count,paper_rho,observed_rho,point_match,ci95_low,ci95_high,same_sign_pct,abs_rho_below_0_4_pct,valid_resamples,undefined_resamples
+a_os_layer,OS layer,Android–Linux,6,0.26,0.257143,yes,-0.300000,0.542857,94.34,76.09,10000,0
+a_os_layer,OS layer,Android–HarmonyOS,6,-0.66,-0.657143,yes,-0.885714,-0.257143,99.68,8.14,10000,0
+a_os_layer,OS layer,Linux–HarmonyOS,6,0.09,0.085714,yes,-0.264820,0.314286,62.73,98.79,10000,0
+b_affected_function,Affected function,Android–Linux,8,-0.19,-0.190476,yes,-0.380952,0.142857,86.28,98.36,10000,0
+b_affected_function,Affected function,Android–HarmonyOS,8,0.43,0.428571,yes,0.095238,0.694623,99.42,45.83,10000,0
+b_affected_function,Affected function,Linux–HarmonyOS,8,-0.52,-0.523810,yes,-0.595238,-0.190476,99.94,43.10,10000,0
+c_trigger_scenario,Trigger scenario,Android–Linux,7,0.21,0.214286,yes,-0.405840,0.321429,62.21,97.44,10000,0
+c_trigger_scenario,Trigger scenario,Android–HarmonyOS,6,0.38,0.376851,yes,0.085714,0.600000,97.98,54.69,10000,0
+c_trigger_scenario,Trigger scenario,Linux–HarmonyOS,7,0.41,0.414431,yes,-0.085714,0.500000,81.02,68.12,10000,0

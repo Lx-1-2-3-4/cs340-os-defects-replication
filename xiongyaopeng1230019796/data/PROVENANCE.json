@@ -1,0 +1,34 @@
+{
+  "dataset": "Public defect records released with 'Toward Understanding Operating System Defects' (arXiv:2608.20643v1)",
+  "source_url": "https://zuohongyao.github.io/",
+  "retrieved_utc": "2026-11-05T07:28:16Z",
+  "source_bytes": 767772,
+  "source_sha256": "93e57bce7ad332b254bd60da4417ae0efb6570448c2a0fa249edd4a6a20a17da",
+  "extraction_method": "regex over the embedded `var DATA = {...}` object + json.JSONDecoder",
+  "files": {
+    "defects_android.json": {
+      "sha256": "a7fff6ef6ab1474d31a1c247e68d3818382e1f095ebd29e09e8443c4f7513be1",
+      "bytes": 252810,
+      "records": 500,
+      "unique_bug_ids": 500,
+      "first_bug_id": "A-232799171",
+      "last_bug_id": "A-349777785"
+    },
+    "defects_harmony.json": {
+      "sha256": "49c36edbe9c1ff44d2e6b5218d37bfdc328af70e0decc3fb7738b20e109f2b69",
+      "bytes": 238848,
+      "records": 500,
+      "unique_bug_ids": 500,
+      "first_bug_id": "CVE-2025-21098",
+      "last_bug_id": "CVE-2024-31755"
+    },
+    "defects_linux.json": {
+      "sha256": "a21079dee00f037ed3d6b42ae458422b78e4ba1b1fc933f1fb7518953754f2ee",
+      "bytes": 278850,
+      "records": 500,
+      "unique_bug_ids": 500,
+      "first_bug_id": "2115654",
+      "last_bug_id": "2038834"
+    }
+  }
+}
