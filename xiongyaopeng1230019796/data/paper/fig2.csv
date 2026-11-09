@@ -1,0 +1,16 @@
+os,bucket,paper_pct
+android,0-10,34.00
+android,10-30,30.80
+android,30-50,15.00
+android,50-100,12.40
+android,100-500,7.80
+linux,0-10,45.60
+linux,10-30,23.20
+linux,30-50,10.20
+linux,50-100,9.20
+linux,100-500,11.80
+harmony,0-10,51.80
+harmony,10-30,25.80
+harmony,30-50,6.80
+harmony,50-100,9.20
+harmony,100-500,6.40

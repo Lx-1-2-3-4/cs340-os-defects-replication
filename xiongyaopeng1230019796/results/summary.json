@@ -1,0 +1,56 @@
+{
+  "paper": "arXiv:2608.20643v1",
+  "total_values": 603,
+  "matched_values": 600,
+  "match_rate_pct": 99.5,
+  "checks": {
+    "table2": {
+      "total": 114,
+      "matched": 114,
+      "match_rate_pct": 100.0
+    },
+    "table3": {
+      "total": 144,
+      "matched": 144,
+      "match_rate_pct": 100.0
+    },
+    "table4": {
+      "total": 126,
+      "matched": 126,
+      "match_rate_pct": 100.0
+    },
+    "table5": {
+      "total": 168,
+      "matched": 168,
+      "match_rate_pct": 100.0
+    },
+    "fig2": {
+      "total": 15,
+      "matched": 15,
+      "match_rate_pct": 100.0
+    },
+    "fig3": {
+      "total": 24,
+      "matched": 24,
+      "match_rate_pct": 100.0
+    },
+    "fig4": {
+      "total": 12,
+      "matched": 9,
+      "match_rate_pct": 75.0
+    }
+  },
+  "mismatch_count": 3,
+  "environment": {
+    "python_version": "3.14.6",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "machine": "AMD64"
+  },
+  "data_sha256": {
+    "defects_android.json": "a7fff6ef6ab1474d31a1c247e68d3818382e1f095ebd29e09e8443c4f7513be1",
+    "defects_linux.json": "a21079dee00f037ed3d6b42ae458422b78e4ba1b1fc933f1fb7518953754f2ee",
+    "defects_harmony.json": "49c36edbe9c1ff44d2e6b5218d37bfdc328af70e0decc3fb7738b20e109f2b69"
+  },
+  "reproduce_script_sha256": "72aba43bfd69a116f6a13e0c795b488b0b2d3feda6bba24c19438e249dc086be"
+}

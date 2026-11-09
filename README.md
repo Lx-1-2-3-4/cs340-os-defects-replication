@@ -8,6 +8,7 @@ submission in a separate folder.
 | --- | --- |
 | [`liuxin1240013249/`](liuxin1240013249/) | 刘鑫 (1240013249) |
 | [`wenruibao1240016315/`](wenruibao1240016315/) | 闻瑞宝 (1240016315) |
+| [`xiongyaopeng1230019796/`](xiongyaopeng1230019796/) | 熊耀鹏 (1230019796) |
 
 Open the README inside a member's folder for that submission's details. The
 repository root only holds this index and the shared repository files
