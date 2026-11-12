@@ -14,6 +14,7 @@ reproduce:
 extension:
 	$(PYTHON) extension/subsample_sensitivity.py --runs 3 --resamples 500
 	$(PYTHON) extension/severity_missing_labels.py
+	$(PYTHON) extension/patch_link_weighting.py
 
 validate:
 	$(PYTHON) scripts/validate_results.py

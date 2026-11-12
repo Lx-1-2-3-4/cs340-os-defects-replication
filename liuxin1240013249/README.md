@@ -119,9 +119,9 @@ match (Figure 4d) is more informative than the 600 that do.
 
 ## Extension
 
-Two experiments change one factor at a time, using the same dataset and label
-mappings as the reproduction. [`extension/README.md`](extension/README.md) has
-the design and the full results; in short:
+Three experiments change one factor at a time, using the same dataset and label
+mappings as the reproduction. See the [extension notes](extension/README.md)
+for the methods and full results.
 
 - **Sample-size sensitivity.** Subsampling the 500 defects per system down to
   n = 100 keeps 11 of the 15 (OS, dimension) top categories stable. HarmonyOS
@@ -131,15 +131,18 @@ the design and the full results; in short:
 - **Missing severity labels.** Linux has 65.20% `Undecided` severity records;
   excluding them moves the top Linux category from `Undecided` to `High`
   (18.60% → 53.45% of the labelled subset).
+- **Patch-field weighting.** Giving each distinct `Patch` field value equal
+  total weight keeps the `0–10` line bucket largest in all three systems. The
+  biggest change is in Android's `30–50` line bucket, from 15.00% to 13.74%.
 
-Run `make extension`, or the two scripts directly from this folder.
+Run `make extension`, or run the scripts directly from this folder.
 
 ## Repository layout
 
 ```
 data/       dataset snapshot, provenance, transcribed paper values
 scripts/    fetch, reproduce, three-run check, validation
-extension/  two extension experiments and their results
+extension/  extension experiments and their results
 results/    generated CSVs, summary, run logs
 docs/       claims, deviations, Figure 4d discrepancy analysis
 ```

@@ -1,11 +1,12 @@
 # Extension experiments
 
-Two experiments that change one factor at a time, using the same dataset and the
-same label mappings as the reproduction. Run them from the repository folder:
+Three experiments change one factor at a time, using the same dataset and label
+mappings as the reproduction. Run the commands from the project folder.
 
 ```bash
 python extension/subsample_sensitivity.py     # about 40 s
 python extension/severity_missing_labels.py   # under a second
+python extension/patch_link_weighting.py
 ```
 
 Results are committed under `extension/results/`.
@@ -58,7 +59,28 @@ treatment. For HarmonyOS the six missing records shift the shares by at most
 Files: `results/severity_missing_labels.csv`,
 `results/severity_missing_labels.md`.
 
+## 3. Patch-field weighting in Figure 2
+
+We trim surrounding whitespace and give each distinct `Patch` field value a
+total weight of one within its system. If `m` records share a field value, each
+contributes `1/m` to its line-count bucket. The denominator is the number of
+distinct field values (473 for Android, 492 for Linux, and 487 for HarmonyOS).
+
+The full field stays together. In Linux, 44 records contain multiple URLs in
+the field, and in HarmonyOS, six do. Counting individual URLs after splitting
+those fields gives 616 distinct URLs in Linux and 494 in HarmonyOS.
+
+Nine Android records point to the same Bluetooth commit. All nine report
+33 changed lines, so they add 9 to the `30–50` bucket by record count and
+1 after weighting.
+[Android Bluetooth commit](https://android.googlesource.com/platform/packages/modules/Bluetooth/+/806774b1cf641e0c0e7df8024e327febf23d7d7c)
+
+The `0–10` line bucket still has the largest share in all three systems. The
+biggest change is Android's `30–50` bucket, from 15.00% to 13.74%, a drop of
+1.26 percentage points.
+[`patch_link_weighting.csv`](results/patch_link_weighting.csv)
+
 ## Re-running
 
-`make extension` runs both scripts. They write to `extension/results/` by
-default; `--out-dir` changes that.
+`make extension` runs all three scripts and writes to `extension/results/`.
+The first two scripts also accept `--out-dir`.
