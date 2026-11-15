@@ -1,6 +1,7 @@
 PY ?= python
+MAIN ?= ../liuxin1240013249/results
 
-.PHONY: all reproduce compare validate triplicate extension fig4d clean
+.PHONY: all reproduce compare validate crosscheck triplicate extension fig4d clean
 
 all: reproduce compare validate
 
@@ -12,6 +13,9 @@ compare:
 
 validate:
 	$(PY) scripts/validate.py
+
+crosscheck:
+	$(PY) scripts/crosscheck.py --main $(MAIN)
 
 triplicate:
 	$(PY) scripts/triplicate.py
