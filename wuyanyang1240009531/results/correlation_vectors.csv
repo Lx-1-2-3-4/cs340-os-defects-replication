@@ -1,0 +1,64 @@
+panel,pair,category,left_count,right_count,shared_zero
+a_os_layer,android-linux,Kernel Layer,30,79,False
+a_os_layer,android-linux,System Library Layer,101,94,False
+a_os_layer,android-linux,Runtime/Virtual Machine Layer,2,1,False
+a_os_layer,android-linux,Framework Layer,90,18,False
+a_os_layer,android-linux,System Service Layer,194,37,False
+a_os_layer,android-linux,Application Layer,83,271,False
+a_os_layer,android-harmony,Kernel Layer,30,359,False
+a_os_layer,android-harmony,System Library Layer,101,34,False
+a_os_layer,android-harmony,Runtime/Virtual Machine Layer,2,44,False
+a_os_layer,android-harmony,Framework Layer,90,14,False
+a_os_layer,android-harmony,System Service Layer,194,24,False
+a_os_layer,android-harmony,Application Layer,83,25,False
+a_os_layer,linux-harmony,Kernel Layer,79,359,False
+a_os_layer,linux-harmony,System Library Layer,94,34,False
+a_os_layer,linux-harmony,Runtime/Virtual Machine Layer,1,44,False
+a_os_layer,linux-harmony,Framework Layer,18,14,False
+a_os_layer,linux-harmony,System Service Layer,37,24,False
+a_os_layer,linux-harmony,Application Layer,271,25,False
+b_affected_function,android-linux,Memory and Resource Management,62,10,False
+b_affected_function,android-linux,Process and Task Scheduling,24,18,False
+b_affected_function,android-linux,Storage Management,18,42,False
+b_affected_function,android-linux,Device Management and Drivers,36,86,False
+b_affected_function,android-linux,Network and Communication,16,33,False
+b_affected_function,android-linux,Compatibility and Adaptation,15,206,False
+b_affected_function,android-linux,Security and Permission Control,300,70,False
+b_affected_function,android-linux,Graphics and Rendering,29,35,False
+b_affected_function,android-harmony,Memory and Resource Management,62,114,False
+b_affected_function,android-harmony,Process and Task Scheduling,24,28,False
+b_affected_function,android-harmony,Storage Management,18,69,False
+b_affected_function,android-harmony,Device Management and Drivers,36,68,False
+b_affected_function,android-harmony,Network and Communication,16,100,False
+b_affected_function,android-harmony,Compatibility and Adaptation,15,12,False
+b_affected_function,android-harmony,Security and Permission Control,300,90,False
+b_affected_function,android-harmony,Graphics and Rendering,29,19,False
+b_affected_function,linux-harmony,Memory and Resource Management,10,114,False
+b_affected_function,linux-harmony,Process and Task Scheduling,18,28,False
+b_affected_function,linux-harmony,Storage Management,42,69,False
+b_affected_function,linux-harmony,Device Management and Drivers,86,68,False
+b_affected_function,linux-harmony,Network and Communication,33,100,False
+b_affected_function,linux-harmony,Compatibility and Adaptation,206,12,False
+b_affected_function,linux-harmony,Security and Permission Control,70,90,False
+b_affected_function,linux-harmony,Graphics and Rendering,35,19,False
+c_trigger_scenario,android-linux,Permission/Identity Dependency Trigger,156,8,False
+c_trigger_scenario,android-linux,Regular Operation Trigger,44,45,False
+c_trigger_scenario,android-linux,Boundary Condition Trigger,185,95,False
+c_trigger_scenario,android-linux,Concurrency/Multi-thread Trigger,36,15,False
+c_trigger_scenario,android-linux,State Dependency Trigger,74,26,False
+c_trigger_scenario,android-linux,Environment Dependency Trigger,5,310,False
+c_trigger_scenario,android-linux,Multi-Language/Localization Trigger,0,1,False
+c_trigger_scenario,android-harmony,Permission/Identity Dependency Trigger,156,14,False
+c_trigger_scenario,android-harmony,Regular Operation Trigger,44,33,False
+c_trigger_scenario,android-harmony,Boundary Condition Trigger,185,263,False
+c_trigger_scenario,android-harmony,Concurrency/Multi-thread Trigger,36,120,False
+c_trigger_scenario,android-harmony,State Dependency Trigger,74,56,False
+c_trigger_scenario,android-harmony,Environment Dependency Trigger,5,14,False
+c_trigger_scenario,android-harmony,Multi-Language/Localization Trigger,0,0,True
+c_trigger_scenario,linux-harmony,Permission/Identity Dependency Trigger,8,14,False
+c_trigger_scenario,linux-harmony,Regular Operation Trigger,45,33,False
+c_trigger_scenario,linux-harmony,Boundary Condition Trigger,95,263,False
+c_trigger_scenario,linux-harmony,Concurrency/Multi-thread Trigger,15,120,False
+c_trigger_scenario,linux-harmony,State Dependency Trigger,26,56,False
+c_trigger_scenario,linux-harmony,Environment Dependency Trigger,310,14,False
+c_trigger_scenario,linux-harmony,Multi-Language/Localization Trigger,1,0,False

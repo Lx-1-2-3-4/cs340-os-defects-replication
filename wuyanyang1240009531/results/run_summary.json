@@ -1,0 +1,148 @@
+{
+  "all_category_matches": 8,
+  "audit": {
+    "issue_code_counts": {
+      "AMBIGUOUS_ALTERNATIVE_BUCKET": 3,
+      "LINE_SUM_MISMATCH": 1,
+      "LOWER_BOUND_COUNT": 7,
+      "SHARED_PATCH_FIELD": 30,
+      "ZERO_FUNCTIONS": 177
+    },
+    "records_per_os": {
+      "android": 500,
+      "harmony": 500,
+      "linux": 500
+    },
+    "severity_counts": {
+      "ERROR": 0,
+      "INFO": 214,
+      "WARN": 4
+    },
+    "source_data_modified": false
+  },
+  "drop_shared_zero_matches": 9,
+  "half_open_histogram_matches": 39,
+  "histogram_cells": 39,
+  "histogram_overview": [
+    {
+      "half_open_top_buckets": [
+        0
+      ],
+      "metric": "lines",
+      "os": "android",
+      "right_closed_guaranteed_unique_top": [
+        0
+      ],
+      "top_set_unchanged": true,
+      "uncertain_alternative_records": 0
+    },
+    {
+      "half_open_top_buckets": [
+        0
+      ],
+      "metric": "lines",
+      "os": "linux",
+      "right_closed_guaranteed_unique_top": [
+        0
+      ],
+      "top_set_unchanged": true,
+      "uncertain_alternative_records": 0
+    },
+    {
+      "half_open_top_buckets": [
+        0
+      ],
+      "metric": "lines",
+      "os": "harmony",
+      "right_closed_guaranteed_unique_top": [
+        0
+      ],
+      "top_set_unchanged": true,
+      "uncertain_alternative_records": 0
+    },
+    {
+      "half_open_top_buckets": [
+        0
+      ],
+      "metric": "functions",
+      "os": "android",
+      "right_closed_guaranteed_unique_top": [
+        0
+      ],
+      "top_set_unchanged": true,
+      "uncertain_alternative_records": 0
+    },
+    {
+      "half_open_top_buckets": [
+        0
+      ],
+      "metric": "functions",
+      "os": "linux",
+      "right_closed_guaranteed_unique_top": [
+        0
+      ],
+      "top_set_unchanged": true,
+      "uncertain_alternative_records": 0
+    },
+    {
+      "half_open_top_buckets": [
+        0
+      ],
+      "metric": "functions",
+      "os": "harmony",
+      "right_closed_guaranteed_unique_top": [
+        0
+      ],
+      "top_set_unchanged": true,
+      "uncertain_alternative_records": 3
+    },
+    {
+      "half_open_top_buckets": [
+        0
+      ],
+      "metric": "files",
+      "os": "android",
+      "right_closed_guaranteed_unique_top": [
+        0
+      ],
+      "top_set_unchanged": true,
+      "uncertain_alternative_records": 0
+    },
+    {
+      "half_open_top_buckets": [
+        0
+      ],
+      "metric": "files",
+      "os": "linux",
+      "right_closed_guaranteed_unique_top": [
+        0
+      ],
+      "top_set_unchanged": true,
+      "uncertain_alternative_records": 0
+    },
+    {
+      "half_open_top_buckets": [
+        0
+      ],
+      "metric": "files",
+      "os": "harmony",
+      "right_closed_guaranteed_unique_top": [
+        0
+      ],
+      "top_set_unchanged": true,
+      "uncertain_alternative_records": 0
+    }
+  ],
+  "interpretation": "Rounding agreement is distinct from methodological validation; a sensitivity contrast is not a correction.",
+  "largest_absolute_bucket_change_pp": 14.4,
+  "largest_change_cell": {
+    "bucket_index": 0,
+    "metric": "files",
+    "os": "linux"
+  },
+  "metrics": 135,
+  "records": 1500,
+  "rho_strength_changes": 1,
+  "uncertain_alternative_cells": 2,
+  "zero_comparisons": 9
+}

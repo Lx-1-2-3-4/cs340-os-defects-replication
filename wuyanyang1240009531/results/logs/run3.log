@@ -1,0 +1,5 @@
+audit: {'ERROR': 0, 'WARN': 4, 'INFO': 214}; baseline histogram matches: 39/39
+rho matches: full categories 8/9; inferred zero filter 9/9
+largest bucket change: 14.40 pp; 135 metrics/bounds recorded
+
+STDERR:

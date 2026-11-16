@@ -1,0 +1,5 @@
+# Preserve byte-for-byte verification after Windows/Linux Git checkouts.
+.gitattributes text eol=lf
+*.log text eol=lf
+*.svg text eol=lf
+*.html text eol=lf

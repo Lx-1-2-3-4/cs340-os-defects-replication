@@ -1,0 +1,219 @@
+severity,code,os,bug_ids,field,observed,expected_or_context
+INFO,ZERO_FUNCTIONS,android,A-232799171,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-346797131,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-284989074,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-382775095,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-369103643,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-364026473,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-364027949,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-364027038,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-364025411,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-2515141702,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-329701910,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-304280682,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-3243211472,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-293199910,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-298057702,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-279766766,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-261723753,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,android,A-189942529,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,SHARED_PATCH_FIELD,android,A-245135112 | A-245137718,Patch,https://android.googlesource.com/platform/frameworks/av/+/ea6131efa76a0b2a12724ffd157909e2c6fb4036%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-283264674 | A-283101289 | A-281848557 | A-281666022 | A-281665050 | A-281534749 | A-281533566,Patch,https://android.googlesource.com/platform/frameworks/base/+/08becc8c600f14c5529115cc1a1e0c97cd503f33%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-232798676 | A-336490997,Patch,https://android.googlesource.com/platform/frameworks/base/+/26522c0e82fd3a9bcbd01409217291d97dcdabcf%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-286235483 | A-292104015,Patch,https://android.googlesource.com/platform/frameworks/base/+/2d1d69e1571c7814661b81a468af127c940a1cd8%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-369351375 | A-360846772 | A-370831157,Patch,https://android.googlesource.com/platform/frameworks/base/+/985bdc676ac5ea4f35be4b56b74f723afe5b2af3%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-2999308712 | A-265798288,Patch,https://android.googlesource.com/platform/frameworks/base/+/f810d81839af38ee121c446105ca67cb12992fc6%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-333364513 | A-316891059,Patch,https://android.googlesource.com/platform/packages/apps/Settings/+/f1d0079c91734168c150f839168544f407b17b06%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-289375038 | A-289811388,Patch,https://android.googlesource.com/platform/packages/modules/Bluetooth/+/090ca53cc13c12e3763777a6a3c7367641e9808f%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-375408314 | A-375409435,Patch,https://android.googlesource.com/platform/packages/modules/Bluetooth/+/37bcf769c1aa8dfa8e5524858d47f6a80b765fa4%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-375397164 | A-375397720 | A-375398779 | A-375404242 | A-375397370 | A-375159480 | A-375159652 | A-375160214 | A-375396810,Patch,https://android.googlesource.com/platform/packages/modules/Bluetooth/+/806774b1cf641e0c0e7df8024e327febf23d7d7c%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-364026473 | A-364027949 | A-364027038 | A-364025411,Patch,https://android.googlesource.com/platform/packages/modules/Bluetooth/+/c7468e64bb5e821563a910ccd8e5693c179c9da4%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,android,A-3762591662 | A-3764615512,Patch,https://android.googlesource.com/platform/packages/services/Telecomm/+/685c2fc2f6b40bb2113db77da270c7b7220791c4%5E%21/,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,ZERO_FUNCTIONS,linux,2114712,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2113496,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2112315,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2112262,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2111789,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2108966,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2107596,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2106394,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2106338,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2106038,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2104942,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2104908,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2104307,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2104011,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2103890,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2102236,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2100930,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2100837,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2100732,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2100652,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2100583,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2099881,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2099698,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2095529,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2095464,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2092286,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2092139,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2091744,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2091439,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2091392,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2089696,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2089773,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2089722,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2089367,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2083754,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2088201,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2087816,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2086920,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2086110,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2086104,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2085067,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2084693,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2084094,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2083867,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2083855,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2083705,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2083435,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2083131,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2082160,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2056361,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2056080,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2081799,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2080622,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2080493,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2080358,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2078638,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2077929,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2077779,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2077334,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2076176,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2076151,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2075550,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2071468,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2074212,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2073688,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2073010,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2071891,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2071841,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2071678,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2070081,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2070057,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2069802,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2069647,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2068674,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2054343 (2),Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2067948,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2067785,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2067261,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2066148 (2),Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2065919,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2064959,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2064861,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2063510,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2063344,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2063079,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2062968,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2062414,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2062058,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2061815,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2061727,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2061637,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2061253,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2060848,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2060825,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2060628,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2060262,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2060214,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2060151,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2059756,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2059739,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2059550,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2059344,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2058758,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2058401,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2058193,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2058066 (1),Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2057965,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2048923,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2055783,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2055345,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2055055,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2055003,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2054782,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2054296,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2054091,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2053024,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2052801,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2052708,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2052578,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2051952,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2051288,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2048442,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2047862,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2047303,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2047298,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2046322,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2046150,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2046082,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2045844,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2045816,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2045621,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2045302,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2045290,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2045000,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2044546,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2044383,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2044369,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+WARN,LINE_SUM_MISMATCH,linux,2044216,Line Changes,349,"331 deletions + 28 additions = 359; verify measurement definition, do not auto-correct"
+INFO,ZERO_FUNCTIONS,linux,2044019,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2042710,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2042394,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2042106,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2041171,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2040082,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2039873,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,linux,2039611,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,SHARED_PATCH_FIELD,linux,2066148 (1) | 2066148 (2) | 2066148 (3) | 2066148 (4),Patch,https://bugs.launchpad.net/ubuntu/+source/criu/+bug/2066148/+attachment/5805458/+files/deb.diff,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,linux,2054343 (1) | 2054343 (2),Patch,https://bugs.launchpad.net/ubuntu/+source/gcc-13/+bug/2054343/+attachment/5873490/+files/gcc-10-focal.debdiff,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,linux,2065432 (1) | 2065432 (2),Patch,https://bugs.launchpad.net/ubuntu/+source/gnome-shell/+bug/2065432/+attachment/5810879/+files/noble.debdiff,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,linux,2029480 | 2029483,Patch,https://bugs.launchpad.net/ubuntu/+source/hplip/+bug/2029480/+attachment/5690132/+files/hplip-use-raw-strings.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,linux,2058066 (1) | 2058066 (2),Patch,https://bugs.launchpad.net/ubuntu/+source/qtwebengine-opensource-src/+bug/2058066/+attachment/5756290/+files/qtwebengine-opensource-src.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,linux,2061529 (1) | 2061529 (2),Patch,https://bugs.launchpad.net/ubuntu/+source/yubikey-manager-qt/+bug/2061529/+attachment/5894268/+files/pyotherside-noble-v3.debdiff,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,LOWER_BOUND_COUNT,harmony,CVE-2024-22180,Involved Functions,20+,lower bound; only classify if bucket is unambiguous
+INFO,LOWER_BOUND_COUNT,harmony,CVE-2024-22092,Involved Functions,10+,lower bound; only classify if bucket is unambiguous
+WARN,AMBIGUOUS_ALTERNATIVE_BUCKET,harmony,CVE-2024-22092,Involved Functions,10+,"right_closed: censored measurement could belong to multiple buckets; report bounds, never impute the lower bound as exact"
+INFO,LOWER_BOUND_COUNT,harmony,CVE-2024-28226,Involved Functions,10+,lower bound; only classify if bucket is unambiguous
+WARN,AMBIGUOUS_ALTERNATIVE_BUCKET,harmony,CVE-2024-28226,Involved Functions,10+,"right_closed: censored measurement could belong to multiple buckets; report bounds, never impute the lower bound as exact"
+INFO,LOWER_BOUND_COUNT,harmony,CVE-2023-46708,Involved Functions,30+,lower bound; only classify if bucket is unambiguous
+INFO,LOWER_BOUND_COUNT,harmony,CVE-2023-49602,Involved Functions,20+,lower bound; only classify if bucket is unambiguous
+INFO,LOWER_BOUND_COUNT,harmony,CVE-2023-49135,Involved Functions,30+,lower bound; only classify if bucket is unambiguous
+INFO,ZERO_FUNCTIONS,harmony,CVE-2025-27534 (10363),Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,LOWER_BOUND_COUNT,harmony,CVE-2024-38386,Involved Functions,10+,lower bound; only classify if bucket is unambiguous
+WARN,AMBIGUOUS_ALTERNATIVE_BUCKET,harmony,CVE-2024-38386,Involved Functions,10+,"right_closed: censored measurement could belong to multiple buckets; report bounds, never impute the lower bound as exact"
+INFO,ZERO_FUNCTIONS,harmony,CVE-2024-53142 (CVE-2024-50258),Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2024-44949,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2024-46714,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2023-7010,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2024-7004,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2024-46798,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2024-42161,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2024-42154,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2024-41098 (CVE-2024-42106),Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2024-5843,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2024-3840,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2023-52845,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,ZERO_FUNCTIONS,harmony,CVE-2023-52756,Involved Functions,0,requires interpretation; globals/configuration can legitimately involve no functions
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2024-22099 | CVE-2024-26903,Patch,https://gitee.com/openharmony/kernel_linux_5.10/commit/2a121ca8e3c0b9aca01e058e3f2bb7a56186f505.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2024-47668 | CVE-2024-50067 (CVE-2024-47668),Patch,https://gitee.com/openharmony/kernel_linux_5.10/commit/8980275068dc9f9e7d2b3bfa32a9b5d68150bfc0.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2024-43853 | CVE-2024-42114 (CVE-2024-43853),Patch,https://gitee.com/openharmony/kernel_linux_5.10/commit/99294af17f9be9211148a4676cf956005c41f958.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2024-26878 | CVE-2023-52501,Patch,https://gitee.com/openharmony/kernel_linux_5.10/commit/a11fc10154df54a9df78ef165c74decc62bc27fa.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2024-42106 | CVE-2024-41098 (CVE-2024-42106),Patch,https://gitee.com/openharmony/kernel_linux_5.10/commit/b1695826a1fa63394446c4f41527ac80f146b6a4.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2023-52889 | CVE-2024-41098 (CVE-2023-52889),Patch,https://gitee.com/openharmony/kernel_linux_5.10/commit/c6f5d92213bd6ff2ca0a80c219ab3c96c49f60a6.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2021-47200 | CVE-2024-50038 (CVE-2021-47200),Patch,https://gitee.com/openharmony/kernel_linux_5.10/commit/ceda96002c71ca881cff5974c154cc7b189f30dd.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2024-42271 | CVE-2024-41098 (CVE-2024-42271),Patch,https://gitee.com/openharmony/kernel_linux_5.10/commit/ef09474f66d5a6e8f71585dc677fe280915d20b9.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2024-42283 | CVE-2024-41098 (CVE-2024-42283),Patch,https://gitee.com/openharmony/kernel_linux_5.10/commit/fe99504b0e2b77465c1a53d865783ad43db633fb.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2024-46819 | CVE-2024-46822 | CVE-2024-44949,Patch,https://gitee.com/openharmony/kernel_linux_5.10/pulls/1656.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2024-39612 | CVE-2024-21816,Patch,https://gitee.com/openharmony/resourceschedule_background_task_mgr/pulls/470.patch,shared full field; not necessarily duplicate defects or one independent patch entity
+INFO,SHARED_PATCH_FIELD,harmony,CVE-2024-2398 | CVE-2024-2004,Patch,https://gitee.com/openharmony/third_party_curl/pulls/225.patch,shared full field; not necessarily duplicate defects or one independent patch entity

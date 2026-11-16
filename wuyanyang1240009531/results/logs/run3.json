@@ -1,0 +1,57 @@
+{
+  "baseline_commit": "91697f2eb9ca51105f8c976d266081b9daa1e7be",
+  "checkout_commit": "6871626d5243a2d8478dbc74c5d5ad7640a9fbae",
+  "command": "python -B scripts/run_sensitivity.py --data-dir <recorded-input> --paper-dir <recorded-reference> --out-dir <isolated-run>",
+  "design": "Two separate single-factor experiments; no relabelling, no data repair, no stochastic resampling.",
+  "elapsed_seconds": 0.867768,
+  "environment": {
+    "compiler": "not used: interpreted Python and standard library only",
+    "implementation": "CPython",
+    "kernel_or_build": "10.0.26200",
+    "logical_cpus": 28,
+    "machine": "AMD64",
+    "os": "Windows",
+    "os_release": "11",
+    "physical_memory_bytes": 16944848896,
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.12.14"
+  },
+  "execution_log_sha256": "434e32f7cc859acf6efc017e5eeabbae48961abe29850a0cc8d8d505221520ad",
+  "input_sha256": {
+    "data/PROVENANCE.json": "1d237fc11e1f1053f12ad64ab0a2c0eba74eaba79f9c0568079153becfcb730a",
+    "data/defects_android.json": "a7fff6ef6ab1474d31a1c247e68d3818382e1f095ebd29e09e8443c4f7513be1",
+    "data/defects_harmony.json": "49c36edbe9c1ff44d2e6b5218d37bfdc328af70e0decc3fb7738b20e109f2b69",
+    "data/defects_linux.json": "a21079dee00f037ed3d6b42ae458422b78e4ba1b1fc933f1fb7518953754f2ee",
+    "paper/fig2.csv": "ce8e7b61df6640dbbdab0a36370610c8800a7853377c4ac8e5ed3206079ef756",
+    "paper/fig3.csv": "2b855e07dfe48042c1b3cc820a0f299ea38a89d9e1fcb074a46df35813234b90",
+    "paper/fig4.csv": "b546393a82d84ac90c6843f0e4cd8bce00618201744351c71a10f7f8ce1a8984"
+  },
+  "member": "1240009531 吴彦阳",
+  "returncode": 0,
+  "run": 3,
+  "scientific_output_sha256": {
+    "audit_checks.csv": "c81e304354c656c6b1ac890135312b820f8cca513bde2657b9fb4b17dfa6fff0",
+    "audit_summary.json": "6883b77e29a2a4a8f2725ec90da2dc3e2ca61c91daaba1a07c240b8589f36751",
+    "binning_comparison.csv": "2d8e5b6f5f24c61f980ed02603f7ac4b980d9079d220ba1df4e32e7279957308",
+    "boundary_records.csv": "ddd7f37f7bf7dcaa86bdf3ca48f9be25c5a6441b2e85e12256edd9f53933cf0a",
+    "bucket_membership.csv": "a12f91f5393886a1b50e0743faa3def0c9a1e131e0cb4ef880b0da86146d9866",
+    "correlation_vectors.csv": "8680127daa9ad846b5867e40be6a610c571bc44b837043440d659551eb95615b",
+    "data_audit.csv": "bce21ef23daa0276097f20b8e093d685411f6d4e963a9b6fad8d9b50a4eb8747",
+    "run_metrics.csv": "24ca7d03182f1e3777e004092b7636250b2c800ab9e803e76418216be1b77bf3",
+    "run_summary.json": "1f8b3ee7de59d5580046b0cb4ff1682d5ceb3ea0cec6fb63ab416ed0168725ec",
+    "zero_policy_comparison.csv": "533306baf8fa33eed0cd5e75d4fb16bf6e28b1ec220d952938ea40f03c2d11d3"
+  },
+  "source_sha256": {
+    "scripts/audit_data.py": "280d4fd7c2965b8d17ba104cdc3157e6c212ce3ab9df5ade419db87e7946f29f",
+    "scripts/core.py": "678c9e8f4256b7ee9a44998c944d3184dddeb87cd0a0d3e81d2b5adcd06d45c7",
+    "scripts/plot_results.py": "288e34c34ce2464f4fda0d75162fa2f916e6d6ffd4b29689b7073c0eccb130a3",
+    "scripts/run_all.py": "b04d8bc75128c5af2b56e3080451095cbc11156bb50136dd13786cf8253cc8ee",
+    "scripts/run_sensitivity.py": "2ca9afe9718842395c8880f0d26460fe3505eaf314b141c980bcb82990b9c44f",
+    "scripts/run_triplicate.py": "5a2472adb353c6292af9805ec94dbb8004c43165e42e53cf808e04503aa82ec8",
+    "scripts/verify_results.py": "1d25393b871a147c2631f51a526222e130fcbe729d4307d0040bee665c19cc0a",
+    "tests/test_rules.py": "e7c1aa05ad56151334b442b2a52a3e5dc4270026f84320c28ecbe7241476fd0a"
+  },
+  "started_utc": "2026-11-16T02:32:11.534995+00:00",
+  "tail_intervals": "Unbounded final bins; finite labels in the paper are retained only as source labels.",
+  "working_tree_dirty": true
+}

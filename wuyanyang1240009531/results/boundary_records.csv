@@ -1,0 +1,462 @@
+os,bug_id,metric,source_value,censored,half_open_bucket,right_closed_bucket,right_closed_possible_buckets,movement
+android,A-277207798,lines,50,False,3,2,2,moved
+android,A-382064697,lines,50,False,3,2,2,moved
+android,A-368579654,lines,30,False,2,1,1,moved
+android,A-3311804221,lines,30,False,2,1,1,moved
+android,A-228837201,lines,50,False,3,2,2,moved
+android,A-367266072,lines,10,False,1,0,0,moved
+android,A-344620577,lines,10,False,1,0,0,moved
+android,A-327748846,lines,10,False,1,0,0,moved
+android,A-327749022,lines,10,False,1,0,0,moved
+android,A-3072880672,lines,10,False,1,0,0,moved
+android,A-321941232,lines,10,False,1,0,0,moved
+android,A-316153291,lines,10,False,1,0,0,moved
+android,A-316893159,lines,10,False,1,0,0,moved
+android,A-273936274,lines,30,False,2,1,1,moved
+android,A-275340684,lines,10,False,1,0,0,moved
+android,A-278303745,lines,30,False,2,1,1,moved
+android,A-269455813,lines,10,False,1,0,0,moved
+android,A-254736794,lines,10,False,1,0,0,moved
+android,A-278221085,lines,100,False,4,3,3,moved
+android,A-281018094,lines,10,False,1,0,0,moved
+android,A-270049379,lines,30,False,2,1,1,moved
+android,A-263358101,lines,10,False,1,0,0,moved
+android,A-331730488,lines,30,False,2,1,1,moved
+android,A-303227969,lines,30,False,2,1,1,moved
+android,A-421834866,lines,30,False,2,1,1,moved
+android,A-402319736,lines,30,False,2,1,1,moved
+android,A-378902342,lines,10,False,1,0,0,moved
+android,A-381339822,lines,30,False,2,1,1,moved
+android,A-436580278,lines,10,False,1,0,0,moved
+android,A-432751421,lines,10,False,1,0,0,moved
+linux,2113496,lines,10,False,1,0,0,moved
+linux,2104942,lines,10,False,1,0,0,moved
+linux,2100794,lines,10,False,1,0,0,moved
+linux,2100607,lines,10,False,1,0,0,moved
+linux,2095529,lines,10,False,1,0,0,moved
+linux,2064147,lines,10,False,1,0,0,moved
+linux,2087832,lines,10,False,1,0,0,moved
+linux,2087816,lines,10,False,1,0,0,moved
+linux,2071789,lines,10,False,1,0,0,moved
+linux,2071678,lines,10,False,1,0,0,moved
+linux,2069607,lines,10,False,1,0,0,moved
+linux,2067742,lines,50,False,3,2,2,moved
+linux,2055519,lines,10,False,1,0,0,moved
+linux,2045621,lines,10,False,1,0,0,moved
+linux,2044369,lines,30,False,2,1,1,moved
+linux,2042885,lines,10,False,1,0,0,moved
+linux,2039475,lines,10,False,1,0,0,moved
+harmony,CVE-2024-41157,lines,10,False,1,0,0,moved
+harmony,CVE-2025-27534 (10392),lines,10,False,1,0,0,moved
+harmony,CVE-2024-50035 (CVE-2024-49948),lines,10,False,1,0,0,moved
+harmony,CVE-2024-50035 (CVE-2024-50013),lines,10,False,1,0,0,moved
+harmony,CVE-2024-50058 (CVE-2024-47742),lines,30,False,2,1,1,moved
+harmony,CVE-2024-50058 (CVE-2024-50018),lines,10,False,1,0,0,moved
+harmony,CVE-2024-42131,lines,30,False,2,1,1,moved
+harmony,CVE-2024-44969,lines,10,False,1,0,0,moved
+harmony,CVE-2024-36489,lines,10,False,1,0,0,moved
+harmony,CVE-2024-34027,lines,10,False,1,0,0,moved
+harmony,CVE-2024-36905,lines,10,False,1,0,0,moved
+android,A-2000344762,functions,3,False,1,0,0,moved
+android,A-3221597242,functions,3,False,1,0,0,moved
+android,A-379362792,functions,5,False,2,1,1,moved
+android,A-3395323782,functions,10,False,3,2,2,moved
+android,A-317203980,functions,5,False,2,1,1,moved
+android,A-374257207,functions,3,False,1,0,0,moved
+android,A-2934580042,functions,10,False,3,2,2,moved
+android,A-368579654,functions,3,False,1,0,0,moved
+android,A-370958259,functions,5,False,2,1,1,moved
+android,A-3311804221,functions,5,False,2,1,1,moved
+android,A-364037868,functions,3,False,1,0,0,moved
+android,A-286235483,functions,3,False,1,0,0,moved
+android,A-292104015,functions,3,False,1,0,0,moved
+android,A-371975420,functions,3,False,1,0,0,moved
+android,A-370840874,functions,3,False,1,0,0,moved
+android,A-363248394,functions,3,False,1,0,0,moved
+android,A-340239088,functions,3,False,1,0,0,moved
+android,A-317048495,functions,3,False,1,0,0,moved
+android,A-326057017,functions,3,False,1,0,0,moved
+android,A-348352288,functions,10,False,3,2,2,moved
+android,A-3075322062,functions,3,False,1,0,0,moved
+android,A-343714914,functions,3,False,1,0,0,moved
+android,A-333364513,functions,5,False,2,1,1,moved
+android,A-341886134,functions,3,False,1,0,0,moved
+android,A-336648613,functions,3,False,1,0,0,moved
+android,A-317048338,functions,3,False,1,0,0,moved
+android,A-292160348,functions,5,False,2,1,1,moved
+android,A-317357401,functions,3,False,1,0,0,moved
+android,A-304290201,functions,5,False,2,1,1,moved
+android,A-293602970,functions,10,False,3,2,2,moved
+android,A-298635078,functions,3,False,1,0,0,moved
+android,A-304983146,functions,3,False,1,0,0,moved
+android,A-298094386,functions,10,False,3,2,2,moved
+android,A-300741186,functions,3,False,1,0,0,moved
+android,A-275057843,functions,5,False,2,1,1,moved
+android,A-272382770,functions,3,False,1,0,0,moved
+android,A-275895309,functions,3,False,1,0,0,moved
+android,A-283962802,functions,3,False,1,0,0,moved
+android,A-243381410,functions,3,False,1,0,0,moved
+android,A-285645039,functions,3,False,1,0,0,moved
+android,A-2703684762,functions,3,False,1,0,0,moved
+android,A-262244882,functions,10,False,3,2,2,moved
+android,A-278720336,functions,5,False,2,1,1,moved
+android,A-268193384,functions,5,False,2,1,1,moved
+android,A-245299920,functions,3,False,1,0,0,moved
+android,A-278221085,functions,10,False,3,2,2,moved
+android,A-227471459,functions,3,False,1,0,0,moved
+android,A-265431505,functions,3,False,1,0,0,moved
+android,A-260729089,functions,10,False,3,2,2,moved
+android,A-272042183,functions,10,False,3,2,2,moved
+android,A-265015796,functions,3,False,1,0,0,moved
+android,A-246541702,functions,5,False,2,1,1,moved
+android,A-261588851,functions,5,False,2,1,1,moved
+android,A-261589597,functions,3,False,1,0,0,moved
+android,A-259938771,functions,3,False,1,0,0,moved
+android,A-421834866,functions,5,False,2,1,1,moved
+android,A-402319736,functions,3,False,1,0,0,moved
+android,A-384514657,functions,3,False,1,0,0,moved
+android,A-419014146,functions,3,False,1,0,0,moved
+android,A-380885270,functions,3,False,1,0,0,moved
+android,A-325030433,functions,3,False,1,0,0,moved
+android,A-391894257,functions,5,False,2,1,1,moved
+android,A-388528350,functions,3,False,1,0,0,moved
+android,A-407764858,functions,5,False,2,1,1,moved
+android,A-419105158,functions,3,False,1,0,0,moved
+android,A-407991863,functions,3,False,1,0,0,moved
+android,A-391895151,functions,3,False,1,0,0,moved
+android,A-381885240,functions,3,False,1,0,0,moved
+android,A-443742829,functions,3,False,1,0,0,moved
+android,A-416490321,functions,3,False,1,0,0,moved
+android,A-418774489,functions,5,False,2,1,1,moved
+android,A-396666065,functions,5,False,2,1,1,moved
+android,A-443763663,functions,3,False,1,0,0,moved
+android,A-432751421,functions,3,False,1,0,0,moved
+android,A-396331793,functions,3,False,1,0,0,moved
+android,A-382239029,functions,3,False,1,0,0,moved
+android,A-377672115,functions,3,False,1,0,0,moved
+linux,2115654,functions,5,False,2,1,1,moved
+linux,2111902,functions,3,False,1,0,0,moved
+linux,2106320,functions,3,False,1,0,0,moved
+linux,2106195,functions,3,False,1,0,0,moved
+linux,2103420,functions,5,False,2,1,1,moved
+linux,2055835,functions,3,False,1,0,0,moved
+linux,2100863,functions,3,False,1,0,0,moved
+linux,2100633,functions,3,False,1,0,0,moved
+linux,2091171,functions,5,False,2,1,1,moved
+linux,2091013,functions,3,False,1,0,0,moved
+linux,2089789,functions,5,False,2,1,1,moved
+linux,2087666,functions,3,False,1,0,0,moved
+linux,2084949,functions,3,False,1,0,0,moved
+linux,2084210,functions,3,False,1,0,0,moved
+linux,2084045,functions,3,False,1,0,0,moved
+linux,2083233,functions,5,False,2,1,1,moved
+linux,2056101,functions,3,False,1,0,0,moved
+linux,2081078,functions,3,False,1,0,0,moved
+linux,2080640,functions,5,False,2,1,1,moved
+linux,2080395,functions,10,False,3,2,2,moved
+linux,2078301,functions,10,False,3,2,2,moved
+linux,2076130,functions,3,False,1,0,0,moved
+linux,2074186,functions,3,False,1,0,0,moved
+linux,2068672,functions,3,False,1,0,0,moved
+linux,2068055,functions,5,False,2,1,1,moved
+linux,2067831,functions,5,False,2,1,1,moved
+linux,2067742,functions,5,False,2,1,1,moved
+linux,2064211,functions,3,False,1,0,0,moved
+linux,2054799,functions,3,False,1,0,0,moved
+linux,2061687,functions,5,False,2,1,1,moved
+linux,2061529 (1),functions,3,False,1,0,0,moved
+linux,2061374,functions,5,False,2,1,1,moved
+linux,2059197,functions,3,False,1,0,0,moved
+linux,2059156,functions,3,False,1,0,0,moved
+linux,2058045,functions,10,False,3,2,2,moved
+linux,2054510,functions,5,False,2,1,1,moved
+linux,2054496,functions,5,False,2,1,1,moved
+linux,2052680,functions,3,False,1,0,0,moved
+linux,2052420,functions,3,False,1,0,0,moved
+linux,2052018,functions,3,False,1,0,0,moved
+linux,2048771,functions,3,False,1,0,0,moved
+linux,2048086,functions,3,False,1,0,0,moved
+linux,2047961,functions,5,False,2,1,1,moved
+linux,2044194,functions,3,False,1,0,0,moved
+linux,2044113,functions,5,False,2,1,1,moved
+linux,2043000,functions,5,False,2,1,1,moved
+linux,2041665,functions,3,False,1,0,0,moved
+linux,2040080,functions,5,False,2,1,1,moved
+linux,2039475,functions,3,False,1,0,0,moved
+harmony,CVE-2024-54030,functions,10,False,3,2,2,moved
+harmony,CVE-2024-27217,functions,3,False,1,0,0,moved
+harmony,CVE-2024-22092,functions,10+,True,3,,2|3,possible
+harmony,CVE-2024-28226,functions,10+,True,3,,2|3,possible
+harmony,CVE-2024-21826,functions,3,False,1,0,0,moved
+harmony,CVE-2024-21863,functions,10,False,3,2,2,moved
+harmony,CVE-2023-47857,functions,5,False,2,1,1,moved
+harmony,CVE-2025-25052 (OHPSIRT-2024-114294),functions,3,False,1,0,0,moved
+harmony,CVE-2025-25052 (OHPSIRT-2024-128524),functions,3,False,1,0,0,moved
+harmony,CVE-2024-2398,functions,5,False,2,1,1,moved
+harmony,CVE-2024-2004,functions,3,False,1,0,0,moved
+harmony,CVE-2023-6597,functions,5,False,2,1,1,moved
+harmony,CVE-2025-27534 (10119),functions,3,False,1,0,0,moved
+harmony,CVE-2025-27534 (10334),functions,5,False,2,1,1,moved
+harmony,CVE-2025-27534 (10468),functions,5,False,2,1,1,moved
+harmony,CVE-2025-27534 (10516),functions,3,False,1,0,0,moved
+harmony,CVE-2025-27534 (10806),functions,5,False,2,1,1,moved
+harmony,CVE-2024-38386,functions,10+,True,3,,2|3,possible
+harmony,CVE-2024-37077,functions,5,False,2,1,1,moved
+harmony,CVE-2024-23808 (1154),functions,3,False,1,0,0,moved
+harmony,CVE-2024-23808 (1712),functions,3,False,1,0,0,moved
+harmony,CVE-2024-23808 (1705),functions,5,False,2,1,1,moved
+harmony,CVE-2024-28951,functions,3,False,1,0,0,moved
+harmony,CVE-2024-29086,functions,3,False,1,0,0,moved
+harmony,CVE-2025-22452,functions,3,False,1,0,0,moved
+harmony,CVE-2025-23235,functions,3,False,1,0,0,moved
+harmony,CVE-2025-27131,functions,3,False,1,0,0,moved
+harmony,CVE-2025-26691,functions,3,False,1,0,0,moved
+harmony,CVE-2022-48944,functions,5,False,2,1,1,moved
+harmony,CVE-2024-56658,functions,3,False,1,0,0,moved
+harmony,CVE-2024-41013,functions,3,False,1,0,0,moved
+harmony,CVE-2024-56615,functions,3,False,1,0,0,moved
+harmony,CVE-2024-50082 (CVE-2024-47740),functions,5,False,2,1,1,moved
+harmony,CVE-2024-50082 (CVE-2024-47713),functions,5,False,2,1,1,moved
+harmony,CVE-2024-50082 (CVE-2024-50046),functions,3,False,1,0,0,moved
+harmony,CVE-2024-50063 (CVE-2024-47730),functions,3,False,1,0,0,moved
+harmony,CVE-2024-50063 (CVE-2024-47738),functions,5,False,2,1,1,moved
+harmony,CVE-2024-50063 (CVE-2024-50063),functions,3,False,1,0,0,moved
+harmony,CVE-2024-50063 (CVE-2024-49859),functions,3,False,1,0,0,moved
+harmony,CVE-2024-50038 (CVE-2024-49950),functions,5,False,2,1,1,moved
+harmony,CVE-2024-46822,functions,3,False,1,0,0,moved
+harmony,CVE-2024-46713,functions,3,False,1,0,0,moved
+harmony,CVE-2024-8088,functions,3,False,1,0,0,moved
+harmony,CVE-2024-43892,functions,3,False,1,0,0,moved
+harmony,CVE-2023-52622,functions,3,False,1,0,0,moved
+harmony,CVE-2023-52886,functions,3,False,1,0,0,moved
+harmony,CVE-2023-52635,functions,3,False,1,0,0,moved
+harmony,CVE-2024-6996,functions,3,False,1,0,0,moved
+harmony,CVE-2024-6989,functions,5,False,2,1,1,moved
+harmony,CVE-2024-42160,functions,3,False,1,0,0,moved
+harmony,CVE-2024-42084,functions,3,False,1,0,0,moved
+harmony,CVE-2024-42068,functions,3,False,1,0,0,moved
+harmony,CVE-2024-35884,functions,3,False,1,0,0,moved
+harmony,CVE-2024-5496,functions,5,False,2,1,1,moved
+harmony,CVE-2024-5840,functions,3,False,1,0,0,moved
+harmony,CVE-2024-5499,functions,3,False,1,0,0,moved
+harmony,CVE-2024-36971,functions,5,False,2,1,1,moved
+harmony,CVE-2021-47582,functions,3,False,1,0,0,moved
+harmony,CVE-2024-5535,functions,3,False,1,0,0,moved
+harmony,CVE-2024-5847,functions,5,False,2,1,1,moved
+harmony,CVE-2024-4603,functions,5,False,2,1,1,moved
+harmony,CVE-2024-4331,functions,5,False,2,1,1,moved
+harmony,CVE-2024-5157,functions,3,False,1,0,0,moved
+harmony,CVE-2024-36905,functions,3,False,1,0,0,moved
+harmony,CVE-2024-35910,functions,3,False,1,0,0,moved
+harmony,CVE-2021-47469,functions,3,False,1,0,0,moved
+harmony,CVE-2021-47506,functions,3,False,1,0,0,moved
+harmony,CVE-2024-26602,functions,3,False,1,0,0,moved
+harmony,CVE-2024-26862,functions,3,False,1,0,0,moved
+harmony,CVE-2024-27004,functions,5,False,2,1,1,moved
+android,A-3395323782,files,5,False,2,1,1,moved
+android,A-374257207,files,3,False,1,0,0,moved
+android,A-345258562,files,5,False,2,1,1,moved
+android,A-356117796,files,3,False,1,0,0,moved
+android,A-233605527,files,3,False,1,0,0,moved
+android,A-281044385,files,3,False,1,0,0,moved
+android,A-331180422,files,3,False,1,0,0,moved
+android,A-336323279,files,3,False,1,0,0,moved
+android,A-223376078,files,3,False,1,0,0,moved
+android,A-293602970,files,5,False,2,1,1,moved
+android,A-293301736,files,3,False,1,0,0,moved
+android,A-273936274,files,3,False,1,0,0,moved
+android,A-305664128,files,3,False,1,0,0,moved
+android,A-294104969,files,3,False,1,0,0,moved
+android,A-294228721,files,3,False,1,0,0,moved
+android,A-288896269,files,5,False,2,1,1,moved
+android,A-2703684762,files,3,False,1,0,0,moved
+android,A-274775190,files,3,False,1,0,0,moved
+android,A-2753399782,files,3,False,1,0,0,moved
+android,A-284297711,files,5,False,2,1,1,moved
+android,A-282932362,files,3,False,1,0,0,moved
+android,A-245299920,files,3,False,1,0,0,moved
+android,A-213170822,files,3,False,1,0,0,moved
+android,A-272020068,files,3,False,1,0,0,moved
+android,A-246541702,files,5,False,2,1,1,moved
+android,A-252766417,files,3,False,1,0,0,moved
+android,A-261589597,files,3,False,1,0,0,moved
+android,A-259938771,files,5,False,2,1,1,moved
+android,A-391895923,files,3,False,1,0,0,moved
+android,A-387498139,files,5,False,2,1,1,moved
+android,A-383131643,files,3,False,1,0,0,moved
+android,A-421834866,files,3,False,1,0,0,moved
+android,A-378505461,files,3,False,1,0,0,moved
+android,A-404256832,files,3,False,1,0,0,moved
+android,A-388029380,files,3,False,1,0,0,moved
+android,A-397216537,files,5,False,2,1,1,moved
+android,A-388528350,files,3,False,1,0,0,moved
+android,A-407764858,files,5,False,2,1,1,moved
+android,A-378088320,files,3,False,1,0,0,moved
+android,A-337775777,files,5,False,2,1,1,moved
+android,A-327137311,files,5,False,2,1,1,moved
+android,A-381885240,files,3,False,1,0,0,moved
+android,A-305710469,files,3,False,1,0,0,moved
+android,A-416490321,files,3,False,1,0,0,moved
+android,A-418774489,files,5,False,2,1,1,moved
+android,A-305710989,files,3,False,1,0,0,moved
+linux,2115654,files,5,False,2,1,1,moved
+linux,2114712,files,3,False,1,0,0,moved
+linux,2113496,files,3,False,1,0,0,moved
+linux,2111902,files,3,False,1,0,0,moved
+linux,2106744,files,3,False,1,0,0,moved
+linux,2106502,files,3,False,1,0,0,moved
+linux,2106320,files,3,False,1,0,0,moved
+linux,2104942,files,5,False,2,1,1,moved
+linux,2104307,files,3,False,1,0,0,moved
+linux,2104011,files,3,False,1,0,0,moved
+linux,2102186,files,3,False,1,0,0,moved
+linux,2100861,files,5,False,2,1,1,moved
+linux,2099914,files,3,False,1,0,0,moved
+linux,2098005,files,5,False,2,1,1,moved
+linux,2095400,files,3,False,1,0,0,moved
+linux,2091947,files,3,False,1,0,0,moved
+linux,2090972,files,3,False,1,0,0,moved
+linux,2090934,files,3,False,1,0,0,moved
+linux,2089789,files,5,False,2,1,1,moved
+linux,2089324,files,5,False,2,1,1,moved
+linux,2088620,files,10,False,3,2,2,moved
+linux,2087816,files,5,False,2,1,1,moved
+linux,2038761,files,5,False,2,1,1,moved
+linux,2084949,files,3,False,1,0,0,moved
+linux,2083233,files,5,False,2,1,1,moved
+linux,2082060,files,10,False,3,2,2,moved
+linux,2056194,files,5,False,2,1,1,moved
+linux,2056101,files,3,False,1,0,0,moved
+linux,2080493,files,3,False,1,0,0,moved
+linux,2079893,files,3,False,1,0,0,moved
+linux,2079868,files,3,False,1,0,0,moved
+linux,2078467,files,3,False,1,0,0,moved
+linux,2077979,files,3,False,1,0,0,moved
+linux,2076319,files,3,False,1,0,0,moved
+linux,2077929,files,3,False,1,0,0,moved
+linux,2077926,files,5,False,2,1,1,moved
+linux,2077779,files,3,False,1,0,0,moved
+linux,2077089,files,3,False,1,0,0,moved
+linux,2076977,files,3,False,1,0,0,moved
+linux,2076398,files,3,False,1,0,0,moved
+linux,2076262,files,3,False,1,0,0,moved
+linux,2076151,files,5,False,2,1,1,moved
+linux,2076084,files,3,False,1,0,0,moved
+linux,2075550,files,3,False,1,0,0,moved
+linux,2074186,files,3,False,1,0,0,moved
+linux,2073983,files,5,False,2,1,1,moved
+linux,2073932,files,3,False,1,0,0,moved
+linux,2072647,files,3,False,1,0,0,moved
+linux,2072586,files,3,False,1,0,0,moved
+linux,2072564,files,3,False,1,0,0,moved
+linux,2072381,files,3,False,1,0,0,moved
+linux,2071841,files,3,False,1,0,0,moved
+linux,2071789,files,3,False,1,0,0,moved
+linux,2067441,files,3,False,1,0,0,moved
+linux,2071624,files,3,False,1,0,0,moved
+linux,2071563,files,3,False,1,0,0,moved
+linux,2070403,files,3,False,1,0,0,moved
+linux,2069647,files,3,False,1,0,0,moved
+linux,2059734,files,3,False,1,0,0,moved
+linux,2068674,files,3,False,1,0,0,moved
+linux,2068672,files,3,False,1,0,0,moved
+linux,2068659,files,3,False,1,0,0,moved
+linux,2068546,files,3,False,1,0,0,moved
+linux,2068521,files,3,False,1,0,0,moved
+linux,2068055,files,3,False,1,0,0,moved
+linux,2068046,files,3,False,1,0,0,moved
+linux,2052834,files,3,False,1,0,0,moved
+linux,2067948,files,3,False,1,0,0,moved
+linux,2067831,files,3,False,1,0,0,moved
+linux,2067785,files,3,False,1,0,0,moved
+linux,2066148 (3),files,3,False,1,0,0,moved
+linux,2064861,files,3,False,1,0,0,moved
+linux,2061929,files,3,False,1,0,0,moved
+linux,2061815,files,3,False,1,0,0,moved
+linux,2060628,files,3,False,1,0,0,moved
+linux,2059847,files,3,False,1,0,0,moved
+linux,2059756,files,3,False,1,0,0,moved
+linux,2059550,files,3,False,1,0,0,moved
+linux,2059256,files,3,False,1,0,0,moved
+linux,2059246,files,3,False,1,0,0,moved
+linux,2058914,files,3,False,1,0,0,moved
+linux,2058045,files,5,False,2,1,1,moved
+linux,2055718,files,3,False,1,0,0,moved
+linux,2054621,files,5,False,2,1,1,moved
+linux,2054496,files,5,False,2,1,1,moved
+linux,2052680,files,5,False,2,1,1,moved
+linux,2052018,files,5,False,2,1,1,moved
+linux,2019190,files,3,False,1,0,0,moved
+linux,2048384,files,5,False,2,1,1,moved
+linux,2047961,files,5,False,2,1,1,moved
+linux,2046322,files,3,False,1,0,0,moved
+linux,2045816,files,5,False,2,1,1,moved
+linux,2044546,files,3,False,1,0,0,moved
+linux,2044113,files,5,False,2,1,1,moved
+linux,2044060,files,5,False,2,1,1,moved
+linux,2041171,files,3,False,1,0,0,moved
+linux,2039873,files,3,False,1,0,0,moved
+harmony,CVE-2024-21826,files,3,False,1,0,0,moved
+harmony,CVE-2024-21863,files,10,False,3,2,2,moved
+harmony,CVE-2023-49135,files,3,False,1,0,0,moved
+harmony,CVE-2025-25052 (OHPSIRT-2024-128300),files,5,False,2,1,1,moved
+harmony,CVE-2025-25052 (OHPSIRT-2024-129396),files,5,False,2,1,1,moved
+harmony,CVE-2025-25052 (OHPSIRT-2024-114731),files,3,False,1,0,0,moved
+harmony,CVE-2025-25052 (OHPSIRT-2024-114531),files,5,False,2,1,1,moved
+harmony,CVE-2024-2478,files,5,False,2,1,1,moved
+harmony,CVE-2024-2398,files,3,False,1,0,0,moved
+harmony,CVE-2024-2004,files,3,False,1,0,0,moved
+harmony,CVE-2024-0450,files,3,False,1,0,0,moved
+harmony,CVE-2023-6597,files,3,False,1,0,0,moved
+harmony,CVE-2025-27534 (10119),files,5,False,2,1,1,moved
+harmony,CVE-2025-27534 (10123),files,3,False,1,0,0,moved
+harmony,CVE-2025-27534 (10130),files,3,False,1,0,0,moved
+harmony,CVE-2025-27534 (10334),files,5,False,2,1,1,moved
+harmony,CVE-2025-27534 (10443),files,3,False,1,0,0,moved
+harmony,CVE-2025-27534 (10468),files,5,False,2,1,1,moved
+harmony,CVE-2025-27534 (10505),files,3,False,1,0,0,moved
+harmony,CVE-2025-27534 (10574),files,3,False,1,0,0,moved
+harmony,CVE-2025-21089,files,3,False,1,0,0,moved
+harmony,CVE-2024-37077,files,5,False,2,1,1,moved
+harmony,CVE-2024-23808 (1154),files,3,False,1,0,0,moved
+harmony,CVE-2024-23808 (1712),files,3,False,1,0,0,moved
+harmony,CVE-2024-23808 (1705),files,5,False,2,1,1,moved
+harmony,CVE-2023-52160,files,5,False,2,1,1,moved
+harmony,CVE-2024-28951,files,3,False,1,0,0,moved
+harmony,CVE-2024-29086,files,3,False,1,0,0,moved
+harmony,CVE-2025-22452,files,3,False,1,0,0,moved
+harmony,CVE-2025-23235,files,3,False,1,0,0,moved
+harmony,CVE-2025-27131,files,3,False,1,0,0,moved
+harmony,CVE-2025-26691,files,3,False,1,0,0,moved
+harmony,CVE-2022-48944,files,3,False,1,0,0,moved
+harmony,CVE-2024-46715,files,3,False,1,0,0,moved
+harmony,CVE-2024-50063 (CVE-2024-47738),files,5,False,2,1,1,moved
+harmony,CVE-2024-50063 (CVE-2024-47678),files,3,False,1,0,0,moved
+harmony,CVE-2024-50063 (CVE-2024-47690),files,3,False,1,0,0,moved
+harmony,CVE-2024-50063 (CVE-2024-50063),files,3,False,1,0,0,moved
+harmony,CVE-2024-50038 (CVE-2024-49950),files,5,False,2,1,1,moved
+harmony,CVE-2024-50038 (CVE-2022-48961),files,3,False,1,0,0,moved
+harmony,CVE-2024-46822,files,3,False,1,0,0,moved
+harmony,CVE-2024-46713,files,3,False,1,0,0,moved
+harmony,CVE-2024-26684,files,3,False,1,0,0,moved
+harmony,CVE-2024-26627,files,3,False,1,0,0,moved
+harmony,CVE-2024-8088,files,3,False,1,0,0,moved
+harmony,CVE-2023-52679,files,3,False,1,0,0,moved
+harmony,CVE-2022-1012,files,5,False,2,1,1,moved
+harmony,CVE-2023-7012,files,3,False,1,0,0,moved
+harmony,CVE-2024-6996,files,3,False,1,0,0,moved
+harmony,CVE-2024-6119,files,5,False,2,1,1,moved
+harmony,CVE-2024-42160,files,3,False,1,0,0,moved
+harmony,CVE-2024-42084,files,3,False,1,0,0,moved
+harmony,CVE-2024-42068,files,3,False,1,0,0,moved
+harmony,CVE-2024-36971,files,5,False,2,1,1,moved
+harmony,CVE-2024-5535,files,3,False,1,0,0,moved
+harmony,CVE-2024-3914,files,3,False,1,0,0,moved
+harmony,CVE-2024-4603,files,3,False,1,0,0,moved
+harmony,CVE-2024-3840,files,5,False,2,1,1,moved
+harmony,CVE-2024-5159,files,3,False,1,0,0,moved
+harmony,CVE-2024-5157,files,3,False,1,0,0,moved
+harmony,CVE-2024-36905,files,3,False,1,0,0,moved
+harmony,CVE-2024-35962,files,3,False,1,0,0,moved
+harmony,CVE-2024-35910,files,3,False,1,0,0,moved
+harmony,CVE-2023-52879,files,5,False,2,1,1,moved

@@ -1,0 +1,20 @@
+{
+  "issue_code_counts": {
+    "AMBIGUOUS_ALTERNATIVE_BUCKET": 3,
+    "LINE_SUM_MISMATCH": 1,
+    "LOWER_BOUND_COUNT": 7,
+    "SHARED_PATCH_FIELD": 30,
+    "ZERO_FUNCTIONS": 177
+  },
+  "records_per_os": {
+    "android": 500,
+    "harmony": 500,
+    "linux": 500
+  },
+  "severity_counts": {
+    "ERROR": 0,
+    "INFO": 214,
+    "WARN": 4
+  },
+  "source_data_modified": false
+}
