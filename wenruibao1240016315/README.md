@@ -106,6 +106,8 @@ docs/       verification notes, implementation-specific notes, Figure 4d analysi
 * This folder's notes: `docs/VERIFICATION.md` (what was checked here),
   `docs/NOTES.md` (implementation-specific decisions) and
   `docs/DISCREPANCIES.md` (Figure 4d).
+* Report text ready to merge: `docs/REPORT_DRAFT.md` (C3, Figure 4d, the
+  extension) and `docs/SLIDES.md` (three-slide outline for the presentation).
 * Contribution statement material: `docs/CONTRIBUTION.md`.
 
 ## What is not reproduced
