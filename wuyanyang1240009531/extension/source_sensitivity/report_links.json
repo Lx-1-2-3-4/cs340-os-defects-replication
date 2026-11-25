@@ -1,0 +1,50 @@
+{
+  "retrieved_utc": "2026-11-25T16:08:55.409386+00:00",
+  "reports": {
+    "2115391": {
+      "url": "https://api.launchpad.net/1.0/bugs/2115391",
+      "github_report_links": []
+    },
+    "2109890": {
+      "url": "https://api.launchpad.net/1.0/bugs/2109890",
+      "github_report_links": [
+        "https://github.com/lxc/lxc/issues/4088",
+        "https://github.com/lxc/lxc/issues/4198",
+        "https://github.com/lxc/lxc/pull/4089",
+        "https://github.com/lxc/lxc/pull/4544"
+      ]
+    },
+    "2102236": {
+      "url": "https://api.launchpad.net/1.0/bugs/2102236",
+      "github_report_links": []
+    },
+    "2100252": {
+      "url": "https://api.launchpad.net/1.0/bugs/2100252",
+      "github_report_links": [
+        "https://github.com/systemd/systemd/pull/23508"
+      ]
+    },
+    "2077779": {
+      "url": "https://api.launchpad.net/1.0/bugs/2077779",
+      "github_report_links": []
+    },
+    "2067922": {
+      "url": "https://api.launchpad.net/1.0/bugs/2067922",
+      "github_report_links": [
+        "https://github.com/microsoft/WSL/issues/8879",
+        "https://github.com/systemd/systemd/pull/32534"
+      ]
+    },
+    "2052137": {
+      "url": "https://api.launchpad.net/1.0/bugs/2052137",
+      "github_report_links": [
+        "https://github.com/systemd/systemd/issues/31165",
+        "https://github.com/systemd/systemd/pull/31172"
+      ]
+    },
+    "2045621": {
+      "url": "https://api.launchpad.net/1.0/bugs/2045621",
+      "github_report_links": []
+    }
+  }
+}

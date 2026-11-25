@@ -1,0 +1,971 @@
+{
+  "retrieved_utc": "2026-11-25T15:31:07.313844+00:00",
+  "queries": [
+    {
+      "period": "2023-05-01..2023-12-31",
+      "url": "https://api.github.com/search/issues?q=repo%3Asystemd%2Fsystemd+is%3Apr+is%3Amerged+merged%3A2023-05-01..2023-12-31+%22Fixes+%23%22+in%3Abody&sort=created&order=asc&per_page=12",
+      "search_hits": 316
+    },
+    {
+      "period": "2024-01-01..2024-06-30",
+      "url": "https://api.github.com/search/issues?q=repo%3Asystemd%2Fsystemd+is%3Apr+is%3Amerged+merged%3A2024-01-01..2024-06-30+%22Fixes+%23%22+in%3Abody&sort=created&order=asc&per_page=12",
+      "search_hits": 268
+    },
+    {
+      "period": "2024-07-01..2024-12-31",
+      "url": "https://api.github.com/search/issues?q=repo%3Asystemd%2Fsystemd+is%3Apr+is%3Amerged+merged%3A2024-07-01..2024-12-31+%22Fixes+%23%22+in%3Abody&sort=created&order=asc&per_page=12",
+      "search_hits": 233
+    },
+    {
+      "period": "2025-01-01..2025-06-30",
+      "url": "https://api.github.com/search/issues?q=repo%3Asystemd%2Fsystemd+is%3Apr+is%3Amerged+merged%3A2025-01-01..2025-06-30+%22Fixes+%23%22+in%3Abody&sort=created&order=asc&per_page=12",
+      "search_hits": 213
+    }
+  ],
+  "baseline_sha256": "a21079dee00f037ed3d6b42ae458422b78e4ba1b1fc933f1fb7518953754f2ee",
+  "upstream": [
+    {
+      "number": 25066,
+      "title": "homework: resize to maximum disk space if disk size is not specified",
+      "html_url": "https://github.com/systemd/systemd/pull/25066",
+      "created_at": "2022-10-19T11:16:02Z",
+      "issue_refs": [],
+      "period": "2023-05-01..2023-12-31"
+    },
+    {
+      "number": 25948,
+      "title": "boot: Read files in small chunks on broken firmware",
+      "html_url": "https://github.com/systemd/systemd/pull/25948",
+      "created_at": "2023-01-05T17:56:28Z",
+      "issue_refs": [],
+      "period": "2023-05-01..2023-12-31"
+    },
+    {
+      "number": 26365,
+      "title": "Allow D-Bus methods to auth. for more than one polkit action",
+      "html_url": "https://github.com/systemd/systemd/pull/26365",
+      "created_at": "2023-02-08T19:54:26Z",
+      "issue_refs": [
+        20155
+      ],
+      "period": "2023-05-01..2023-12-31",
+      "merged_at": "2023-07-14T13:13:53Z",
+      "merge_commit_sha": "0865c465ca930052a987ee5d661ffc5900e6eee8",
+      "additions": 255,
+      "deletions": 93,
+      "changed_files": 1,
+      "issue": {
+        "number": 20155,
+        "title": "logind fails at authenticating with -ESTALE when processing a request for hibernating and an inhibitor lock is taken by another user",
+        "html_url": "https://github.com/systemd/systemd/issues/20155",
+        "created_at": "2021-07-07T15:04:28Z",
+        "closed_at": "2023-07-14T13:13:55Z",
+        "state": "closed",
+        "labels": [
+          "login"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 26577,
+      "title": "Revert \"Revert \"journal: Make sd_journal_previous/next() return 0 at …",
+      "html_url": "https://github.com/systemd/systemd/pull/26577",
+      "created_at": "2023-02-24T04:54:57Z",
+      "issue_refs": [],
+      "period": "2023-05-01..2023-12-31"
+    },
+    {
+      "number": 26844,
+      "title": "core: introduce UNIT_ATOM_PROPAGATE_STOP_GRACEFUL for PropagatesStopTo=",
+      "html_url": "https://github.com/systemd/systemd/pull/26844",
+      "created_at": "2023-03-15T20:55:57Z",
+      "issue_refs": [
+        26839,
+        26938
+      ],
+      "period": "2023-05-01..2023-12-31"
+    },
+    {
+      "number": 27078,
+      "title": "Revert \"resolved: address DVE-2018-0001\"",
+      "html_url": "https://github.com/systemd/systemd/pull/27078",
+      "created_at": "2023-03-30T21:10:40Z",
+      "issue_refs": [],
+      "period": "2023-05-01..2023-12-31"
+    },
+    {
+      "number": 27173,
+      "title": "update-utmp: do not fail when PID1 is reexecuting",
+      "html_url": "https://github.com/systemd/systemd/pull/27173",
+      "created_at": "2023-04-06T19:54:11Z",
+      "issue_refs": [
+        27167
+      ],
+      "period": "2023-05-01..2023-12-31",
+      "merged_at": "2023-05-24T19:00:58Z",
+      "merge_commit_sha": "290c4a4b3407bf8e0e8131d8fc4b704b9c2c48e4",
+      "additions": 128,
+      "deletions": 103,
+      "changed_files": 3,
+      "issue": {
+        "number": 27167,
+        "title": "`systemd-update-utmp-runlevel.service` fails to start when running in parallel with daemon-reexec",
+        "html_url": "https://github.com/systemd/systemd/issues/27167",
+        "created_at": "2023-04-06T17:43:32Z",
+        "closed_at": "2023-05-24T19:01:00Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "utmp/wtmp"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 27468,
+      "title": "generators: skip private tmpfs if /tmp does not exist",
+      "html_url": "https://github.com/systemd/systemd/pull/27468",
+      "created_at": "2023-04-30T18:23:22Z",
+      "issue_refs": [
+        27436
+      ],
+      "period": "2023-05-01..2023-12-31",
+      "merged_at": "2023-05-02T10:28:09Z",
+      "merge_commit_sha": "b8fba0cded2c3e14fe8c0b52aae3ecf2c9fa718e",
+      "additions": 7,
+      "deletions": 3,
+      "changed_files": 1,
+      "issue": {
+        "number": 27436,
+        "title": "pid1 fails to start if /tmp doesn't exist",
+        "html_url": "https://github.com/systemd/systemd/issues/27436",
+        "created_at": "2023-04-27T21:16:59Z",
+        "closed_at": "2023-05-02T10:28:11Z",
+        "state": "closed",
+        "labels": [
+          "pid1",
+          "regression ⚠️"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 27486,
+      "title": "Added correct `pacman` command",
+      "html_url": "https://github.com/systemd/systemd/pull/27486",
+      "created_at": "2023-05-01T21:25:23Z",
+      "issue_refs": [],
+      "period": "2023-05-01..2023-12-31"
+    },
+    {
+      "number": 27487,
+      "title": "test: replace sleep with timeout",
+      "html_url": "https://github.com/systemd/systemd/pull/27487",
+      "created_at": "2023-05-02T06:19:40Z",
+      "issue_refs": [],
+      "period": "2023-05-01..2023-12-31"
+    },
+    {
+      "number": 27495,
+      "title": "core: check for SERVICE_RELOAD_NOTIFY in manager_dbus_is_running",
+      "html_url": "https://github.com/systemd/systemd/pull/27495",
+      "created_at": "2023-05-02T10:18:18Z",
+      "issue_refs": [],
+      "period": "2023-05-01..2023-12-31"
+    },
+    {
+      "number": 27499,
+      "title": "sd-journal: check .next_entry_array_offset earlier",
+      "html_url": "https://github.com/systemd/systemd/pull/27499",
+      "created_at": "2023-05-02T16:33:30Z",
+      "issue_refs": [
+        27489
+      ],
+      "period": "2023-05-01..2023-12-31",
+      "merged_at": "2023-05-03T04:30:48Z",
+      "merge_commit_sha": "406004a6c3fa38c1752056adf2ef59523e5ff534",
+      "additions": 13,
+      "deletions": 24,
+      "changed_files": 1,
+      "issue": {
+        "number": 27489,
+        "title": "Hang in `journalctl` when reading a corrupted journal",
+        "html_url": "https://github.com/systemd/systemd/issues/27489",
+        "created_at": "2023-05-02T08:05:39Z",
+        "closed_at": "2023-05-03T04:30:49Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "journal"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 26826,
+      "title": "unprivileged DDI mounts + dynamic userns range allocation via IPC",
+      "html_url": "https://github.com/systemd/systemd/pull/26826",
+      "created_at": "2023-03-15T09:29:08Z",
+      "issue_refs": [],
+      "period": "2024-01-01..2024-06-30"
+    },
+    {
+      "number": 29692,
+      "title": "cryptenroll: change class in provided PKCS#11 URI if necessary",
+      "html_url": "https://github.com/systemd/systemd/pull/29692",
+      "created_at": "2023-10-24T16:47:02Z",
+      "issue_refs": [
+        23479
+      ],
+      "period": "2024-01-01..2024-06-30",
+      "merged_at": "2024-01-05T11:14:27Z",
+      "merge_commit_sha": "8ef31e1f13e29a4ee5a052cd8770120e3b16301c",
+      "additions": 63,
+      "deletions": 13,
+      "changed_files": 5,
+      "issue": {
+        "number": 23479,
+        "title": "systemd-cryptsetup fails opening luks2 pkcs#11 yubikey token",
+        "html_url": "https://github.com/systemd/systemd/issues/23479",
+        "created_at": "2022-05-23T00:28:37Z",
+        "closed_at": "2024-01-05T11:14:28Z",
+        "state": "closed",
+        "labels": [
+          "cryptsetup",
+          "pkcs11"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 30021,
+      "title": "dhcp-server: save bound leases to persistent storage, and load it on start",
+      "html_url": "https://github.com/systemd/systemd/pull/30021",
+      "created_at": "2023-11-14T10:39:11Z",
+      "issue_refs": [
+        29991,
+        31708
+      ],
+      "period": "2024-01-01..2024-06-30"
+    },
+    {
+      "number": 30138,
+      "title": "udev: introduce ID_PROCESSING flag",
+      "html_url": "https://github.com/systemd/systemd/pull/30138",
+      "created_at": "2023-11-22T04:59:09Z",
+      "issue_refs": [
+        30056
+      ],
+      "period": "2024-01-01..2024-06-30",
+      "merged_at": "2024-02-12T02:38:57Z",
+      "merge_commit_sha": "ac5c938006700b27664b2f6bff8bb1547c674b48",
+      "additions": 61,
+      "deletions": 6,
+      "changed_files": 6,
+      "issue": {
+        "number": 30056,
+        "title": "`test_sysctl` from `systemd-networkd-tests.py` is unstable",
+        "html_url": "https://github.com/systemd/systemd/issues/30056",
+        "created_at": "2023-11-16T10:07:06Z",
+        "closed_at": "2024-02-12T02:38:58Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "udev",
+          "network",
+          "tests"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 30194,
+      "title": "units: add a tpm2.target synchronization point and small generator that pulls in",
+      "html_url": "https://github.com/systemd/systemd/pull/30194",
+      "created_at": "2023-11-24T17:50:33Z",
+      "issue_refs": [],
+      "period": "2024-01-01..2024-06-30"
+    },
+    {
+      "number": 30226,
+      "title": "homed: allow logging into home areas via ssh without unlocking them locally first",
+      "html_url": "https://github.com/systemd/systemd/pull/30226",
+      "created_at": "2023-11-28T11:08:40Z",
+      "issue_refs": [],
+      "period": "2024-01-01..2024-06-30"
+    },
+    {
+      "number": 30263,
+      "title": "journal: Reset runtime seqnum data when flushing to system journal",
+      "html_url": "https://github.com/systemd/systemd/pull/30263",
+      "created_at": "2023-11-30T04:32:28Z",
+      "issue_refs": [],
+      "period": "2024-01-01..2024-06-30"
+    },
+    {
+      "number": 30500,
+      "title": "dnssd: support service subtypes",
+      "html_url": "https://github.com/systemd/systemd/pull/30500",
+      "created_at": "2023-12-16T06:45:14Z",
+      "issue_refs": [],
+      "period": "2024-01-01..2024-06-30"
+    },
+    {
+      "number": 30532,
+      "title": "udev: extend timeout to prevent kill worker",
+      "html_url": "https://github.com/systemd/systemd/pull/30532",
+      "created_at": "2023-12-19T18:38:07Z",
+      "issue_refs": [
+        30436
+      ],
+      "period": "2024-01-01..2024-06-30",
+      "merged_at": "2024-01-03T20:21:50Z",
+      "merge_commit_sha": "124c712692b1c12efef8a82418f442200bd65784",
+      "additions": 117,
+      "deletions": 33,
+      "changed_files": 4,
+      "issue": {
+        "number": 30436,
+        "title": "Udevd worker process does not restore inotify watches when a child script times out and subsequently the worker is killed due to timeout.",
+        "html_url": "https://github.com/systemd/systemd/issues/30436",
+        "created_at": "2023-12-12T05:08:09Z",
+        "closed_at": "2024-01-03T20:21:52Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "udev"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 30660,
+      "title": "storagetm: ensure we pass dev_t* to sd_device_get_devnum",
+      "html_url": "https://github.com/systemd/systemd/pull/30660",
+      "created_at": "2023-12-29T19:05:19Z",
+      "issue_refs": [],
+      "period": "2024-01-01..2024-06-30"
+    },
+    {
+      "number": 30686,
+      "title": "efi-loader: when detecting if we are booted in UKI measured boot mode, imply a check for TPM2",
+      "html_url": "https://github.com/systemd/systemd/pull/30686",
+      "created_at": "2024-01-02T16:53:01Z",
+      "issue_refs": [],
+      "period": "2024-01-01..2024-06-30"
+    },
+    {
+      "number": 30688,
+      "title": "tpm2-util: handle TPMs gracefully that do not support ECC and return …",
+      "html_url": "https://github.com/systemd/systemd/pull/30688",
+      "created_at": "2024-01-02T17:43:27Z",
+      "issue_refs": [],
+      "period": "2024-01-01..2024-06-30"
+    },
+    {
+      "number": 31153,
+      "title": "Homed update policy: user changing own settings",
+      "html_url": "https://github.com/systemd/systemd/pull/31153",
+      "created_at": "2024-01-31T19:55:02Z",
+      "issue_refs": [
+        34268
+      ],
+      "period": "2024-07-01..2024-12-31",
+      "merged_at": "2024-11-01T11:14:04Z",
+      "merge_commit_sha": "1006022e4cf1b5fdf7044fd687e5a4450bfdee3a",
+      "additions": 440,
+      "deletions": 19,
+      "changed_files": 10,
+      "issue": {
+        "number": 34268,
+        "title": "systemd-homed allow user to update his own config without admin",
+        "html_url": "https://github.com/systemd/systemd/issues/34268",
+        "created_at": "2024-09-05T17:06:34Z",
+        "closed_at": "2024-11-01T11:14:05Z",
+        "state": "closed",
+        "labels": [
+          "RFE 🎁",
+          "homed"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 32212,
+      "title": "More visibility into systemd-networkd sysctls",
+      "html_url": "https://github.com/systemd/systemd/pull/32212",
+      "created_at": "2024-04-10T21:26:51Z",
+      "issue_refs": [],
+      "period": "2024-07-01..2024-12-31"
+    },
+    {
+      "number": 32937,
+      "title": "core: drop ambient capabilities in systemd-executor",
+      "html_url": "https://github.com/systemd/systemd/pull/32937",
+      "created_at": "2024-05-20T15:17:06Z",
+      "issue_refs": [],
+      "period": "2024-07-01..2024-12-31"
+    },
+    {
+      "number": 32991,
+      "title": "systemd.dnssd does not handle local requests",
+      "html_url": "https://github.com/systemd/systemd/pull/32991",
+      "created_at": "2024-05-23T11:09:14Z",
+      "issue_refs": [
+        32990
+      ],
+      "period": "2024-07-01..2024-12-31",
+      "merged_at": "2024-07-21T11:48:56Z",
+      "merge_commit_sha": "a2ae7ed7d05ceabb5c0860288d553ab50d466565",
+      "additions": 4,
+      "deletions": 1,
+      "changed_files": 1,
+      "issue": {
+        "number": 32990,
+        "title": "systemd.dnssd does not handle local requests",
+        "html_url": "https://github.com/systemd/systemd/issues/32990",
+        "created_at": "2024-05-23T11:06:00Z",
+        "closed_at": null,
+        "state": "open",
+        "labels": [
+          "bug 🐛",
+          "resolve"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 33092,
+      "title": "UnitFreezer: several cleanups",
+      "html_url": "https://github.com/systemd/systemd/pull/33092",
+      "created_at": "2024-05-30T08:51:12Z",
+      "issue_refs": [
+        31115
+      ],
+      "period": "2024-07-01..2024-12-31",
+      "merged_at": "2024-07-17T21:45:32Z",
+      "merge_commit_sha": "bbddfe5249d1c858108b7828592dd899d11b3ae6",
+      "additions": 147,
+      "deletions": 149,
+      "changed_files": 14,
+      "issue": {
+        "number": 31115,
+        "title": "No PropertiesChanged signal emitted when freezing/thawing unit",
+        "html_url": "https://github.com/systemd/systemd/issues/31115",
+        "created_at": "2024-01-29T09:19:16Z",
+        "closed_at": "2024-07-17T21:45:33Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "pid1"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 33398,
+      "title": "sysupdate: Add support for optional features",
+      "html_url": "https://github.com/systemd/systemd/pull/33398",
+      "created_at": "2024-06-18T21:19:14Z",
+      "issue_refs": [
+        33343
+      ],
+      "period": "2024-07-01..2024-12-31",
+      "merged_at": "2024-10-21T10:36:44Z",
+      "merge_commit_sha": "6eabea49dad9ae51a7915d96f4d0155ce37a77c8",
+      "additions": 1711,
+      "deletions": 150,
+      "changed_files": 21,
+      "issue": {
+        "number": 33343,
+        "title": "Implement optional transfers in systemd-sysupdate",
+        "html_url": "https://github.com/systemd/systemd/issues/33343",
+        "created_at": "2024-06-14T14:38:01Z",
+        "closed_at": "2024-10-21T10:36:45Z",
+        "state": "closed",
+        "labels": [
+          "RFE 🎁",
+          "sysupdate"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 33469,
+      "title": "shared: log error when execve fail",
+      "html_url": "https://github.com/systemd/systemd/pull/33469",
+      "created_at": "2024-06-25T02:54:37Z",
+      "issue_refs": [],
+      "period": "2024-07-01..2024-12-31"
+    },
+    {
+      "number": 33523,
+      "title": "Fix DNS OPT extended rcode parsing",
+      "html_url": "https://github.com/systemd/systemd/pull/33523",
+      "created_at": "2024-06-28T13:17:39Z",
+      "issue_refs": [],
+      "period": "2024-07-01..2024-12-31"
+    },
+    {
+      "number": 33524,
+      "title": "Tests for DNS packet parsing/serialising",
+      "html_url": "https://github.com/systemd/systemd/pull/33524",
+      "created_at": "2024-06-28T13:29:21Z",
+      "issue_refs": [],
+      "period": "2024-07-01..2024-12-31"
+    },
+    {
+      "number": 33567,
+      "title": "sd-boot,sd-stub: a variety of smaller fixes",
+      "html_url": "https://github.com/systemd/systemd/pull/33567",
+      "created_at": "2024-07-02T14:25:01Z",
+      "issue_refs": [],
+      "period": "2024-07-01..2024-12-31"
+    },
+    {
+      "number": 33570,
+      "title": "sysupdate: Handle incomplete versions",
+      "html_url": "https://github.com/systemd/systemd/pull/33570",
+      "created_at": "2024-07-02T15:01:14Z",
+      "issue_refs": [
+        33339
+      ],
+      "period": "2024-07-01..2024-12-31",
+      "merged_at": "2024-08-27T17:04:02Z",
+      "merge_commit_sha": "88261bcf3b92adb2ae4edfef4ede0d757609b06c",
+      "additions": 271,
+      "deletions": 75,
+      "changed_files": 9,
+      "issue": {
+        "number": 33339,
+        "title": "Handling of incomplete sysupdate components",
+        "html_url": "https://github.com/systemd/systemd/issues/33339",
+        "created_at": "2024-06-14T10:45:53Z",
+        "closed_at": "2024-08-27T17:04:03Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 33600,
+      "title": "load-fragment: Remove faulty assertion",
+      "html_url": "https://github.com/systemd/systemd/pull/33600",
+      "created_at": "2024-07-03T17:33:34Z",
+      "issue_refs": [],
+      "period": "2024-07-01..2024-12-31"
+    },
+    {
+      "number": 33159,
+      "title": "mkosi: Re-enable TEST-21-DFUZZER when running with sanitizers",
+      "html_url": "https://github.com/systemd/systemd/pull/33159",
+      "created_at": "2024-06-02T17:48:56Z",
+      "issue_refs": [
+        33156
+      ],
+      "period": "2025-01-01..2025-06-30",
+      "merged_at": "2025-01-09T11:48:23Z",
+      "merge_commit_sha": "103e92810a4bd3f01d2a49d85ef9575d60a8d244",
+      "additions": 8,
+      "deletions": 1,
+      "changed_files": 2,
+      "issue": {
+        "number": 33156,
+        "title": "TEST-21-DFUZZER is very slow on GitHub Actions",
+        "html_url": "https://github.com/systemd/systemd/issues/33156",
+        "created_at": "2024-06-02T06:06:58Z",
+        "closed_at": "2025-01-09T11:48:24Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "tests"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 34325,
+      "title": "hwdb: replace f20 by micmute in mm kbd database",
+      "html_url": "https://github.com/systemd/systemd/pull/34325",
+      "created_at": "2024-09-09T14:30:26Z",
+      "issue_refs": [],
+      "period": "2025-01-01..2025-06-30"
+    },
+    {
+      "number": 34368,
+      "title": "resolved: add new \"DNS Delegate\" concepts",
+      "html_url": "https://github.com/systemd/systemd/pull/34368",
+      "created_at": "2024-09-11T14:52:56Z",
+      "issue_refs": [],
+      "period": "2025-01-01..2025-06-30"
+    },
+    {
+      "number": 34595,
+      "title": "systemd-journal-upload: added custom http headers",
+      "html_url": "https://github.com/systemd/systemd/pull/34595",
+      "created_at": "2024-09-30T20:09:57Z",
+      "issue_refs": [
+        34568
+      ],
+      "period": "2025-01-01..2025-06-30",
+      "merged_at": "2025-03-14T22:27:38Z",
+      "merge_commit_sha": "5209e9cb05172267de563c58ebdca76d7f26a7e0",
+      "additions": 240,
+      "deletions": 0,
+      "changed_files": 7,
+      "issue": {
+        "number": 34568,
+        "title": "systemd-journal-upload: support custom HTTP headers and compression",
+        "html_url": "https://github.com/systemd/systemd/issues/34568",
+        "created_at": "2024-09-27T09:55:25Z",
+        "closed_at": "2025-03-14T22:27:40Z",
+        "state": "closed",
+        "labels": [
+          "RFE 🎁",
+          "journal-remote"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 34888,
+      "title": "network/dhcpv4: add ability to use BOOTP",
+      "html_url": "https://github.com/systemd/systemd/pull/34888",
+      "created_at": "2024-10-24T19:58:48Z",
+      "issue_refs": [],
+      "period": "2025-01-01..2025-06-30"
+    },
+    {
+      "number": 35098,
+      "title": "core: introduce io.systemd.Manager.Describe method",
+      "html_url": "https://github.com/systemd/systemd/pull/35098",
+      "created_at": "2024-11-08T13:06:14Z",
+      "issue_refs": [],
+      "period": "2025-01-01..2025-06-30"
+    },
+    {
+      "number": 35406,
+      "title": "Stash the subscriber list when we disconenct from the bus",
+      "html_url": "https://github.com/systemd/systemd/pull/35406",
+      "created_at": "2024-11-28T20:00:21Z",
+      "issue_refs": [],
+      "period": "2025-01-01..2025-06-30"
+    },
+    {
+      "number": 35637,
+      "title": "core/socket: several fixlets",
+      "html_url": "https://github.com/systemd/systemd/pull/35637",
+      "created_at": "2024-12-16T01:30:56Z",
+      "issue_refs": [
+        35635
+      ],
+      "period": "2025-01-01..2025-06-30",
+      "merged_at": "2025-01-02T17:20:48Z",
+      "merge_commit_sha": "ed8e7e23937ea97a6c7a07eb891a30cc93a5ce2b",
+      "additions": 218,
+      "deletions": 142,
+      "changed_files": 9,
+      "issue": {
+        "number": 35635,
+        "title": "Restarting a failing socket unit repeatedly only triggers `OnFailure=` dependency the first time",
+        "html_url": "https://github.com/systemd/systemd/issues/35635",
+        "created_at": "2024-12-15T23:55:10Z",
+        "closed_at": "2025-01-02T17:20:49Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "pid1"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 35669,
+      "title": "mkosi: Bump device timeout to 120s",
+      "html_url": "https://github.com/systemd/systemd/pull/35669",
+      "created_at": "2024-12-18T10:44:58Z",
+      "issue_refs": [
+        35302
+      ],
+      "period": "2025-01-01..2025-06-30",
+      "merged_at": "2025-01-07T15:20:39Z",
+      "merge_commit_sha": "6640466cec2b2dda16dbee48b5ebb351a3edff97",
+      "additions": 0,
+      "deletions": 6,
+      "changed_files": 1,
+      "issue": {
+        "number": 35302,
+        "title": "TEST-86-MULTI-PROFILE-UKI is flaky",
+        "html_url": "https://github.com/systemd/systemd/issues/35302",
+        "created_at": "2024-11-22T14:15:19Z",
+        "closed_at": "2025-01-07T15:20:40Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "tests"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 35694,
+      "title": "firewall-util: allow to override the table and map names through env var",
+      "html_url": "https://github.com/systemd/systemd/pull/35694",
+      "created_at": "2024-12-20T06:30:37Z",
+      "issue_refs": [
+        35526
+      ],
+      "period": "2025-01-01..2025-06-30",
+      "merged_at": "2025-01-04T16:48:30Z",
+      "merge_commit_sha": "be68dcdc2057891166907b6b6c33c50e037ba847",
+      "additions": 39,
+      "deletions": 17,
+      "changed_files": 2,
+      "issue": {
+        "number": 35526,
+        "title": "test-firewall-util is flaky",
+        "html_url": "https://github.com/systemd/systemd/issues/35526",
+        "created_at": "2024-12-10T13:27:55Z",
+        "closed_at": "2025-07-25T09:58:18Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "network",
+          "tests",
+          "flaky-test"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 35799,
+      "title": "bash-completion/journalctl: list user units when --user is already specified",
+      "html_url": "https://github.com/systemd/systemd/pull/35799",
+      "created_at": "2025-01-02T02:51:36Z",
+      "issue_refs": [
+        35794
+      ],
+      "period": "2025-01-01..2025-06-30",
+      "merged_at": "2025-01-02T11:20:31Z",
+      "merge_commit_sha": "f1f0230cf0e3119d8f00b2be7402e155750d28ad",
+      "additions": 9,
+      "deletions": 1,
+      "changed_files": 1,
+      "issue": {
+        "number": 35794,
+        "title": "`journalctl --unit` bash tab completion gives the wrong units when `--user` is used",
+        "html_url": "https://github.com/systemd/systemd/issues/35794",
+        "created_at": "2024-12-31T05:35:07Z",
+        "closed_at": "2025-01-02T11:20:32Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "journal",
+          "shell completion"
+        ],
+        "pull_request": null
+      }
+    },
+    {
+      "number": 35802,
+      "title": "shared/hibernate-util: handle the case where no swap has available backing dev",
+      "html_url": "https://github.com/systemd/systemd/pull/35802",
+      "created_at": "2025-01-02T04:08:07Z",
+      "issue_refs": [
+        35798
+      ],
+      "period": "2025-01-01..2025-06-30",
+      "merged_at": "2025-01-02T18:26:58Z",
+      "merge_commit_sha": "dfe3fe77f7d0a8285a77c5a384d755fb0d3a1543",
+      "additions": 35,
+      "deletions": 45,
+      "changed_files": 3,
+      "issue": {
+        "number": 35798,
+        "title": "systemd-logind: Assertion 'resume_config_devno > 0' failed at src/shared/hibernate-util.c:396, function find_suitable_hibernation_device_full(). Aborting.",
+        "html_url": "https://github.com/systemd/systemd/issues/35798",
+        "created_at": "2025-01-02T02:31:07Z",
+        "closed_at": "2025-01-02T18:27:00Z",
+        "state": "closed",
+        "labels": [
+          "bug 🐛",
+          "login"
+        ],
+        "pull_request": null
+      }
+    }
+  ],
+  "downstream": [
+    {
+      "_idx": 3,
+      "Bug ID": "2115391",
+      "Severity Level": "Undecided",
+      "OS Layer": "Application Layer",
+      "Affected Function": "Compatibility and Adaptation",
+      "Trigger Scenario": "Environment Dependency Trigger",
+      "Code Level": "Loop, If, Function Call, Assignment, Condition, Variable",
+      "Line Deletions": 7,
+      "Line Additions": 14,
+      "Line Changes": 21,
+      "Involved Functions": 1,
+      "Modified Files": 1,
+      "Patch": "https://github.com/systemd/systemd/commit/e90a255e55e3af0effac927ccaa10c2662501e1a",
+      "task_url": "https://api.launchpad.net/1.0/ubuntu/+source/systemd/+bug/2115391",
+      "status": "Fix Released",
+      "date_fix_released": "2025-06-26T03:29:10.958575+00:00",
+      "importance": "Undecided",
+      "title": "systemd-pcrlock log fails to read hyper-v vTPMs on Azure",
+      "date_created": "2025-06-26T03:28:53.777289+00:00"
+    },
+    {
+      "_idx": 23,
+      "Bug ID": "2109890",
+      "Severity Level": "Undecided",
+      "OS Layer": "Application Layer",
+      "Affected Function": "Process and Task Scheduling",
+      "Trigger Scenario": "Regular Operation Trigger",
+      "Code Level": "If, Function Call, Assignment",
+      "Line Deletions": 10,
+      "Line Additions": 1,
+      "Line Changes": 11,
+      "Involved Functions": 2,
+      "Modified Files": 1,
+      "Patch": "https://github.com/systemd/systemd/blob/5e6dd20a6e217674f53f738f9fc84dbbf4506a63/docs/CONTAINER_INTERFACE.md#environment-variables",
+      "task_url": "https://api.launchpad.net/1.0/ubuntu/+source/systemd/+bug/2109890",
+      "status": "Fix Released",
+      "date_fix_released": "2025-06-10T14:59:48.837903+00:00",
+      "importance": "Undecided",
+      "title": "[SRU] lxc: container_ttys env var not populated, leading to broken lxc-console",
+      "date_created": "2025-05-03T12:00:07.277731+00:00"
+    },
+    {
+      "_idx": 49,
+      "Bug ID": "2102236",
+      "Severity Level": "High",
+      "OS Layer": "Application Layer",
+      "Affected Function": "Device Management and Drivers",
+      "Trigger Scenario": "Environment Dependency Trigger",
+      "Code Level": "If",
+      "Line Deletions": 1,
+      "Line Additions": 5,
+      "Line Changes": 6,
+      "Involved Functions": 0,
+      "Modified Files": 1,
+      "Patch": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2102236/+attachment/5865905/+files/systemd_plucky_debdiff.patch",
+      "task_url": "https://api.launchpad.net/1.0/ubuntu/+source/systemd/+bug/2102236",
+      "status": "Fix Released",
+      "date_fix_released": "2025-03-22T19:56:30.064873+00:00",
+      "importance": "High",
+      "title": "plucky/s390x does not come up after kernel update + reboot, due to udev rules missing in initrd",
+      "date_created": "2025-03-13T18:04:35.488163+00:00"
+    },
+    {
+      "_idx": 77,
+      "Bug ID": "2100252",
+      "Severity Level": "Undecided",
+      "OS Layer": "System Service Layer",
+      "Affected Function": "Storage Management",
+      "Trigger Scenario": "Boundary Condition Trigger",
+      "Code Level": "Entire Function, Loop, If, Function Call, Assignment, Variable",
+      "Line Deletions": 145,
+      "Line Additions": 353,
+      "Line Changes": 498,
+      "Involved Functions": 20,
+      "Modified Files": 7,
+      "Patch": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2100252/+attachment/5860701/+files/lp2100252-systemd-focal.debdiff https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2100252/+attachment/5860703/+files/lp2100252-systemd-jammy.debdiff",
+      "task_url": "https://api.launchpad.net/1.0/ubuntu/+source/systemd/+bug/2100252",
+      "status": "Fix Released",
+      "date_fix_released": "2025-03-19T16:27:39.512686+00:00",
+      "importance": "Undecided",
+      "title": "A reused mount point is removed after deactivating the original volume group",
+      "date_created": "2025-02-26T06:55:45.922247+00:00"
+    },
+    {
+      "_idx": 218,
+      "Bug ID": "2077779",
+      "Severity Level": "Undecided",
+      "OS Layer": "System Library Layer",
+      "Affected Function": "Device Management and Drivers",
+      "Trigger Scenario": "State Dependency Trigger",
+      "Code Level": "Assignment",
+      "Line Deletions": 3,
+      "Line Additions": 3,
+      "Line Changes": 6,
+      "Involved Functions": 0,
+      "Modified Files": 3,
+      "Patch": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2077779/+attachment/5808824/+files/lp2077779-systemd-focal.debdiff",
+      "task_url": "https://api.launchpad.net/1.0/ubuntu/+source/systemd/+bug/2077779",
+      "status": "Fix Released",
+      "date_fix_released": "2024-10-11T15:31:36.478523+00:00",
+      "importance": "Undecided",
+      "title": "PTP device symlink missing after running udevadm trigger command",
+      "date_created": "2024-08-24T02:44:40.870806+00:00"
+    },
+    {
+      "_idx": 285,
+      "Bug ID": "2067922",
+      "Severity Level": "Undecided",
+      "OS Layer": "System Library Layer",
+      "Affected Function": "Process and Task Scheduling",
+      "Trigger Scenario": "Environment Dependency Trigger",
+      "Code Level": "Function Signature, Loop, If, Function Call, Variable",
+      "Line Deletions": 32,
+      "Line Additions": 47,
+      "Line Changes": 79,
+      "Involved Functions": 9,
+      "Modified Files": 7,
+      "Patch": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2067922/+attachment/5786231/+files/8e57759d6d80ef772d8e17a4559a6797e09af93a.patch",
+      "task_url": "https://api.launchpad.net/1.0/ubuntu/+source/systemd/+bug/2067922",
+      "status": "Fix Released",
+      "date_fix_released": "2024-08-01T13:24:18.490126+00:00",
+      "importance": "Undecided",
+      "title": "on WSL systemd status fails output",
+      "date_created": "2024-06-03T15:23:14.929322+00:00"
+    },
+    {
+      "_idx": 409,
+      "Bug ID": "2052137",
+      "Severity Level": "Low",
+      "OS Layer": "System Service Layer",
+      "Affected Function": "Network and Communication",
+      "Trigger Scenario": "Concurrency/Multi-thread Trigger",
+      "Code Level": "If, Function Call, Condition",
+      "Line Deletions": 1,
+      "Line Additions": 16,
+      "Line Changes": 17,
+      "Involved Functions": 1,
+      "Modified Files": 2,
+      "Patch": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2052137/+attachment/5784193/+files/jammy_netplan_systemd.patch",
+      "task_url": "https://api.launchpad.net/1.0/ubuntu/+source/systemd/+bug/2052137",
+      "status": "Fix Released",
+      "date_fix_released": "2024-07-08T17:49:57.629262+00:00",
+      "importance": "Low",
+      "title": "bonded link goes down on reconfigure",
+      "date_created": "2024-02-02T09:04:00.438584+00:00"
+    },
+    {
+      "_idx": 449,
+      "Bug ID": "2045621",
+      "Severity Level": "Undecided",
+      "OS Layer": "Kernel Layer",
+      "Affected Function": "Device Management and Drivers",
+      "Trigger Scenario": "Environment Dependency Trigger",
+      "Code Level": "Assignment",
+      "Line Deletions": 0,
+      "Line Additions": 10,
+      "Line Changes": 10,
+      "Involved Functions": 0,
+      "Modified Files": 1,
+      "Patch": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2045621/+attachment/5726376/+files/systemd_249.11-0ubuntu3.12.debdiff",
+      "task_url": "https://api.launchpad.net/1.0/ubuntu/+source/systemd/+bug/2045621",
+      "status": "Fix Released",
+      "date_fix_released": "2024-02-23T21:50:37.115210+00:00",
+      "importance": "Wishlist",
+      "title": "Improve power consumption on Framework systems",
+      "date_created": "2023-12-05T05:34:53.148632+00:00"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+source,decision,reason,count
+GH,borderline,Eligible,1
+GH,exclude,Enhancement request to allow users to update their own settings.,1
+GH,exclude,Enhancement request to support custom HTTP headers.,1
+GH,exclude,No unique ordinary issue linked by a closing reference,29
+GH,exclude,PR changes production code and tests but the linked report only establishes a flaky test. The evidence does not establish a product defect for this study.,1
+GH,exclude,Report or fix falls outside the common UTC window,4
+GH,exclude,Reported slowdown concerns the CI test configuration and the diff changes CI and test files.,1
+GH,exclude,The linked issue remains open. The merged PR alone does not establish final resolution under the shared fixed-record rule.,1
+GH,exclude,The merged PR groups several fixes. The report-specific size cannot be separated confidently from the bundle.,1
+GH,exclude,The report concerns a flaky test and the patch removes a test-image timeout override.,1
+GH,exclude,Unavailable patch size or published/API size exceeds 500 changed lines,1
+GH,include,Eligible,6
+LP,exclude,The report is framed as a power consumption improvement and the payload updates a hardware database rule. A specific malfunction is unclear.,1
+LP,exclude,The snapshot link targets a documentation blob. The report-specific repair diff could not be verified from that link.,1
+LP,exclude,Two package versions contain multiple nested patches and release metadata. The report-specific size cannot be confirmed without counting surrounding packaging or unrelated changes.,1
+LP,include,Eligible,5

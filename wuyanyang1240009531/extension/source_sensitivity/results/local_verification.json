@@ -1,0 +1,100 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows",
+  "runs": [
+    {
+      "run": 1,
+      "started_utc": "2026-11-25T16:53:45.021887+00:00",
+      "returncode": 0,
+      "summary": {
+        "GH": {
+          "candidates": 48,
+          "direct_diff": 6,
+          "included": 6
+        },
+        "LP": {
+          "candidates": 8,
+          "direct_diff": 3,
+          "included": 5
+        },
+        "baseline_sha256": "a21079dee00f037ed3d6b42ae458422b78e4ba1b1fc933f1fb7518953754f2ee",
+        "input_sha256": {
+          "analysis.py": "3c1faea5517b0a9715ecce6b032754b0550db8578fe47cb20b00c91bae77db39",
+          "decisions.csv": "379b18eface2799e56e438a521a70c9c8d4f04dfb91d33f409c256c0cec4768c",
+          "patch_evidence.json": "06c69325b433b8babc4ffe76d39fa7969b7feed264b67d0fedda21b1211b9e48",
+          "report_links.json": "5324b82a4d4bf5e19df66e8130002e581e89df1570785785ad42ae49cf7109a1",
+          "study_snapshot.json": "a0c4bc44252f257342370fa579c65cadfa07eb0e2702c0f5a8852b7ee81fc903"
+        }
+      }
+    },
+    {
+      "run": 2,
+      "started_utc": "2026-11-25T16:53:45.339456+00:00",
+      "returncode": 0,
+      "summary": {
+        "GH": {
+          "candidates": 48,
+          "direct_diff": 6,
+          "included": 6
+        },
+        "LP": {
+          "candidates": 8,
+          "direct_diff": 3,
+          "included": 5
+        },
+        "baseline_sha256": "a21079dee00f037ed3d6b42ae458422b78e4ba1b1fc933f1fb7518953754f2ee",
+        "input_sha256": {
+          "analysis.py": "3c1faea5517b0a9715ecce6b032754b0550db8578fe47cb20b00c91bae77db39",
+          "decisions.csv": "379b18eface2799e56e438a521a70c9c8d4f04dfb91d33f409c256c0cec4768c",
+          "patch_evidence.json": "06c69325b433b8babc4ffe76d39fa7969b7feed264b67d0fedda21b1211b9e48",
+          "report_links.json": "5324b82a4d4bf5e19df66e8130002e581e89df1570785785ad42ae49cf7109a1",
+          "study_snapshot.json": "a0c4bc44252f257342370fa579c65cadfa07eb0e2702c0f5a8852b7ee81fc903"
+        }
+      }
+    },
+    {
+      "run": 3,
+      "started_utc": "2026-11-25T16:53:45.619787+00:00",
+      "returncode": 0,
+      "summary": {
+        "GH": {
+          "candidates": 48,
+          "direct_diff": 6,
+          "included": 6
+        },
+        "LP": {
+          "candidates": 8,
+          "direct_diff": 3,
+          "included": 5
+        },
+        "baseline_sha256": "a21079dee00f037ed3d6b42ae458422b78e4ba1b1fc933f1fb7518953754f2ee",
+        "input_sha256": {
+          "analysis.py": "3c1faea5517b0a9715ecce6b032754b0550db8578fe47cb20b00c91bae77db39",
+          "decisions.csv": "379b18eface2799e56e438a521a70c9c8d4f04dfb91d33f409c256c0cec4768c",
+          "patch_evidence.json": "06c69325b433b8babc4ffe76d39fa7969b7feed264b67d0fedda21b1211b9e48",
+          "report_links.json": "5324b82a4d4bf5e19df66e8130002e581e89df1570785785ad42ae49cf7109a1",
+          "study_snapshot.json": "a0c4bc44252f257342370fa579c65cadfa07eb0e2702c0f5a8852b7ee81fc903"
+        }
+      }
+    }
+  ],
+  "identical_output_sha256": {
+    "candidate_audit.csv": "284ee0e8afc32450465b36d8e4c3913378cf5181da9916530ac729cfbc915c30",
+    "defects.csv": "3d3c506c006b8f203fd633e6eb3f16994aaa5bdc8c196212619795858e2c600d",
+    "distribution.csv": "1b5f71823c905cd39212fb2c81eb33d5f47a0ea0ff73d234ecc661cdb012df7d",
+    "environment_sensitivity.csv": "0216ee6228aba0009eab6c55d6d91359aef4fb525701d29b7acad38ea7684401",
+    "layers.svg": "23c81bd127aec34dc34ba525bfd35c3cc72807f8b5eb61e1fe1ed8f674bcf49c",
+    "peer_review_queue.csv": "f78e0daf3ad9135a9da79b23f9e6029206ff3952b95135372b1f7e05e35ae292",
+    "screening_flow.csv": "57fe75489675acfa7d5502220cc0710c2e141a7c0992bfbddade6abebdf9f763",
+    "service_triggers.svg": "2b6b84148fdc8cc97bb8aa6d5d2080d25d07aee6b314c8b7ae97906f9b974306",
+    "spearman.csv": "ff8386bcb799ab2ff9a3d0b9df372858bbba85fc5d4afbf23754b95696a41917",
+    "summary.json": "e78bc98c1838fa0ccda67cefb6057f0b00699c0784e74c892ff1c5d273e9aa35"
+  },
+  "verified": [
+    "included cohort matches audit",
+    "identities and evidence links",
+    "date window and patch ceiling",
+    "SVG structure",
+    "three byte-identical replays"
+  ]
+}

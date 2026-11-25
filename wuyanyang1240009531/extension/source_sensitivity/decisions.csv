@@ -1,0 +1,24 @@
+source,id,decision,layer,function,trigger,reason
+GH,27499,include,L,F,B,Journal reader library hangs on corrupted journal input. The fix is in sd-journal/journal-file.c.
+GH,30138,borderline,S,D,C,The report establishes an intermittent integration test failure and the PR changes production synchronization. Direct evidence of product impact is insufficient for the primary cohort.
+GH,30532,include,S,D,T,The udev worker loses watches after a child script timeout. The fix changes worker timeout handling in udev-manager.c.
+GH,31153,exclude,,,,Enhancement request to allow users to update their own settings.
+GH,32991,exclude,,,,The linked issue remains open. The merged PR alone does not establish final resolution under the shared fixed-record rule.
+GH,33092,include,S,P,T,The PID 1 unit manager fails to emit a notification during a freeze or thaw transition. The diff changes unit and cgroup management.
+GH,33398,exclude,,,,Optional transfer support is a feature request and the PR exceeds 500 lines.
+GH,33570,include,A,K,T,The sysupdate utility mishandles incomplete versions during an update. The dominant change is in sysupdate state handling.
+GH,33159,exclude,,,,Reported slowdown concerns the CI test configuration and the diff changes CI and test files.
+GH,34595,exclude,,,,Enhancement request to support custom HTTP headers.
+GH,35637,exclude,,,,The merged PR groups several fixes. The report-specific size cannot be separated confidently from the bundle.
+GH,35669,exclude,,,,The report concerns a flaky test and the patch removes a test-image timeout override.
+GH,35694,exclude,,,,PR changes production code and tests but the linked report only establishes a flaky test. The evidence does not establish a product defect for this study.
+GH,35799,include,A,K,R,The user-facing journalctl completion returns the wrong units for a normal command option. The patch is in its shell completion.
+GH,35802,include,S,M,,The logind service aborts in the reported swap configuration. Available evidence does not resolve whether external environment or an exceptional runtime state is decisive.
+LP,2115391,include,A,K,E,The pcrlock utility fails to read the virtual TPM log in the Hyper-V Azure environment. The linked commit changes pcrlock.c.
+LP,2109890,exclude,,,,The snapshot link targets a documentation blob. The report-specific repair diff could not be verified from that link.
+LP,2102236,include,S,D,E,The s390x Ubuntu initramfs is missing udev rules. The distribution integration fix changes the udev hook before userspace device initialization.
+LP,2100252,exclude,,,,Two package versions contain multiple nested patches and release metadata. The report-specific size cannot be confirmed without counting surrounding packaging or unrelated changes.
+LP,2077779,include,S,D,T,The PTP symlink is missing after the udev trigger action. The debdiff identifies a single named udev repair payload and package bookkeeping.
+LP,2067922,include,S,P,E,The systemd status path fails under WSL. The linked patch series changes cgroup handling in the manager and supporting code.
+LP,2052137,include,S,N,T,The report gives reconfiguration as the trigger. The fix changes ordering but the report does not establish a race. The original paper uses Concurrency/Multi-thread.
+LP,2045621,exclude,,,,The report is framed as a power consumption improvement and the payload updates a hardware database rule. A specific malfunction is unclear.

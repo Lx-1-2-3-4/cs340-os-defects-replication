@@ -1,0 +1,20 @@
+{
+  "GH": {
+    "candidates": 48,
+    "direct_diff": 6,
+    "included": 6
+  },
+  "LP": {
+    "candidates": 8,
+    "direct_diff": 3,
+    "included": 5
+  },
+  "baseline_sha256": "a21079dee00f037ed3d6b42ae458422b78e4ba1b1fc933f1fb7518953754f2ee",
+  "input_sha256": {
+    "analysis.py": "3c1faea5517b0a9715ecce6b032754b0550db8578fe47cb20b00c91bae77db39",
+    "decisions.csv": "379b18eface2799e56e438a521a70c9c8d4f04dfb91d33f409c256c0cec4768c",
+    "patch_evidence.json": "06c69325b433b8babc4ffe76d39fa7969b7feed264b67d0fedda21b1211b9e48",
+    "report_links.json": "5324b82a4d4bf5e19df66e8130002e581e89df1570785785ad42ae49cf7109a1",
+    "study_snapshot.json": "a0c4bc44252f257342370fa579c65cadfa07eb0e2702c0f5a8852b7ee81fc903"
+  }
+}

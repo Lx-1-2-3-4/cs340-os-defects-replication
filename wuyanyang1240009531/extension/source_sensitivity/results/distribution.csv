@@ -1,0 +1,385 @@
+scope,layer,dimension,category,lp_n,gh_n,lp_count,gh_count,lp_pct,gh_pct,github_minus_launchpad_pp
+all,All layers,layer,Kernel Layer,5,6,0,0,0.0,0.0,0.0
+all,All layers,layer,System Library Layer,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+all,All layers,layer,Runtime/Virtual Machine Layer,5,6,0,0,0.0,0.0,0.0
+all,All layers,layer,Framework Layer,5,6,0,0,0.0,0.0,0.0
+all,All layers,layer,System Service Layer,5,6,4,3,80.0,50.0,-30.0
+all,All layers,layer,Application Layer,5,6,1,2,20.0,33.333333333333336,13.333333333333336
+all,All layers,layer,Unknown,5,6,0,0,0.0,0.0,0.0
+all,All layers,function,Memory and Resource Management,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+all,All layers,function,Process and Task Scheduling,5,6,1,1,20.0,16.666666666666668,-3.333333333333332
+all,All layers,function,Storage Management,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+all,All layers,function,Device Management and Drivers,5,6,2,1,40.0,16.666666666666668,-23.333333333333332
+all,All layers,function,Network and Communication,5,6,1,0,20.0,0.0,-20.0
+all,All layers,function,Compatibility and Adaptation,5,6,1,2,20.0,33.333333333333336,13.333333333333336
+all,All layers,function,Security and Permission Control,5,6,0,0,0.0,0.0,0.0
+all,All layers,function,Graphics and Rendering,5,6,0,0,0.0,0.0,0.0
+all,All layers,function,Unknown,5,6,0,0,0.0,0.0,0.0
+all,All layers,trigger,Permission/Identity Dependency Trigger,5,6,0,0,0.0,0.0,0.0
+all,All layers,trigger,Regular Operation Trigger,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+all,All layers,trigger,Boundary Condition Trigger,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+all,All layers,trigger,Concurrency/Multi-thread Trigger,5,6,0,0,0.0,0.0,0.0
+all,All layers,trigger,State Dependency Trigger,5,6,2,3,40.0,50.0,10.0
+all,All layers,trigger,Environment Dependency Trigger,5,6,3,0,60.0,0.0,-60.0
+all,All layers,trigger,Multi-Language/Localization Trigger,5,6,0,0,0.0,0.0,0.0
+all,All layers,trigger,Unknown,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+direct_diff,All layers,layer,Kernel Layer,3,6,0,0,0.0,0.0,0.0
+direct_diff,All layers,layer,System Library Layer,3,6,0,1,0.0,16.666666666666668,16.666666666666668
+direct_diff,All layers,layer,Runtime/Virtual Machine Layer,3,6,0,0,0.0,0.0,0.0
+direct_diff,All layers,layer,Framework Layer,3,6,0,0,0.0,0.0,0.0
+direct_diff,All layers,layer,System Service Layer,3,6,2,3,66.66666666666667,50.0,-16.66666666666667
+direct_diff,All layers,layer,Application Layer,3,6,1,2,33.333333333333336,33.333333333333336,0.0
+direct_diff,All layers,layer,Unknown,3,6,0,0,0.0,0.0,0.0
+direct_diff,All layers,function,Memory and Resource Management,3,6,0,1,0.0,16.666666666666668,16.666666666666668
+direct_diff,All layers,function,Process and Task Scheduling,3,6,1,1,33.333333333333336,16.666666666666668,-16.666666666666668
+direct_diff,All layers,function,Storage Management,3,6,0,1,0.0,16.666666666666668,16.666666666666668
+direct_diff,All layers,function,Device Management and Drivers,3,6,0,1,0.0,16.666666666666668,16.666666666666668
+direct_diff,All layers,function,Network and Communication,3,6,1,0,33.333333333333336,0.0,-33.333333333333336
+direct_diff,All layers,function,Compatibility and Adaptation,3,6,1,2,33.333333333333336,33.333333333333336,0.0
+direct_diff,All layers,function,Security and Permission Control,3,6,0,0,0.0,0.0,0.0
+direct_diff,All layers,function,Graphics and Rendering,3,6,0,0,0.0,0.0,0.0
+direct_diff,All layers,function,Unknown,3,6,0,0,0.0,0.0,0.0
+direct_diff,All layers,trigger,Permission/Identity Dependency Trigger,3,6,0,0,0.0,0.0,0.0
+direct_diff,All layers,trigger,Regular Operation Trigger,3,6,0,1,0.0,16.666666666666668,16.666666666666668
+direct_diff,All layers,trigger,Boundary Condition Trigger,3,6,0,1,0.0,16.666666666666668,16.666666666666668
+direct_diff,All layers,trigger,Concurrency/Multi-thread Trigger,3,6,0,0,0.0,0.0,0.0
+direct_diff,All layers,trigger,State Dependency Trigger,3,6,1,3,33.333333333333336,50.0,16.666666666666664
+direct_diff,All layers,trigger,Environment Dependency Trigger,3,6,2,0,66.66666666666667,0.0,-66.66666666666667
+direct_diff,All layers,trigger,Multi-Language/Localization Trigger,3,6,0,0,0.0,0.0,0.0
+direct_diff,All layers,trigger,Unknown,3,6,0,1,0.0,16.666666666666668,16.666666666666668
+include_borderline_test,All layers,layer,Kernel Layer,5,7,0,0,0.0,0.0,0.0
+include_borderline_test,All layers,layer,System Library Layer,5,7,0,1,0.0,14.285714285714286,14.285714285714286
+include_borderline_test,All layers,layer,Runtime/Virtual Machine Layer,5,7,0,0,0.0,0.0,0.0
+include_borderline_test,All layers,layer,Framework Layer,5,7,0,0,0.0,0.0,0.0
+include_borderline_test,All layers,layer,System Service Layer,5,7,4,4,80.0,57.142857142857146,-22.857142857142854
+include_borderline_test,All layers,layer,Application Layer,5,7,1,2,20.0,28.571428571428573,8.571428571428573
+include_borderline_test,All layers,layer,Unknown,5,7,0,0,0.0,0.0,0.0
+include_borderline_test,All layers,function,Memory and Resource Management,5,7,0,1,0.0,14.285714285714286,14.285714285714286
+include_borderline_test,All layers,function,Process and Task Scheduling,5,7,1,1,20.0,14.285714285714286,-5.7142857142857135
+include_borderline_test,All layers,function,Storage Management,5,7,0,1,0.0,14.285714285714286,14.285714285714286
+include_borderline_test,All layers,function,Device Management and Drivers,5,7,2,2,40.0,28.571428571428573,-11.428571428571427
+include_borderline_test,All layers,function,Network and Communication,5,7,1,0,20.0,0.0,-20.0
+include_borderline_test,All layers,function,Compatibility and Adaptation,5,7,1,2,20.0,28.571428571428573,8.571428571428573
+include_borderline_test,All layers,function,Security and Permission Control,5,7,0,0,0.0,0.0,0.0
+include_borderline_test,All layers,function,Graphics and Rendering,5,7,0,0,0.0,0.0,0.0
+include_borderline_test,All layers,function,Unknown,5,7,0,0,0.0,0.0,0.0
+include_borderline_test,All layers,trigger,Permission/Identity Dependency Trigger,5,7,0,0,0.0,0.0,0.0
+include_borderline_test,All layers,trigger,Regular Operation Trigger,5,7,0,1,0.0,14.285714285714286,14.285714285714286
+include_borderline_test,All layers,trigger,Boundary Condition Trigger,5,7,0,1,0.0,14.285714285714286,14.285714285714286
+include_borderline_test,All layers,trigger,Concurrency/Multi-thread Trigger,5,7,0,1,0.0,14.285714285714286,14.285714285714286
+include_borderline_test,All layers,trigger,State Dependency Trigger,5,7,2,3,40.0,42.857142857142854,2.857142857142854
+include_borderline_test,All layers,trigger,Environment Dependency Trigger,5,7,3,0,60.0,0.0,-60.0
+include_borderline_test,All layers,trigger,Multi-Language/Localization Trigger,5,7,0,0,0.0,0.0,0.0
+include_borderline_test,All layers,trigger,Unknown,5,7,0,1,0.0,14.285714285714286,14.285714285714286
+author_labels,All layers,layer,Kernel Layer,5,6,0,0,0.0,0.0,0.0
+author_labels,All layers,layer,System Library Layer,5,6,2,1,40.0,16.666666666666668,-23.333333333333332
+author_labels,All layers,layer,Runtime/Virtual Machine Layer,5,6,0,0,0.0,0.0,0.0
+author_labels,All layers,layer,Framework Layer,5,6,0,0,0.0,0.0,0.0
+author_labels,All layers,layer,System Service Layer,5,6,1,3,20.0,50.0,30.0
+author_labels,All layers,layer,Application Layer,5,6,2,2,40.0,33.333333333333336,-6.666666666666664
+author_labels,All layers,layer,Unknown,5,6,0,0,0.0,0.0,0.0
+author_labels,All layers,function,Memory and Resource Management,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+author_labels,All layers,function,Process and Task Scheduling,5,6,1,1,20.0,16.666666666666668,-3.333333333333332
+author_labels,All layers,function,Storage Management,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+author_labels,All layers,function,Device Management and Drivers,5,6,2,1,40.0,16.666666666666668,-23.333333333333332
+author_labels,All layers,function,Network and Communication,5,6,1,0,20.0,0.0,-20.0
+author_labels,All layers,function,Compatibility and Adaptation,5,6,1,2,20.0,33.333333333333336,13.333333333333336
+author_labels,All layers,function,Security and Permission Control,5,6,0,0,0.0,0.0,0.0
+author_labels,All layers,function,Graphics and Rendering,5,6,0,0,0.0,0.0,0.0
+author_labels,All layers,function,Unknown,5,6,0,0,0.0,0.0,0.0
+author_labels,All layers,trigger,Permission/Identity Dependency Trigger,5,6,0,0,0.0,0.0,0.0
+author_labels,All layers,trigger,Regular Operation Trigger,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+author_labels,All layers,trigger,Boundary Condition Trigger,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+author_labels,All layers,trigger,Concurrency/Multi-thread Trigger,5,6,1,0,20.0,0.0,-20.0
+author_labels,All layers,trigger,State Dependency Trigger,5,6,1,3,20.0,50.0,30.0
+author_labels,All layers,trigger,Environment Dependency Trigger,5,6,3,0,60.0,0.0,-60.0
+author_labels,All layers,trigger,Multi-Language/Localization Trigger,5,6,0,0,0.0,0.0,0.0
+author_labels,All layers,trigger,Unknown,5,6,0,1,0.0,16.666666666666668,16.666666666666668
+same_layer,Kernel Layer,layer,Kernel Layer,0,0,0,0,,,
+same_layer,Kernel Layer,layer,System Library Layer,0,0,0,0,,,
+same_layer,Kernel Layer,layer,Runtime/Virtual Machine Layer,0,0,0,0,,,
+same_layer,Kernel Layer,layer,Framework Layer,0,0,0,0,,,
+same_layer,Kernel Layer,layer,System Service Layer,0,0,0,0,,,
+same_layer,Kernel Layer,layer,Application Layer,0,0,0,0,,,
+same_layer,Kernel Layer,layer,Unknown,0,0,0,0,,,
+same_layer,Kernel Layer,function,Memory and Resource Management,0,0,0,0,,,
+same_layer,Kernel Layer,function,Process and Task Scheduling,0,0,0,0,,,
+same_layer,Kernel Layer,function,Storage Management,0,0,0,0,,,
+same_layer,Kernel Layer,function,Device Management and Drivers,0,0,0,0,,,
+same_layer,Kernel Layer,function,Network and Communication,0,0,0,0,,,
+same_layer,Kernel Layer,function,Compatibility and Adaptation,0,0,0,0,,,
+same_layer,Kernel Layer,function,Security and Permission Control,0,0,0,0,,,
+same_layer,Kernel Layer,function,Graphics and Rendering,0,0,0,0,,,
+same_layer,Kernel Layer,function,Unknown,0,0,0,0,,,
+same_layer,Kernel Layer,trigger,Permission/Identity Dependency Trigger,0,0,0,0,,,
+same_layer,Kernel Layer,trigger,Regular Operation Trigger,0,0,0,0,,,
+same_layer,Kernel Layer,trigger,Boundary Condition Trigger,0,0,0,0,,,
+same_layer,Kernel Layer,trigger,Concurrency/Multi-thread Trigger,0,0,0,0,,,
+same_layer,Kernel Layer,trigger,State Dependency Trigger,0,0,0,0,,,
+same_layer,Kernel Layer,trigger,Environment Dependency Trigger,0,0,0,0,,,
+same_layer,Kernel Layer,trigger,Multi-Language/Localization Trigger,0,0,0,0,,,
+same_layer,Kernel Layer,trigger,Unknown,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,layer,Kernel Layer,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,layer,System Library Layer,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,layer,Runtime/Virtual Machine Layer,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,layer,Framework Layer,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,layer,System Service Layer,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,layer,Application Layer,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,layer,Unknown,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,function,Memory and Resource Management,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,function,Process and Task Scheduling,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,function,Storage Management,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,function,Device Management and Drivers,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,function,Network and Communication,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,function,Compatibility and Adaptation,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,function,Security and Permission Control,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,function,Graphics and Rendering,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,function,Unknown,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,trigger,Permission/Identity Dependency Trigger,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,trigger,Regular Operation Trigger,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,trigger,Boundary Condition Trigger,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,trigger,Concurrency/Multi-thread Trigger,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,trigger,State Dependency Trigger,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,trigger,Environment Dependency Trigger,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,trigger,Multi-Language/Localization Trigger,0,0,0,0,,,
+same_layer_author_labels,Kernel Layer,trigger,Unknown,0,0,0,0,,,
+same_layer,System Library Layer,layer,Kernel Layer,0,1,0,0,,0.0,
+same_layer,System Library Layer,layer,System Library Layer,0,1,0,1,,100.0,
+same_layer,System Library Layer,layer,Runtime/Virtual Machine Layer,0,1,0,0,,0.0,
+same_layer,System Library Layer,layer,Framework Layer,0,1,0,0,,0.0,
+same_layer,System Library Layer,layer,System Service Layer,0,1,0,0,,0.0,
+same_layer,System Library Layer,layer,Application Layer,0,1,0,0,,0.0,
+same_layer,System Library Layer,layer,Unknown,0,1,0,0,,0.0,
+same_layer,System Library Layer,function,Memory and Resource Management,0,1,0,0,,0.0,
+same_layer,System Library Layer,function,Process and Task Scheduling,0,1,0,0,,0.0,
+same_layer,System Library Layer,function,Storage Management,0,1,0,1,,100.0,
+same_layer,System Library Layer,function,Device Management and Drivers,0,1,0,0,,0.0,
+same_layer,System Library Layer,function,Network and Communication,0,1,0,0,,0.0,
+same_layer,System Library Layer,function,Compatibility and Adaptation,0,1,0,0,,0.0,
+same_layer,System Library Layer,function,Security and Permission Control,0,1,0,0,,0.0,
+same_layer,System Library Layer,function,Graphics and Rendering,0,1,0,0,,0.0,
+same_layer,System Library Layer,function,Unknown,0,1,0,0,,0.0,
+same_layer,System Library Layer,trigger,Permission/Identity Dependency Trigger,0,1,0,0,,0.0,
+same_layer,System Library Layer,trigger,Regular Operation Trigger,0,1,0,0,,0.0,
+same_layer,System Library Layer,trigger,Boundary Condition Trigger,0,1,0,1,,100.0,
+same_layer,System Library Layer,trigger,Concurrency/Multi-thread Trigger,0,1,0,0,,0.0,
+same_layer,System Library Layer,trigger,State Dependency Trigger,0,1,0,0,,0.0,
+same_layer,System Library Layer,trigger,Environment Dependency Trigger,0,1,0,0,,0.0,
+same_layer,System Library Layer,trigger,Multi-Language/Localization Trigger,0,1,0,0,,0.0,
+same_layer,System Library Layer,trigger,Unknown,0,1,0,0,,0.0,
+same_layer_author_labels,System Library Layer,layer,Kernel Layer,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,layer,System Library Layer,2,1,2,1,100.0,100.0,0.0
+same_layer_author_labels,System Library Layer,layer,Runtime/Virtual Machine Layer,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,layer,Framework Layer,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,layer,System Service Layer,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,layer,Application Layer,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,layer,Unknown,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,function,Memory and Resource Management,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,function,Process and Task Scheduling,2,1,1,0,50.0,0.0,-50.0
+same_layer_author_labels,System Library Layer,function,Storage Management,2,1,0,1,0.0,100.0,100.0
+same_layer_author_labels,System Library Layer,function,Device Management and Drivers,2,1,1,0,50.0,0.0,-50.0
+same_layer_author_labels,System Library Layer,function,Network and Communication,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,function,Compatibility and Adaptation,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,function,Security and Permission Control,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,function,Graphics and Rendering,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,function,Unknown,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,trigger,Permission/Identity Dependency Trigger,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,trigger,Regular Operation Trigger,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,trigger,Boundary Condition Trigger,2,1,0,1,0.0,100.0,100.0
+same_layer_author_labels,System Library Layer,trigger,Concurrency/Multi-thread Trigger,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,trigger,State Dependency Trigger,2,1,1,0,50.0,0.0,-50.0
+same_layer_author_labels,System Library Layer,trigger,Environment Dependency Trigger,2,1,1,0,50.0,0.0,-50.0
+same_layer_author_labels,System Library Layer,trigger,Multi-Language/Localization Trigger,2,1,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Library Layer,trigger,Unknown,2,1,0,0,0.0,0.0,0.0
+same_layer,Runtime/Virtual Machine Layer,layer,Kernel Layer,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,layer,System Library Layer,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,layer,Runtime/Virtual Machine Layer,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,layer,Framework Layer,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,layer,System Service Layer,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,layer,Application Layer,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,layer,Unknown,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,function,Memory and Resource Management,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,function,Process and Task Scheduling,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,function,Storage Management,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,function,Device Management and Drivers,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,function,Network and Communication,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,function,Compatibility and Adaptation,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,function,Security and Permission Control,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,function,Graphics and Rendering,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,function,Unknown,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,trigger,Permission/Identity Dependency Trigger,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,trigger,Regular Operation Trigger,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,trigger,Boundary Condition Trigger,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,trigger,Concurrency/Multi-thread Trigger,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,trigger,State Dependency Trigger,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,trigger,Environment Dependency Trigger,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,trigger,Multi-Language/Localization Trigger,0,0,0,0,,,
+same_layer,Runtime/Virtual Machine Layer,trigger,Unknown,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,layer,Kernel Layer,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,layer,System Library Layer,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,layer,Runtime/Virtual Machine Layer,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,layer,Framework Layer,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,layer,System Service Layer,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,layer,Application Layer,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,layer,Unknown,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,function,Memory and Resource Management,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,function,Process and Task Scheduling,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,function,Storage Management,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,function,Device Management and Drivers,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,function,Network and Communication,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,function,Compatibility and Adaptation,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,function,Security and Permission Control,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,function,Graphics and Rendering,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,function,Unknown,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,trigger,Permission/Identity Dependency Trigger,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,trigger,Regular Operation Trigger,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,trigger,Boundary Condition Trigger,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,trigger,Concurrency/Multi-thread Trigger,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,trigger,State Dependency Trigger,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,trigger,Environment Dependency Trigger,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,trigger,Multi-Language/Localization Trigger,0,0,0,0,,,
+same_layer_author_labels,Runtime/Virtual Machine Layer,trigger,Unknown,0,0,0,0,,,
+same_layer,Framework Layer,layer,Kernel Layer,0,0,0,0,,,
+same_layer,Framework Layer,layer,System Library Layer,0,0,0,0,,,
+same_layer,Framework Layer,layer,Runtime/Virtual Machine Layer,0,0,0,0,,,
+same_layer,Framework Layer,layer,Framework Layer,0,0,0,0,,,
+same_layer,Framework Layer,layer,System Service Layer,0,0,0,0,,,
+same_layer,Framework Layer,layer,Application Layer,0,0,0,0,,,
+same_layer,Framework Layer,layer,Unknown,0,0,0,0,,,
+same_layer,Framework Layer,function,Memory and Resource Management,0,0,0,0,,,
+same_layer,Framework Layer,function,Process and Task Scheduling,0,0,0,0,,,
+same_layer,Framework Layer,function,Storage Management,0,0,0,0,,,
+same_layer,Framework Layer,function,Device Management and Drivers,0,0,0,0,,,
+same_layer,Framework Layer,function,Network and Communication,0,0,0,0,,,
+same_layer,Framework Layer,function,Compatibility and Adaptation,0,0,0,0,,,
+same_layer,Framework Layer,function,Security and Permission Control,0,0,0,0,,,
+same_layer,Framework Layer,function,Graphics and Rendering,0,0,0,0,,,
+same_layer,Framework Layer,function,Unknown,0,0,0,0,,,
+same_layer,Framework Layer,trigger,Permission/Identity Dependency Trigger,0,0,0,0,,,
+same_layer,Framework Layer,trigger,Regular Operation Trigger,0,0,0,0,,,
+same_layer,Framework Layer,trigger,Boundary Condition Trigger,0,0,0,0,,,
+same_layer,Framework Layer,trigger,Concurrency/Multi-thread Trigger,0,0,0,0,,,
+same_layer,Framework Layer,trigger,State Dependency Trigger,0,0,0,0,,,
+same_layer,Framework Layer,trigger,Environment Dependency Trigger,0,0,0,0,,,
+same_layer,Framework Layer,trigger,Multi-Language/Localization Trigger,0,0,0,0,,,
+same_layer,Framework Layer,trigger,Unknown,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,layer,Kernel Layer,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,layer,System Library Layer,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,layer,Runtime/Virtual Machine Layer,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,layer,Framework Layer,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,layer,System Service Layer,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,layer,Application Layer,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,layer,Unknown,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,function,Memory and Resource Management,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,function,Process and Task Scheduling,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,function,Storage Management,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,function,Device Management and Drivers,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,function,Network and Communication,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,function,Compatibility and Adaptation,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,function,Security and Permission Control,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,function,Graphics and Rendering,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,function,Unknown,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,trigger,Permission/Identity Dependency Trigger,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,trigger,Regular Operation Trigger,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,trigger,Boundary Condition Trigger,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,trigger,Concurrency/Multi-thread Trigger,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,trigger,State Dependency Trigger,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,trigger,Environment Dependency Trigger,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,trigger,Multi-Language/Localization Trigger,0,0,0,0,,,
+same_layer_author_labels,Framework Layer,trigger,Unknown,0,0,0,0,,,
+same_layer,System Service Layer,layer,Kernel Layer,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,layer,System Library Layer,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,layer,Runtime/Virtual Machine Layer,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,layer,Framework Layer,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,layer,System Service Layer,4,3,4,3,100.0,100.0,0.0
+same_layer,System Service Layer,layer,Application Layer,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,layer,Unknown,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,function,Memory and Resource Management,4,3,0,1,0.0,33.333333333333336,33.333333333333336
+same_layer,System Service Layer,function,Process and Task Scheduling,4,3,1,1,25.0,33.333333333333336,8.333333333333336
+same_layer,System Service Layer,function,Storage Management,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,function,Device Management and Drivers,4,3,2,1,50.0,33.333333333333336,-16.666666666666664
+same_layer,System Service Layer,function,Network and Communication,4,3,1,0,25.0,0.0,-25.0
+same_layer,System Service Layer,function,Compatibility and Adaptation,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,function,Security and Permission Control,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,function,Graphics and Rendering,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,function,Unknown,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,trigger,Permission/Identity Dependency Trigger,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,trigger,Regular Operation Trigger,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,trigger,Boundary Condition Trigger,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,trigger,Concurrency/Multi-thread Trigger,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,trigger,State Dependency Trigger,4,3,2,2,50.0,66.66666666666667,16.66666666666667
+same_layer,System Service Layer,trigger,Environment Dependency Trigger,4,3,2,0,50.0,0.0,-50.0
+same_layer,System Service Layer,trigger,Multi-Language/Localization Trigger,4,3,0,0,0.0,0.0,0.0
+same_layer,System Service Layer,trigger,Unknown,4,3,0,1,0.0,33.333333333333336,33.333333333333336
+same_layer_author_labels,System Service Layer,layer,Kernel Layer,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,layer,System Library Layer,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,layer,Runtime/Virtual Machine Layer,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,layer,Framework Layer,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,layer,System Service Layer,1,3,1,3,100.0,100.0,0.0
+same_layer_author_labels,System Service Layer,layer,Application Layer,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,layer,Unknown,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,function,Memory and Resource Management,1,3,0,1,0.0,33.333333333333336,33.333333333333336
+same_layer_author_labels,System Service Layer,function,Process and Task Scheduling,1,3,0,1,0.0,33.333333333333336,33.333333333333336
+same_layer_author_labels,System Service Layer,function,Storage Management,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,function,Device Management and Drivers,1,3,0,1,0.0,33.333333333333336,33.333333333333336
+same_layer_author_labels,System Service Layer,function,Network and Communication,1,3,1,0,100.0,0.0,-100.0
+same_layer_author_labels,System Service Layer,function,Compatibility and Adaptation,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,function,Security and Permission Control,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,function,Graphics and Rendering,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,function,Unknown,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,trigger,Permission/Identity Dependency Trigger,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,trigger,Regular Operation Trigger,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,trigger,Boundary Condition Trigger,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,trigger,Concurrency/Multi-thread Trigger,1,3,1,0,100.0,0.0,-100.0
+same_layer_author_labels,System Service Layer,trigger,State Dependency Trigger,1,3,0,2,0.0,66.66666666666667,66.66666666666667
+same_layer_author_labels,System Service Layer,trigger,Environment Dependency Trigger,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,trigger,Multi-Language/Localization Trigger,1,3,0,0,0.0,0.0,0.0
+same_layer_author_labels,System Service Layer,trigger,Unknown,1,3,0,1,0.0,33.333333333333336,33.333333333333336
+same_layer,Application Layer,layer,Kernel Layer,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,layer,System Library Layer,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,layer,Runtime/Virtual Machine Layer,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,layer,Framework Layer,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,layer,System Service Layer,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,layer,Application Layer,1,2,1,2,100.0,100.0,0.0
+same_layer,Application Layer,layer,Unknown,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,function,Memory and Resource Management,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,function,Process and Task Scheduling,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,function,Storage Management,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,function,Device Management and Drivers,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,function,Network and Communication,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,function,Compatibility and Adaptation,1,2,1,2,100.0,100.0,0.0
+same_layer,Application Layer,function,Security and Permission Control,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,function,Graphics and Rendering,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,function,Unknown,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,trigger,Permission/Identity Dependency Trigger,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,trigger,Regular Operation Trigger,1,2,0,1,0.0,50.0,50.0
+same_layer,Application Layer,trigger,Boundary Condition Trigger,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,trigger,Concurrency/Multi-thread Trigger,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,trigger,State Dependency Trigger,1,2,0,1,0.0,50.0,50.0
+same_layer,Application Layer,trigger,Environment Dependency Trigger,1,2,1,0,100.0,0.0,-100.0
+same_layer,Application Layer,trigger,Multi-Language/Localization Trigger,1,2,0,0,0.0,0.0,0.0
+same_layer,Application Layer,trigger,Unknown,1,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,layer,Kernel Layer,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,layer,System Library Layer,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,layer,Runtime/Virtual Machine Layer,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,layer,Framework Layer,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,layer,System Service Layer,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,layer,Application Layer,2,2,2,2,100.0,100.0,0.0
+same_layer_author_labels,Application Layer,layer,Unknown,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,function,Memory and Resource Management,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,function,Process and Task Scheduling,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,function,Storage Management,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,function,Device Management and Drivers,2,2,1,0,50.0,0.0,-50.0
+same_layer_author_labels,Application Layer,function,Network and Communication,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,function,Compatibility and Adaptation,2,2,1,2,50.0,100.0,50.0
+same_layer_author_labels,Application Layer,function,Security and Permission Control,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,function,Graphics and Rendering,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,function,Unknown,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,trigger,Permission/Identity Dependency Trigger,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,trigger,Regular Operation Trigger,2,2,0,1,0.0,50.0,50.0
+same_layer_author_labels,Application Layer,trigger,Boundary Condition Trigger,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,trigger,Concurrency/Multi-thread Trigger,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,trigger,State Dependency Trigger,2,2,0,1,0.0,50.0,50.0
+same_layer_author_labels,Application Layer,trigger,Environment Dependency Trigger,2,2,2,0,100.0,0.0,-100.0
+same_layer_author_labels,Application Layer,trigger,Multi-Language/Localization Trigger,2,2,0,0,0.0,0.0,0.0
+same_layer_author_labels,Application Layer,trigger,Unknown,2,2,0,0,0.0,0.0,0.0

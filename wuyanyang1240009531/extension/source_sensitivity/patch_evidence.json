@@ -1,0 +1,775 @@
+[
+  {
+    "source": "GH",
+    "id": "27499",
+    "url": "https://github.com/systemd/systemd/pull/27499.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/27499.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/27499.diff",
+    "sha256": "e0eba13aa5e41deac1e3d20133e448d3b9dd7bfd13dd82226552c3a1dad7f99b",
+    "bytes": 4217,
+    "paths": [
+      "src/libsystemd/sd-journal/journal-file.c"
+    ],
+    "direct_git_diff": true,
+    "additions": 13,
+    "deletions": 24,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/src/libsystemd/sd-journal/journal-file.c",
+      "+++ b/src/libsystemd/sd-journal/journal-file.c"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "30138",
+    "url": "https://github.com/systemd/systemd/pull/30138.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/30138.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/30138.diff",
+    "sha256": "908362ece6f8ecfb8cfe181f26df8c276d7639723d55c1428dfb6016822c051a",
+    "bytes": 6769,
+    "paths": [
+      "src/network/networkd-link.c",
+      "src/shared/udev-util.c",
+      "src/shared/udev-util.h",
+      "src/udev/udev-event.c",
+      "src/udev/udev-worker.c",
+      "test/test-network/systemd-networkd-tests.py"
+    ],
+    "direct_git_diff": true,
+    "additions": 61,
+    "deletions": 6,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [
+      "30056"
+    ],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/src/network/networkd-link.c",
+      "+++ b/src/network/networkd-link.c",
+      "--- a/src/shared/udev-util.c",
+      "+++ b/src/shared/udev-util.c",
+      "--- a/src/shared/udev-util.h",
+      "+++ b/src/shared/udev-util.h",
+      "--- a/src/udev/udev-event.c",
+      "+++ b/src/udev/udev-event.c",
+      "--- a/src/udev/udev-worker.c",
+      "+++ b/src/udev/udev-worker.c",
+      "--- a/test/test-network/systemd-networkd-tests.py",
+      "+++ b/test/test-network/systemd-networkd-tests.py"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "30532",
+    "url": "https://github.com/systemd/systemd/pull/30532.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/30532.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/30532.diff",
+    "sha256": "4b4e169f076051f060a1e7b2a44000b2165a7ff9b55782567ec0b57105ff701b",
+    "bytes": 12051,
+    "paths": [
+      "docs/ENVIRONMENT.md",
+      "src/udev/udev-manager.c",
+      "src/udev/udev-spawn.c",
+      "test/units/testsuite-17.03.sh"
+    ],
+    "direct_git_diff": true,
+    "additions": 117,
+    "deletions": 33,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/docs/ENVIRONMENT.md",
+      "+++ b/docs/ENVIRONMENT.md",
+      "--- a/src/udev/udev-manager.c",
+      "+++ b/src/udev/udev-manager.c",
+      "--- a/src/udev/udev-spawn.c",
+      "+++ b/src/udev/udev-spawn.c",
+      "--- a/test/units/testsuite-17.03.sh",
+      "+++ b/test/units/testsuite-17.03.sh"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "31153",
+    "url": "https://github.com/systemd/systemd/pull/31153.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/31153.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/31153.diff",
+    "sha256": "7bf6f4a4e613e4890e49bd2da2898f222508d706b65b537d25ce31a86ad7e165",
+    "bytes": 30428,
+    "paths": [
+      "docs/USER_RECORD.md",
+      "src/home/homed-home-bus.c",
+      "src/home/homed-home-bus.h",
+      "src/home/homed-home.c",
+      "src/home/org.freedesktop.home1.policy",
+      "src/shared/user-record-show.c",
+      "src/shared/user-record.c",
+      "src/shared/user-record.h",
+      "src/test/meson.build",
+      "src/test/test-user-record.c"
+    ],
+    "direct_git_diff": true,
+    "additions": 440,
+    "deletions": 19,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/docs/USER_RECORD.md",
+      "+++ b/docs/USER_RECORD.md",
+      "--- a/src/home/homed-home-bus.c",
+      "+++ b/src/home/homed-home-bus.c",
+      "--- a/src/home/homed-home-bus.h",
+      "+++ b/src/home/homed-home-bus.h",
+      "--- a/src/home/homed-home.c",
+      "+++ b/src/home/homed-home.c",
+      "--- a/src/home/org.freedesktop.home1.policy",
+      "+++ b/src/home/org.freedesktop.home1.policy",
+      "--- a/src/shared/user-record-show.c",
+      "+++ b/src/shared/user-record-show.c",
+      "--- a/src/shared/user-record.c",
+      "+++ b/src/shared/user-record.c",
+      "--- a/src/shared/user-record.h",
+      "+++ b/src/shared/user-record.h",
+      "--- a/src/test/meson.build",
+      "+++ b/src/test/meson.build",
+      "--- /dev/null",
+      "+++ b/src/test/test-user-record.c"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "32991",
+    "url": "https://github.com/systemd/systemd/pull/32991.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/32991.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/32991.diff",
+    "sha256": "f933d32cd83659510aefd972b5dca8a18db24195bea6fc7120d43b52aed7f9a0",
+    "bytes": 780,
+    "paths": [
+      "src/resolve/resolved-mdns.c"
+    ],
+    "direct_git_diff": true,
+    "additions": 4,
+    "deletions": 1,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/src/resolve/resolved-mdns.c",
+      "+++ b/src/resolve/resolved-mdns.c"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "33092",
+    "url": "https://github.com/systemd/systemd/pull/33092.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/33092.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/33092.diff",
+    "sha256": "f2803535041e4892b2c4687498c13027c798085946d3a26c09c33089ae84e980",
+    "bytes": 29862,
+    "paths": [
+      "src/basic/unit-def.c",
+      "src/core/cgroup.c",
+      "src/core/cgroup.h",
+      "src/core/dbus-unit.c",
+      "src/core/slice.c",
+      "src/core/unit-serialize.c",
+      "src/core/unit.c",
+      "src/core/unit.h",
+      "src/home/homework.c",
+      "src/libsystemd/sd-bus/bus-common-errors.c",
+      "src/libsystemd/sd-bus/bus-common-errors.h",
+      "src/shared/bus-unit-util.c",
+      "src/shared/bus-unit-util.h",
+      "src/sleep/sleep.c"
+    ],
+    "direct_git_diff": true,
+    "additions": 147,
+    "deletions": 149,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [
+      "13512"
+    ],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/src/basic/unit-def.c",
+      "+++ b/src/basic/unit-def.c",
+      "--- a/src/core/cgroup.c",
+      "+++ b/src/core/cgroup.c",
+      "--- a/src/core/cgroup.h",
+      "+++ b/src/core/cgroup.h",
+      "--- a/src/core/dbus-unit.c",
+      "+++ b/src/core/dbus-unit.c",
+      "--- a/src/core/slice.c",
+      "+++ b/src/core/slice.c",
+      "--- a/src/core/unit-serialize.c",
+      "+++ b/src/core/unit-serialize.c",
+      "--- a/src/core/unit.c",
+      "+++ b/src/core/unit.c",
+      "--- a/src/core/unit.h",
+      "+++ b/src/core/unit.h",
+      "--- a/src/home/homework.c",
+      "+++ b/src/home/homework.c",
+      "--- a/src/libsystemd/sd-bus/bus-common-errors.c",
+      "+++ b/src/libsystemd/sd-bus/bus-common-errors.c",
+      "--- a/src/libsystemd/sd-bus/bus-common-errors.h",
+      "+++ b/src/libsystemd/sd-bus/bus-common-errors.h",
+      "--- a/src/shared/bus-unit-util.c",
+      "+++ b/src/shared/bus-unit-util.c",
+      "--- a/src/shared/bus-unit-util.h",
+      "+++ b/src/shared/bus-unit-util.h",
+      "--- a/src/sleep/sleep.c",
+      "+++ b/src/sleep/sleep.c"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "33570",
+    "url": "https://github.com/systemd/systemd/pull/33570.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/33570.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/33570.diff",
+    "sha256": "d3b93a48a290dc8ef95b48eaf4bb55d060f1b6a31731367a3452fb4b10dfc059",
+    "bytes": 35260,
+    "paths": [
+      "man/org.freedesktop.sysupdate1.xml",
+      "man/systemd-sysupdate.xml",
+      "src/sysupdate/sysupdate-resource.c",
+      "src/sysupdate/sysupdate-transfer.c",
+      "src/sysupdate/sysupdate-update-set-flags.c",
+      "src/sysupdate/sysupdate-update-set-flags.h",
+      "src/sysupdate/sysupdate.c",
+      "src/sysupdate/updatectl.c",
+      "test/units/TEST-72-SYSUPDATE.sh"
+    ],
+    "direct_git_diff": true,
+    "additions": 271,
+    "deletions": 75,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [
+      "33339"
+    ],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/man/org.freedesktop.sysupdate1.xml",
+      "+++ b/man/org.freedesktop.sysupdate1.xml",
+      "--- a/man/systemd-sysupdate.xml",
+      "+++ b/man/systemd-sysupdate.xml",
+      "--- a/src/sysupdate/sysupdate-resource.c",
+      "+++ b/src/sysupdate/sysupdate-resource.c",
+      "--- a/src/sysupdate/sysupdate-transfer.c",
+      "+++ b/src/sysupdate/sysupdate-transfer.c",
+      "--- a/src/sysupdate/sysupdate-update-set-flags.c",
+      "+++ b/src/sysupdate/sysupdate-update-set-flags.c",
+      "--- a/src/sysupdate/sysupdate-update-set-flags.h",
+      "+++ b/src/sysupdate/sysupdate-update-set-flags.h",
+      "--- a/src/sysupdate/sysupdate.c",
+      "+++ b/src/sysupdate/sysupdate.c",
+      "--- a/src/sysupdate/updatectl.c",
+      "+++ b/src/sysupdate/updatectl.c",
+      "--- a/test/units/TEST-72-SYSUPDATE.sh",
+      "+++ b/test/units/TEST-72-SYSUPDATE.sh"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "33159",
+    "url": "https://github.com/systemd/systemd/pull/33159.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/33159.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/33159.diff",
+    "sha256": "5a9101e0882e63c9c83665b23d134bbb9fc4cf965ccfe6b67947c38ac3f35b2d",
+    "bytes": 2356,
+    "paths": [
+      ".github/workflows/mkosi.yml",
+      "test/TEST-21-DFUZZER/meson.build"
+    ],
+    "direct_git_diff": true,
+    "additions": 8,
+    "deletions": 1,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [
+      "11bd71901bbe5b1630ceea73d27597364c9af683"
+    ],
+    "changed_headers": [
+      "--- a/.github/workflows/mkosi.yml",
+      "+++ b/.github/workflows/mkosi.yml",
+      "--- a/test/TEST-21-DFUZZER/meson.build",
+      "+++ b/test/TEST-21-DFUZZER/meson.build"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "34595",
+    "url": "https://github.com/systemd/systemd/pull/34595.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/34595.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/34595.diff",
+    "sha256": "cbac2f3547babaadf4bc6cc0f0596a2ab2961834fc0540efb6b0cce2bd2fb3e7",
+    "bytes": 12890,
+    "paths": [
+      "man/journal-upload.conf.xml",
+      "src/journal-remote/journal-header-util.c",
+      "src/journal-remote/journal-header-util.h",
+      "src/journal-remote/journal-upload.c",
+      "src/journal-remote/meson.build",
+      "src/journal-remote/test-journal-header-util.c",
+      "test/units/TEST-04-JOURNAL.journal-remote.sh"
+    ],
+    "direct_git_diff": true,
+    "additions": 240,
+    "deletions": 0,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/man/journal-upload.conf.xml",
+      "+++ b/man/journal-upload.conf.xml",
+      "--- /dev/null",
+      "+++ b/src/journal-remote/journal-header-util.c",
+      "--- /dev/null",
+      "+++ b/src/journal-remote/journal-header-util.h",
+      "--- a/src/journal-remote/journal-upload.c",
+      "+++ b/src/journal-remote/journal-upload.c",
+      "--- a/src/journal-remote/meson.build",
+      "+++ b/src/journal-remote/meson.build",
+      "--- /dev/null",
+      "+++ b/src/journal-remote/test-journal-header-util.c",
+      "--- a/test/units/TEST-04-JOURNAL.journal-remote.sh",
+      "+++ b/test/units/TEST-04-JOURNAL.journal-remote.sh"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "35637",
+    "url": "https://github.com/systemd/systemd/pull/35637.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/35637.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/35637.diff",
+    "sha256": "d6bdf359721fcebb976f80ad15c1da17bd690964587ca9ceded3ab25023a5120",
+    "bytes": 29160,
+    "paths": [
+      "src/basic/recurse-dir.c",
+      "src/basic/recurse-dir.h",
+      "src/basic/unit-def.c",
+      "src/basic/unit-def.h",
+      "src/core/socket.c",
+      "src/core/socket.h",
+      "sysusers.d/basic.conf.in",
+      "test/units/TEST-07-PID1.socket-max-connection.sh",
+      "test/units/TEST-07-PID1.socket-on-failure.sh"
+    ],
+    "direct_git_diff": true,
+    "additions": 218,
+    "deletions": 142,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/src/basic/recurse-dir.c",
+      "+++ b/src/basic/recurse-dir.c",
+      "--- a/src/basic/recurse-dir.h",
+      "+++ b/src/basic/recurse-dir.h",
+      "--- a/src/basic/unit-def.c",
+      "+++ b/src/basic/unit-def.c",
+      "--- a/src/basic/unit-def.h",
+      "+++ b/src/basic/unit-def.h",
+      "--- a/src/core/socket.c",
+      "+++ b/src/core/socket.c",
+      "--- a/src/core/socket.h",
+      "+++ b/src/core/socket.h",
+      "--- a/sysusers.d/basic.conf.in",
+      "+++ b/sysusers.d/basic.conf.in",
+      "--- /dev/null",
+      "+++ b/test/units/TEST-07-PID1.socket-on-failure.sh"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "35669",
+    "url": "https://github.com/systemd/systemd/pull/35669.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/35669.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/35669.diff",
+    "sha256": "04a2d74e23883cd5d520d87961e64a1a55005aab8622b45c723c219e8edd24e5",
+    "bytes": 529,
+    "paths": [
+      "mkosi.extra.common/usr/lib/systemd/system.conf.d/10-device-timeout.conf"
+    ],
+    "direct_git_diff": true,
+    "additions": 0,
+    "deletions": 6,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/mkosi.extra.common/usr/lib/systemd/system.conf.d/10-device-timeout.conf",
+      "+++ /dev/null"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "35694",
+    "url": "https://github.com/systemd/systemd/pull/35694.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/35694.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/35694.diff",
+    "sha256": "09a2a0a4077294e7405881a92ed4eaa46d8dd09e784ace1647c97618bd531dff",
+    "bytes": 8664,
+    "paths": [
+      "src/shared/firewall-util-nft.c",
+      "src/test/test-firewall-util.c"
+    ],
+    "direct_git_diff": true,
+    "additions": 39,
+    "deletions": 17,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/src/shared/firewall-util-nft.c",
+      "+++ b/src/shared/firewall-util-nft.c",
+      "--- a/src/test/test-firewall-util.c",
+      "+++ b/src/test/test-firewall-util.c"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "35799",
+    "url": "https://github.com/systemd/systemd/pull/35799.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/35799.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/35799.diff",
+    "sha256": "adfa02a4bc2ed086795948867b22ba56b10f0d2b1153a152b4153302f4501803",
+    "bytes": 1327,
+    "paths": [
+      "shell-completion/bash/journalctl"
+    ],
+    "direct_git_diff": true,
+    "additions": 9,
+    "deletions": 1,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/shell-completion/bash/journalctl",
+      "+++ b/shell-completion/bash/journalctl"
+    ]
+  },
+  {
+    "source": "GH",
+    "id": "35802",
+    "url": "https://github.com/systemd/systemd/pull/35802.diff",
+    "alternates": [
+      "https://patch-diff.githubusercontent.com/raw/systemd/systemd/pull/35802.diff"
+    ],
+    "fetched_url": "https://github.com/systemd/systemd/pull/35802.diff",
+    "sha256": "f34afe0dc4e6fa304de76f8ba74579012725f1ee78eae86817b21aed0846c17d",
+    "bytes": 8948,
+    "paths": [
+      "README",
+      "src/shared/blockdev-util.c",
+      "src/shared/hibernate-util.c"
+    ],
+    "direct_git_diff": true,
+    "additions": 35,
+    "deletions": 45,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/README",
+      "+++ b/README",
+      "--- a/src/shared/blockdev-util.c",
+      "+++ b/src/shared/blockdev-util.c",
+      "--- a/src/shared/hibernate-util.c",
+      "+++ b/src/shared/hibernate-util.c"
+    ]
+  },
+  {
+    "source": "LP",
+    "id": "2115391",
+    "url": "https://github.com/systemd/systemd/commit/e90a255e55e3af0effac927ccaa10c2662501e1a.diff",
+    "fetched_url": "https://github.com/systemd/systemd/commit/e90a255e55e3af0effac927ccaa10c2662501e1a.diff",
+    "sha256": "d94cd68b7e7f6c0dc18559ff636dfefd52e17aeed0218963d8662be5bcea34e0",
+    "bytes": 2669,
+    "paths": [
+      "src/pcrlock/pcrlock.c"
+    ],
+    "direct_git_diff": true,
+    "additions": 14,
+    "deletions": 7,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/src/pcrlock/pcrlock.c",
+      "+++ b/src/pcrlock/pcrlock.c"
+    ]
+  },
+  {
+    "source": "LP",
+    "id": "2109890",
+    "url": "https://github.com/systemd/systemd/blob/5e6dd20a6e217674f53f738f9fc84dbbf4506a63/docs/CONTAINER_INTERFACE.md#environment-variables",
+    "errors": [
+      {
+        "url": "https://github.com/systemd/systemd/blob/5e6dd20a6e217674f53f738f9fc84dbbf4506a63/docs/CONTAINER_INTERFACE.md#environment-variables",
+        "error": "Response has no text diff hunks"
+      }
+    ]
+  },
+  {
+    "source": "LP",
+    "id": "2102236",
+    "url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2102236/+attachment/5865905/+files/systemd_plucky_debdiff.patch",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2102236/+attachment/5865905/+files/systemd_plucky_debdiff.patch",
+    "sha256": "effa45013e51180707aa3e927081be9dad8c03b3c2a3f2ea82fc466c369f6a6f",
+    "bytes": 1541,
+    "paths": [],
+    "direct_git_diff": false,
+    "additions": 14,
+    "deletions": 1,
+    "linked_lp_ids": [
+      "2044104",
+      "2102236"
+    ],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- systemd-257.4/debian/changelog\t2025-03-11 16:26:05.000000000 +0100",
+      "+++ systemd-257.4/debian/changelog\t2025-03-19 16:40:25.000000000 +0100",
+      "--- systemd-257.4/debian/extra/initramfs-tools/hooks/udev\t2025-03-11 15:11:33.000000000 +0100",
+      "+++ systemd-257.4/debian/extra/initramfs-tools/hooks/udev\t2025-03-19 16:40:17.000000000 +0100"
+    ]
+  },
+  {
+    "source": "LP",
+    "id": "2100252",
+    "url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2100252/+attachment/5860701/+files/lp2100252-systemd-focal.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2100252/+attachment/5860701/+files/lp2100252-systemd-focal.debdiff",
+    "sha256": "61ce84e44ca3b56b2c8bdd1aee38d335ba30160315fff34154108311d7f79514",
+    "bytes": 33173,
+    "paths": [],
+    "direct_git_diff": false,
+    "additions": 743,
+    "deletions": 0,
+    "linked_lp_ids": [
+      "2055397",
+      "2100252"
+    ],
+    "linked_gh_ids": [
+      "23208"
+    ],
+    "commit_refs": [
+      "367a2597c35140fb325e2f94235961257130dfe1",
+      "4a1a1caf21921a0c0997588552262b61eb556d19",
+      "dce2d35ce53d2ac6ae4d1b3b1a716d6333fb84e7",
+      "e418f9658b9e9803945de5686d5ab0d42eb2dfb6"
+    ],
+    "changed_headers": [
+      "--- systemd-245.4/debian/changelog\t2024-06-17 20:29:39.000000000 +0000",
+      "+++ systemd-245.4/debian/changelog\t2025-02-26 07:15:35.000000000 +0000",
+      "--- systemd-245.4/debian/libsystemd0.symbols\t2024-06-17 20:29:39.000000000 +0000",
+      "+++ systemd-245.4/debian/libsystemd0.symbols\t2025-02-26 07:15:35.000000000 +0000",
+      "--- systemd-245.4/debian/patches/lp2100252-0001-sd-device-introduce-sd_device_new_from_devname.patch\t1970-01-01 00:00:00.000000000 +0000",
+      "+++ systemd-245.4/debian/patches/lp2100252-0001-sd-device-introduce-sd_device_new_from_devname.patch\t2025-02-26 07:13:49.000000000 +0000",
+      "--- systemd-245.4/debian/patches/lp2100252-0002-core-device-store-the-original-path.patch\t1970-01-01 00:00:00.000000000 +0000",
+      "+++ systemd-245.4/debian/patches/lp2100252-0002-core-device-store-the-original-path.patch\t2025-02-26 07:13:49.000000000 +0000",
+      "--- systemd-245.4/debian/patches/lp2100252-0003-core-device-move-several-functions.patch\t1970-01-01 00:00:00.000000000 +0000",
+      "+++ systemd-245.4/debian/patches/lp2100252-0003-core-device-move-several-functions.patch\t2025-02-26 07:13:49.000000000 +0000",
+      "--- systemd-245.4/debian/patches/lp2100252-0004-core-device-always-accept-syspath-change.patch\t1970-01-01 00:00:00.000000000 +0000",
+      "+++ systemd-245.4/debian/patches/lp2100252-0004-core-device-always-accept-syspath-change.patch\t2025-02-26 07:13:49.000000000 +0000",
+      "--- systemd-245.4/debian/patches/series\t2024-06-17 20:29:39.000000000 +0000",
+      "+++ systemd-245.4/debian/patches/series\t2025-02-26 07:15:23.000000000 +0000"
+    ]
+  },
+  {
+    "source": "LP",
+    "id": "2100252",
+    "url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2100252/+attachment/5860703/+files/lp2100252-systemd-jammy.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2100252/+attachment/5860703/+files/lp2100252-systemd-jammy.debdiff",
+    "sha256": "0aad9bdc78fc8a45bdbc8fe403396580510098f89d1878488e156ed64d7deb5e",
+    "bytes": 33795,
+    "paths": [],
+    "direct_git_diff": false,
+    "additions": 760,
+    "deletions": 0,
+    "linked_lp_ids": [
+      "2003250",
+      "2100252"
+    ],
+    "linked_gh_ids": [
+      "23208"
+    ],
+    "commit_refs": [
+      "367a2597c35140fb325e2f94235961257130dfe1",
+      "4a1a1caf21921a0c0997588552262b61eb556d19",
+      "dce2d35ce53d2ac6ae4d1b3b1a716d6333fb84e7",
+      "e418f9658b9e9803945de5686d5ab0d42eb2dfb6"
+    ],
+    "changed_headers": [
+      "--- systemd-249.11/debian/changelog\t2024-12-16 20:23:18.000000000 +0000",
+      "+++ systemd-249.11/debian/changelog\t2025-02-26 07:22:33.000000000 +0000",
+      "--- systemd-249.11/debian/libsystemd0.symbols\t2024-12-12 19:55:30.000000000 +0000",
+      "+++ systemd-249.11/debian/libsystemd0.symbols\t2025-02-26 07:22:33.000000000 +0000",
+      "--- systemd-249.11/debian/patches/lp2100252-0001-sd-device-introduce-sd_device_new_from_devname.patch\t1970-01-01 00:00:00.000000000 +0000",
+      "+++ systemd-249.11/debian/patches/lp2100252-0001-sd-device-introduce-sd_device_new_from_devname.patch\t2025-02-26 07:21:39.000000000 +0000",
+      "--- systemd-249.11/debian/patches/lp2100252-0002-core-device-store-the-original-path.patch\t1970-01-01 00:00:00.000000000 +0000",
+      "+++ systemd-249.11/debian/patches/lp2100252-0002-core-device-store-the-original-path.patch\t2025-02-26 07:21:39.000000000 +0000",
+      "--- systemd-249.11/debian/patches/lp2100252-0003-core-device-move-several-functions.patch\t1970-01-01 00:00:00.000000000 +0000",
+      "+++ systemd-249.11/debian/patches/lp2100252-0003-core-device-move-several-functions.patch\t2025-02-26 07:21:39.000000000 +0000",
+      "--- systemd-249.11/debian/patches/lp2100252-0004-core-device-always-accept-syspath-change.patch\t1970-01-01 00:00:00.000000000 +0000",
+      "+++ systemd-249.11/debian/patches/lp2100252-0004-core-device-always-accept-syspath-change.patch\t2025-02-26 07:21:39.000000000 +0000",
+      "--- systemd-249.11/debian/patches/series\t2024-12-16 20:23:12.000000000 +0000",
+      "+++ systemd-249.11/debian/patches/series\t2025-02-26 07:22:22.000000000 +0000"
+    ]
+  },
+  {
+    "source": "LP",
+    "id": "2077779",
+    "url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2077779/+attachment/5808824/+files/lp2077779-systemd-focal.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2077779/+attachment/5808824/+files/lp2077779-systemd-focal.debdiff",
+    "sha256": "5c5e07cc4ad31676b340b27f9af74255c1f648e3b5f9cee25a3f617085a87ef4",
+    "bytes": 3260,
+    "paths": [],
+    "direct_git_diff": false,
+    "additions": 45,
+    "deletions": 0,
+    "linked_lp_ids": [
+      "2055397",
+      "2077779"
+    ],
+    "linked_gh_ids": [],
+    "commit_refs": [
+      "6bd12be3fa7761f190e17efdbdbff4440da7528b"
+    ],
+    "changed_headers": [
+      "--- systemd-245.4/debian/changelog      2024-06-17 20:29:39.000000000 +0000",
+      "+++ systemd-245.4/debian/changelog      2024-08-24 03:01:39.000000000 +0000",
+      "--- systemd-245.4/debian/patches/lp2077779-udev-Handle-PTP-device-symlink-properly-on-udev-acti.patch   1970-01-01 00:00:00.000000000 +0000",
+      "+++ systemd-245.4/debian/patches/lp2077779-udev-Handle-PTP-device-symlink-properly-on-udev-acti.patch   2024-08-24 03:01:32.000000000 +0000",
+      "--- systemd-245.4/debian/patches/series 2024-06-17 20:29:39.000000000 +0000",
+      "+++ systemd-245.4/debian/patches/series 2024-08-24 02:56:09.000000000 +0000"
+    ]
+  },
+  {
+    "source": "LP",
+    "id": "2067922",
+    "url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2067922/+attachment/5786231/+files/8e57759d6d80ef772d8e17a4559a6797e09af93a.patch",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2067922/+attachment/5786231/+files/8e57759d6d80ef772d8e17a4559a6797e09af93a.patch",
+    "sha256": "e5ffbff1d4733c06848fe5bdf01873b48925a79239c3e8a0a502f91b4b5f0aee",
+    "bytes": 9050,
+    "paths": [
+      "src/basic/cgroup-util.c",
+      "src/basic/cgroup-util.h",
+      "src/cgtop/cgtop.c",
+      "src/core/cgroup.c",
+      "src/core/dbus-unit.c",
+      "src/shared/cgroup-setup.c",
+      "src/shared/cgroup-show.c"
+    ],
+    "direct_git_diff": true,
+    "additions": 47,
+    "deletions": 32,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [
+      "41219b4e9a71e0936ce1543bf9a3e16321f8f45c",
+      "8e57759d6d80ef772d8e17a4559a6797e09af93a"
+    ],
+    "changed_headers": [
+      "--- a/src/basic/cgroup-util.c",
+      "+++ b/src/basic/cgroup-util.c",
+      "--- a/src/basic/cgroup-util.h",
+      "+++ b/src/basic/cgroup-util.h",
+      "--- a/src/cgtop/cgtop.c",
+      "+++ b/src/cgtop/cgtop.c",
+      "--- a/src/core/cgroup.c",
+      "+++ b/src/core/cgroup.c",
+      "--- a/src/core/dbus-unit.c",
+      "+++ b/src/core/dbus-unit.c",
+      "--- a/src/shared/cgroup-setup.c",
+      "+++ b/src/shared/cgroup-setup.c",
+      "--- a/src/shared/cgroup-show.c",
+      "+++ b/src/shared/cgroup-show.c"
+    ]
+  },
+  {
+    "source": "LP",
+    "id": "2052137",
+    "url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2052137/+attachment/5784193/+files/jammy_netplan_systemd.patch",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2052137/+attachment/5784193/+files/jammy_netplan_systemd.patch",
+    "sha256": "2aa358a2ca4cbcda215872eaacf6d0e46f23d8f21e9390a907ad3a1856130f0b",
+    "bytes": 2394,
+    "paths": [
+      "src/network/networkd-setlink.c",
+      "test/test-network/systemd-networkd-tests.py"
+    ],
+    "direct_git_diff": true,
+    "additions": 16,
+    "deletions": 1,
+    "linked_lp_ids": [],
+    "linked_gh_ids": [],
+    "commit_refs": [],
+    "changed_headers": [
+      "--- a/src/network/networkd-setlink.c",
+      "+++ b/src/network/networkd-setlink.c",
+      "--- a/test/test-network/systemd-networkd-tests.py",
+      "+++ b/test/test-network/systemd-networkd-tests.py"
+    ]
+  },
+  {
+    "source": "LP",
+    "id": "2045621",
+    "url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2045621/+attachment/5726376/+files/systemd_249.11-0ubuntu3.12.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/2045621/+attachment/5726376/+files/systemd_249.11-0ubuntu3.12.debdiff",
+    "sha256": "d449232fcbfe82c7ab32801ba9b1e9b00f65aaca1bd204a388b9bc500e4fab2d",
+    "bytes": 2556,
+    "paths": [],
+    "direct_git_diff": false,
+    "additions": 41,
+    "deletions": 0,
+    "linked_lp_ids": [
+      "1999275",
+      "2036358",
+      "2045621"
+    ],
+    "linked_gh_ids": [
+      "30131"
+    ],
+    "commit_refs": [
+      "9023630cb7025650aa4d01ee794b0bb68bfdf2c1"
+    ],
+    "changed_headers": [
+      "--- systemd-249.11/debian/changelog\t2023-09-20 00:57:00.000000000 +0800",
+      "+++ systemd-249.11/debian/changelog\t2023-12-05 16:17:01.000000000 +0800",
+      "--- systemd-249.11/debian/patches/lp2045621-update-60-autosuspend.hwdb.patch\t1970-01-01 08:00:00.000000000 +0800",
+      "+++ systemd-249.11/debian/patches/lp2045621-update-60-autosuspend.hwdb.patch\t2023-12-05 16:17:01.000000000 +0800",
+      "--- systemd-249.11/debian/patches/series\t2023-09-20 00:56:34.000000000 +0800",
+      "+++ systemd-249.11/debian/patches/series\t2023-12-05 16:17:01.000000000 +0800"
+    ]
+  }
+]

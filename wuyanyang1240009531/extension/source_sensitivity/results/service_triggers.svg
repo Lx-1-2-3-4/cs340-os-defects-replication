@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="565" viewBox="0 0 1000 565">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial,sans-serif" font-size="15" fill="#17283b">
+<text x="22" y="31" font-size="23" font-weight="bold">System Service triggers under harmonized layer labels</text>
+<text x="22" y="58">Launchpad n=4 (blue) | GitHub n=3 (orange)</text>
+<text x="22" y="107">Permission/Identity Dependency Trigger</text>
+<rect x="365" y="92" width="0.00" height="12" fill="#2463a6"/>
+<text x="372.00" y="103">0 (0.0%)</text>
+<rect x="365" y="111" width="0.00" height="12" fill="#ac501a"/>
+<text x="372.00" y="122">0 (0.0%)</text>
+<text x="22" y="162">Regular Operation Trigger</text>
+<rect x="365" y="147" width="0.00" height="12" fill="#2463a6"/>
+<text x="372.00" y="158">0 (0.0%)</text>
+<rect x="365" y="166" width="0.00" height="12" fill="#ac501a"/>
+<text x="372.00" y="177">0 (0.0%)</text>
+<text x="22" y="217">Boundary Condition Trigger</text>
+<rect x="365" y="202" width="0.00" height="12" fill="#2463a6"/>
+<text x="372.00" y="213">0 (0.0%)</text>
+<rect x="365" y="221" width="0.00" height="12" fill="#ac501a"/>
+<text x="372.00" y="232">0 (0.0%)</text>
+<text x="22" y="272">Concurrency/Multi-thread Trigger</text>
+<rect x="365" y="257" width="0.00" height="12" fill="#2463a6"/>
+<text x="372.00" y="268">0 (0.0%)</text>
+<rect x="365" y="276" width="0.00" height="12" fill="#ac501a"/>
+<text x="372.00" y="287">0 (0.0%)</text>
+<text x="22" y="327">State Dependency Trigger</text>
+<rect x="365" y="312" width="245.00" height="12" fill="#2463a6"/>
+<text x="617.00" y="323">2 (50.0%)</text>
+<rect x="365" y="331" width="326.67" height="12" fill="#ac501a"/>
+<text x="698.67" y="342">2 (66.7%)</text>
+<text x="22" y="382">Environment Dependency Trigger</text>
+<rect x="365" y="367" width="245.00" height="12" fill="#2463a6"/>
+<text x="617.00" y="378">2 (50.0%)</text>
+<rect x="365" y="386" width="0.00" height="12" fill="#ac501a"/>
+<text x="372.00" y="397">0 (0.0%)</text>
+<text x="22" y="437">Multi-Language/Localization Trigger</text>
+<rect x="365" y="422" width="0.00" height="12" fill="#2463a6"/>
+<text x="372.00" y="433">0 (0.0%)</text>
+<rect x="365" y="441" width="0.00" height="12" fill="#ac501a"/>
+<text x="372.00" y="452">0 (0.0%)</text>
+<text x="22" y="492">Unknown</text>
+<rect x="365" y="477" width="0.00" height="12" fill="#2463a6"/>
+<text x="372.00" y="488">0 (0.0%)</text>
+<rect x="365" y="496" width="163.33" height="12" fill="#ac501a"/>
+<text x="535.33" y="507">1 (33.3%)</text>
+</g></svg>

@@ -1,0 +1,49 @@
+scope,layer,dimension,lp_n,gh_n,rho,status
+all,All layers,layer,5,6,0.8980265101338746,descriptive
+all,All layers,function,5,6,0.35714285714285715,descriptive
+all,All layers,trigger,5,6,,withheld_unknown_categories
+direct_diff,All layers,layer,3,6,0.8980265101338746,descriptive
+direct_diff,All layers,function,3,6,0.24688535993934707,descriptive
+direct_diff,All layers,trigger,3,6,,withheld_unknown_categories
+include_borderline_test,All layers,layer,5,7,0.8980265101338746,descriptive
+include_borderline_test,All layers,function,5,7,0.5520524474738834,descriptive
+include_borderline_test,All layers,trigger,5,7,,withheld_unknown_categories
+author_labels,All layers,layer,5,6,0.7869910029407435,descriptive
+author_labels,All layers,function,5,6,0.35714285714285715,descriptive
+author_labels,All layers,trigger,5,6,,withheld_unknown_categories
+same_layer,Kernel Layer,layer,0,0,,not_applicable_layer_held_fixed
+same_layer,Kernel Layer,function,0,0,,withheld_fewer_than_three_records
+same_layer,Kernel Layer,trigger,0,0,,withheld_fewer_than_three_records
+same_layer_author_labels,Kernel Layer,layer,0,0,,not_applicable_layer_held_fixed
+same_layer_author_labels,Kernel Layer,function,0,0,,withheld_fewer_than_three_records
+same_layer_author_labels,Kernel Layer,trigger,0,0,,withheld_fewer_than_three_records
+same_layer,System Library Layer,layer,0,1,,not_applicable_layer_held_fixed
+same_layer,System Library Layer,function,0,1,,withheld_fewer_than_three_records
+same_layer,System Library Layer,trigger,0,1,,withheld_fewer_than_three_records
+same_layer_author_labels,System Library Layer,layer,2,1,,not_applicable_layer_held_fixed
+same_layer_author_labels,System Library Layer,function,2,1,,withheld_fewer_than_three_records
+same_layer_author_labels,System Library Layer,trigger,2,1,,withheld_fewer_than_three_records
+same_layer,Runtime/Virtual Machine Layer,layer,0,0,,not_applicable_layer_held_fixed
+same_layer,Runtime/Virtual Machine Layer,function,0,0,,withheld_fewer_than_three_records
+same_layer,Runtime/Virtual Machine Layer,trigger,0,0,,withheld_fewer_than_three_records
+same_layer_author_labels,Runtime/Virtual Machine Layer,layer,0,0,,not_applicable_layer_held_fixed
+same_layer_author_labels,Runtime/Virtual Machine Layer,function,0,0,,withheld_fewer_than_three_records
+same_layer_author_labels,Runtime/Virtual Machine Layer,trigger,0,0,,withheld_fewer_than_three_records
+same_layer,Framework Layer,layer,0,0,,not_applicable_layer_held_fixed
+same_layer,Framework Layer,function,0,0,,withheld_fewer_than_three_records
+same_layer,Framework Layer,trigger,0,0,,withheld_fewer_than_three_records
+same_layer_author_labels,Framework Layer,layer,0,0,,not_applicable_layer_held_fixed
+same_layer_author_labels,Framework Layer,function,0,0,,withheld_fewer_than_three_records
+same_layer_author_labels,Framework Layer,trigger,0,0,,withheld_fewer_than_three_records
+same_layer,System Service Layer,layer,4,3,,not_applicable_layer_held_fixed
+same_layer,System Service Layer,function,4,3,0.5204800389058843,descriptive
+same_layer,System Service Layer,trigger,4,3,,withheld_unknown_categories
+same_layer_author_labels,System Service Layer,layer,1,3,,not_applicable_layer_held_fixed
+same_layer_author_labels,System Service Layer,function,1,3,,withheld_fewer_than_three_records
+same_layer_author_labels,System Service Layer,trigger,1,3,,withheld_fewer_than_three_records
+same_layer,Application Layer,layer,1,2,,not_applicable_layer_held_fixed
+same_layer,Application Layer,function,1,2,,withheld_fewer_than_three_records
+same_layer,Application Layer,trigger,1,2,,withheld_fewer_than_three_records
+same_layer_author_labels,Application Layer,layer,2,2,,not_applicable_layer_held_fixed
+same_layer_author_labels,Application Layer,function,2,2,,withheld_fewer_than_three_records
+same_layer_author_labels,Application Layer,trigger,2,2,,withheld_fewer_than_three_records
