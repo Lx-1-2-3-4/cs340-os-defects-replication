@@ -1,0 +1,16 @@
+layer,pair,n_a,n_b,jsd
+Kernel,android-linux,30,79,0.866
+Kernel,android-harmony,30,359,0.1792
+Kernel,linux-harmony,79,359,0.81
+SystemLib,android-linux,101,94,0.6978
+SystemLib,android-harmony,101,34,0.2399
+SystemLib,linux-harmony,94,34,0.6243
+Framework,android-linux,90,18,0.8233
+Framework,android-harmony,90,14,0.6831
+Framework,linux-harmony,18,14,0.7707
+SystemService,android-linux,194,37,0.6214
+SystemService,android-harmony,194,24,0.3186
+SystemService,linux-harmony,37,24,0.741
+Application,android-linux,83,271,0.6733
+Application,android-harmony,83,25,0.6119
+Application,linux-harmony,271,25,0.6462

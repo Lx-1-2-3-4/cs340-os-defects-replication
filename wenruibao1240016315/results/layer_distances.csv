@@ -1,0 +1,7 @@
+dimension,pair,jsd_raw,jsd_standardised_pooled,jsd_standardised_uniform,jsd_within_layer,explained_by_composition_pct,explained_uniform_pct
+function,android-linux,0.5575,0.5586,0.5539,0.6544,-0.2,0.6
+function,android-harmony,0.4223,0.2407,0.232,0.4408,43.0,45.1
+function,linux-harmony,0.5133,0.5342,0.5255,0.6364,-4.1,-2.4
+trigger,android-linux,0.6647,0.6824,0.6634,0.7427,-2.7,0.2
+trigger,android-harmony,0.3881,0.2026,0.2295,0.3684,47.8,40.9
+trigger,linux-harmony,0.6153,0.653,0.631,0.7226,-6.1,-2.5

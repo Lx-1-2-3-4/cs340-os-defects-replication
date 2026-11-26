@@ -1,3 +1,6 @@
 ﻿__pycache__/
 results/logs/run*/
+results/logs/layer_run*/
+figures/logs/run*/
+figures/logs/layer_run*/
 

@@ -1,0 +1,19 @@
+system,layer,defects,share_pct,pooled_share_pct,common_support,excluded_reason
+android,Kernel,30,6.0,31.2,yes,
+android,SystemLib,101,20.2,15.27,yes,
+android,RuntimeVM,2,0.4,3.13,no,fewer than 10 defects in at least one system
+android,Framework,90,18.0,8.13,yes,
+android,SystemService,194,38.8,17.0,yes,
+android,Application,83,16.6,25.27,yes,
+linux,Kernel,79,15.8,31.2,yes,
+linux,SystemLib,94,18.8,15.27,yes,
+linux,RuntimeVM,1,0.2,3.13,no,fewer than 10 defects in at least one system
+linux,Framework,18,3.6,8.13,yes,
+linux,SystemService,37,7.4,17.0,yes,
+linux,Application,271,54.2,25.27,yes,
+harmony,Kernel,359,71.8,31.2,yes,
+harmony,SystemLib,34,6.8,15.27,yes,
+harmony,RuntimeVM,44,8.8,3.13,no,fewer than 10 defects in at least one system
+harmony,Framework,14,2.8,8.13,yes,
+harmony,SystemService,24,4.8,17.0,yes,
+harmony,Application,25,5.0,25.27,yes,

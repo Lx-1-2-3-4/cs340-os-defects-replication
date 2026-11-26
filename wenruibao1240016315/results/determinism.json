@@ -1,0 +1,26 @@
+{
+  "runs": 3,
+  "identical": true,
+  "per_file_identical": {
+    "figures/layer_composition.png": true,
+    "figures/layer_composition.svg": true,
+    "figures/layer_distance_adjustment.png": true,
+    "figures/layer_distance_adjustment.svg": true,
+    "layer_composition.csv": true,
+    "layer_distances.csv": true,
+    "layer_pairwise_function.csv": true,
+    "layer_pairwise_trigger.csv": true,
+    "layer_within_function.csv": true,
+    "layer_within_trigger.csv": true
+  },
+  "durations_seconds": [
+    0.847,
+    0.911,
+    0.848
+  ],
+  "mean_duration_seconds": 0.869,
+  "sd_duration_seconds": 0.037,
+  "values_per_run": 324,
+  "value_sd": 0.0,
+  "note": "the pipeline is deterministic; value_sd is 0.00 by construction, and the per-file hashes prove it"
+}

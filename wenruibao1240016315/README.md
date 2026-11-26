@@ -33,6 +33,13 @@ Three things are unique to this folder:
    cross-system comparison uses Spearman's rho, which only sees the order of the
    categories.  The extension repeats the comparison with the Jensen–Shannon
    distance, which also sees magnitudes.
+4. **The layer-composition analysis** (`scripts/layer_analysis.py`,
+   `docs/LAYER_ANALYSIS.md`).  The three samples have very different OS-layer
+   mixes (HarmonyOS 71.8 % kernel, Linux 54.2 % application, Android 38.8 %
+   system service).  The analysis standardises the layer mix and measures how
+   much of each cross-system difference is compositional: about half of the
+   Android–HarmonyOS gap, and none of the Linux-related gaps — which are in fact
+   *understated* by the raw comparison.
 
 The 8-rule search for the under-specified Figure 4d panel
 (`scripts/fig4d_candidates.py`) is also kept here, because it supports the same
@@ -71,9 +78,13 @@ Optional:
 python scripts/triplicate.py    # three runs, hash every output (determinism)
 python scripts/extension.py     # Spearman vs Jensen-Shannon
 python scripts/fig4d_candidates.py   # the Figure 4d rule search
+python scripts/layer_analysis.py     # layer composition control (tables + figures)
+python scripts/run_layer_triplicate.py   # three runs, hash equality -> results/determinism.json
+python -m unittest discover -s tests     # 12 unit tests for the layer analysis
 ```
 
-`make all`, `make crosscheck`, `make extension` run the same commands; `make` is
+`make all`, `make crosscheck`, `make extension`, `make layer`, `make layer-triplicate` and
+`make test` run the same commands; `make` is
 optional.
 
 `crosscheck.py` needs the sibling folder of the main implementation, so it works
@@ -93,9 +104,11 @@ systems are most alike should name the metric.  Details in
 
 ```
 data/       defect snapshot, provenance, transcribed paper values
-scripts/    independent implementation, comparison, cross-check, extension
-results/    generated CSVs, cross-check table, run log
-docs/       verification notes, implementation-specific notes, Figure 4d analysis
+scripts/    independent implementation, comparison, cross-check, extension, layer analysis
+results/    generated CSVs, cross-check table, layer tables, run log
+figures/    the two layer-analysis figures (PNG + SVG)
+docs/       verification notes, layer methods/deviations/contribution, report draft, slides
+tests/      unit tests for the layer-composition analysis
 ```
 
 ## Relation to the group report
@@ -108,7 +121,11 @@ docs/       verification notes, implementation-specific notes, Figure 4d analysi
   `docs/DISCREPANCIES.md` (Figure 4d).
 * Report text ready to merge: `docs/REPORT_DRAFT.md` (C3, Figure 4d, the
   extension) and `docs/SLIDES.md` (three-slide outline for the presentation).
-* Contribution statement material: `docs/CONTRIBUTION.md`.
+* Contribution statement material: `docs/CONTRIBUTION.md` (verification track) and
+  `docs/MEMBER_CONTRIBUTION.md` (layer task, with the contribution table).
+* Layer task package: `docs/METHODS.md`, `docs/DEVIATIONS.md`, `docs/AI_USAGE.md`,
+  `docs/FILES_CHANGED.md`, `docs/GROUP_INTEGRATION.md`, plus `results/REPORT.md`
+  and `results/determinism.json`.
 
 ## What is not reproduced
 
