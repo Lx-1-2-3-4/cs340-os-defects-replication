@@ -1,0 +1,5503 @@
+[
+  {
+    "os": "Linux",
+    "repo": "systemd/systemd",
+    "source": "GitHub_PR",
+    "candidate_id": "GH-systemd-39390",
+    "defect_id": "39390",
+    "title": "rereadpt: always update kernel partition tables from userspace in an incremental fashion by poettering",
+    "body_excerpt": "",
+    "original_url": "https://github.com/systemd/systemd/pull/39390",
+    "patch_url": "https://github.com/systemd/systemd/pull/39390.diff",
+    "date": "2025-10-20T15:05:46Z",
+    "date_type": "github_merged_at",
+    "raw_lines_added": 756,
+    "raw_lines_deleted": 94,
+    "raw_lines_changed": 850,
+    "raw_files_changed": 19,
+    "files": [
+      {
+        "filepath": "docs/BLOCK_DEVICE_LOCKING.md",
+        "additions": 3,
+        "deletions": 2,
+        "changes": 5,
+        "file_category": "doc"
+      },
+      {
+        "filepath": "src/growfs/makefs.c",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/home/homework-luks.c",
+        "additions": 6,
+        "deletions": 5,
+        "changes": 11,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/libsystemd/sd-device/device-private.h",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/libsystemd/sd-device/sd-device.c",
+        "additions": 21,
+        "deletions": 0,
+        "changes": 21,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/repart/repart.c",
+        "additions": 14,
+        "deletions": 10,
+        "changes": 24,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/blockdev-util.c",
+        "additions": 61,
+        "deletions": 29,
+        "changes": 90,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/blockdev-util.h",
+        "additions": 7,
+        "deletions": 6,
+        "changes": 13,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/dissect-image.c",
+        "additions": 3,
+        "deletions": 8,
+        "changes": 11,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/meson.build",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/reread-partition-table.c",
+        "additions": 396,
+        "deletions": 0,
+        "changes": 396,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/reread-partition-table.h",
+        "additions": 14,
+        "deletions": 0,
+        "changes": 14,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/storagetm/storagetm.c",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/test/meson.build",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-blockdev-util.c",
+        "additions": 26,
+        "deletions": 0,
+        "changes": 26,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-reread-partition-table-manual.c",
+        "additions": 28,
+        "deletions": 0,
+        "changes": 28,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-reread-partition-table.c",
+        "additions": 162,
+        "deletions": 0,
+        "changes": 162,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/udev/udev-watch.c",
+        "additions": 2,
+        "deletions": 31,
+        "changes": 33,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/udev/udevadm-lock.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "Linux",
+    "repo": "systemd/systemd",
+    "source": "GitHub_PR",
+    "candidate_id": "GH-systemd-37271",
+    "defect_id": "37271",
+    "title": "core/namespace: fix issue in PrivateTmp=disconnected vs var.mount by yuwata",
+    "body_excerpt": "",
+    "original_url": "https://github.com/systemd/systemd/pull/37271",
+    "patch_url": "https://github.com/systemd/systemd/pull/37271.diff",
+    "date": "2025-04-28T06:31:03Z",
+    "date_type": "github_merged_at",
+    "raw_lines_added": 420,
+    "raw_lines_deleted": 131,
+    "raw_lines_changed": 551,
+    "raw_files_changed": 22,
+    "files": [
+      {
+        "filepath": "man/systemd.exec.xml",
+        "additions": 101,
+        "deletions": 23,
+        "changes": 124,
+        "file_category": "doc"
+      },
+      {
+        "filepath": "src/core/exec-invoke.c",
+        "additions": 17,
+        "deletions": 1,
+        "changes": 18,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/execute-serialize.c",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/execute.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/execute.h",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/fuzz-execute-serialize.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/mount.c",
+        "additions": 7,
+        "deletions": 9,
+        "changes": 16,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/namespace.c",
+        "additions": 107,
+        "deletions": 80,
+        "changes": 187,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/namespace.h",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/swap.c",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/unit.c",
+        "additions": 66,
+        "deletions": 13,
+        "changes": 79,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/test/test-bpf-firewall.c",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-bpf-foreign-programs.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-bpf-restrict-fs.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-execute.c",
+        "additions": 14,
+        "deletions": 0,
+        "changes": 14,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-socket-bind.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/test-execute/exec-privatetmp-disconnected-after-and-requires-for-var.service",
+        "additions": 15,
+        "deletions": 0,
+        "changes": 15,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/test-execute/exec-privatetmp-disconnected-after-and-wants-for-var.service",
+        "additions": 15,
+        "deletions": 0,
+        "changes": 15,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/test-execute/exec-privatetmp-disconnected-defaultdependencies-no.service",
+        "additions": 13,
+        "deletions": 0,
+        "changes": 13,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/test-execute/exec-privatetmp-disconnected-requires-mounts-for-var.service",
+        "additions": 14,
+        "deletions": 0,
+        "changes": 14,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/test-execute/exec-privatetmp-disconnected-wants-mounts-for-var.service",
+        "additions": 14,
+        "deletions": 0,
+        "changes": 14,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/test-execute/exec-privatetmp-disconnected.service",
+        "additions": 12,
+        "deletions": 0,
+        "changes": 12,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "Linux",
+    "repo": "systemd/systemd",
+    "source": "GitHub_PR",
+    "candidate_id": "GH-systemd-31550",
+    "defect_id": "31550",
+    "title": "Dynamically load compression libraries by teknoraver",
+    "body_excerpt": "",
+    "original_url": "https://github.com/systemd/systemd/pull/31550",
+    "patch_url": "https://github.com/systemd/systemd/pull/31550.diff",
+    "date": "2024-02-29T18:47:56Z",
+    "date_type": "github_merged_at",
+    "raw_lines_added": 417,
+    "raw_lines_deleted": 216,
+    "raw_lines_changed": 633,
+    "raw_files_changed": 20,
+    "files": [
+      {
+        "filepath": "TODO",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "meson.build",
+        "additions": 7,
+        "deletions": 6,
+        "changes": 13,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/basic/compress.c",
+        "additions": 296,
+        "deletions": 112,
+        "changes": 408,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/basic/compress.h",
+        "additions": 25,
+        "deletions": 0,
+        "changes": 25,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/basic/dlfcn-util.c",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/basic/dlfcn-util.h",
+        "additions": 0,
+        "deletions": 0,
+        "changes": 0,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/basic/meson.build",
+        "additions": 5,
+        "deletions": 17,
+        "changes": 22,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/boot/efi/meson.build",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/coredump/meson.build",
+        "additions": 5,
+        "deletions": 10,
+        "changes": 15,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/journal-remote/meson.build",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/journal/meson.build",
+        "additions": 10,
+        "deletions": 10,
+        "changes": 20,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/libsystemd/meson.build",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/login/meson.build",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/machine/meson.build",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/pstore/meson.build",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/meson.build",
+        "additions": 3,
+        "deletions": 4,
+        "changes": 7,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/systemctl/meson.build",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/test/meson.build",
+        "additions": 2,
+        "deletions": 8,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-compress.c",
+        "additions": 30,
+        "deletions": 27,
+        "changes": 57,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-dlopen-so.c",
+        "additions": 13,
+        "deletions": 0,
+        "changes": 13,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "Linux",
+    "repo": "systemd/systemd",
+    "source": "GitHub_PR",
+    "candidate_id": "GH-systemd-35401",
+    "defect_id": "35401",
+    "title": "repart: Copy fs-verity status for CopyFiles= by allisonkarlitskaya",
+    "body_excerpt": "",
+    "original_url": "https://github.com/systemd/systemd/pull/35401",
+    "patch_url": "https://github.com/systemd/systemd/pull/35401.diff",
+    "date": "2024-11-28T14:24:31Z",
+    "date_type": "github_merged_at",
+    "raw_lines_added": 478,
+    "raw_lines_deleted": 90,
+    "raw_lines_changed": 568,
+    "raw_files_changed": 11,
+    "files": [
+      {
+        "filepath": "man/repart.d.xml",
+        "additions": 34,
+        "deletions": 12,
+        "changes": 46,
+        "file_category": "doc"
+      },
+      {
+        "filepath": "src/basic/include/linux/fsverity.h",
+        "additions": 96,
+        "deletions": 0,
+        "changes": 96,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/growfs/makefs.c",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/home/homework-luks.c",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/repart/repart.c",
+        "additions": 123,
+        "deletions": 49,
+        "changes": 172,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/copy.c",
+        "additions": 69,
+        "deletions": 0,
+        "changes": 69,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/copy.h",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/mkfs-util.c",
+        "additions": 24,
+        "deletions": 19,
+        "changes": 43,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/mkfs-util.h",
+        "additions": 7,
+        "deletions": 2,
+        "changes": 9,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/test/test-copy.c",
+        "additions": 118,
+        "deletions": 0,
+        "changes": 118,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-loop-block.c",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "Linux",
+    "repo": "systemd/systemd",
+    "source": "GitHub_PR",
+    "candidate_id": "GH-systemd-40007",
+    "defect_id": "40007",
+    "title": "core: reuse existing dm-verity device for single filesystem images pinned by policy by bluca",
+    "body_excerpt": "",
+    "original_url": "https://github.com/systemd/systemd/pull/40007",
+    "patch_url": "https://github.com/systemd/systemd/pull/40007.diff",
+    "date": "2025-12-05T22:57:04Z",
+    "date_type": "github_merged_at",
+    "raw_lines_added": 663,
+    "raw_lines_deleted": 187,
+    "raw_lines_changed": 850,
+    "raw_files_changed": 9,
+    "files": [
+      {
+        "filepath": "man/systemd.image-policy.xml",
+        "additions": 50,
+        "deletions": 5,
+        "changes": 55,
+        "file_category": "doc"
+      },
+      {
+        "filepath": "src/analyze/analyze-image-policy.c",
+        "additions": 10,
+        "deletions": 2,
+        "changes": 12,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/namespace.c",
+        "additions": 76,
+        "deletions": 59,
+        "changes": 135,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/dissect-image.c",
+        "additions": 286,
+        "deletions": 119,
+        "changes": 405,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/dissect-image.h",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/image-policy.c",
+        "additions": 70,
+        "deletions": 2,
+        "changes": 72,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/image-policy.h",
+        "additions": 15,
+        "deletions": 0,
+        "changes": 15,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/test/test-image-policy.c",
+        "additions": 68,
+        "deletions": 0,
+        "changes": 68,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-50-DISSECT.dissect.sh",
+        "additions": 87,
+        "deletions": 0,
+        "changes": 87,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "Linux",
+    "repo": "systemd/systemd",
+    "source": "GitHub_PR",
+    "candidate_id": "GH-systemd-39988",
+    "defect_id": "39988",
+    "title": "test: replace grep -q with grep &gt;/dev/null by yuwata",
+    "body_excerpt": "",
+    "original_url": "https://github.com/systemd/systemd/pull/39988",
+    "patch_url": "https://github.com/systemd/systemd/pull/39988.diff",
+    "date": "2025-12-04T02:16:29Z",
+    "date_type": "github_merged_at",
+    "raw_lines_added": 281,
+    "raw_lines_deleted": 277,
+    "raw_lines_changed": 558,
+    "raw_files_changed": 43,
+    "files": [
+      {
+        "filepath": "docs/CODING_STYLE.md",
+        "additions": 6,
+        "deletions": 0,
+        "changes": 6,
+        "file_category": "doc"
+      },
+      {
+        "filepath": "src/kernel-install/test-kernel-install.sh",
+        "additions": 9,
+        "deletions": 9,
+        "changes": 18,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-04-JOURNAL.SYSTEMD_JOURNAL_COMPRESS.sh",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-04-JOURNAL.fss.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-04-JOURNAL.journal.sh",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-07-PID1.exec-context.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-07-PID1.private-bpf.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-10-MOUNT.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-13-NSPAWN.machined.sh",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-17-UDEV.IMPORT.sh",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-17-UDEV.SYSTEMD_WANTS.sh",
+        "additions": 16,
+        "deletions": 16,
+        "changes": 32,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-17-UDEV.TAG.sh",
+        "additions": 12,
+        "deletions": 12,
+        "changes": 24,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-17-UDEV.rename-netif.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-22-TMPFILES.12.sh",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-26-SYSTEMCTL.sh",
+        "additions": 11,
+        "deletions": 11,
+        "changes": 22,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-29-PORTABLE.directory.sh",
+        "additions": 9,
+        "deletions": 9,
+        "changes": 18,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-29-PORTABLE.image.sh",
+        "additions": 13,
+        "deletions": 13,
+        "changes": 26,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-29-PORTABLE.sh",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-35-LOGIN.sh",
+        "additions": 16,
+        "deletions": 16,
+        "changes": 32,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-36-NUMAPOLICY.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-43-PRIVATEUSER-UNPRIV.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-46-HOMED.sh",
+        "additions": 10,
+        "deletions": 10,
+        "changes": 20,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-50-DISSECT.dissect.sh",
+        "additions": 81,
+        "deletions": 81,
+        "changes": 162,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-50-DISSECT.mountfsd.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-54-CREDS.sh",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-55-OOMD.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-58-REPART.sh",
+        "additions": 6,
+        "deletions": 6,
+        "changes": 12,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-59-RELOADING-RESTART.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-60-MOUNT-RATELIMIT.sh",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-62-RESTRICT-IFACES.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-65-ANALYZE.sh",
+        "additions": 10,
+        "deletions": 10,
+        "changes": 20,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-70-TPM2.cryptsetup.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-72-SYSUPDATE.sh",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-74-AUX-UTILS.busctl.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-74-AUX-UTILS.firstboot.sh",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-74-AUX-UTILS.userdbctl.sh",
+        "additions": 3,
+        "deletions": 5,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-74-AUX-UTILS.varlinkctl.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-75-RESOLVED.sh",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-80-NOTIFYACCESS.sh",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-87-AUX-UTILS-VM.bootctl.sh",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-87-AUX-UTILS-VM.mount.sh",
+        "additions": 7,
+        "deletions": 7,
+        "changes": 14,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-87-AUX-UTILS-VM.validatefs.sh",
+        "additions": 12,
+        "deletions": 12,
+        "changes": 24,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/util.sh",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "Linux",
+    "repo": "systemd/systemd",
+    "source": "GitHub_PR",
+    "candidate_id": "GH-systemd-39947",
+    "defect_id": "39947",
+    "title": "musl: introduce wrappers for getopt() and getopt_long() by yuwata",
+    "body_excerpt": "",
+    "original_url": "https://github.com/systemd/systemd/pull/39947",
+    "patch_url": "https://github.com/systemd/systemd/pull/39947.diff",
+    "date": "2025-11-30T05:40:00Z",
+    "date_type": "github_merged_at",
+    "raw_lines_added": 659,
+    "raw_lines_deleted": 0,
+    "raw_lines_changed": 659,
+    "raw_files_changed": 6,
+    "files": [
+      {
+        "filepath": "src/include/musl/getopt.h",
+        "additions": 29,
+        "deletions": 0,
+        "changes": 29,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/include/musl/unistd.h",
+        "additions": 12,
+        "deletions": 0,
+        "changes": 12,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/libc/musl/getopt.c",
+        "additions": 100,
+        "deletions": 0,
+        "changes": 100,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/libc/musl/meson.build",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/test/meson.build",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "test"
+      },
+      {
+        "filepath": "src/test/test-getopt.c",
+        "additions": 516,
+        "deletions": 0,
+        "changes": 516,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/kernel_liteos_a",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-kernel_liteos_a-1161",
+    "defect_id": "kernel_liteos_a#1161",
+    "title": "添加unittest用例测试工具",
+    "body_excerpt": "### 相关的Issue\r\n#I73IZ3\r\n\r\n### 原因（目的、解决的问题等）\r\n\r\n\r\n### 描述（做了什么，变更了什么）\r\n\r\n\r\n### 测试用例（新增、改动、可能影响的功能）\r\n\r\n\r\n### 是否涉及对外变更（典型的如：对外API规格变更、新增对外接口等等）\r\n\r\n必须选择一项（在MarkDown模式下用[x]替换[ ]即可勾选对应选项）:\r\n- [ ] 是，涉及对外变更: 需要在commit message中按【[模板要求](https://gitee.com/openharmony/kernel_liteos_a/wikis/Commit%20message%20%E8%A7%84%E8%8C%83)】描述变更点\r\n- [x] 否，不涉及对外变更\r\n\r\n### 是否需要同步至release（如：3.0LTS ... ）分支？\r\n\r\n必须选择一项（在MarkDown模式",
+    "original_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/1161",
+    "patch_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/1161.patch",
+    "date": "2023-09-04T17:12:44+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 573,
+    "raw_lines_deleted": 1,
+    "raw_lines_changed": 574,
+    "raw_files_changed": 5,
+    "files": [
+      {
+        "filepath": "README_zh.md",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "doc"
+      },
+      {
+        "filepath": "testsuites/unittest/BUILD.gn",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/tools/BUILD.gn",
+        "additions": 38,
+        "deletions": 0,
+        "changes": 38,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/tools/README.md",
+        "additions": 63,
+        "deletions": 0,
+        "changes": 63,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/tools/unittest_tools.cpp",
+        "additions": 468,
+        "deletions": 1,
+        "changes": 469,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/communication_dsoftbus",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-communication_dsoftbus-10900",
+    "defect_id": "communication_dsoftbus#10900",
+    "title": "trans support serviceId",
+    "body_excerpt": "1. trans support serviceId\r\n---\r\n### 相关的Issue\r\n[新需求]: trans support serviceId\r\nhttps://gitee.com/openharmony/communication_dsoftbus/issues/ICXEMH\r\n\r\n### 原因（目的、解决的问题等）\r\n\r\n\r\n### 描述（做了什么，变更了什么）\r\n\r\n\r\n### 验证结果（新增、改动、可能影响的功能）\r\n\r\n\r\n### 日志规范自检：\r\n- [ ] 【规则】高频代码的正常流程中禁止打印日志\r\n- [ ] 【规则】在基本不可能发生的点必须要打印日志\r\n- [ ] 【规则】事件记录的日志使用who do what 主谓宾的形式打印\r\n- [ ] 【规则】状态变化的日志打印使用state_name:s1->s2, reason:msg的形式打印\r\n- [ ] 【",
+    "original_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10900",
+    "patch_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10900.patch",
+    "date": "2025-09-13T21:02:38+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 684,
+    "raw_lines_deleted": 57,
+    "raw_lines_changed": 741,
+    "raw_files_changed": 26,
+    "files": [
+      {
+        "filepath": "adapter/common/security/access_token/common/softbus_access_token_adapter.cpp",
+        "additions": 33,
+        "deletions": 1,
+        "changes": 34,
+        "file_category": "production"
+      },
+      {
+        "filepath": "adapter/common/security/access_token/common/softbus_access_token_adapter_virtual.c",
+        "additions": 14,
+        "deletions": 0,
+        "changes": 14,
+        "file_category": "production"
+      },
+      {
+        "filepath": "adapter/common/security/access_token/include/softbus_access_token_adapter.h",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/common/include/softbus_def.h",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/frame/small/init/src/trans_server_stub.c",
+        "additions": 25,
+        "deletions": 19,
+        "changes": 44,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/frame/standard/init/src/softbus_server_stub.cpp",
+        "additions": 87,
+        "deletions": 25,
+        "changes": 112,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/transmission/common/include/trans_split_serviceid.h",
+        "additions": 38,
+        "deletions": 0,
+        "changes": 38,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/transmission/common/src/trans_split_serviceid.c",
+        "additions": 64,
+        "deletions": 0,
+        "changes": 64,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/transmission/common/trans_common.gni",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/transmission/trans_channel/common/include/softbus_message_open_channel.h",
+        "additions": 0,
+        "deletions": 1,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/transmission/trans_channel/manager/src/trans_channel_manager.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/transmission/trans_channel/tcp_direct/src/trans_tcp_direct_message.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/transmission/trans_channel/udp_negotiation/src/trans_udp_negotiation.c",
+        "additions": 5,
+        "deletions": 2,
+        "changes": 7,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/kits/sdk/client_trans_session_manager_struct.h",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/kits/transport/socket.h",
+        "additions": 48,
+        "deletions": 0,
+        "changes": 48,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/kits/transport/trans_type.h",
+        "additions": 7,
+        "deletions": 0,
+        "changes": 7,
+        "file_category": "production"
+      },
+      {
+        "filepath": "sdk/transmission/session/include/client_trans_session_manager.h",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "sdk/transmission/session/src/client_trans_session_callback.c",
+        "additions": 72,
+        "deletions": 5,
+        "changes": 77,
+        "file_category": "production"
+      },
+      {
+        "filepath": "sdk/transmission/session/src/client_trans_session_manager.c",
+        "additions": 53,
+        "deletions": 0,
+        "changes": 53,
+        "file_category": "production"
+      },
+      {
+        "filepath": "sdk/transmission/session/src/client_trans_session_service.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "sdk/transmission/session/src/client_trans_socket_manager.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "sdk/transmission/session/src/client_trans_socket_service.c",
+        "additions": 120,
+        "deletions": 0,
+        "changes": 120,
+        "file_category": "production"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/socket_fuzzer/socket_fuzzer.cpp",
+        "additions": 27,
+        "deletions": 3,
+        "changes": 30,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/session/client_trans_socket_service_test.cpp",
+        "additions": 56,
+        "deletions": 0,
+        "changes": 56,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/session/mock/include/trans_session_mgr_mock.h",
+        "additions": 8,
+        "deletions": 0,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/session/mock/src/trans_session_mgr_mock.cpp",
+        "additions": 13,
+        "deletions": 1,
+        "changes": 14,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/communication_dsoftbus",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-communication_dsoftbus-10185",
+    "defect_id": "communication_dsoftbus#10185",
+    "title": "传输补充fuzz",
+    "body_excerpt": "1. 传输补充fuzz\r\n---\r\n### 相关的Issue\r\n[新需求]: 传输补充fuzz\r\nhttps://gitee.com/openharmony/communication_dsoftbus/issues/ICGIUU\r\n\r\n### 原因（目的、解决的问题等）\r\n\r\n\r\n### 描述（做了什么，变更了什么）\r\n\r\n\r\n### 验证结果（新增、改动、可能影响的功能）\r\n\r\n\r\n### 日志规范自检：\r\n- [ ] 【规则】高频代码的正常流程中禁止打印日志\r\n- [ ] 【规则】在基本不可能发生的点必须要打印日志\r\n- [ ] 【规则】事件记录的日志使用who do what 主谓宾的形式打印\r\n- [ ] 【规则】状态变化的日志打印使用state_name:s1->s2, reason:msg的形式打印\r\n- [ ] 【规则】参数值的日志打印使用name1=value1, nam",
+    "original_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10185",
+    "patch_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10185.patch",
+    "date": "2025-06-23T15:39:40+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 490,
+    "raw_lines_deleted": 29,
+    "raw_lines_changed": 519,
+    "raw_files_changed": 1,
+    "files": [
+      {
+        "filepath": "tests/core/transmission/fuzztest/softbusproxychannelmanager_fuzzer/softbusproxychannelmanager_fuzzer.cpp",
+        "additions": 490,
+        "deletions": 29,
+        "changes": 519,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/communication_dsoftbus",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-communication_dsoftbus-10840",
+    "defect_id": "communication_dsoftbus#10840",
+    "title": "standadr revision",
+    "body_excerpt": "1. standadr revision\r\n---\r\n### 相关的Issue\r\n【issues】[Bug]: standadr revision\r\nhttps://gitee.com/openharmony/communication_dsoftbus/issues/ICWOI8\r\n\r\n### 原因（目的、解决的问题等）\r\n\r\n\r\n### 描述（做了什么，变更了什么）\r\n\r\n\r\n### 验证结果（新增、改动、可能影响的功能）\r\n\r\n\r\n### 日志规范自检：\r\n- [ ] 【规则】高频代码的正常流程中禁止打印日志\r\n- [ ] 【规则】在基本不可能发生的点必须要打印日志\r\n- [ ] 【规则】事件记录的日志使用who do what 主谓宾的形式打印\r\n- [ ] 【规则】状态变化的日志打印使用state_name:s1->s2, reason:msg的形式打印\r\n- [ ] 【规则】参",
+    "original_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10840",
+    "patch_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10840.patch",
+    "date": "2025-09-08T19:40:07+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 197,
+    "raw_lines_deleted": 308,
+    "raw_lines_changed": 505,
+    "raw_files_changed": 23,
+    "files": [
+      {
+        "filepath": "core/common/security/permission/softbus_trans_permission.json",
+        "additions": 0,
+        "deletions": 252,
+        "changes": 252,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/common/security/permission/standard/softbus_permission.cpp",
+        "additions": 6,
+        "deletions": 0,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/frame/init/include/g_enhance_trans_func.h",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/frame/init/include/g_enhance_trans_func_pack.h",
+        "additions": 5,
+        "deletions": 0,
+        "changes": 5,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/frame/init/include/g_reg_trans_func.h",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/frame/init/src/g_enhance_trans_func.c",
+        "additions": 5,
+        "deletions": 0,
+        "changes": 5,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/frame/init/src/g_enhance_trans_func_pack.c",
+        "additions": 60,
+        "deletions": 0,
+        "changes": 60,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/transmission/trans_channel/common/src/trans_channel_limit.c",
+        "additions": 4,
+        "deletions": 20,
+        "changes": 24,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/transmission/trans_channel/common/src/trans_lane_pending_ctl.c",
+        "additions": 4,
+        "deletions": 7,
+        "changes": 11,
+        "file_category": "production"
+      },
+      {
+        "filepath": "sdk/frame/init/include/g_enhance_sdk_func.h",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "sdk/frame/init/src/g_enhance_sdk_func.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "sdk/transmission/session/src/client_trans_socket_manager.c",
+        "additions": 22,
+        "deletions": 2,
+        "changes": 24,
+        "file_category": "production"
+      },
+      {
+        "filepath": "tests/core/frame/unittest/softbus_g_enhance_test.cpp",
+        "additions": 57,
+        "deletions": 16,
+        "changes": 73,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/transmission/ipc/trans_client_proxy_test.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/transmission/trans_channel/common/trans_lane_pending_test.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/transmission/trans_channel/common/trans_lane_test.cpp",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/transmission/trans_channel/udp_negotiation/trans_udp_nego_test.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/transmission/trans_channel/udp_negotiation/trans_udp_negotiation_exchange_test.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/session/BUILD.gn",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/session/client_trans_session_manager_ex_test.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/session/client_trans_session_manager_test.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/trans_channel/BUILD.gn",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/trans_channel/permission/trans_dynamic_permission_test.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/communication_dsoftbus",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-communication_dsoftbus-10845",
+    "defect_id": "communication_dsoftbus#10845",
+    "title": "fix:delete code",
+    "body_excerpt": "1. fix:delete code\r\n---\r\n### 相关的Issue\r\n[Bug]: delete code\r\nhttps://gitee.com/openharmony/communication_dsoftbus/issues/ICWPY9\r\n\r\n### 原因（目的、解决的问题等）\r\n\r\n\r\n### 描述（做了什么，变更了什么）\r\n\r\n\r\n### 验证结果（新增、改动、可能影响的功能）\r\n\r\n\r\n### 日志规范自检：\r\n- [x] 【规则】高频代码的正常流程中禁止打印日志\r\n- [x] 【规则】在基本不可能发生的点必须要打印日志\r\n- [x] 【规则】事件记录的日志使用who do what 主谓宾的形式打印\r\n- [x] 【规则】状态变化的日志打印使用state_name:s1->s2, reason:msg的形式打印\r\n- [x] 【规则】参数值的日志打印使用name1=v",
+    "original_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10845",
+    "patch_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10845.patch",
+    "date": "2025-09-07T15:33:22+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 1,
+    "raw_lines_deleted": 517,
+    "raw_lines_changed": 518,
+    "raw_files_changed": 8,
+    "files": [
+      {
+        "filepath": "core/connection/wifi_direct_cpp/BUILD.gn",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/connection/wifi_direct_cpp/processor/p2p_v1_processor.cpp",
+        "additions": 0,
+        "deletions": 1,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/connection/wifi_direct_cpp/utils/duration_statistic.cpp",
+        "additions": 0,
+        "deletions": 119,
+        "changes": 119,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/connection/wifi_direct_cpp/utils/duration_statistic.h",
+        "additions": 0,
+        "deletions": 86,
+        "changes": 86,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/connection/wifi_direct_cpp/utils/wifi_direct_dfx.cpp",
+        "additions": 0,
+        "deletions": 168,
+        "changes": 168,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/connection/wifi_direct_cpp/utils/wifi_direct_dfx.h",
+        "additions": 0,
+        "deletions": 50,
+        "changes": 50,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/connection/wifi_direct_cpp/utils/wifi_direct_trace.cpp",
+        "additions": 0,
+        "deletions": 62,
+        "changes": 62,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/connection/wifi_direct_cpp/utils/wifi_direct_trace.h",
+        "additions": 0,
+        "deletions": 31,
+        "changes": 31,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/communication_dsoftbus",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-communication_dsoftbus-10836",
+    "defect_id": "communication_dsoftbus#10836",
+    "title": "fix testcase difference",
+    "body_excerpt": "fix testcase difference\r\n---\r\n### 相关的Issue\r\n\r\n\r\n### 原因（目的、解决的问题等）\r\n\r\n\r\n### 描述（做了什么，变更了什么）\r\n\r\n\r\n### 验证结果（新增、改动、可能影响的功能）\r\n\r\n\r\n### 日志规范自检：\r\n- [ ] 【规则】高频代码的正常流程中禁止打印日志\r\n- [ ] 【规则】在基本不可能发生的点必须要打印日志\r\n- [ ] 【规则】事件记录的日志使用who do what 主谓宾的形式打印\r\n- [ ] 【规则】状态变化的日志打印使用state_name:s1->s2, reason:msg的形式打印\r\n- [ ] 【规则】参数值的日志打印使用name1=value1, name2=value2…的形式打印\r\n- [ ] 【规则】代码运行成功的日志使用xxx successful的形式打印\r\n- [ ] 【规则】代码",
+    "original_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10836",
+    "patch_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10836.patch",
+    "date": "2025-09-06T15:21:54+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 697,
+    "raw_lines_deleted": 234,
+    "raw_lines_changed": 931,
+    "raw_files_changed": 22,
+    "files": [
+      {
+        "filepath": "interfaces/kits/bus_center/softbus_bus_center.h",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "tests/core/adapter/BUILD.gn",
+        "additions": 74,
+        "deletions": 29,
+        "changes": 103,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_kv_adapter_wrapper_test.cpp",
+        "additions": 41,
+        "deletions": 1,
+        "changes": 42,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_adapter_mock.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_mock.h",
+        "additions": 5,
+        "deletions": 0,
+        "changes": 5,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_mock_test.cpp",
+        "additions": 362,
+        "deletions": 0,
+        "changes": 362,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_test.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authmanager_fuzzer/authmanager_fuzzer.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authmanagercrypto_fuzzer/authmanagercrypto_fuzzer.cpp",
+        "additions": 9,
+        "deletions": 8,
+        "changes": 17,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authmanagerdevice_fuzzer/authmanagerdevice_fuzzer.cpp",
+        "additions": 11,
+        "deletions": 8,
+        "changes": 19,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authmanagerother_fuzzer/authmanagerother_fuzzer.cpp",
+        "additions": 11,
+        "deletions": 9,
+        "changes": 20,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authmanagerstatus_fuzzer/authmanagerstatus_fuzzer.cpp",
+        "additions": 8,
+        "deletions": 7,
+        "changes": 15,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_connection_fsm_mock.h",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_data_cloud_sync_deps_mock.h",
+        "additions": 0,
+        "deletions": 1,
+        "changes": 1,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_data_cloud_sync_mock_test.cpp",
+        "additions": 11,
+        "deletions": 11,
+        "changes": 22,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_devicename_info_test.cpp",
+        "additions": 47,
+        "deletions": 16,
+        "changes": 63,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_network_info_test.cpp",
+        "additions": 6,
+        "deletions": 1,
+        "changes": 7,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_mock.cpp",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_mock.h",
+        "additions": 28,
+        "deletions": 0,
+        "changes": 28,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_mock_test.cpp",
+        "additions": 4,
+        "deletions": 3,
+        "changes": 7,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_test.cpp",
+        "additions": 0,
+        "deletions": 129,
+        "changes": 129,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_mock.cpp",
+        "additions": 68,
+        "deletions": 1,
+        "changes": 69,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/communication_dsoftbus",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-communication_dsoftbus-10810",
+    "defect_id": "communication_dsoftbus#10810",
+    "title": "fix difference of 6.0 Release",
+    "body_excerpt": "1. fix difference of 6.0 Release\r\n---\r\n### 相关的Issue\r\n\r\n\r\n### 原因（目的、解决的问题等）\r\n\r\n\r\n### 描述（做了什么，变更了什么）\r\n\r\n\r\n### 验证结果（新增、改动、可能影响的功能）\r\n\r\n\r\n### 日志规范自检：\r\n- [ ] 【规则】高频代码的正常流程中禁止打印日志\r\n- [ ] 【规则】在基本不可能发生的点必须要打印日志\r\n- [ ] 【规则】事件记录的日志使用who do what 主谓宾的形式打印\r\n- [ ] 【规则】状态变化的日志打印使用state_name:s1->s2, reason:msg的形式打印\r\n- [ ] 【规则】参数值的日志打印使用name1=value1, name2=value2…的形式打印\r\n- [ ] 【规则】代码运行成功的日志使用xxx successful的形式打印\r\n- [",
+    "original_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10810",
+    "patch_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10810.patch",
+    "date": "2025-09-05T11:09:38+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 424,
+    "raw_lines_deleted": 422,
+    "raw_lines_changed": 846,
+    "raw_files_changed": 44,
+    "files": [
+      {
+        "filepath": "tests/core/adapter/unittest/dsoftbus_rsa_crypto_test.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_kv_adapter_test.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_kv_adapter_wrapper_test.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_adapter_mock.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/adapter/unittest/lnn_ohos_account_adapter_test.cpp",
+        "additions": 6,
+        "deletions": 4,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authapplykeyprocess_fuzzer/authapplykeyprocess_fuzzer.cpp",
+        "additions": 16,
+        "deletions": 15,
+        "changes": 31,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authdata_fuzzer/authdata_fuzzer.cpp",
+        "additions": 10,
+        "deletions": 9,
+        "changes": 19,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authidentityserviceadapter_fuzzer/authidentityserviceadapter_fuzzer.cpp",
+        "additions": 6,
+        "deletions": 4,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authmanager_fuzzer/authmanager_fuzzer.cpp",
+        "additions": 15,
+        "deletions": 15,
+        "changes": 30,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authmanagercrypto_fuzzer/authmanagercrypto_fuzzer.cpp",
+        "additions": 14,
+        "deletions": 13,
+        "changes": 27,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authmanagerdevice_fuzzer/authmanagerdevice_fuzzer.cpp",
+        "additions": 13,
+        "deletions": 11,
+        "changes": 24,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authmanagerother_fuzzer/authmanagerother_fuzzer.cpp",
+        "additions": 16,
+        "deletions": 15,
+        "changes": 31,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authmanagerstatus_fuzzer/authmanagerstatus_fuzzer.cpp",
+        "additions": 13,
+        "deletions": 13,
+        "changes": 26,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authukmanager_fuzzer/authukmanager_fuzzer.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authusercommonkey_fuzzer/authusercommonkey_fuzzer.cpp",
+        "additions": 5,
+        "deletions": 4,
+        "changes": 9,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/authusercommonkey_fuzzer/project.xml",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/authentication/fuzztest/unpackauthdata_fuzzer/unpackauthdata_fuzzer.cpp",
+        "additions": 12,
+        "deletions": 11,
+        "changes": 23,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_auth_mock.h",
+        "additions": 4,
+        "deletions": 5,
+        "changes": 9,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_connection_fsm_mock.h",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_data_cloud_sync_deps_mock.h",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_data_cloud_sync_mock.h",
+        "additions": 6,
+        "deletions": 7,
+        "changes": 13,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_net_builder_deps_mock.h",
+        "additions": 9,
+        "deletions": 10,
+        "changes": 19,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_net_ledger_mock.h",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_service_mock.h",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_sync_info_manager_mock.h",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/include/lnn_sync_info_mock.h",
+        "additions": 6,
+        "deletions": 5,
+        "changes": 11,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/mock/auth_mock.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/mock/auth_mock.h",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/mock/bus_center_event_mock.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/mock/lnn_data_cloud_sync_mock.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/mock/net_ledger_mock.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_auth_mock.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_connId_cb_manager_test.cpp",
+        "additions": 1,
+        "deletions": 5,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_connection_fsm_mock.cpp",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_connection_fsm_test.cpp",
+        "additions": 6,
+        "deletions": 6,
+        "changes": 12,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_data_cloud_sync_mock_test.cpp",
+        "additions": 13,
+        "deletions": 13,
+        "changes": 26,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_devicename_info_test.cpp",
+        "additions": 113,
+        "deletions": 86,
+        "changes": 199,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_net_builder_deps_mock.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_net_builder_mock_test.cpp",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_net_ledger_mock.cpp",
+        "additions": 2,
+        "deletions": 3,
+        "changes": 5,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_network_info_test.cpp",
+        "additions": 65,
+        "deletions": 94,
+        "changes": 159,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_p2p_info_test.cpp",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_service_mock.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/bus_center/lnn/net_builder/src/lnn_sync_info_mock.cpp",
+        "additions": 6,
+        "deletions": 7,
+        "changes": 13,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/communication_dsoftbus",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-communication_dsoftbus-10812",
+    "defect_id": "communication_dsoftbus#10812",
+    "title": "fix:Fuzz Testing Use Cases and Code Optimization",
+    "body_excerpt": "[Bug]: 【OpenHarmony-master】【分布式软总线】【传输】【FUZZ】FUZZ用例及代码优化\r\nhttps://gitee.com/openharmony/communication_dsoftbus/issues/ICW0F9\r\n\r\n### 日志规范自检：\r\n- [ ] 【规则】高频代码的正常流程中禁止打印日志\r\n- [ ] 【规则】在基本不可能发生的点必须要打印日志\r\n- [ ] 【规则】事件记录的日志使用who do what 主谓宾的形式打印\r\n- [ ] 【规则】状态变化的日志打印使用state_name:s1->s2, reason:msg的形式打印\r\n- [ ] 【规则】参数值的日志打印使用name1=value1, name2=value2…的形式打印\r\n- [ ] 【规则】代码运行成功的日志使用xxx successful的形式打印\r\n- [ ] 【规",
+    "original_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10812",
+    "patch_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/10812.patch",
+    "date": "2025-09-04T18:10:12+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 157,
+    "raw_lines_deleted": 455,
+    "raw_lines_changed": 612,
+    "raw_files_changed": 40,
+    "files": [
+      {
+        "filepath": "core/transmission/trans_channel/udp_negotiation/src/trans_udp_negotiation_exchange.c",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "tests/core/transmission/fuzztest/softbusproxychannelmanager_fuzzer/softbusproxychannelmanager_fuzzer.cpp",
+        "additions": 3,
+        "deletions": 18,
+        "changes": 21,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/transmission/fuzztest/transauthlanependingctl_fuzzer/transauthlanependingctl_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 16,
+        "changes": 18,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/transmission/fuzztest/transinner_fuzzer/transinner_fuzzer.cpp",
+        "additions": 6,
+        "deletions": 90,
+        "changes": 96,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/transmission/fuzztest/transproxyprocessdata_fuzzer/transproxyprocessdata_fuzzer.cpp",
+        "additions": 0,
+        "deletions": 61,
+        "changes": 61,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/core/transmission/fuzztest/transtcpprocessdata_fuzzer/transtcpprocessdata_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 80,
+        "changes": 82,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clientqosmanager_fuzzer/clientqosmanager_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttransfile_fuzzer/clienttransfile_fuzzer.cpp",
+        "additions": 13,
+        "deletions": 39,
+        "changes": 52,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttranspending_fuzzer/clienttranspending_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttransproxyfilecommon_fuzzer/clienttransproxyfilecommon_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 4,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttransproxyfilemanager_fuzzer/clienttransproxyfilemanager_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttransproxymanager_fuzzer/clienttransproxymanager_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttranssessionmanager_fuzzer/clienttranssessionmanager_fuzzer.cpp",
+        "additions": 17,
+        "deletions": 16,
+        "changes": 33,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttranssessionservice_fuzzer/clienttranssessionservice_fuzzer.cpp",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttransstream_fuzzer/clienttransstream_fuzzer.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttranstcpdirectlistener_fuzzer/clienttranstcpdirectlistener_fuzzer.cpp",
+        "additions": 23,
+        "deletions": 20,
+        "changes": 43,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttransudpmanager_fuzzer/clienttransudpmanager_fuzzer.cpp",
+        "additions": 9,
+        "deletions": 30,
+        "changes": 39,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/clienttransudpstreaminterface_fuzzer/clienttransudpstreaminterface_fuzzer.cpp",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/closesession_fuzzer/closesession_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/createsessionserver_fuzzer/createsessionserver_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/getmysessionname_fuzzer/getmysessionname_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/getpeerdeviceid_fuzzer/getpeerdeviceid_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/getpeersessionname_fuzzer/getpeersessionname_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/getsessionside_fuzzer/getsessionside_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/openauthsession_fuzzer/openauthsession_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/opensession_fuzzer/opensession_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/qosreport_fuzzer/qosreport_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/rawstreamdata_fuzzer/rawstreamdata_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/removesessionserver_fuzzer/removesessionserver_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/sendbytes_fuzzer/sendbytes_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/sendfile_fuzzer/sendfile_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/sendstream_fuzzer/sendstream_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/setfilereceivelistener_fuzzer/setfilereceivelistener_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/setfilesendlistener_fuzzer/setfilesendlistener_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/softbussendmessage_fuzzer/softbussendmessage_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/streamadaptor_fuzzer/streamadaptor_fuzzer.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/streamcommondata_fuzzer/streamcommondata_fuzzer.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/streamdepacketizer_fuzzer/streamdepacketizer_fuzzer.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/streammsgmanager_fuzzer/streammsgmanager_fuzzer.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tests/sdk/transmission/fuzztest/vtpstreamsocket_fuzzer/vtpstreamsocket_fuzzer.cpp",
+        "additions": 11,
+        "deletions": 12,
+        "changes": 23,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "Android",
+    "repo": "platform/frameworks/base",
+    "source": "AOSP_Gitiles",
+    "candidate_id": "AOSP-base-29b36a471b",
+    "defect_id": "A-401370820",
+    "title": "Convert PRODUCT_COPY_FILES for frameworks sounds files to Android.bp",
+    "body_excerpt": "Convert PRODUCT_COPY_FILES for frameworks sounds files to Android.bp\n\nBug: 401370820\nTest: presubmits\nChange-Id: I8444799641245923ff570361262e0396812c8642\n",
+    "original_url": "https://android.googlesource.com/platform/frameworks/base/+/29b36a471b9fec8cade9ee7fa60b031f23884094%5E%21/",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/base/+/29b36a471b9fec8cade9ee7fa60b031f23884094%5E%21/",
+    "date": "Wed Mar 19 21:41:26 2025 +0000",
+    "date_type": "git_commit_date",
+    "raw_lines_added": 297,
+    "raw_lines_deleted": 344,
+    "raw_lines_changed": 641,
+    "raw_files_changed": 5,
+    "files": [
+      {
+        "filepath": "data/sounds/AllAudio.mk",
+        "additions": 2,
+        "deletions": 222,
+        "changes": 224,
+        "file_category": "production"
+      },
+      {
+        "filepath": "data/sounds/Android.bp",
+        "additions": 289,
+        "deletions": 5,
+        "changes": 294,
+        "file_category": "production"
+      },
+      {
+        "filepath": "data/sounds/AudioPackage5.mk",
+        "additions": 2,
+        "deletions": 69,
+        "changes": 71,
+        "file_category": "production"
+      },
+      {
+        "filepath": "data/sounds/AudioPackageGo.mk",
+        "additions": 2,
+        "deletions": 39,
+        "changes": 41,
+        "file_category": "production"
+      },
+      {
+        "filepath": "data/sounds/AudioTv.mk",
+        "additions": 2,
+        "deletions": 9,
+        "changes": 11,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "Android",
+    "repo": "platform/packages/modules/Bluetooth",
+    "source": "AOSP_Gitiles",
+    "candidate_id": "AOSP-Bluetooth-79bd511e11",
+    "defect_id": "A-385190204",
+    "title": "Merge 25Q1 (ab/BP1A.250305.020) to AOSP main",
+    "body_excerpt": "Merge 25Q1 (ab/BP1A.250305.020) to AOSP main\n\nBug: 385190204\nMerged-In: I63360f17b52d65efb0192b86b81f5318fd2c2a21\nChange-Id: I17aadaf74abf6285704c44eecb8c9643dfabaf43\n",
+    "original_url": "https://android.googlesource.com/platform/packages/modules/Bluetooth/+/79bd511e112526c938cb74014714b261da0e439a%5E%21/",
+    "patch_url": "https://android.googlesource.com/platform/packages/modules/Bluetooth/+/79bd511e112526c938cb74014714b261da0e439a%5E%21/",
+    "date": "Sat Mar 08 16:09:57 2025 -0800",
+    "date_type": "git_commit_date",
+    "raw_lines_added": 502,
+    "raw_lines_deleted": 23,
+    "raw_lines_changed": 525,
+    "raw_files_changed": 18,
+    "files": [
+      {
+        "filepath": "android/app/src/com/android/bluetooth/BluetoothMethodProxy.java",
+        "additions": 11,
+        "deletions": 0,
+        "changes": 11,
+        "file_category": "production"
+      },
+      {
+        "filepath": "android/app/src/com/android/bluetooth/btservice/AdapterService.java",
+        "additions": 8,
+        "deletions": 0,
+        "changes": 8,
+        "file_category": "production"
+      },
+      {
+        "filepath": "android/app/src/com/android/bluetooth/opp/BluetoothOppLauncherActivity.java",
+        "additions": 80,
+        "deletions": 1,
+        "changes": 81,
+        "file_category": "production"
+      },
+      {
+        "filepath": "android/app/tests/instrumentation/com/android/bluetooth/opp/BluetoothOppLauncherActivityTest.java",
+        "additions": 245,
+        "deletions": 5,
+        "changes": 250,
+        "file_category": "test"
+      },
+      {
+        "filepath": "flags/security.aconfig",
+        "additions": 71,
+        "deletions": 0,
+        "changes": 71,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/btif/src/btif_dm.cc",
+        "additions": 25,
+        "deletions": 1,
+        "changes": 26,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/main/shim/le_scanning_manager.cc",
+        "additions": 8,
+        "deletions": 3,
+        "changes": 11,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/avct/avct_lcb_act.cc",
+        "additions": 4,
+        "deletions": 1,
+        "changes": 5,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/avdt/avdt_msg.cc",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/bnep/bnep_main.cc",
+        "additions": 3,
+        "deletions": 1,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/bnep/bnep_utils.cc",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/btm/btm_sec.cc",
+        "additions": 11,
+        "deletions": 0,
+        "changes": 11,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/hid/hidd_conn.cc",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/rfcomm/rfc_ts_frames.cc",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/rfcomm/rfc_utils.cc",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/sdp/sdp_discovery.cc",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/sdp/sdp_server.cc",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "system/stack/smp/smp_act.cc",
+        "additions": 12,
+        "deletions": 0,
+        "changes": 12,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "Android",
+    "repo": "platform/packages/modules/Bluetooth",
+    "source": "AOSP_Gitiles",
+    "candidate_id": "AOSP-Bluetooth-6a0e94fffb",
+    "defect_id": "A-394958283",
+    "title": "Optimize and clean up BaseData",
+    "body_excerpt": "Optimize and clean up BaseData\n\n- Convert it to a record\n- Improve encapsulation\n- Finalize some fields\n- Use stream() for more elegant code\n\nBug: 394958283\nTest: atest BaseDataTest\nTest: atest BassClientStateMachineTest\nFlag: EXEMPT refactor no-op\nChange-Id: I68d5155853b4484b5127b202da922129a167eff1\n",
+    "original_url": "https://android.googlesource.com/platform/packages/modules/Bluetooth/+/6a0e94fffb5f5b48e2c45cc869462d539048b77a%5E%21/",
+    "patch_url": "https://android.googlesource.com/platform/packages/modules/Bluetooth/+/6a0e94fffb5f5b48e2c45cc869462d539048b77a%5E%21/",
+    "date": "Fri Mar 07 21:59:41 2025 +0000",
+    "date_type": "git_commit_date",
+    "raw_lines_added": 278,
+    "raw_lines_deleted": 296,
+    "raw_lines_changed": 574,
+    "raw_files_changed": 5,
+    "files": [
+      {
+        "filepath": "android/app/src/com/android/bluetooth/bass_client/BaseData.java",
+        "additions": 78,
+        "deletions": 111,
+        "changes": 189,
+        "file_category": "production"
+      },
+      {
+        "filepath": "android/app/src/com/android/bluetooth/bass_client/BassClientService.java",
+        "additions": 12,
+        "deletions": 14,
+        "changes": 26,
+        "file_category": "production"
+      },
+      {
+        "filepath": "android/app/tests/unit/src/com/android/bluetooth/bass_client/BaseDataTest.java",
+        "additions": 145,
+        "deletions": 145,
+        "changes": 290,
+        "file_category": "test"
+      },
+      {
+        "filepath": "android/app/tests/unit/src/com/android/bluetooth/bass_client/BassClientServiceTest.java",
+        "additions": 21,
+        "deletions": 23,
+        "changes": 44,
+        "file_category": "test"
+      },
+      {
+        "filepath": "android/app/tests/unit/src/com/android/bluetooth/bass_client/BassClientStateMachineTest.java",
+        "additions": 22,
+        "deletions": 3,
+        "changes": 25,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "Linux",
+    "repo": "systemd/systemd",
+    "source": "GitHub_PR",
+    "candidate_id": "GH-systemd-39376",
+    "defect_id": "39376",
+    "title": "core/service: reload fixlets by YHNdnzj",
+    "body_excerpt": "",
+    "original_url": "https://github.com/systemd/systemd/pull/39376",
+    "patch_url": "https://github.com/systemd/systemd/pull/39376.diff",
+    "date": "2025-10-20T00:01:26Z",
+    "date_type": "github_merged_at",
+    "raw_lines_added": 419,
+    "raw_lines_deleted": 250,
+    "raw_lines_changed": 669,
+    "raw_files_changed": 17,
+    "files": [
+      {
+        "filepath": "man/org.freedesktop.systemd1.xml",
+        "additions": 18,
+        "deletions": 10,
+        "changes": 28,
+        "file_category": "doc"
+      },
+      {
+        "filepath": "man/systemd.service.xml",
+        "additions": 30,
+        "deletions": 19,
+        "changes": 49,
+        "file_category": "doc"
+      },
+      {
+        "filepath": "src/basic/unit-def.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/basic/unit-def.h",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/dbus-service.c",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/job.c",
+        "additions": 3,
+        "deletions": 5,
+        "changes": 8,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/job.h",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/load-fragment-gperf.gperf.in",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/service.c",
+        "additions": 273,
+        "deletions": 191,
+        "changes": 464,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/service.h",
+        "additions": 2,
+        "deletions": 3,
+        "changes": 5,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/core/socket.c",
+        "additions": 0,
+        "deletions": 10,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/fundamental/macro-fundamental.h",
+        "additions": 5,
+        "deletions": 4,
+        "changes": 9,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/shared/bus-unit-util.c",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/systemctl/systemctl-show.c",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "test/integration-tests/TEST-80-NOTIFYACCESS/TEST-80-NOTIFYACCESS.units/reload-timeout.service",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/integration-tests/TEST-80-NOTIFYACCESS/TEST-80-NOTIFYACCESS.units/reload-timeout.sh",
+        "additions": 40,
+        "deletions": 0,
+        "changes": 40,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/units/TEST-80-NOTIFYACCESS.sh",
+        "additions": 27,
+        "deletions": 0,
+        "changes": 27,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/kernel_liteos_a",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-kernel_liteos_a-1133",
+    "defect_id": "kernel_liteos_a#1133",
+    "title": "fix: 修复网络容器测试失败问题",
+    "body_excerpt": "### 相关的Issue\r\nClose #I6L7VF\r\n\r\n### 原因（目的、解决的问题等）\r\n![输入图片说明](https://foruda.gitee.com/images/1678674618186297727/94284303_7989059.png \"屏幕截图\")\r\n![输入图片说明](https://foruda.gitee.com/images/1678674658349737160/8c25e613_7989059.png \"屏幕截图\")\r\nSetIP 和 GetLocalIP 函数中 ioctl 未判断返回值，实际ioctl一直失败， 导致:\r\n![输入图片说明](https://foruda.gitee.com/images/1678674832999465967/3a6f86ed_7989059.png \"屏幕截图\")\r\n此处的判断中， oldIp和newIp ",
+    "original_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/1133",
+    "patch_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/1133.patch",
+    "date": "2023-03-15T10:10:47+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 263,
+    "raw_lines_deleted": 239,
+    "raw_lines_changed": 502,
+    "raw_files_changed": 16,
+    "files": [
+      {
+        "filepath": "testsuites/unittest/container/It_container_test.cpp",
+        "additions": 135,
+        "deletions": 36,
+        "changes": 171,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/It_container_test.h",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/config.gni",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/full/It_net_container_010.cpp",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/full/It_pid_container_003.cpp",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/full/It_pid_container_009.cpp",
+        "additions": 3,
+        "deletions": 1,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/full/It_pid_container_020.cpp",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/full/It_pid_container_024.cpp",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/full/It_user_container_005.cpp",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/full/It_uts_container_003.cpp",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/smoke/It_net_container_001.cpp",
+        "additions": 26,
+        "deletions": 38,
+        "changes": 64,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/smoke/It_net_container_002.cpp",
+        "additions": 31,
+        "deletions": 38,
+        "changes": 69,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/smoke/It_net_container_005.cpp",
+        "additions": 2,
+        "deletions": 59,
+        "changes": 61,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/smoke/It_net_container_009.cpp",
+        "additions": 44,
+        "deletions": 65,
+        "changes": 109,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/smoke/It_pid_container_032.cpp",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/container/smoke/It_pid_container_033.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/kernel_liteos_a",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-kernel_liteos_a-993",
+    "defect_id": "kernel_liteos_a#993",
+    "title": "Fix : 内核告警清理挑单",
+    "body_excerpt": "### 相关的Issue\r\nhttps://gitee.com/openharmony/kernel_liteos_m/issues/I5S1EB\r\n\r\n### 原因（目的、解决的问题等）\r\n将主干上的告警清理的提交挑单到 3.2-Beta3 分支\r\n\r\n### 描述（做了什么，变更了什么）\r\n原PR https://gitee.com/openharmony/kernel_liteos_a/pulls/987\r\n1.将只有单一语句的if, while等加上括号\r\n2.将C 风格的类型转换变为C++风格的.\r\n3.优化了注释的格式\r\n### 测试用例（新增、改动、可能影响的功能）\r\n无\r\n\r\n### 是否需要同步至release（如：3.0LTS ... ）分支？\r\n\r\n必须选择一项（在MarkDown模式下用[x]替换[ ]即可勾选对应选项）:\r\n- [X] 是，需要同步的分支：3.2-",
+    "original_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/993",
+    "patch_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/993.patch",
+    "date": "2022-09-22T14:11:52+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 532,
+    "raw_lines_deleted": 461,
+    "raw_lines_changed": 993,
+    "raw_files_changed": 155,
+    "files": [
+      {
+        "filepath": "fs/proc/src/proc_file.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "fs/vfs/vfs_cmd/vfs_shellcmd.c",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "kernel/common/console.c",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "net/lwip-2.1/porting/include/arch/perf.h",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/kernel_base/ipc/event/full/It_los_event_027.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/kernel_base/ipc/sem/smp/It_smp_los_sem_026.c",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_035.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_080.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_081.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_082.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_083.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_084.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_085.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_088.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_089.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_138.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_215.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_233.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_238.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_239.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_240.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_246.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/src/iCunit.c",
+        "additions": 3,
+        "deletions": 2,
+        "changes": 5,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/src/osTest.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/dynload/smoke/dynload_test_002.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/it_test_mem_100.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_005.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_006.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_007.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_008.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_009.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_013.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_014.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/smoke/shm_test_011.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/vm/smoke/mmap_test_002.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/vm/smoke/mmap_test_006.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/vm/smoke/user_copy_test_001.cpp",
+        "additions": 7,
+        "deletions": 5,
+        "changes": 12,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/drivers/hid/smoke/hid_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/drivers/storage/smoke/storage_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/liteipc/smoke/liteipc_test_001.cpp",
+        "additions": 7,
+        "deletions": 7,
+        "changes": 14,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/liteipc/smoke/liteipc_test_002.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/full/It_ipc_pipe_002.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/full/It_ipc_pipe_003.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/full/pipe_test_005.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/full/signal_test_026.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/full/signal_test_029.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/smoke/pipe_test_002.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/smoke/signal_test_002.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/smoke/signal_test_013.cpp",
+        "additions": 9,
+        "deletions": 9,
+        "changes": 18,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/smoke/signal_test_037.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/trace/smoke/trace_test_004.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/io/full/IO_test_duplocale_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/io/full/IO_test_nl_langinfo_l_001.cpp",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/io/full/It_stdio_hasmntopt_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/misc/full/misc_test_006.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/mqueue/full/It_posix_queue_145.cpp",
+        "additions": 8,
+        "deletions": 8,
+        "changes": 16,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/mqueue/full/It_posix_queue_146.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/mqueue/full/It_posix_queue_162.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_010.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_023.cpp",
+        "additions": 5,
+        "deletions": 4,
+        "changes": 9,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_025.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_026.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_027.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_028.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_029.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_030.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_031.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_034.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_035.cpp",
+        "additions": 5,
+        "deletions": 4,
+        "changes": 9,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_039.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_040.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_042.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_044.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_045.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_046.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_051.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_052.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_053.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_054.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_055.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_059.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_060.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_061.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_062.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_063.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_064.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_066.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_080.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_081.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_082.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_083.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_084.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_085.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_087.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_088.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_089.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_090.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_091.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_092.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_094.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_095.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_107.cpp",
+        "additions": 7,
+        "deletions": 7,
+        "changes": 14,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_138.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_233.cpp",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_238.cpp",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_239.cpp",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_240.cpp",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/posix_pthread_test.cpp",
+        "additions": 17,
+        "deletions": 17,
+        "changes": 34,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/smoke/It_posix_pthread_004.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/smoke/It_posix_pthread_005.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/smoke/It_posix_pthread_006.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_008.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_009.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_010.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_012.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_013.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_016.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/time/clock/full/clock_test_010.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/time/timer/smoke/timer_test_003.cpp",
+        "additions": 3,
+        "deletions": 2,
+        "changes": 5,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/time/timer/smoke/timer_test_004.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/time/timer/smoke/timer_test_005.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/time/timer/smoke/timer_test_tzset_002.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/util/smoke/util_test_007.cpp",
+        "additions": 7,
+        "deletions": 5,
+        "changes": 12,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/resolv/smoke/net_resolv_test_001.cpp",
+        "additions": 12,
+        "deletions": 12,
+        "changes": 24,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_002.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_003.cpp",
+        "additions": 14,
+        "deletions": 12,
+        "changes": 26,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_007.cpp",
+        "additions": 42,
+        "deletions": 32,
+        "changes": 74,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_008.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_009.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_010.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_011.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_012.cpp",
+        "additions": 10,
+        "deletions": 10,
+        "changes": 20,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_013.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_042.cpp",
+        "additions": 5,
+        "deletions": 4,
+        "changes": 9,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_049.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_050.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_051.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_052.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_062.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_063.cpp",
+        "additions": 9,
+        "deletions": 9,
+        "changes": 18,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_064.cpp",
+        "additions": 7,
+        "deletions": 7,
+        "changes": 14,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/it_test_process.h",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/smoke/process_test_023.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/pthread/full/pthread_test_001.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/pthread/full/pthread_test_004.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/pthread/it_pthread_test.h",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/pthread/smoke/pthread_once_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/pthread/smoke/pthread_test_019.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/lock/rwlock/full/pthread_rwlock_test_002.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/lock/rwlock/smoke/pthread_rwlock_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/lock/spinlock/smoke/pthread_spinlock_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/security/reugid/smoke/reugid_test_001.cpp",
+        "additions": 76,
+        "deletions": 68,
+        "changes": 144,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/security/vid/smoke/vid_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tools/scripts/parse_exc/parse_excinfo.py",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/kernel_liteos_a",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-kernel_liteos_a-987",
+    "defect_id": "kernel_liteos_a#987",
+    "title": " Fix : 内核告警清理",
+    "body_excerpt": "### 相关的Issue\r\nhttps://gitee.com/openharmony/kernel_liteos_a/issues/I5QHJL\r\n\r\n### 原因（目的、解决的问题等）\r\n经代码检测工具发现内核代码中存在可以修改\r\n的告警\r\n\r\n### 描述（做了什么，变更了什么）\r\n1.将只有单一语句的if, while等加上括号\r\n2.将C 风格的类型转换变为C++风格的.\r\n3.优化了注释的格式\r\n\r\n### 测试用例（新增、改动、可能影响的功能）\r\n无\r\n\r\n### 是否需要同步至release（如：3.0LTS ... ）分支？\r\n\r\n必须选择一项（在MarkDown模式下用[x]替换[ ]即可勾选对应选项）:\r\n- [ ] 是，需要同步的分支：\r\n- [X] 否\r\n\r\n理由：非重要修改\r\n\r\n\r\n",
+    "original_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/987",
+    "patch_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/987.patch",
+    "date": "2022-09-21T12:42:43+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 532,
+    "raw_lines_deleted": 461,
+    "raw_lines_changed": 993,
+    "raw_files_changed": 155,
+    "files": [
+      {
+        "filepath": "fs/proc/src/proc_file.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "fs/vfs/vfs_cmd/vfs_shellcmd.c",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "kernel/common/console.c",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "net/lwip-2.1/porting/include/arch/perf.h",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/kernel_base/ipc/event/full/It_los_event_027.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/kernel_base/ipc/sem/smp/It_smp_los_sem_026.c",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_035.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_080.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_081.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_082.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_083.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_084.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_085.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_088.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_089.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_138.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_215.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_233.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_238.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_239.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_240.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/sample/posix/pthread/full/It_posix_pthread_246.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/src/iCunit.c",
+        "additions": 3,
+        "deletions": 2,
+        "changes": 5,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/kernel/src/osTest.c",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/dynload/smoke/dynload_test_002.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/it_test_mem_100.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_005.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_006.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_007.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_008.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_009.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_013.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/full/shm_test_014.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/shm/smoke/shm_test_011.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/vm/smoke/mmap_test_002.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/vm/smoke/mmap_test_006.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/basic/mem/vm/smoke/user_copy_test_001.cpp",
+        "additions": 7,
+        "deletions": 5,
+        "changes": 12,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/drivers/hid/smoke/hid_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/drivers/storage/smoke/storage_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/liteipc/smoke/liteipc_test_001.cpp",
+        "additions": 7,
+        "deletions": 7,
+        "changes": 14,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/liteipc/smoke/liteipc_test_002.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/full/It_ipc_pipe_002.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/full/It_ipc_pipe_003.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/full/pipe_test_005.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/full/signal_test_026.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/full/signal_test_029.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/smoke/pipe_test_002.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/smoke/signal_test_002.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/smoke/signal_test_013.cpp",
+        "additions": 9,
+        "deletions": 9,
+        "changes": 18,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/signal/smoke/signal_test_037.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/extended/trace/smoke/trace_test_004.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/io/full/IO_test_duplocale_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/io/full/IO_test_nl_langinfo_l_001.cpp",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/io/full/It_stdio_hasmntopt_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/misc/full/misc_test_006.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/mqueue/full/It_posix_queue_145.cpp",
+        "additions": 8,
+        "deletions": 8,
+        "changes": 16,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/mqueue/full/It_posix_queue_146.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/mqueue/full/It_posix_queue_162.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_010.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_023.cpp",
+        "additions": 5,
+        "deletions": 4,
+        "changes": 9,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_025.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_026.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_027.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_028.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_029.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_030.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_031.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_034.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_035.cpp",
+        "additions": 5,
+        "deletions": 4,
+        "changes": 9,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_039.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_040.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_042.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_044.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_045.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_046.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_051.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_052.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_053.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_054.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_055.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_059.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_060.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_061.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_062.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_063.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_064.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_066.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_080.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_081.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_082.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_083.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_084.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_085.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_087.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_088.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_089.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_090.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_091.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_092.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_094.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_095.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_107.cpp",
+        "additions": 7,
+        "deletions": 7,
+        "changes": 14,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_138.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_233.cpp",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_238.cpp",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_239.cpp",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/full/It_posix_pthread_240.cpp",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/posix_pthread_test.cpp",
+        "additions": 17,
+        "deletions": 17,
+        "changes": 34,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/smoke/It_posix_pthread_004.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/smoke/It_posix_pthread_005.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/posix/pthread/smoke/It_posix_pthread_006.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_008.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_009.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_010.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_012.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_013.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/sys/smoke/sys_test_016.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/time/clock/full/clock_test_010.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/time/timer/smoke/timer_test_003.cpp",
+        "additions": 3,
+        "deletions": 2,
+        "changes": 5,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/time/timer/smoke/timer_test_004.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/time/timer/smoke/timer_test_005.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/time/timer/smoke/timer_test_tzset_002.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/libc/util/smoke/util_test_007.cpp",
+        "additions": 7,
+        "deletions": 5,
+        "changes": 12,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/resolv/smoke/net_resolv_test_001.cpp",
+        "additions": 12,
+        "deletions": 12,
+        "changes": 24,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_002.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_003.cpp",
+        "additions": 14,
+        "deletions": 12,
+        "changes": 26,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_007.cpp",
+        "additions": 42,
+        "deletions": 32,
+        "changes": 74,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_008.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_009.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_010.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_011.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_012.cpp",
+        "additions": 10,
+        "deletions": 10,
+        "changes": 20,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/net/socket/smoke/net_socket_test_013.cpp",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_042.cpp",
+        "additions": 5,
+        "deletions": 4,
+        "changes": 9,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_049.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_050.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_051.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_052.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_062.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_063.cpp",
+        "additions": 9,
+        "deletions": 9,
+        "changes": 18,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/full/process_test_064.cpp",
+        "additions": 7,
+        "deletions": 7,
+        "changes": 14,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/it_test_process.h",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/process/smoke/process_test_023.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/pthread/full/pthread_test_001.cpp",
+        "additions": 3,
+        "deletions": 3,
+        "changes": 6,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/pthread/full/pthread_test_004.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/pthread/it_pthread_test.h",
+        "additions": 5,
+        "deletions": 5,
+        "changes": 10,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/pthread/smoke/pthread_once_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/basic/pthread/smoke/pthread_test_019.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/lock/rwlock/full/pthread_rwlock_test_002.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/lock/rwlock/smoke/pthread_rwlock_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/process/lock/spinlock/smoke/pthread_spinlock_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/security/reugid/smoke/reugid_test_001.cpp",
+        "additions": 76,
+        "deletions": 68,
+        "changes": 144,
+        "file_category": "test"
+      },
+      {
+        "filepath": "testsuites/unittest/security/vid/smoke/vid_test_001.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tools/scripts/parse_exc/parse_excinfo.py",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/security_huks",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-security_huks-1497",
+    "defect_id": "security_huks#1497",
+    "title": "fix bug in verifycertchain",
+    "body_excerpt": "1. fix bug in verifycertchain\r\n---\r\n### 一、内容说明（相关的Issue）\r\n\r\n\r\n\r\n### 二、建议测试周期和提测地址  \r\n  建议测试完成时间：xxxx.xx.xx  \r\n  投产上线时间：xxxx.xx.xx  \r\n  提测地址：CI环境/压测环境  \r\n  测试账号：  \r\n\r\n### 三、变更内容\r\n  * 3.1 关联PR列表\r\n\r\n  * 3.2 数据库和部署说明  \r\n    1. 常规更新 \r\n    2. 重启unicorn\r\n    3. 重启sidekiq\r\n    4. 迁移任务：是否有迁移任务，没有写 \"无\"\r\n    5. rake脚本：`bundle exec xxx RAILS_ENV = production`；没有写 \"无\"\r\n\r\n  * 3.4 其他技术优化内容（做了什么，变更了什么）\r\n    - 重构了",
+    "original_url": "https://gitee.com/openharmony/security_huks/pulls/1497",
+    "patch_url": "https://gitee.com/openharmony/security_huks/pulls/1497.patch",
+    "date": "2025-02-27T12:27:24+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 632,
+    "raw_lines_deleted": 6,
+    "raw_lines_changed": 638,
+    "raw_files_changed": 2,
+    "files": [
+      {
+        "filepath": "frameworks/huks_standard/main/core/src/hks_verifier.c",
+        "additions": 14,
+        "deletions": 5,
+        "changes": 19,
+        "file_category": "production"
+      },
+      {
+        "filepath": "test/unittest/huks_standard_test/three_stage_test/src/hks_attest_key_nonids_test.cpp",
+        "additions": 618,
+        "deletions": 1,
+        "changes": 619,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/arkui_ace_engine",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-arkui_ace_engine-71861",
+    "defect_id": "arkui_ace_engine#71861",
+    "title": "shape extractor and rectShape bugfix",
+    "body_excerpt": "1. shape extractor and rectShape bugfix\r\n---\r\n**IssueNo**:\r\n**Description**: (提交描述)\r\n**Sig**: SIG_ApplicationFramework\r\n**Binary Source**: No(涉及则Yes)\r\n\r\n## 请勿修改以下选项内容，仅需保存后点击复选框，或在编辑时将对应项前面的[ ]改为[x]\r\n## Do not modify the following option content. Simply save and click the checkbox, or when editing, change [ ] to [x] for the relevant item.\r\n### Feature or Bugfix\r\n- [ ] 需求/Feature\r\n- [x] 缺陷/Bugfix\r\n",
+    "original_url": "https://gitee.com/openharmony/arkui_ace_engine/pulls/71861",
+    "patch_url": "https://gitee.com/openharmony/arkui_ace_engine/pulls/71861.patch",
+    "date": "2025-09-11T20:53:27+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 423,
+    "raw_lines_deleted": 126,
+    "raw_lines_changed": 549,
+    "raw_files_changed": 16,
+    "files": [
+      {
+        "filepath": "frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/arkts/ArkUIAniModule.ts",
+        "additions": 9,
+        "deletions": 0,
+        "changes": 9,
+        "file_category": "production"
+      },
+      {
+        "filepath": "frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/native/BUILD.gn",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/native/module.cpp",
+        "additions": 41,
+        "deletions": 0,
+        "changes": 41,
+        "file_category": "production"
+      },
+      {
+        "filepath": "frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/native/utils/ani_utils.h",
+        "additions": 3,
+        "deletions": 1,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/native/visual_effect/visual_effect_module.cpp",
+        "additions": 77,
+        "deletions": 0,
+        "changes": 77,
+        "file_category": "production"
+      },
+      {
+        "filepath": "frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/native/visual_effect/visual_effect_module.h",
+        "additions": 32,
+        "deletions": 0,
+        "changes": 32,
+        "file_category": "production"
+      },
+      {
+        "filepath": "frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/extractors/index.ets",
+        "additions": 12,
+        "deletions": 12,
+        "changes": 24,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/ets/ani/shape/ets/@ohos.arkui.shape.ets",
+        "additions": 9,
+        "deletions": 1,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/ets/ani/shape/src/circleShape.cpp",
+        "additions": 29,
+        "deletions": 24,
+        "changes": 53,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/ets/ani/shape/src/ellipseShape.cpp",
+        "additions": 23,
+        "deletions": 21,
+        "changes": 44,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/ets/ani/shape/src/pathShape.cpp",
+        "additions": 11,
+        "deletions": 9,
+        "changes": 20,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/ets/ani/shape/src/rectShape.cpp",
+        "additions": 70,
+        "deletions": 35,
+        "changes": 105,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/ets/ani/shape/src/shape.cpp",
+        "additions": 30,
+        "deletions": 0,
+        "changes": 30,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/ets/ani/shape/src/shape.h",
+        "additions": 17,
+        "deletions": 1,
+        "changes": 18,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/ets/ani/shape/src/shapeUtil.cpp",
+        "additions": 22,
+        "deletions": 17,
+        "changes": 39,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/ets/ani/shape/src/shapeUtil.h",
+        "additions": 37,
+        "deletions": 5,
+        "changes": 42,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "HarmonyOS",
+    "repo": "openharmony/graphic_graphic_2d",
+    "source": "Gitee_PR",
+    "candidate_id": "Gitee-graphic_graphic_2d-8764",
+    "defect_id": "graphic_graphic_2d#8764",
+    "title": "解决多屏同显和多屏异显相关问题",
+    "body_excerpt": "#I903TB\r\n\r\n- 问题一\r\n        1、问题描述：插拔HDMI存在内存泄漏\r\n        2、故障版本：4.0 release/master\r\n        3、根因分析：屏幕相关实例中存在循环引用，拔出屏幕后，相关内存未释放\r\n        4、修改方案：解除循环引用\r\n        5、验证结果：略\r\n\r\n- 问题二\r\n        1、问题描述：多屏同显时副屏未居中显示，当副屏宽高比与主屏不一致时，画面偏左或偏上\r\n        2、故障版本：4.0 release/master\r\n        3、根因分析：副屏渲染时以屏幕左上角为原点\r\n        4、修改方案：根据副屏宽高及图层自身宽高等属性，计算图层偏移，使其居中显示\r\n        5、验证结果：略\r\n\r\n- 问题三\r\n        1、问题描述：多屏同显时副屏画面模糊\r\n     ",
+    "original_url": "https://gitee.com/openharmony/graphic_graphic_2d/pulls/8764",
+    "patch_url": "https://gitee.com/openharmony/graphic_graphic_2d/pulls/8764.patch",
+    "date": "2024-05-06T14:22:59+08:00",
+    "date_type": "gitee_merged_at",
+    "raw_lines_added": 465,
+    "raw_lines_deleted": 161,
+    "raw_lines_changed": 626,
+    "raw_files_changed": 30,
+    "files": [
+      {
+        "filepath": "rosen/modules/composer/hdi_backend/include/hdi_framebuffer_surface.h",
+        "additions": 6,
+        "deletions": 3,
+        "changes": 9,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/composer/hdi_backend/src/hdi_framebuffer_surface.cpp",
+        "additions": 19,
+        "deletions": 4,
+        "changes": 23,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_base_render_engine.cpp",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_base_render_engine.h",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_composer_adapter.cpp",
+        "additions": 67,
+        "deletions": 2,
+        "changes": 69,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_composer_adapter.h",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_divided_render_util.cpp",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_main_thread.cpp",
+        "additions": 62,
+        "deletions": 40,
+        "changes": 102,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_main_thread.h",
+        "additions": 6,
+        "deletions": 2,
+        "changes": 8,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_physical_screen_processor.cpp",
+        "additions": 9,
+        "deletions": 7,
+        "changes": 16,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_processor.cpp",
+        "additions": 43,
+        "deletions": 5,
+        "changes": 48,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_processor.h",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_render_engine.cpp",
+        "additions": 3,
+        "deletions": 18,
+        "changes": 21,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_render_engine.h",
+        "additions": 2,
+        "deletions": 4,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_render_service_visitor.cpp",
+        "additions": 119,
+        "deletions": 45,
+        "changes": 164,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_render_service_visitor.h",
+        "additions": 12,
+        "deletions": 0,
+        "changes": 12,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_uni_render_engine.cpp",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_uni_render_engine.h",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service_base/include/pipeline/rs_display_render_node.h",
+        "additions": 75,
+        "deletions": 0,
+        "changes": 75,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service_base/include/pipeline/rs_surface_render_node.h",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service_base/src/pipeline/rs_surface_render_node.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/test/render_service/render_service/unittest/pipeline/rs_main_thread_test.cpp",
+        "additions": 13,
+        "deletions": 9,
+        "changes": 22,
+        "file_category": "test"
+      },
+      {
+        "filepath": "rosen/test/render_service/render_service/unittest/pipeline/rs_render_engine_test.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "test"
+      },
+      {
+        "filepath": "rosen/test/render_service/render_service/unittest/pipeline/rs_uni_render_engine_test.cpp",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/drawable/rs_display_render_node_drawable.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_render_service_visitor.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/pipeline/rs_uni_render_visitor.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/screen_manager/rs_screen_manager.cpp",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service/core/screen_manager/rs_screen_manager.h",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "rosen/modules/render_service_base/include/screen_manager/rs_screen_info.h",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "file_category": "production"
+      }
+    ]
+  }
+]

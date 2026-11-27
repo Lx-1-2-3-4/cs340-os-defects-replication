@@ -1,0 +1,26 @@
+candidate_id,decision,decision_reason,os_layer,affected_function,trigger_scenario,severity,classification_rationale,label_status
+GH-systemd-39390,include,Fixes userspace-to-kernel partition table synchronization defects across sd-device/repart/homework,System Service Layer,Storage Management,State Dependency Trigger,Medium,Modifies partition table rereading and locking in systemd storage daemons and udev/sd-device,single_review
+GH-systemd-37271,include,Fixes PrivateTmp=disconnected vs var.mount namespace ordering defect (prod=325L; raw=551L due to tests/docs),System Service Layer,Storage Management,State Dependency Trigger,Medium,Fixes mount namespace setup in core/exec-invoke.c and execute-serialize.c,single_review
+GH-systemd-31550,exclude,Feature/build refactoring to dynamically dlopen compression libraries rather than a defect fix,,,,,
+GH-systemd-35401,exclude,Feature enhancement adding fs-verity status copying to systemd-repart CopyFiles=,,,,,
+GH-systemd-40007,include,Fixes dm-verity device reuse conflict for policy-pinned single filesystem images,System Service Layer,Storage Management,State Dependency Trigger,Medium,Fixes image dissection and namespace dm-verity reuse in src/shared/dissect-image.c and src/core/namespace.c,single_review
+GH-systemd-39988,exclude,Test-only shell script cleanup (0 production lines changed),,,,,
+GH-systemd-39947,exclude,Platform portability feature adding musl getopt wrappers with 78.5% test code,,,,,
+Gitee-kernel_liteos_a-1161,exclude,Test-only addition of unittest helper tools (0 production lines changed),,,,,
+Gitee-communication_dsoftbus-10900,exclude,Feature development adding serviceId support to transmission layer,,,,,
+Gitee-communication_dsoftbus-10185,exclude,Test-only fuzzing harness addition (0 production lines changed),,,,,
+Gitee-communication_dsoftbus-10840,exclude,Specification revision and permission table refactoring without a specific defect report,,,,,
+Gitee-communication_dsoftbus-10845,exclude,Dead-code deletion and metric cleanup rather than a functional bug fix,,,,,
+Gitee-communication_dsoftbus-10836,exclude,Test-suite alignment (929/931 lines in tests; only 2 header lines in production),,,,,
+Gitee-communication_dsoftbus-10810,exclude,Release branch synchronization diff without a specific bug report,,,,,
+Gitee-communication_dsoftbus-10812,exclude,Mixed fuzz-testing addition and code optimization rather than a localized defect fix,,,,,
+AOSP-base-29b36a471b,exclude,Build system migration from Makefile to Android.bp (not a defect fix),,,,,
+AOSP-Bluetooth-79bd511e11,exclude,Branch merge commit (Merge 25Q1 to AOSP main),,,,,
+AOSP-Bluetooth-6a0e94fffb,exclude,Code optimization and cleanup of BaseData with unit tests rather than a defect fix,,,,,
+GH-systemd-39376,include,Fixes multiple service reload state-handling defects in systemd core/service,System Service Layer,Process and Task Scheduling,State Dependency Trigger,Medium,Modifies service reload lifecycle and dbus-service state transitions in src/core/,single_review
+Gitee-kernel_liteos_a-1133,exclude,Test-only container unittest fix (0 production lines changed),,,,,
+Gitee-kernel_liteos_a-993,exclude,Bulk compiler-warning cleanup across 155 files (899/993 lines in testsuites),,,,,
+Gitee-kernel_liteos_a-987,exclude,Duplicate bulk compiler-warning cleanup across 155 files (same patch as #993),,,,,
+Gitee-security_huks-1497,include,Fixes certificate chain verification bug in hks_verifier.c (prod=19L/1F; test=619L/1F),System Service Layer,Security and Permission Control,Boundary Condition Trigger,High,Fixes certificate chain validation logic in HUKS security service (hks_verifier.c),single_review
+Gitee-arkui_ace_engine-71861,include,Fixes shape extractor and rectShape rendering/bridging defects in ArkUI,Framework Layer,Graphics and Rendering,Regular Operation Trigger,Medium,Modifies ArkUI shape extraction across arkts bridge and native visual_effect modules,single_review
+Gitee-graphic_graphic_2d-8764,include,Fixes multi-screen mirror/extend display defects in OpenHarmony 2D graphics pipeline,Framework Layer,Graphics and Rendering,State Dependency Trigger,Medium,Fixes display composer and render_service pipeline handling during multi-screen transitions,single_review

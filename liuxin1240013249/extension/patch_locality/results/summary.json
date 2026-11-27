@@ -1,0 +1,152 @@
+{
+  "baseline_total_records": 1500,
+  "baseline_overall_stats": {
+    "android": {
+      "n": 500,
+      "spearman_lines_vs_files": 0.6428,
+      "spearman_lines_vs_functions": 0.7496,
+      "median_lines": 18.0,
+      "median_files": 1.0,
+      "multi_file_pct": 45.8
+    },
+    "linux": {
+      "n": 500,
+      "spearman_lines_vs_files": 0.5434,
+      "spearman_lines_vs_functions": 0.5923,
+      "median_lines": 11.0,
+      "median_files": 2.0,
+      "multi_file_pct": 56.4
+    },
+    "harmony": {
+      "n": 500,
+      "spearman_lines_vs_files": 0.6334,
+      "spearman_lines_vs_functions": 0.6924,
+      "median_lines": 9.0,
+      "median_files": 1.0,
+      "multi_file_pct": 30.8
+    }
+  },
+  "baseline_arithmetic_anomalies": [
+    {
+      "os": "Linux",
+      "bug_id": "2044216",
+      "line_additions": 28,
+      "line_deletions": 331,
+      "line_changes_reported": 349,
+      "sum_add_del": 359
+    }
+  ],
+  "baseline_diff_sample_count": 52,
+  "baseline_diff_exact_match_count": 19,
+  "large_candidates_total": 25,
+  "large_candidates_included": 7,
+  "large_candidates_excluded": 18,
+  "teammate_systemd_records_loaded": 9,
+  "merged_module_mapped_records": 68,
+  "cohort_all": [
+    {
+      "os": "ALL",
+      "size_bucket": "1-9",
+      "n": 12,
+      "median_raw_lines": 5.5,
+      "median_prod_lines": 4.0,
+      "median_files": 1.0,
+      "median_prod_files": 1.0,
+      "median_modules": 1.0,
+      "cross_module_pct": 16.67,
+      "mean_primary_module_share": 0.625
+    },
+    {
+      "os": "ALL",
+      "size_bucket": "10-29",
+      "n": 12,
+      "median_raw_lines": 18.0,
+      "median_prod_lines": 15.0,
+      "median_files": 1.0,
+      "median_prod_files": 1.0,
+      "median_modules": 1.0,
+      "cross_module_pct": 0.0,
+      "mean_primary_module_share": 0.9167
+    },
+    {
+      "os": "ALL",
+      "size_bucket": "30-49",
+      "n": 10,
+      "median_raw_lines": 34.5,
+      "median_prod_lines": 32.5,
+      "median_files": 1.0,
+      "median_prod_files": 1.0,
+      "median_modules": 1.0,
+      "cross_module_pct": 0.0,
+      "mean_primary_module_share": 0.7
+    },
+    {
+      "os": "ALL",
+      "size_bucket": "50-99",
+      "n": 11,
+      "median_raw_lines": 78,
+      "median_prod_lines": 53,
+      "median_files": 3,
+      "median_prod_files": 1,
+      "median_modules": 1,
+      "cross_module_pct": 18.18,
+      "mean_primary_module_share": 0.627
+    },
+    {
+      "os": "ALL",
+      "size_bucket": "100-500",
+      "n": 16,
+      "median_raw_lines": 221.5,
+      "median_prod_lines": 105.0,
+      "median_files": 4.0,
+      "median_prod_files": 2.0,
+      "median_modules": 1.0,
+      "cross_module_pct": 18.75,
+      "mean_primary_module_share": 0.7689
+    },
+    {
+      "os": "ALL",
+      "size_bucket": "501-1000",
+      "n": 7,
+      "median_raw_lines": 638,
+      "median_prod_lines": 549,
+      "median_files": 17,
+      "median_prod_files": 12,
+      "median_modules": 3,
+      "cross_module_pct": 71.43,
+      "mean_primary_module_share": 0.8626
+    }
+  ],
+  "teammate_systemd_check": [
+    {
+      "cohort": "Wu_systemd_LP_le500",
+      "n": 3,
+      "median_raw_lines": 21,
+      "median_prod_lines": 21,
+      "median_files": 2,
+      "median_prod_modules": 1,
+      "cross_module_pct": 33.33,
+      "mean_primary_module_share": 0.7679
+    },
+    {
+      "cohort": "Wu_systemd_GH_le500",
+      "n": 6,
+      "median_raw_lines": 115.0,
+      "median_prod_lines": 63.5,
+      "median_files": 3.5,
+      "median_prod_modules": 1.0,
+      "cross_module_pct": 16.67,
+      "mean_primary_module_share": 0.9195
+    },
+    {
+      "cohort": "Ours_systemd_GH_501_1000",
+      "n": 4,
+      "median_raw_lines": 759.5,
+      "median_prod_lines": 571.5,
+      "median_files": 18.0,
+      "median_prod_modules": 4.0,
+      "cross_module_pct": 75.0,
+      "mean_primary_module_share": 0.8945
+    }
+  ]
+}

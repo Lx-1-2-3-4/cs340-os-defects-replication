@@ -1,0 +1,259 @@
+experiment,os,defect_id,repo,filepath,file_category,module,additions,deletions,changes
+baseline_diff_sample,Android,A-374257207,platform/frameworks/base,core/java/android/app/trust/ITrustManager.aidl,production,base/core,1,0,1
+baseline_diff_sample,Android,A-374257207,platform/frameworks/base,core/java/android/app/trust/TrustManager.java,production,base/core,1,0,1
+baseline_diff_sample,Android,A-374257207,platform/frameworks/base,services/core/java/com/android/server/trust/TrustManagerService.java,production,server/trust,4,0,4
+baseline_diff_sample,Android,A-273501008,platform/frameworks/base,services/core/java/com/android/server/accounts/AccountManagerService.java,production,server/accounts,103,0,103
+baseline_diff_sample,Android,A-280793427,platform/packages/apps/Settings,src/com/android/settings/applications/specialaccess/deviceadmin/DeviceAdminAdd.java,production,Settings/src,71,64,135
+baseline_diff_sample,Android,A-232799171,platform/frameworks/base,services/core/java/com/android/server/speech/RemoteSpeechRecognitionService.java,production,server/speech,1,2,3
+baseline_diff_sample,Android,A-318683640,platform/frameworks/base,services/core/java/com/android/server/wm/WindowState.java,production,server/wm,3,2,5
+baseline_diff_sample,Android,A-274592467,platform/frameworks/base,core/java/android/app/Notification.java,production,base/core,8,0,8
+baseline_diff_sample,Android,A-274592467,platform/frameworks/base,services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java,test,server/notification,23,0,23
+baseline_diff_sample,Android,A-294105066,platform/frameworks/base,services/usb/java/com/android/server/usb/UsbProfileGroupSettingsManager.java,production,server/usb,21,0,21
+baseline_diff_sample,Android,A-326485767,platform/frameworks/base,services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java,production,server/accessibility,22,0,22
+baseline_diff_sample,Android,A-246542285,platform/frameworks/base,apex/jobscheduler/service/java/com/android/server/job/JobStore.java,production,server/job,15,2,17
+baseline_diff_sample,Android,A-2000344762,platform/packages/providers/DownloadProvider,src/com/android/providers/downloads/DownloadStorageProvider.java,production,DownloadProvider/src,12,26,38
+baseline_diff_sample,Android,A-343714914,platform/packages/modules/Wifi,service/java/com/android/server/wifi/WifiConfigurationUtil.java,production,server/wifi,11,6,17
+baseline_diff_sample,Android,A-343714914,platform/packages/modules/Wifi,service/tests/wifitests/src/com/android/server/wifi/WifiConfigurationUtilTest.java,test,server/wifi,16,1,17
+baseline_diff_sample,Android,A-239414876,platform/packages/modules/Bluetooth,system/stack/sdp/sdp_discovery.cc,production,Bluetooth/system,53,5,58
+baseline_diff_sample,Android,A-313909156,platform/packages/modules/Permission,PermissionController/src/com/android/permissioncontroller/permission/ui/GrantPermissionsActivity.java,production,Permission/PermissionController,66,25,91
+baseline_diff_sample,Android,A-363248394,platform/packages/apps/Settings,src/com/android/settings/notification/NotificationAccessConfirmationActivity.java,production,Settings/src,30,20,50
+baseline_diff_sample,Android,A-363248394,platform/packages/apps/Settings,tests/robotests/src/com/android/settings/notification/NotificationAccessConfirmationActivityTest.java,test,Settings/tests,3,6,9
+baseline_diff_sample,Android,A-258021433,platform/frameworks/av,services/audioflinger/AudioFlinger.cpp,production,services/audioflinger,37,7,44
+baseline_diff_sample,Android,A-258021433,platform/frameworks/av,services/audioflinger/Threads.cpp,production,services/audioflinger,4,6,10
+baseline_diff_sample,Android,A-258021433,platform/frameworks/av,services/audioflinger/Tracks.cpp,production,services/audioflinger,1,4,5
+baseline_diff_sample,Android,A-258021433,platform/frameworks/av,services/audiopolicy/service/AudioPolicyInterfaceImpl.cpp,production,services/audiopolicy,25,61,86
+baseline_diff_sample,Android,A-360838273,platform/frameworks/base,services/core/java/com/android/server/am/UserController.java,production,server/am,84,83,167
+baseline_diff_sample,Android,A-360838273,platform/frameworks/base,services/tests/servicestests/src/com/android/server/am/UserControllerTest.java,test,server/am,26,68,94
+baseline_diff_sample,Android,A-3192106102,platform/hardware/interfaces,health/aidl/default/Health.cpp,production,interfaces/health,42,13,55
+baseline_diff_sample,Android,A-3192106102,platform/hardware/interfaces,health/aidl/default/LinkedCallback.cpp,production,interfaces/health,10,18,28
+baseline_diff_sample,Android,A-3192106102,platform/hardware/interfaces,health/aidl/default/LinkedCallback.h,production,interfaces/health,5,13,18
+baseline_diff_sample,Android,A-3192106102,platform/hardware/interfaces,health/aidl/default/include/health-impl/Health.h,production,interfaces/health,2,1,3
+baseline_diff_sample,Android,A-299614635,platform/packages/apps/Settings,src/com/android/settings/DefaultRingtonePreference.java,production,Settings/src,2,9,11
+baseline_diff_sample,Android,A-299614635,platform/packages/apps/Settings,src/com/android/settings/RingtonePreference.java,production,Settings/src,82,0,82
+baseline_diff_sample,Android,A-299614635,platform/packages/apps/Settings,src/com/android/settings/notification/app/NotificationSoundPreference.java,production,Settings/src,10,2,12
+baseline_diff_sample,Android,A-299614635,platform/packages/apps/Settings,tests/unit/src/com/android/settings/DefaultRingtonePreferenceTest.java,test,Settings/tests,71,4,75
+baseline_diff_sample,Linux,2044216,linux,satpy-0.44.0/debian/changelog	2023-11-21 22:49:24.000000000 -0600,packaging_or_generated,linux/satpy-0.44.0,430,1,431
+baseline_diff_sample,Linux,2114712,linux,libfprint-1.94.7+tod1/debian/changelog      2025-06-16 16:28:58.000000000 +0800,packaging_or_generated,linux/libfprint-1.94.7+tod1,45,0,45
+baseline_diff_sample,Linux,2097605,linux,src/mds/MDSMap.cc,production,linux/src,107,4,111
+baseline_diff_sample,Linux,2067075,linux,horizon-25.1.0/debian/changelog	2025-06-16 17:06:16.000000000 +0800,packaging_or_generated,linux/horizon-25.1.0,51,1,52
+baseline_diff_sample,Linux,2081717,linux,discount-2.2.7/debian/changelog	2024-09-23 13:39:23.000000000 +0200,packaging_or_generated,linux/discount-2.2.7,47,0,47
+baseline_diff_sample,Linux,2063031,linux,s3cmd-2.3.0/debian/changelog	2024-04-21 14:47:32.000000000 +0300,packaging_or_generated,linux/s3cmd-2.3.0,29,1,30
+baseline_diff_sample,Linux,2115391,systemd/systemd,src/pcrlock/pcrlock.c,production,systemd/pcrlock,14,7,21
+baseline_diff_sample,Linux,2081672,linux,lib/bluetooth-client.c,production,linux/lib,9,4,13
+baseline_diff_sample,Linux,2060628,linux,astrometry.net-0.93+dfsg/debian/changelog	2024-04-09 10:54:11.000000000 +0200,packaging_or_generated,linux/astrometry.net-0.93+dfsg,96,0,96
+baseline_diff_sample,Linux,2114261,linux,broadcom-sta-6.30.223.271/debian/changelog	2025-06-13 18:50:36.000000000 +0800,packaging_or_generated,linux/broadcom-sta-6.30.223.271,57,3,60
+baseline_diff_sample,Linux,2056080,linux,google-android-installers-1707406511ubuntu3/debian/changelog	2024-03-17 14:03:03.000000000 +0100,packaging_or_generated,linux/google-android-installers-1707406511ubuntu3,43,5,48
+baseline_diff_sample,Linux,2059197,linux,nfs-utils-1.3.4/debian/changelog	2024-04-03 14:57:55.000000000 +1300,packaging_or_generated,linux/nfs-utils-1.3.4,339,0,339
+baseline_diff_sample,Linux,2115654,linux,pyotherside-1.6.0/debian/changelog	2025-06-30 18:03:45.000000000 +0200,packaging_or_generated,linux/pyotherside-1.6.0,183,0,183
+baseline_diff_sample,Linux,2090934,linux,mesa-24.2.3/debian/changelog	2024-12-03 15:16:20.000000000 +0100,packaging_or_generated,linux/mesa-24.2.3,1483,0,1483
+baseline_diff_sample,Linux,2055718,linux,tzdata-2024a/debian/changelog	2024-04-05 22:43:47.000000000 +0200,packaging_or_generated,linux/tzdata-2024a,101,22,123
+baseline_diff_sample,Linux,2111698,linux,mutter-46.2/debian/changelog	2025-04-29 08:44:52.000000000 +0800,packaging_or_generated,linux/mutter-46.2,508,0,508
+baseline_diff_sample,Linux,2089324,linux,cmd/zdb/zdb_il.c,production,linux/cmd,4,2,6
+baseline_diff_sample,Linux,2089324,linux,cmd/ztest.c,production,linux/cmd,13,11,24
+baseline_diff_sample,Linux,2089324,linux,include/sys/zil.h,production,kernel/include/sys,25,5,30
+baseline_diff_sample,Linux,2089324,linux,module/zfs/zfs_log.c,production,linux/module,46,44,90
+baseline_diff_sample,Linux,2089324,linux,module/zfs/zfs_replay.c,production,linux/module,74,69,143
+baseline_diff_sample,Linux,2054621,linux,php8.1-8.1.2/debian/changelog       2024-02-23 12:26:18.000000000 -0500,packaging_or_generated,linux/php8.1-8.1.2,210,0,210
+baseline_diff_sample,HarmonyOS,CVE-2024-50082 (CVE-2024-50046),openharmony/kernel_linux_5.10,fs/nfs/client.c,production,kernel_linux_5.10/fs/nfs,1,0,1
+baseline_diff_sample,HarmonyOS,CVE-2024-50082 (CVE-2024-50046),openharmony/kernel_linux_5.10,fs/nfs/nfs42proc.c,production,kernel_linux_5.10/fs/nfs,1,1,2
+baseline_diff_sample,HarmonyOS,CVE-2024-50082 (CVE-2024-50046),openharmony/kernel_linux_5.10,fs/nfs/nfs4state.c,production,kernel_linux_5.10/fs/nfs,1,1,2
+baseline_diff_sample,HarmonyOS,CVE-2024-50082 (CVE-2024-50046),openharmony/kernel_linux_5.10,include/linux/nfs_fs_sb.h,production,kernel_linux_5.10/include,1,0,1
+baseline_diff_sample,HarmonyOS,CVE-2025-21098,openharmony/kernel_liteos_a,kernel/extended/dynload/src/los_exec_elf.c,production,kernel_liteos_a/kernel/extended,7,2,9
+baseline_diff_sample,HarmonyOS,CVE-2024-50082 (CVE-2024-49889),openharmony/kernel_linux_5.10,fs/ext4/extents.c,production,kernel_linux_5.10/fs/ext4,4,5,9
+baseline_diff_sample,HarmonyOS,CVE-2024-39509,openharmony/kernel_linux_5.10,drivers/hid/hid-core.c,production,kernel_linux_5.10/drivers/hid,0,1,1
+baseline_diff_sample,HarmonyOS,CVE-2025-0302,openharmony/kernel_liteos_a,drivers/char/mem/src/mem.c,production,kernel_liteos_a/drivers/char,9,3,12
+baseline_diff_sample,HarmonyOS,CVE-2024-50154 (CVE-2024-50154),openharmony/kernel_linux_5.10,net/ipv4/inet_connection_sock.c,production,kernel_linux_5.10/net/ipv4,15,4,19
+baseline_diff_sample,HarmonyOS,CVE-2024-42114 (CVE-2024-43853),openharmony/kernel_linux_5.10,kernel/cgroup/cpuset.c,production,kernel_linux_5.10/kernel/cgroup,9,4,13
+baseline_diff_sample,HarmonyOS,CVE-2024-10074,openharmony/kernel_liteos_a,fs/vfs/epoll/fs_epoll.c,production,kernel_liteos_a/fs/vfs,23,12,35
+baseline_diff_sample,HarmonyOS,CVE-2025-25217,openharmony/arkui_ace_engine,frameworks/core/common/connect_server_manager.cpp,production,arkui_ace_engine/core/common,26,7,33
+baseline_diff_sample,HarmonyOS,CVE-2025-25217,openharmony/arkui_ace_engine,frameworks/core/common/connect_server_manager.h,production,arkui_ace_engine/core/common,1,1,2
+baseline_diff_sample,HarmonyOS,CVE-2024-42131,openharmony/kernel_linux_5.10,mm/page-writeback.c,production,kernel_linux_5.10/mm,26,4,30
+baseline_diff_sample,HarmonyOS,CVE-2024-22177,openharmony/multimedia_audio_framework,services/audio_policy/server/include/audio_stream_collector.h,production,multimedia_audio_framework/services/audio_policy,1,0,1
+baseline_diff_sample,HarmonyOS,CVE-2024-22177,openharmony/multimedia_audio_framework,services/audio_policy/server/include/service/audio_policy_service.h,production,multimedia_audio_framework/services/audio_policy,2,0,2
+baseline_diff_sample,HarmonyOS,CVE-2024-22177,openharmony/multimedia_audio_framework,services/audio_policy/server/src/audio_policy_server.cpp,production,multimedia_audio_framework/services/audio_policy,40,21,61
+baseline_diff_sample,HarmonyOS,CVE-2024-22177,openharmony/multimedia_audio_framework,services/audio_policy/server/src/audio_stream_collector.cpp,production,multimedia_audio_framework/services/audio_policy,10,0,10
+baseline_diff_sample,HarmonyOS,CVE-2024-22177,openharmony/multimedia_audio_framework,services/audio_policy/server/src/service/audio_policy_service.cpp,production,multimedia_audio_framework/services/audio_policy,4,1,5
+baseline_diff_sample,HarmonyOS,CVE-2024-3757,openharmony/arkcompiler_ets_runtime,ecmascript/base/typed_array_helper.cpp,production,arkcompiler_ets_runtime/ecmascript,4,6,10
+baseline_diff_sample,HarmonyOS,CVE-2024-3757,openharmony/arkcompiler_ets_runtime,ecmascript/builtins/builtins_typedarray.cpp,production,arkcompiler_ets_runtime/ecmascript,6,6,12
+baseline_diff_sample,HarmonyOS,CVE-2024-3757,openharmony/arkcompiler_ets_runtime,ecmascript/js_stable_array.cpp,production,arkcompiler_ets_runtime/ecmascript,2,2,4
+baseline_diff_sample,HarmonyOS,CVE-2024-3757,openharmony/arkcompiler_ets_runtime,ecmascript/js_stable_array.h,production,arkcompiler_ets_runtime/ecmascript,1,1,2
+baseline_diff_sample,HarmonyOS,CVE-2024-3757,openharmony/arkcompiler_ets_runtime,test/moduletest/typearray/expect_output.txt,test,arkcompiler_ets_runtime/test,3,0,3
+baseline_diff_sample,HarmonyOS,CVE-2024-3757,openharmony/arkcompiler_ets_runtime,test/moduletest/typearray/typearray.js,test,arkcompiler_ets_runtime/test,22,1,23
+baseline_diff_sample,HarmonyOS,CVE-2024-8088,openharmony/third_party_python,Lib/test/test_zipfile.py,test,third_party_python/Lib,17,1,18
+baseline_diff_sample,HarmonyOS,CVE-2024-8088,openharmony/third_party_python,Lib/zipfile.py,production,third_party_python/Lib,60,1,61
+baseline_diff_sample,HarmonyOS,CVE-2024-8088,openharmony/third_party_python,Misc/NEWS.d/next/Library/2024-08-11-14-08-04.gh-issue-122905.7tDsxA.rst,doc,third_party_python/Misc,1,1,2
+baseline_diff_sample,HarmonyOS,CVE-2025-20081,openharmony/communication_dsoftbus,core/discovery/ble/softbus_ble/src/disc_ble.c,production,communication_dsoftbus/core/discovery,3,1,4
+baseline_diff_sample,HarmonyOS,CVE-2025-20081,openharmony/communication_dsoftbus,core/discovery/ble/softbus_ble/src/disc_ble_utils.c,production,communication_dsoftbus/core/discovery,1,1,2
+baseline_diff_sample,HarmonyOS,CVE-2025-20081,openharmony/communication_dsoftbus,core/discovery/coap/nstackx_coap/include/disc_coap_capability.h,production,communication_dsoftbus/core/discovery,2,1,3
+baseline_diff_sample,HarmonyOS,CVE-2025-20081,openharmony/communication_dsoftbus,core/discovery/coap/nstackx_coap/src/disc_coap_capability.c,production,communication_dsoftbus/core/discovery,9,3,12
+baseline_diff_sample,HarmonyOS,CVE-2025-20081,openharmony/communication_dsoftbus,core/discovery/coap/nstackx_coap/src/disc_nstackx_adapter.c,production,communication_dsoftbus/core/discovery,71,8,79
+baseline_diff_sample,HarmonyOS,CVE-2025-20081,openharmony/communication_dsoftbus,core/discovery/manager/src/disc_manager.c,production,communication_dsoftbus/core/discovery,4,0,4
+baseline_diff_sample,HarmonyOS,CVE-2025-20081,openharmony/communication_dsoftbus,interfaces/kits/common/softbus_error_code.h,production,communication_dsoftbus/interfaces/kits,1,0,1
+baseline_diff_sample,HarmonyOS,CVE-2025-20081,openharmony/communication_dsoftbus,tests/core/discovery/coap/unittest/disc_nstackx_adapter_test.cpp,test,communication_dsoftbus/tests,19,1,20
+baseline_diff_sample,HarmonyOS,CVE-2025-27534 (10806),openharmony/arkcompiler_ets_runtime,ecmascript/compiler/builtins/builtins_object_stub_builder.cpp,production,arkcompiler_ets_runtime/ecmascript,141,106,247
+baseline_diff_sample,HarmonyOS,CVE-2025-27534 (10806),openharmony/arkcompiler_ets_runtime,ecmascript/compiler/stub_builder-inl.h,production,arkcompiler_ets_runtime/ecmascript,10,0,10
+baseline_diff_sample,HarmonyOS,CVE-2025-27534 (10806),openharmony/arkcompiler_ets_runtime,ecmascript/compiler/stub_builder.cpp,production,arkcompiler_ets_runtime/ecmascript,21,0,21
+baseline_diff_sample,HarmonyOS,CVE-2025-27534 (10806),openharmony/arkcompiler_ets_runtime,ecmascript/compiler/stub_builder.h,production,arkcompiler_ets_runtime/ecmascript,3,0,3
+baseline_diff_sample,HarmonyOS,CVE-2025-27534 (10806),openharmony/arkcompiler_ets_runtime,test/moduletest/object/expect_output.txt,test,arkcompiler_ets_runtime/test,3,0,3
+baseline_diff_sample,HarmonyOS,CVE-2025-27534 (10806),openharmony/arkcompiler_ets_runtime,test/moduletest/object/object.js,test,arkcompiler_ets_runtime/test,13,2,15
+baseline_diff_sample,HarmonyOS,CVE-2024-56703,openharmony/kernel_linux_5.10,net/ipv6/ip6_fib.c,production,kernel_linux_5.10/net/ipv6,4,4,8
+baseline_diff_sample,HarmonyOS,CVE-2024-56703,openharmony/kernel_linux_5.10,net/ipv6/route.c,production,kernel_linux_5.10/net/ipv6,30,15,45
+baseline_diff_sample,HarmonyOS,CVE-2024-56703,openharmony/kernel_linux_5.10,tools/testing/selftests/net/Makefile,test,kernel_linux_5.10/tools,1,0,1
+baseline_diff_sample,HarmonyOS,CVE-2024-56703,openharmony/kernel_linux_5.10,tools/testing/selftests/net/ipv6_route_update_soft_lockup.sh,test,kernel_linux_5.10/tools,262,0,262
+large_patch_501_1000,Linux,39390,systemd/systemd,docs/BLOCK_DEVICE_LOCKING.md,doc,systemd/docs,3,2,5
+large_patch_501_1000,Linux,39390,systemd/systemd,src/growfs/makefs.c,production,systemd/growfs,1,1,2
+large_patch_501_1000,Linux,39390,systemd/systemd,src/home/homework-luks.c,production,systemd/home,6,5,11
+large_patch_501_1000,Linux,39390,systemd/systemd,src/libsystemd/sd-device/device-private.h,production,systemd/libsystemd,1,0,1
+large_patch_501_1000,Linux,39390,systemd/systemd,src/libsystemd/sd-device/sd-device.c,production,systemd/libsystemd,21,0,21
+large_patch_501_1000,Linux,39390,systemd/systemd,src/repart/repart.c,production,systemd/repart,14,10,24
+large_patch_501_1000,Linux,39390,systemd/systemd,src/shared/blockdev-util.c,production,systemd/shared,61,29,90
+large_patch_501_1000,Linux,39390,systemd/systemd,src/shared/blockdev-util.h,production,systemd/shared,7,6,13
+large_patch_501_1000,Linux,39390,systemd/systemd,src/shared/dissect-image.c,production,systemd/shared,3,8,11
+large_patch_501_1000,Linux,39390,systemd/systemd,src/shared/meson.build,production,systemd/shared,1,0,1
+large_patch_501_1000,Linux,39390,systemd/systemd,src/shared/reread-partition-table.c,production,systemd/shared,396,0,396
+large_patch_501_1000,Linux,39390,systemd/systemd,src/shared/reread-partition-table.h,production,systemd/shared,14,0,14
+large_patch_501_1000,Linux,39390,systemd/systemd,src/storagetm/storagetm.c,production,systemd/storagetm,1,1,2
+large_patch_501_1000,Linux,39390,systemd/systemd,src/test/meson.build,test,systemd/test,7,0,7
+large_patch_501_1000,Linux,39390,systemd/systemd,src/test/test-blockdev-util.c,test,systemd/test,26,0,26
+large_patch_501_1000,Linux,39390,systemd/systemd,src/test/test-reread-partition-table-manual.c,test,systemd/test,28,0,28
+large_patch_501_1000,Linux,39390,systemd/systemd,src/test/test-reread-partition-table.c,test,systemd/test,162,0,162
+large_patch_501_1000,Linux,39390,systemd/systemd,src/udev/udev-watch.c,production,systemd/udev,2,31,33
+large_patch_501_1000,Linux,39390,systemd/systemd,src/udev/udevadm-lock.c,production,systemd/udev,2,1,3
+large_patch_501_1000,Linux,37271,systemd/systemd,man/systemd.exec.xml,doc,systemd/man,101,23,124
+large_patch_501_1000,Linux,37271,systemd/systemd,src/core/exec-invoke.c,production,systemd/core,17,1,18
+large_patch_501_1000,Linux,37271,systemd/systemd,src/core/execute-serialize.c,production,systemd/core,10,0,10
+large_patch_501_1000,Linux,37271,systemd/systemd,src/core/execute.c,production,systemd/core,1,0,1
+large_patch_501_1000,Linux,37271,systemd/systemd,src/core/execute.h,production,systemd/core,2,0,2
+large_patch_501_1000,Linux,37271,systemd/systemd,src/core/fuzz-execute-serialize.c,production,systemd/core,1,0,1
+large_patch_501_1000,Linux,37271,systemd/systemd,src/core/mount.c,production,systemd/core,7,9,16
+large_patch_501_1000,Linux,37271,systemd/systemd,src/core/namespace.c,production,systemd/core,107,80,187
+large_patch_501_1000,Linux,37271,systemd/systemd,src/core/namespace.h,production,systemd/core,1,0,1
+large_patch_501_1000,Linux,37271,systemd/systemd,src/core/swap.c,production,systemd/core,5,5,10
+large_patch_501_1000,Linux,37271,systemd/systemd,src/core/unit.c,production,systemd/core,66,13,79
+large_patch_501_1000,Linux,37271,systemd/systemd,src/test/test-bpf-firewall.c,test,systemd/test,2,0,2
+large_patch_501_1000,Linux,37271,systemd/systemd,src/test/test-bpf-foreign-programs.c,test,systemd/test,1,0,1
+large_patch_501_1000,Linux,37271,systemd/systemd,src/test/test-bpf-restrict-fs.c,test,systemd/test,1,0,1
+large_patch_501_1000,Linux,37271,systemd/systemd,src/test/test-execute.c,test,systemd/test,14,0,14
+large_patch_501_1000,Linux,37271,systemd/systemd,src/test/test-socket-bind.c,test,systemd/test,1,0,1
+large_patch_501_1000,Linux,37271,systemd/systemd,test/test-execute/exec-privatetmp-disconnected-after-and-requires-for-var.service,test,systemd/test,15,0,15
+large_patch_501_1000,Linux,37271,systemd/systemd,test/test-execute/exec-privatetmp-disconnected-after-and-wants-for-var.service,test,systemd/test,15,0,15
+large_patch_501_1000,Linux,37271,systemd/systemd,test/test-execute/exec-privatetmp-disconnected-defaultdependencies-no.service,test,systemd/test,13,0,13
+large_patch_501_1000,Linux,37271,systemd/systemd,test/test-execute/exec-privatetmp-disconnected-requires-mounts-for-var.service,test,systemd/test,14,0,14
+large_patch_501_1000,Linux,37271,systemd/systemd,test/test-execute/exec-privatetmp-disconnected-wants-mounts-for-var.service,test,systemd/test,14,0,14
+large_patch_501_1000,Linux,37271,systemd/systemd,test/test-execute/exec-privatetmp-disconnected.service,test,systemd/test,12,0,12
+large_patch_501_1000,Linux,40007,systemd/systemd,man/systemd.image-policy.xml,doc,systemd/man,50,5,55
+large_patch_501_1000,Linux,40007,systemd/systemd,src/analyze/analyze-image-policy.c,production,systemd/analyze,10,2,12
+large_patch_501_1000,Linux,40007,systemd/systemd,src/core/namespace.c,production,systemd/core,76,59,135
+large_patch_501_1000,Linux,40007,systemd/systemd,src/shared/dissect-image.c,production,systemd/shared,286,119,405
+large_patch_501_1000,Linux,40007,systemd/systemd,src/shared/dissect-image.h,production,systemd/shared,1,0,1
+large_patch_501_1000,Linux,40007,systemd/systemd,src/shared/image-policy.c,production,systemd/shared,70,2,72
+large_patch_501_1000,Linux,40007,systemd/systemd,src/shared/image-policy.h,production,systemd/shared,15,0,15
+large_patch_501_1000,Linux,40007,systemd/systemd,src/test/test-image-policy.c,test,systemd/test,68,0,68
+large_patch_501_1000,Linux,40007,systemd/systemd,test/units/TEST-50-DISSECT.dissect.sh,test,systemd/test,87,0,87
+large_patch_501_1000,Linux,39376,systemd/systemd,man/org.freedesktop.systemd1.xml,doc,systemd/man,18,10,28
+large_patch_501_1000,Linux,39376,systemd/systemd,man/systemd.service.xml,doc,systemd/man,30,19,49
+large_patch_501_1000,Linux,39376,systemd/systemd,src/basic/unit-def.c,production,systemd/basic,2,1,3
+large_patch_501_1000,Linux,39376,systemd/systemd,src/basic/unit-def.h,production,systemd/basic,2,1,3
+large_patch_501_1000,Linux,39376,systemd/systemd,src/core/dbus-service.c,production,systemd/core,2,0,2
+large_patch_501_1000,Linux,39376,systemd/systemd,src/core/job.c,production,systemd/core,3,5,8
+large_patch_501_1000,Linux,39376,systemd/systemd,src/core/job.h,production,systemd/core,5,5,10
+large_patch_501_1000,Linux,39376,systemd/systemd,src/core/load-fragment-gperf.gperf.in,production,systemd/core,2,1,3
+large_patch_501_1000,Linux,39376,systemd/systemd,src/core/service.c,production,systemd/core,273,191,464
+large_patch_501_1000,Linux,39376,systemd/systemd,src/core/service.h,production,systemd/core,2,3,5
+large_patch_501_1000,Linux,39376,systemd/systemd,src/core/socket.c,production,systemd/core,0,10,10
+large_patch_501_1000,Linux,39376,systemd/systemd,src/fundamental/macro-fundamental.h,production,systemd/fundamental,5,4,9
+large_patch_501_1000,Linux,39376,systemd/systemd,src/shared/bus-unit-util.c,production,systemd/shared,2,0,2
+large_patch_501_1000,Linux,39376,systemd/systemd,src/systemctl/systemctl-show.c,production,systemd/systemctl,2,0,2
+large_patch_501_1000,Linux,39376,systemd/systemd,test/integration-tests/TEST-80-NOTIFYACCESS/TEST-80-NOTIFYACCESS.units/reload-timeout.service,test,systemd/test,4,0,4
+large_patch_501_1000,Linux,39376,systemd/systemd,test/integration-tests/TEST-80-NOTIFYACCESS/TEST-80-NOTIFYACCESS.units/reload-timeout.sh,test,systemd/test,40,0,40
+large_patch_501_1000,Linux,39376,systemd/systemd,test/units/TEST-80-NOTIFYACCESS.sh,test,systemd/test,27,0,27
+large_patch_501_1000,HarmonyOS,security_huks#1497,openharmony/security_huks,frameworks/huks_standard/main/core/src/hks_verifier.c,production,security_huks/huks_standard/main,14,5,19
+large_patch_501_1000,HarmonyOS,security_huks#1497,openharmony/security_huks,test/unittest/huks_standard_test/three_stage_test/src/hks_attest_key_nonids_test.cpp,test,security_huks/test,618,1,619
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/arkts/ArkUIAniModule.ts,production,arkui_ace_engine/bridge/arkts_frontend,9,0,9
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/native/BUILD.gn,production,arkui_ace_engine/bridge/arkts_frontend,1,0,1
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/native/module.cpp,production,arkui_ace_engine/bridge/arkts_frontend,41,0,41
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/native/utils/ani_utils.h,production,arkui_ace_engine/bridge/arkts_frontend,3,1,4
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/native/visual_effect/visual_effect_module.cpp,production,arkui_ace_engine/bridge/arkts_frontend,77,0,77
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/ani/native/visual_effect/visual_effect_module.h,production,arkui_ace_engine/bridge/arkts_frontend,32,0,32
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,frameworks/bridge/arkts_frontend/koala_projects/arkoala-arkts/arkui-ohos/src/extractors/index.ets,production,arkui_ace_engine/bridge/arkts_frontend,12,12,24
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,interfaces/ets/ani/shape/ets/@ohos.arkui.shape.ets,production,arkui_ace_engine/interfaces/ets,9,1,10
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,interfaces/ets/ani/shape/src/circleShape.cpp,production,arkui_ace_engine/interfaces/ets,29,24,53
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,interfaces/ets/ani/shape/src/ellipseShape.cpp,production,arkui_ace_engine/interfaces/ets,23,21,44
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,interfaces/ets/ani/shape/src/pathShape.cpp,production,arkui_ace_engine/interfaces/ets,11,9,20
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,interfaces/ets/ani/shape/src/rectShape.cpp,production,arkui_ace_engine/interfaces/ets,70,35,105
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,interfaces/ets/ani/shape/src/shape.cpp,production,arkui_ace_engine/interfaces/ets,30,0,30
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,interfaces/ets/ani/shape/src/shape.h,production,arkui_ace_engine/interfaces/ets,17,1,18
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,interfaces/ets/ani/shape/src/shapeUtil.cpp,production,arkui_ace_engine/interfaces/ets,22,17,39
+large_patch_501_1000,HarmonyOS,arkui_ace_engine#71861,openharmony/arkui_ace_engine,interfaces/ets/ani/shape/src/shapeUtil.h,production,arkui_ace_engine/interfaces/ets,37,5,42
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/composer/hdi_backend/include/hdi_framebuffer_surface.h,production,graphic_graphic_2d/composer,6,3,9
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/composer/hdi_backend/src/hdi_framebuffer_surface.cpp,production,graphic_graphic_2d/composer,19,4,23
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_base_render_engine.cpp,production,graphic_graphic_2d/render_service,3,0,3
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_base_render_engine.h,production,graphic_graphic_2d/render_service,2,2,4
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_composer_adapter.cpp,production,graphic_graphic_2d/render_service,67,2,69
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_composer_adapter.h,production,graphic_graphic_2d/render_service,4,0,4
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_divided_render_util.cpp,production,graphic_graphic_2d/render_service,2,1,3
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_main_thread.cpp,production,graphic_graphic_2d/render_service,62,40,102
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_main_thread.h,production,graphic_graphic_2d/render_service,6,2,8
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_physical_screen_processor.cpp,production,graphic_graphic_2d/render_service,9,7,16
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_processor.cpp,production,graphic_graphic_2d/render_service,43,5,48
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_processor.h,production,graphic_graphic_2d/render_service,3,0,3
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_render_engine.cpp,production,graphic_graphic_2d/render_service,3,18,21
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_render_engine.h,production,graphic_graphic_2d/render_service,2,4,6
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_render_service_visitor.cpp,production,graphic_graphic_2d/render_service,119,45,164
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_render_service_visitor.h,production,graphic_graphic_2d/render_service,12,0,12
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_uni_render_engine.cpp,production,graphic_graphic_2d/render_service,1,2,3
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_uni_render_engine.h,production,graphic_graphic_2d/render_service,1,2,3
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service_base/include/pipeline/rs_display_render_node.h,production,graphic_graphic_2d/render_service_base,75,0,75
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service_base/include/pipeline/rs_surface_render_node.h,production,graphic_graphic_2d/render_service_base,2,2,4
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service_base/src/pipeline/rs_surface_render_node.cpp,production,graphic_graphic_2d/render_service_base,2,2,4
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/test/render_service/render_service/unittest/pipeline/rs_main_thread_test.cpp,test,graphic_graphic_2d/rosen,13,9,22
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/test/render_service/render_service/unittest/pipeline/rs_render_engine_test.cpp,test,graphic_graphic_2d/rosen,1,1,2
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/test/render_service/render_service/unittest/pipeline/rs_uni_render_engine_test.cpp,test,graphic_graphic_2d/rosen,1,2,3
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/drawable/rs_display_render_node_drawable.cpp,production,graphic_graphic_2d/render_service,1,1,2
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_render_service_visitor.cpp,production,graphic_graphic_2d/render_service,1,1,2
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/pipeline/rs_uni_render_visitor.cpp,production,graphic_graphic_2d/render_service,2,2,4
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/screen_manager/rs_screen_manager.cpp,production,graphic_graphic_2d/render_service,1,1,2
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service/core/screen_manager/rs_screen_manager.h,production,graphic_graphic_2d/render_service,1,1,2
+large_patch_501_1000,HarmonyOS,graphic_graphic_2d#8764,openharmony/graphic_graphic_2d,rosen/modules/render_service_base/include/screen_manager/rs_screen_info.h,production,graphic_graphic_2d/render_service_base,1,2,3
+teammate_systemd_baseline,Linux,LP-2115391,systemd/systemd,src/pcrlock/pcrlock.c,production,systemd/pcrlock,14,7,21
+teammate_systemd_baseline,Linux,LP-2067922,systemd/systemd,src/basic/cgroup-util.c,production,systemd/basic,7,5,12
+teammate_systemd_baseline,Linux,LP-2067922,systemd/systemd,src/basic/cgroup-util.h,production,systemd/basic,7,5,12
+teammate_systemd_baseline,Linux,LP-2067922,systemd/systemd,src/cgtop/cgtop.c,production,systemd/cgtop,7,5,12
+teammate_systemd_baseline,Linux,LP-2067922,systemd/systemd,src/core/cgroup.c,production,systemd/core,7,5,12
+teammate_systemd_baseline,Linux,LP-2067922,systemd/systemd,src/core/dbus-unit.c,production,systemd/core,7,4,11
+teammate_systemd_baseline,Linux,LP-2067922,systemd/systemd,src/shared/cgroup-setup.c,production,systemd/shared,6,4,10
+teammate_systemd_baseline,Linux,LP-2067922,systemd/systemd,src/shared/cgroup-show.c,production,systemd/shared,6,4,10
+teammate_systemd_baseline,Linux,LP-2052137,systemd/systemd,src/network/networkd-setlink.c,production,systemd/network,8,1,9
+teammate_systemd_baseline,Linux,LP-2052137,systemd/systemd,test/test-network/systemd-networkd-tests.py,test,systemd/test,8,0,8
+teammate_systemd_baseline,Linux,GH-27489,systemd/systemd,src/libsystemd/sd-journal/journal-file.c,production,systemd/libsystemd,13,24,37
+teammate_systemd_baseline,Linux,GH-30436,systemd/systemd,docs/ENVIRONMENT.md,doc,systemd/docs,30,9,39
+teammate_systemd_baseline,Linux,GH-30436,systemd/systemd,src/udev/udev-manager.c,production,systemd/udev,29,8,37
+teammate_systemd_baseline,Linux,GH-30436,systemd/systemd,src/udev/udev-spawn.c,production,systemd/udev,29,8,37
+teammate_systemd_baseline,Linux,GH-30436,systemd/systemd,test/units/testsuite-17.03.sh,test,systemd/test,29,8,37
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/basic/unit-def.c,production,systemd/basic,11,11,22
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/core/cgroup.c,production,systemd/core,11,11,22
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/core/cgroup.h,production,systemd/core,11,11,22
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/core/dbus-unit.c,production,systemd/core,11,11,22
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/core/slice.c,production,systemd/core,11,11,22
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/core/unit-serialize.c,production,systemd/core,11,11,22
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/core/unit.c,production,systemd/core,11,11,22
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/core/unit.h,production,systemd/core,10,11,21
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/home/homework.c,production,systemd/home,10,11,21
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/libsystemd/sd-bus/bus-common-errors.c,production,systemd/libsystemd,10,10,20
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/libsystemd/sd-bus/bus-common-errors.h,production,systemd/libsystemd,10,10,20
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/shared/bus-unit-util.c,production,systemd/shared,10,10,20
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/shared/bus-unit-util.h,production,systemd/shared,10,10,20
+teammate_systemd_baseline,Linux,GH-31115,systemd/systemd,src/sleep/sleep.c,production,systemd/sleep,10,10,20
+teammate_systemd_baseline,Linux,GH-33339,systemd/systemd,man/org.freedesktop.sysupdate1.xml,doc,systemd/man,31,9,40
+teammate_systemd_baseline,Linux,GH-33339,systemd/systemd,man/systemd-sysupdate.xml,doc,systemd/man,30,9,39
+teammate_systemd_baseline,Linux,GH-33339,systemd/systemd,src/sysupdate/sysupdate-resource.c,production,systemd/sysupdate,30,9,39
+teammate_systemd_baseline,Linux,GH-33339,systemd/systemd,src/sysupdate/sysupdate-transfer.c,production,systemd/sysupdate,30,8,38
+teammate_systemd_baseline,Linux,GH-33339,systemd/systemd,src/sysupdate/sysupdate-update-set-flags.c,production,systemd/sysupdate,30,8,38
+teammate_systemd_baseline,Linux,GH-33339,systemd/systemd,src/sysupdate/sysupdate-update-set-flags.h,production,systemd/sysupdate,30,8,38
+teammate_systemd_baseline,Linux,GH-33339,systemd/systemd,src/sysupdate/sysupdate.c,production,systemd/sysupdate,30,8,38
+teammate_systemd_baseline,Linux,GH-33339,systemd/systemd,src/sysupdate/updatectl.c,production,systemd/sysupdate,30,8,38
+teammate_systemd_baseline,Linux,GH-33339,systemd/systemd,test/units/TEST-72-SYSUPDATE.sh,test,systemd/test,30,8,38
+teammate_systemd_baseline,Linux,GH-35794,systemd/systemd,shell-completion/bash/journalctl,production,systemd/shell-completion,9,1,10
+teammate_systemd_baseline,Linux,GH-35798,systemd/systemd,README,doc,systemd/README,12,15,27
+teammate_systemd_baseline,Linux,GH-35798,systemd/systemd,src/shared/blockdev-util.c,production,systemd/shared,12,15,27
+teammate_systemd_baseline,Linux,GH-35798,systemd/systemd,src/shared/hibernate-util.c,production,systemd/shared,11,15,26

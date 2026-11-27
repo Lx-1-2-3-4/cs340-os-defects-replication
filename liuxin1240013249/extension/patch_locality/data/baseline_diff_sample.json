@@ -1,0 +1,1645 @@
+[
+  {
+    "os": "android",
+    "bug_id": "A-374257207",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/base/+/161eb6100d6f75f0a0df6da3d19da7fe842655c1%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/frameworks/base/+/161eb6100d6f75f0a0df6da3d19da7fe842655c1%5E%21/?format=TEXT",
+    "diff_sha256": "f7f1969bdc2deae5750af749e9032f55450ebbbbc952178b41ea918c2478759d",
+    "paper_line_additions": 6,
+    "paper_line_deletions": 0,
+    "paper_line_changes": 6,
+    "paper_modified_files": 3,
+    "paper_involved_functions": 3,
+    "os_layer": "System Service Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Permission/Identity Dependency Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "core/java/android/app/trust/ITrustManager.aidl",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/java/android/app/trust/TrustManager.java",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "services/core/java/com/android/server/trust/TrustManagerService.java",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-273501008",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/base/+/50ae729881dabe9a78025b99bed77eef5b67c9f6%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/frameworks/base/+/50ae729881dabe9a78025b99bed77eef5b67c9f6%5E%21/?format=TEXT",
+    "diff_sha256": "d24968841dd3b2842176389bbccce19057f4a6ae7764d345008045a31c85271e",
+    "paper_line_additions": 130,
+    "paper_line_deletions": 0,
+    "paper_line_changes": 130,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 8,
+    "os_layer": "System Service Layer",
+    "affected_function": "Storage Management",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "services/core/java/com/android/server/accounts/AccountManagerService.java",
+        "additions": 103,
+        "deletions": 0,
+        "changes": 103,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-280793427",
+    "patch_url": "https://android.googlesource.com/platform/packages/apps/Settings/+/846180c19f68f6fb1b0653356401d3235fef846e%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/packages/apps/Settings/+/846180c19f68f6fb1b0653356401d3235fef846e%5E%21/?format=TEXT",
+    "diff_sha256": "63f25806f9bf4ed301aa7bdded9819b4d35420ce86b31d0e472fd04cbdeb5541",
+    "paper_line_additions": 59,
+    "paper_line_deletions": 47,
+    "paper_line_changes": 106,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 2,
+    "os_layer": "Application Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Permission/Identity Dependency Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "src/com/android/settings/applications/specialaccess/deviceadmin/DeviceAdminAdd.java",
+        "additions": 71,
+        "deletions": 64,
+        "changes": 135,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-232799171",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/base/+/03bb6b20a8eaa7c565401597294ea9e3aee6d4ab%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/frameworks/base/+/03bb6b20a8eaa7c565401597294ea9e3aee6d4ab%5E%21/?format=TEXT",
+    "diff_sha256": "5305c6aa27cb5f55920df74969917069fb2ebba3ed2a5a3ea26f04d3631e46a8",
+    "paper_line_additions": 1,
+    "paper_line_deletions": 2,
+    "paper_line_changes": 3,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 0,
+    "os_layer": "System Service Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Regular Operation Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "services/core/java/com/android/server/speech/RemoteSpeechRecognitionService.java",
+        "additions": 1,
+        "deletions": 2,
+        "changes": 3,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-318683640",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/base/+/abfaf702ef833dc4d374492d45c615c6e6de7f01%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/frameworks/base/+/abfaf702ef833dc4d374492d45c615c6e6de7f01%5E%21/?format=TEXT",
+    "diff_sha256": "4327bd41719b1fc21310105e36bb03f2c7374f6623987bd4cf3386a5a0a71ea5",
+    "paper_line_additions": 3,
+    "paper_line_deletions": 2,
+    "paper_line_changes": 5,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "System Service Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "State Dependency Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "services/core/java/com/android/server/wm/WindowState.java",
+        "additions": 3,
+        "deletions": 2,
+        "changes": 5,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-274592467",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/base/+/c451aa5710e1da19139eb3716e39a5d6f04de5c2%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/frameworks/base/+/c451aa5710e1da19139eb3716e39a5d6f04de5c2%5E%21/?format=TEXT",
+    "diff_sha256": "af06916a782b5b67098f947d578cab0e35d070fa5c2ac4b2bebe9a022d0d8216",
+    "paper_line_additions": 8,
+    "paper_line_deletions": 0,
+    "paper_line_changes": 8,
+    "paper_modified_files": 2,
+    "paper_involved_functions": 1,
+    "os_layer": "Framework Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Regular Operation Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "core/java/android/app/Notification.java",
+        "additions": 8,
+        "deletions": 0,
+        "changes": 8,
+        "file_category": "production"
+      },
+      {
+        "filepath": "services/tests/uiservicestests/src/com/android/server/notification/NotificationManagerServiceTest.java",
+        "additions": 23,
+        "deletions": 0,
+        "changes": 23,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-294105066",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/base/+/50e1f8f36e32928d10e72324c05a203a6db9f7fb%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/frameworks/base/+/50e1f8f36e32928d10e72324c05a203a6db9f7fb%5E%21/?format=TEXT",
+    "diff_sha256": "43b5e1e1b292c8948e4616359425d63c2165b569bb1cccf7debfb2290fd7df99",
+    "paper_line_additions": 21,
+    "paper_line_deletions": 0,
+    "paper_line_changes": 21,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 2,
+    "os_layer": "System Service Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "State Dependency Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "services/usb/java/com/android/server/usb/UsbProfileGroupSettingsManager.java",
+        "additions": 21,
+        "deletions": 0,
+        "changes": 21,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-326485767",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/base/+/c1bc907a649addd5b97d489fd39afb956164a46c%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/frameworks/base/+/c1bc907a649addd5b97d489fd39afb956164a46c%5E%21/?format=TEXT",
+    "diff_sha256": "33efba7c901d197a33233c9058bd19919adf05811bb41fa456c1289f24b2f8ca",
+    "paper_line_additions": 22,
+    "paper_line_deletions": 0,
+    "paper_line_changes": 22,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "System Service Layer",
+    "affected_function": "Process and Task Scheduling",
+    "trigger_scenario": "State Dependency Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "services/accessibility/java/com/android/server/accessibility/AccessibilityManagerService.java",
+        "additions": 22,
+        "deletions": 0,
+        "changes": 22,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-246542285",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/base/+/f11ce5d7cac6a128d3eefad2b8e94ca7dd054713%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/frameworks/base/+/f11ce5d7cac6a128d3eefad2b8e94ca7dd054713%5E%21/?format=TEXT",
+    "diff_sha256": "c0030465250d55de187c8eef45cc1b0766d1f2a7fe203ccb54117cb860a0cdfe",
+    "paper_line_additions": 11,
+    "paper_line_deletions": 2,
+    "paper_line_changes": 13,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 2,
+    "os_layer": "System Service Layer",
+    "affected_function": "Process and Task Scheduling",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "apex/jobscheduler/service/java/com/android/server/job/JobStore.java",
+        "additions": 15,
+        "deletions": 2,
+        "changes": 17,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-2000344762",
+    "patch_url": "https://android.googlesource.com/platform/packages/providers/DownloadProvider/+/5acd646e0cf63e2c9c0862da7e03531ef0074394%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/packages/providers/DownloadProvider/+/5acd646e0cf63e2c9c0862da7e03531ef0074394%5E%21/?format=TEXT",
+    "diff_sha256": "fc1afd9c3341ed287293d188ee42a8056ab404e14d650c9e9a3d36434b6756a1",
+    "paper_line_additions": 12,
+    "paper_line_deletions": 26,
+    "paper_line_changes": 38,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 3,
+    "os_layer": "System Service Layer",
+    "affected_function": "Storage Management",
+    "trigger_scenario": "Regular Operation Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "src/com/android/providers/downloads/DownloadStorageProvider.java",
+        "additions": 12,
+        "deletions": 26,
+        "changes": 38,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-343714914",
+    "patch_url": "https://android.googlesource.com/platform/packages/modules/Wifi/+/debc548ac085ba1ab0582172b97d965e9a1ea43a%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/packages/modules/Wifi/+/debc548ac085ba1ab0582172b97d965e9a1ea43a%5E%21/?format=TEXT",
+    "diff_sha256": "a2689d271f96403021a3fc8dc51027f95b10f08c2f9cff595f687e917a337744",
+    "paper_line_additions": 27,
+    "paper_line_deletions": 7,
+    "paper_line_changes": 34,
+    "paper_modified_files": 2,
+    "paper_involved_functions": 3,
+    "os_layer": "Framework Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "service/java/com/android/server/wifi/WifiConfigurationUtil.java",
+        "additions": 11,
+        "deletions": 6,
+        "changes": 17,
+        "file_category": "production"
+      },
+      {
+        "filepath": "service/tests/wifitests/src/com/android/server/wifi/WifiConfigurationUtilTest.java",
+        "additions": 16,
+        "deletions": 1,
+        "changes": 17,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-239414876",
+    "patch_url": "https://android.googlesource.com/platform/packages/modules/Bluetooth/+/bb458314f98712c39749f8e2fae42df864bf5347%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/packages/modules/Bluetooth/+/bb458314f98712c39749f8e2fae42df864bf5347%5E%21/?format=TEXT",
+    "diff_sha256": "54f7dafff45ff65df44df997e896b880f9d869a306c5f02a7bdcc55f38a8be23",
+    "paper_line_additions": 31,
+    "paper_line_deletions": 3,
+    "paper_line_changes": 34,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 2,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Device Management and Drivers",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "Critical",
+    "files": [
+      {
+        "filepath": "system/stack/sdp/sdp_discovery.cc",
+        "additions": 53,
+        "deletions": 5,
+        "changes": 58,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-313909156",
+    "patch_url": "https://android.googlesource.com/platform/packages/modules/Permission/+/6bed47f63ec0600b3c57388449db37405c68dc58%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/packages/modules/Permission/+/6bed47f63ec0600b3c57388449db37405c68dc58%5E%21/?format=TEXT",
+    "diff_sha256": "989ce1b6594036cede4fd99fda50ea326b08b5e512153782a513136bd5db3d5c",
+    "paper_line_additions": 66,
+    "paper_line_deletions": 23,
+    "paper_line_changes": 89,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 4,
+    "os_layer": "Application Layer",
+    "affected_function": "Process and Task Scheduling",
+    "trigger_scenario": "Concurrency/Multi-thread Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "PermissionController/src/com/android/permissioncontroller/permission/ui/GrantPermissionsActivity.java",
+        "additions": 66,
+        "deletions": 25,
+        "changes": 91,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-363248394",
+    "patch_url": "https://android.googlesource.com/platform/packages/apps/Settings/+/b0eec6fdfd5b4f9ba81750da468d26440904142e%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/packages/apps/Settings/+/b0eec6fdfd5b4f9ba81750da468d26440904142e%5E%21/?format=TEXT",
+    "diff_sha256": "e82b8f087634245422d4f49e4e4eb09734fe163c38aa24b47d8279c6b82d4c2c",
+    "paper_line_additions": 33,
+    "paper_line_deletions": 26,
+    "paper_line_changes": 59,
+    "paper_modified_files": 2,
+    "paper_involved_functions": 3,
+    "os_layer": "Application Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "src/com/android/settings/notification/NotificationAccessConfirmationActivity.java",
+        "additions": 30,
+        "deletions": 20,
+        "changes": 50,
+        "file_category": "production"
+      },
+      {
+        "filepath": "tests/robotests/src/com/android/settings/notification/NotificationAccessConfirmationActivityTest.java",
+        "additions": 3,
+        "deletions": 6,
+        "changes": 9,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-258021433",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/av/+/bae3b00a5873d1562679a1289fd8490178cfe064%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/frameworks/av/+/bae3b00a5873d1562679a1289fd8490178cfe064%5E%21/?format=TEXT",
+    "diff_sha256": "67a4612c6dea71ffdff2962958614b3570c472b79b4bffec403ac7d7f98cae13",
+    "paper_line_additions": 50,
+    "paper_line_deletions": 35,
+    "paper_line_changes": 85,
+    "paper_modified_files": 4,
+    "paper_involved_functions": 7,
+    "os_layer": "System Library Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Permission/Identity Dependency Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "services/audioflinger/AudioFlinger.cpp",
+        "additions": 37,
+        "deletions": 7,
+        "changes": 44,
+        "file_category": "production"
+      },
+      {
+        "filepath": "services/audioflinger/Threads.cpp",
+        "additions": 4,
+        "deletions": 6,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "services/audioflinger/Tracks.cpp",
+        "additions": 1,
+        "deletions": 4,
+        "changes": 5,
+        "file_category": "production"
+      },
+      {
+        "filepath": "services/audiopolicy/service/AudioPolicyInterfaceImpl.cpp",
+        "additions": 25,
+        "deletions": 61,
+        "changes": 86,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-360838273",
+    "patch_url": "https://android.googlesource.com/platform/frameworks/base/+/a09b6451c99f8aa99c49a0e584e12be455c414f4%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/frameworks/base/+/a09b6451c99f8aa99c49a0e584e12be455c414f4%5E%21/?format=TEXT",
+    "diff_sha256": "93a58155441dd88e543738f702ec4a0af2462e9aebceb8be0d49eb66d87d3a0d",
+    "paper_line_additions": 110,
+    "paper_line_deletions": 149,
+    "paper_line_changes": 259,
+    "paper_modified_files": 2,
+    "paper_involved_functions": 13,
+    "os_layer": "System Service Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Regular Operation Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "services/core/java/com/android/server/am/UserController.java",
+        "additions": 84,
+        "deletions": 83,
+        "changes": 167,
+        "file_category": "production"
+      },
+      {
+        "filepath": "services/tests/servicestests/src/com/android/server/am/UserControllerTest.java",
+        "additions": 26,
+        "deletions": 68,
+        "changes": 94,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-3192106102",
+    "patch_url": "https://android.googlesource.com/platform/hardware/interfaces/+/0ff19d1f89614fce9454fb415bcbfcbcf3caf76e%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/hardware/interfaces/+/0ff19d1f89614fce9454fb415bcbfcbcf3caf76e%5E%21/?format=TEXT",
+    "diff_sha256": "ba06c016125469af2f9684ea839de92c3aaeb733d5e4e4fcc696a5c5c71490a8",
+    "paper_line_additions": 59,
+    "paper_line_deletions": 45,
+    "paper_line_changes": 104,
+    "paper_modified_files": 4,
+    "paper_involved_functions": 8,
+    "os_layer": "System Service Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Concurrency/Multi-thread Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "health/aidl/default/Health.cpp",
+        "additions": 42,
+        "deletions": 13,
+        "changes": 55,
+        "file_category": "production"
+      },
+      {
+        "filepath": "health/aidl/default/LinkedCallback.cpp",
+        "additions": 10,
+        "deletions": 18,
+        "changes": 28,
+        "file_category": "production"
+      },
+      {
+        "filepath": "health/aidl/default/LinkedCallback.h",
+        "additions": 5,
+        "deletions": 13,
+        "changes": 18,
+        "file_category": "production"
+      },
+      {
+        "filepath": "health/aidl/default/include/health-impl/Health.h",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "android",
+    "bug_id": "A-299614635",
+    "patch_url": "https://android.googlesource.com/platform/packages/apps/Settings/+/87f791f2351e366f842a0fd6fcb744069160d9a1%5E%21/",
+    "fetched_url": "https://android.googlesource.com/platform/packages/apps/Settings/+/87f791f2351e366f842a0fd6fcb744069160d9a1%5E%21/?format=TEXT",
+    "diff_sha256": "6f19a778145823e3a114f60e10516428428e01bff09cc1ade40ef725f89622c8",
+    "paper_line_additions": 169,
+    "paper_line_deletions": 15,
+    "paper_line_changes": 184,
+    "paper_modified_files": 4,
+    "paper_involved_functions": 6,
+    "os_layer": "Application Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Permission/Identity Dependency Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "src/com/android/settings/DefaultRingtonePreference.java",
+        "additions": 2,
+        "deletions": 9,
+        "changes": 11,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/com/android/settings/RingtonePreference.java",
+        "additions": 82,
+        "deletions": 0,
+        "changes": 82,
+        "file_category": "production"
+      },
+      {
+        "filepath": "src/com/android/settings/notification/app/NotificationSoundPreference.java",
+        "additions": 10,
+        "deletions": 2,
+        "changes": 12,
+        "file_category": "production"
+      },
+      {
+        "filepath": "tests/unit/src/com/android/settings/DefaultRingtonePreferenceTest.java",
+        "additions": 71,
+        "deletions": 4,
+        "changes": 75,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2044216",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/satpy/+bug/2044216/+attachment/5722093/+files/ftbfs_fix.patch",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/satpy/+bug/2044216/+attachment/5722093/+files/ftbfs_fix.patch",
+    "diff_sha256": "e20b20f62a844e73f0cda945e07688d5e8da52a66d013f90d98cd34f9aa2fb2e",
+    "paper_line_additions": 28,
+    "paper_line_deletions": 331,
+    "paper_line_changes": 349,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 2,
+    "os_layer": "Application Layer",
+    "affected_function": "Compatibility and Adaptation",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "satpy-0.44.0/debian/changelog\t2023-11-21 22:49:24.000000000 -0600",
+        "additions": 430,
+        "deletions": 1,
+        "changes": 431,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2114712",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/libfprint/+bug/2114712/+attachment/5884141/+files/libfprint_1.94.7+tod1-0ubuntu5~24.04.4.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/libfprint/+bug/2114712/+attachment/5884141/+files/libfprint_1.94.7+tod1-0ubuntu5~24.04.4.debdiff",
+    "diff_sha256": "2f704c637bc368d731e9a45c26f4be0b11c3b192bdfa79bee64d41ac7109cb82",
+    "paper_line_additions": 3,
+    "paper_line_deletions": 0,
+    "paper_line_changes": 3,
+    "paper_modified_files": 3,
+    "paper_involved_functions": 0,
+    "os_layer": "System Library Layer",
+    "affected_function": "Device Management and Drivers",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "Undecided",
+    "files": [
+      {
+        "filepath": "libfprint-1.94.7+tod1/debian/changelog      2025-06-16 16:28:58.000000000 +0800",
+        "additions": 45,
+        "deletions": 0,
+        "changes": 45,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2097605",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/ceph/+bug/2097605/+attachment/5884488/+files/snapshot-upgrade-fix.patch",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/ceph/+bug/2097605/+attachment/5884488/+files/snapshot-upgrade-fix.patch",
+    "diff_sha256": "f16016f5bb13581b3d3f9f5f313637d5f56a89c6ada396c1e5f4aeaf61993432",
+    "paper_line_additions": 107,
+    "paper_line_deletions": 4,
+    "paper_line_changes": 111,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "Application Layer",
+    "affected_function": "Storage Management",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "src/mds/MDSMap.cc",
+        "additions": 107,
+        "deletions": 4,
+        "changes": 111,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2067075",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/horizon/+bug/2067075/+attachment/5884258/+files/oracular.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/horizon/+bug/2067075/+attachment/5884258/+files/oracular.debdiff",
+    "diff_sha256": "98cb94a02052257b0fed9ce768451067c8f2fcf24eb890ab850158061d27f5a2",
+    "paper_line_additions": 1,
+    "paper_line_deletions": 1,
+    "paper_line_changes": 2,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "Application Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "Undecided",
+    "files": [
+      {
+        "filepath": "horizon-25.1.0/debian/changelog\t2025-06-16 17:06:16.000000000 +0800",
+        "additions": 51,
+        "deletions": 1,
+        "changes": 52,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2081717",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/discount/+bug/2081717/+attachment/5821092/+files/LP2081717.patch",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/discount/+bug/2081717/+attachment/5821092/+files/LP2081717.patch",
+    "diff_sha256": "48782b7eb4168cba3936ebc2c664b9c15c0543df7ce3cc4ace69fe51f6871254",
+    "paper_line_additions": 5,
+    "paper_line_deletions": 4,
+    "paper_line_changes": 9,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "Application Layer",
+    "affected_function": "Compatibility and Adaptation",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "discount-2.2.7/debian/changelog\t2024-09-23 13:39:23.000000000 +0200",
+        "additions": 47,
+        "deletions": 0,
+        "changes": 47,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2063031",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/s3cmd/+bug/2063031/+attachment/5768756/+files/s3cmd_2.3.0-1ubuntu1.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/s3cmd/+bug/2063031/+attachment/5768756/+files/s3cmd_2.3.0-1ubuntu1.debdiff",
+    "diff_sha256": "0e3ce1e767a49598fb8c0bcc3d80419541356bd0c31aa34d8f21008afb09ad24",
+    "paper_line_additions": 1,
+    "paper_line_deletions": 1,
+    "paper_line_changes": 2,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "Application Layer",
+    "affected_function": "Compatibility and Adaptation",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "Undecided",
+    "files": [
+      {
+        "filepath": "s3cmd-2.3.0/debian/changelog\t2024-04-21 14:47:32.000000000 +0300",
+        "additions": 29,
+        "deletions": 1,
+        "changes": 30,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2115391",
+    "patch_url": "https://github.com/systemd/systemd/commit/e90a255e55e3af0effac927ccaa10c2662501e1a",
+    "fetched_url": "https://github.com/systemd/systemd/commit/e90a255e55e3af0effac927ccaa10c2662501e1a.diff",
+    "diff_sha256": "d94cd68b7e7f6c0dc18559ff636dfefd52e17aeed0218963d8662be5bcea34e0",
+    "paper_line_additions": 14,
+    "paper_line_deletions": 7,
+    "paper_line_changes": 21,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "Application Layer",
+    "affected_function": "Compatibility and Adaptation",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "Undecided",
+    "files": [
+      {
+        "filepath": "src/pcrlock/pcrlock.c",
+        "additions": 14,
+        "deletions": 7,
+        "changes": 21,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2081672",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/gnome-bluetooth3/+bug/2081672/+attachment/5824755/+files/0001-lib-Don-t-trigger-discovering-if-adapter-is-unpowere.patch",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/gnome-bluetooth3/+bug/2081672/+attachment/5824755/+files/0001-lib-Don-t-trigger-discovering-if-adapter-is-unpowere.patch",
+    "diff_sha256": "c917ed2d163ae00dbf5684b83ff4dce42180b0af095e07335e3f51d7240a45f8",
+    "paper_line_additions": 9,
+    "paper_line_deletions": 3,
+    "paper_line_changes": 12,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "System Service Layer",
+    "affected_function": "Device Management and Drivers",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "lib/bluetooth-client.c",
+        "additions": 9,
+        "deletions": 4,
+        "changes": 13,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2060628",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/astrometry.net/+bug/2060628/+attachment/5762725/+files/astrometry.net_0.93+dfsg-1.1ubuntu1.diff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/astrometry.net/+bug/2060628/+attachment/5762725/+files/astrometry.net_0.93+dfsg-1.1ubuntu1.diff",
+    "diff_sha256": "5aab27a8eb4b7c6d4b7cce047795e47847c78f001a8e32600cff00c7d3387da9",
+    "paper_line_additions": 18,
+    "paper_line_deletions": 9,
+    "paper_line_changes": 27,
+    "paper_modified_files": 3,
+    "paper_involved_functions": 0,
+    "os_layer": "Application Layer",
+    "affected_function": "Compatibility and Adaptation",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "Undecided",
+    "files": [
+      {
+        "filepath": "astrometry.net-0.93+dfsg/debian/changelog\t2024-04-09 10:54:11.000000000 +0200",
+        "additions": 96,
+        "deletions": 0,
+        "changes": 96,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2114261",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/broadcom-sta/+bug/2114261/+attachment/5884264/+files/broadcom-sta_6.30.223.271-27ubuntu1.questing.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/broadcom-sta/+bug/2114261/+attachment/5884264/+files/broadcom-sta_6.30.223.271-27ubuntu1.questing.debdiff",
+    "diff_sha256": "eae2c318521a2d0ce90a701bf2212a1b80d4cb2bfbd94e16c0849b13909efca9",
+    "paper_line_additions": 32,
+    "paper_line_deletions": 4,
+    "paper_line_changes": 36,
+    "paper_modified_files": 2,
+    "paper_involved_functions": 1,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Device Management and Drivers",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "Critical",
+    "files": [
+      {
+        "filepath": "broadcom-sta-6.30.223.271/debian/changelog\t2025-06-13 18:50:36.000000000 +0800",
+        "additions": 57,
+        "deletions": 3,
+        "changes": 60,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2056080",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/google-android-installers/+bug/2056080/+attachment/5756510/+files/debdiff-u2-u3.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/google-android-installers/+bug/2056080/+attachment/5756510/+files/debdiff-u2-u3.debdiff",
+    "diff_sha256": "3501c6b5dbe2ffb6acacf2c939f1149714d4165de18c7cfe302802c9ba026e18",
+    "paper_line_additions": 31,
+    "paper_line_deletions": 4,
+    "paper_line_changes": 35,
+    "paper_modified_files": 2,
+    "paper_involved_functions": 0,
+    "os_layer": "Application Layer",
+    "affected_function": "Compatibility and Adaptation",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "Undecided",
+    "files": [
+      {
+        "filepath": "google-android-installers-1707406511ubuntu3/debian/changelog\t2024-03-17 14:03:03.000000000 +0100",
+        "additions": 43,
+        "deletions": 5,
+        "changes": 48,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2059197",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/nfs-utils/+bug/2059197/+attachment/5763564/+files/lp2059197_focal_V2.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/nfs-utils/+bug/2059197/+attachment/5763564/+files/lp2059197_focal_V2.debdiff",
+    "diff_sha256": "0dffab5d1bc6dbf5fe07ec88d6ef3400064d37ba7e827752726ae2decf61f1a7",
+    "paper_line_additions": 33,
+    "paper_line_deletions": 7,
+    "paper_line_changes": 40,
+    "paper_modified_files": 4,
+    "paper_involved_functions": 3,
+    "os_layer": "Application Layer",
+    "affected_function": "Network and Communication",
+    "trigger_scenario": "State Dependency Trigger",
+    "severity": "Undecided",
+    "files": [
+      {
+        "filepath": "nfs-utils-1.3.4/debian/changelog\t2024-04-03 14:57:55.000000000 +1300",
+        "additions": 339,
+        "deletions": 0,
+        "changes": 339,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2115654",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/pyotherside/+bug/2115654/+attachment/5887084/+files/pyotherside-noble.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/pyotherside/+bug/2115654/+attachment/5887084/+files/pyotherside-noble.debdiff",
+    "diff_sha256": "68a7a9a0d711fe5afcb7bd55bcb70daf077c20189fbb230bd90757544494b43f",
+    "paper_line_additions": 39,
+    "paper_line_deletions": 26,
+    "paper_line_changes": 65,
+    "paper_modified_files": 5,
+    "paper_involved_functions": 5,
+    "os_layer": "System Library Layer",
+    "affected_function": "Compatibility and Adaptation",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "Undecided",
+    "files": [
+      {
+        "filepath": "pyotherside-1.6.0/debian/changelog\t2025-06-30 18:03:45.000000000 +0200",
+        "additions": 183,
+        "deletions": 0,
+        "changes": 183,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2090934",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/mesa/+bug/2090934/+attachment/5841841/+files/mesa_24.2.3-1ubuntu2.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/mesa/+bug/2090934/+attachment/5841841/+files/mesa_24.2.3-1ubuntu2.debdiff",
+    "diff_sha256": "e0037a8d52bbfc6f0704e26e61b5d5af360821a343bb620fd03184fdb7d4d0c5",
+    "paper_line_additions": 16,
+    "paper_line_deletions": 42,
+    "paper_line_changes": 58,
+    "paper_modified_files": 3,
+    "paper_involved_functions": 7,
+    "os_layer": "System Library Layer",
+    "affected_function": "Process and Task Scheduling",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "Undecided",
+    "files": [
+      {
+        "filepath": "mesa-24.2.3/debian/changelog\t2024-12-03 15:16:20.000000000 +0100",
+        "additions": 1483,
+        "deletions": 0,
+        "changes": 1483,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2055718",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/tzdata/+bug/2055718/+attachment/5761746/+files/tzdata_2024a-0ubuntu0.23.10.1.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/tzdata/+bug/2055718/+attachment/5761746/+files/tzdata_2024a-0ubuntu0.23.10.1.debdiff",
+    "diff_sha256": "8412e144eea65c531d3c954b009245f73f3fee518be3ab051c40729ac9997787",
+    "paper_line_additions": 52,
+    "paper_line_deletions": 24,
+    "paper_line_changes": 76,
+    "paper_modified_files": 3,
+    "paper_involved_functions": 4,
+    "os_layer": "System Library Layer",
+    "affected_function": "Compatibility and Adaptation",
+    "trigger_scenario": "Environment Dependency Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "tzdata-2024a/debian/changelog\t2024-04-05 22:43:47.000000000 +0200",
+        "additions": 101,
+        "deletions": 22,
+        "changes": 123,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2111698",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/mutter/+bug/2111698/+attachment/5880326/+files/mutter_46.2-1ubuntu0.24.04.9~oem1.debdiff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/mutter/+bug/2111698/+attachment/5880326/+files/mutter_46.2-1ubuntu0.24.04.9~oem1.debdiff",
+    "diff_sha256": "eab4257fe0b13158c08173c5201f597da8509588fc81072ad6772dae0c80294a",
+    "paper_line_additions": 234,
+    "paper_line_deletions": 46,
+    "paper_line_changes": 280,
+    "paper_modified_files": 7,
+    "paper_involved_functions": 11,
+    "os_layer": "Framework Layer",
+    "affected_function": "Graphics and Rendering",
+    "trigger_scenario": "Regular Operation Trigger",
+    "severity": "Undecided",
+    "files": [
+      {
+        "filepath": "mutter-46.2/debian/changelog\t2025-04-29 08:44:52.000000000 +0800",
+        "additions": 508,
+        "deletions": 0,
+        "changes": 508,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2089324",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/zfs-linux/+bug/2089324/+attachment/5870271/+files/zil-flex-2.2.7.patch",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/zfs-linux/+bug/2089324/+attachment/5870271/+files/zil-flex-2.2.7.patch",
+    "diff_sha256": "3e77af1f2e2e855ea4392d4cff3e7523ba5cd17575a2c2fed70c0d376ff329e4",
+    "paper_line_additions": 162,
+    "paper_line_deletions": 131,
+    "paper_line_changes": 293,
+    "paper_modified_files": 5,
+    "paper_involved_functions": 32,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Storage Management",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "Low",
+    "files": [
+      {
+        "filepath": "cmd/zdb/zdb_il.c",
+        "additions": 4,
+        "deletions": 2,
+        "changes": 6,
+        "file_category": "production"
+      },
+      {
+        "filepath": "cmd/ztest.c",
+        "additions": 13,
+        "deletions": 11,
+        "changes": 24,
+        "file_category": "production"
+      },
+      {
+        "filepath": "include/sys/zil.h",
+        "additions": 25,
+        "deletions": 5,
+        "changes": 30,
+        "file_category": "production"
+      },
+      {
+        "filepath": "module/zfs/zfs_log.c",
+        "additions": 46,
+        "deletions": 44,
+        "changes": 90,
+        "file_category": "production"
+      },
+      {
+        "filepath": "module/zfs/zfs_replay.c",
+        "additions": 74,
+        "deletions": 69,
+        "changes": 143,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "linux",
+    "bug_id": "2054621",
+    "patch_url": "https://bugs.launchpad.net/ubuntu/+source/php8.1/+bug/2054621/+attachment/5748739/+files/php8.1_8.1.2-1ubuntu2.15.diff",
+    "fetched_url": "https://bugs.launchpad.net/ubuntu/+source/php8.1/+bug/2054621/+attachment/5748739/+files/php8.1_8.1.2-1ubuntu2.15.diff",
+    "diff_sha256": "15a272e032f26543c42214cab6b8abf02d1691249541e90409f08de193d07143",
+    "paper_line_additions": 98,
+    "paper_line_deletions": 19,
+    "paper_line_changes": 117,
+    "paper_modified_files": 5,
+    "paper_involved_functions": 2,
+    "os_layer": "Application Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "php8.1-8.1.2/debian/changelog       2024-02-23 12:26:18.000000000 -0500",
+        "additions": 210,
+        "deletions": 0,
+        "changes": 210,
+        "file_category": "packaging_or_generated"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-50082 (CVE-2024-50046)",
+    "patch_url": "https://gitee.com/openharmony/kernel_linux_5.10/commit/c681bfe70dfc702798edb615cb5982ba5b8612a7.patch",
+    "fetched_url": "https://gitee.com/api/v5/repos/openharmony/kernel_linux_5.10/commits/c681bfe70dfc702798edb615cb5982ba5b8612a7",
+    "diff_sha256": "8921e9eae2d95a2feb202812b7ed5418ca1efb37ffba6baa26aaa0a96b0cb44a",
+    "paper_line_additions": 4,
+    "paper_line_deletions": 2,
+    "paper_line_changes": 6,
+    "paper_modified_files": 4,
+    "paper_involved_functions": 3,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Storage Management",
+    "trigger_scenario": "State Dependency Trigger",
+    "severity": "Medium",
+    "files": [
+      {
+        "filepath": "fs/nfs/client.c",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "fs/nfs/nfs42proc.c",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "fs/nfs/nfs4state.c",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "include/linux/nfs_fs_sb.h",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2025-21098",
+    "patch_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/1267.patch",
+    "fetched_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/1267.patch",
+    "diff_sha256": "3bb7a79aea1ba12cc092ae675a50a56f83889f9998c189abb56686dc580bec0d",
+    "paper_line_additions": 7,
+    "paper_line_deletions": 1,
+    "paper_line_changes": 8,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Process and Task Scheduling",
+    "trigger_scenario": "Regular Operation Trigger",
+    "severity": "Medium",
+    "files": [
+      {
+        "filepath": "kernel/extended/dynload/src/los_exec_elf.c",
+        "additions": 7,
+        "deletions": 2,
+        "changes": 9,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-50082 (CVE-2024-49889)",
+    "patch_url": "https://gitee.com/openharmony/kernel_linux_5.10/commit/52939f2c2363b402b26bffecb1f94fccee0f0195.patch",
+    "fetched_url": "https://gitee.com/api/v5/repos/openharmony/kernel_linux_5.10/commits/52939f2c2363b402b26bffecb1f94fccee0f0195",
+    "diff_sha256": "de786775a7e1232e5365680036426c495b433843fb29088ffe78827960486930",
+    "paper_line_additions": 4,
+    "paper_line_deletions": 5,
+    "paper_line_changes": 9,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 2,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Storage Management",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "fs/ext4/extents.c",
+        "additions": 4,
+        "deletions": 5,
+        "changes": 9,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-39509",
+    "patch_url": "https://gitee.com/openharmony/kernel_linux_5.10/commit/8a251cf2bc7313e2e34dcd5e90bbb1fb7d168eb3.patch",
+    "fetched_url": "https://gitee.com/api/v5/repos/openharmony/kernel_linux_5.10/commits/8a251cf2bc7313e2e34dcd5e90bbb1fb7d168eb3",
+    "diff_sha256": "ae0d799967f5218d06543c140a7fd434f72b6b8dec80cbbb5d5a18b8d73c7441",
+    "paper_line_additions": 0,
+    "paper_line_deletions": 1,
+    "paper_line_changes": 1,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Device Management and Drivers",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "Low",
+    "files": [
+      {
+        "filepath": "drivers/hid/hid-core.c",
+        "additions": 0,
+        "deletions": 1,
+        "changes": 1,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2025-0302",
+    "patch_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/1260.patch",
+    "fetched_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/1260.patch",
+    "diff_sha256": "441e9e3e92906b39e5b506c36290e63e86b59992b2323010b4c19d465b3eea64",
+    "paper_line_additions": 9,
+    "paper_line_deletions": 2,
+    "paper_line_changes": 11,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "Medium",
+    "files": [
+      {
+        "filepath": "drivers/char/mem/src/mem.c",
+        "additions": 9,
+        "deletions": 3,
+        "changes": 12,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-50154 (CVE-2024-50154)",
+    "patch_url": "https://gitee.com/openharmony/kernel_linux_5.10/commit/751a1412a9c0f833963675372391b6e1d554374d.patch",
+    "fetched_url": "https://gitee.com/api/v5/repos/openharmony/kernel_linux_5.10/commits/751a1412a9c0f833963675372391b6e1d554374d",
+    "diff_sha256": "08f7d9f55eaeb232758c5bb3856d36e64f1c1e6b078eb2f5d58cdb50f005faf5",
+    "paper_line_additions": 15,
+    "paper_line_deletions": 4,
+    "paper_line_changes": 19,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 4,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Network and Communication",
+    "trigger_scenario": "Concurrency/Multi-thread Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "net/ipv4/inet_connection_sock.c",
+        "additions": 15,
+        "deletions": 4,
+        "changes": 19,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-42114 (CVE-2024-43853)",
+    "patch_url": "https://gitee.com/openharmony/kernel_linux_5.10/commit/99294af17f9be9211148a4676cf956005c41f958.patch",
+    "fetched_url": "https://gitee.com/api/v5/repos/openharmony/kernel_linux_5.10/commits/99294af17f9be9211148a4676cf956005c41f958",
+    "diff_sha256": "f8b5d6dd07b58fcd03f499a656ef7d322488764b744a1f93727f2a7d7fed530e",
+    "paper_line_additions": 9,
+    "paper_line_deletions": 4,
+    "paper_line_changes": 13,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 1,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Process and Task Scheduling",
+    "trigger_scenario": "Concurrency/Multi-thread Trigger",
+    "severity": "Medium",
+    "files": [
+      {
+        "filepath": "kernel/cgroup/cpuset.c",
+        "additions": 9,
+        "deletions": 4,
+        "changes": 13,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-10074",
+    "patch_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/1244.patch",
+    "fetched_url": "https://gitee.com/openharmony/kernel_liteos_a/pulls/1244.patch",
+    "diff_sha256": "32b4ed52e8097bdfefbb218c6abb50222f09a31417185ef936e986b5469a1f2c",
+    "paper_line_additions": 23,
+    "paper_line_deletions": 11,
+    "paper_line_changes": 34,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 2,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Network and Communication",
+    "trigger_scenario": "Concurrency/Multi-thread Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "fs/vfs/epoll/fs_epoll.c",
+        "additions": 23,
+        "deletions": 12,
+        "changes": 35,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2025-25217",
+    "patch_url": "https://gitee.com/openharmony/arkui_ace_engine/pulls/60922.patch",
+    "fetched_url": "https://gitee.com/openharmony/arkui_ace_engine/pulls/60922.patch",
+    "diff_sha256": "623f9778667c20e1cd09cd7e69c7c68cbe028a8ae4b209e4b852830546359494",
+    "paper_line_additions": 27,
+    "paper_line_deletions": 7,
+    "paper_line_changes": 34,
+    "paper_modified_files": 2,
+    "paper_involved_functions": 2,
+    "os_layer": "Framework Layer",
+    "affected_function": "Memory and Resource Management",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "Low",
+    "files": [
+      {
+        "filepath": "frameworks/core/common/connect_server_manager.cpp",
+        "additions": 26,
+        "deletions": 7,
+        "changes": 33,
+        "file_category": "production"
+      },
+      {
+        "filepath": "frameworks/core/common/connect_server_manager.h",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-42131",
+    "patch_url": "https://gitee.com/openharmony/kernel_linux_5.10/commit/10a787a1f697.patch",
+    "fetched_url": "https://gitee.com/api/v5/repos/openharmony/kernel_linux_5.10/commits/10a787a1f697",
+    "diff_sha256": "b98c008ca303a4df00e2721309bfae8a196bdb2f08d3d63888875037545938ac",
+    "paper_line_additions": 26,
+    "paper_line_deletions": 4,
+    "paper_line_changes": 30,
+    "paper_modified_files": 1,
+    "paper_involved_functions": 4,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Storage Management",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "Medium",
+    "files": [
+      {
+        "filepath": "mm/page-writeback.c",
+        "additions": 26,
+        "deletions": 4,
+        "changes": 30,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-22177",
+    "patch_url": "https://gitee.com/openharmony/multimedia_audio_framework/pulls/2442.patch",
+    "fetched_url": "https://gitee.com/openharmony/multimedia_audio_framework/pulls/2442.patch",
+    "diff_sha256": "9fa094c58a9ed31f5deda0748bd5b0e1a5f61196ecd9e93bd29fa6d2482feb47",
+    "paper_line_additions": 57,
+    "paper_line_deletions": 21,
+    "paper_line_changes": 78,
+    "paper_modified_files": 2,
+    "paper_involved_functions": 8,
+    "os_layer": "System Service Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Permission/Identity Dependency Trigger",
+    "severity": "Low",
+    "files": [
+      {
+        "filepath": "services/audio_policy/server/include/audio_stream_collector.h",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "services/audio_policy/server/include/service/audio_policy_service.h",
+        "additions": 2,
+        "deletions": 0,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "services/audio_policy/server/src/audio_policy_server.cpp",
+        "additions": 40,
+        "deletions": 21,
+        "changes": 61,
+        "file_category": "production"
+      },
+      {
+        "filepath": "services/audio_policy/server/src/audio_stream_collector.cpp",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "services/audio_policy/server/src/service/audio_policy_service.cpp",
+        "additions": 4,
+        "deletions": 1,
+        "changes": 5,
+        "file_category": "production"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-3757",
+    "patch_url": "https://gitee.com/openharmony/arkcompiler_ets_runtime/pulls/6395.patch",
+    "fetched_url": "https://gitee.com/openharmony/arkcompiler_ets_runtime/pulls/6395.patch",
+    "diff_sha256": "aeb70a87161d8eb4cfa22ddb902dc7381f8d5d649bfcbbfbc3dc6dafeb96d252",
+    "paper_line_additions": 38,
+    "paper_line_deletions": 15,
+    "paper_line_changes": 53,
+    "paper_modified_files": 6,
+    "paper_involved_functions": 6,
+    "os_layer": "Runtime/Virtual Machine Layer",
+    "affected_function": "Memory and Resource Management",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "Low",
+    "files": [
+      {
+        "filepath": "ecmascript/base/typed_array_helper.cpp",
+        "additions": 4,
+        "deletions": 6,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "ecmascript/builtins/builtins_typedarray.cpp",
+        "additions": 6,
+        "deletions": 6,
+        "changes": 12,
+        "file_category": "production"
+      },
+      {
+        "filepath": "ecmascript/js_stable_array.cpp",
+        "additions": 2,
+        "deletions": 2,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "ecmascript/js_stable_array.h",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "test/moduletest/typearray/expect_output.txt",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/moduletest/typearray/typearray.js",
+        "additions": 22,
+        "deletions": 1,
+        "changes": 23,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-8088",
+    "patch_url": "https://gitee.com/openharmony/third_party_python/pulls/70.patch",
+    "fetched_url": "https://gitee.com/openharmony/third_party_python/pulls/70.patch",
+    "diff_sha256": "e1ead194ee62ec069f987a609edb74801b31b6ceacf9abdc93f141acf3e301df",
+    "paper_line_additions": 78,
+    "paper_line_deletions": 2,
+    "paper_line_changes": 80,
+    "paper_modified_files": 3,
+    "paper_involved_functions": 3,
+    "os_layer": "System Library Layer",
+    "affected_function": "Security and Permission Control",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "High",
+    "files": [
+      {
+        "filepath": "Lib/test/test_zipfile.py",
+        "additions": 17,
+        "deletions": 1,
+        "changes": 18,
+        "file_category": "test"
+      },
+      {
+        "filepath": "Lib/zipfile.py",
+        "additions": 60,
+        "deletions": 1,
+        "changes": 61,
+        "file_category": "production"
+      },
+      {
+        "filepath": "Misc/NEWS.d/next/Library/2024-08-11-14-08-04.gh-issue-122905.7tDsxA.rst",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "doc"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2025-20081",
+    "patch_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/8945.patch",
+    "fetched_url": "https://gitee.com/openharmony/communication_dsoftbus/pulls/8945.patch",
+    "diff_sha256": "0ac612eacc82ffd0ab5b3f8190acb5c3d8e7f6f957aa33fff935d50c7e020eb0",
+    "paper_line_additions": 110,
+    "paper_line_deletions": 14,
+    "paper_line_changes": 124,
+    "paper_modified_files": 8,
+    "paper_involved_functions": 14,
+    "os_layer": "System Library Layer",
+    "affected_function": "Network and Communication",
+    "trigger_scenario": "Concurrency/Multi-thread Trigger",
+    "severity": "Low",
+    "files": [
+      {
+        "filepath": "core/discovery/ble/softbus_ble/src/disc_ble.c",
+        "additions": 3,
+        "deletions": 1,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/discovery/ble/softbus_ble/src/disc_ble_utils.c",
+        "additions": 1,
+        "deletions": 1,
+        "changes": 2,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/discovery/coap/nstackx_coap/include/disc_coap_capability.h",
+        "additions": 2,
+        "deletions": 1,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/discovery/coap/nstackx_coap/src/disc_coap_capability.c",
+        "additions": 9,
+        "deletions": 3,
+        "changes": 12,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/discovery/coap/nstackx_coap/src/disc_nstackx_adapter.c",
+        "additions": 71,
+        "deletions": 8,
+        "changes": 79,
+        "file_category": "production"
+      },
+      {
+        "filepath": "core/discovery/manager/src/disc_manager.c",
+        "additions": 4,
+        "deletions": 0,
+        "changes": 4,
+        "file_category": "production"
+      },
+      {
+        "filepath": "interfaces/kits/common/softbus_error_code.h",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "production"
+      },
+      {
+        "filepath": "tests/core/discovery/coap/unittest/disc_nstackx_adapter_test.cpp",
+        "additions": 19,
+        "deletions": 1,
+        "changes": 20,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2025-27534 (10806)",
+    "patch_url": "https://gitee.com/openharmony/arkcompiler_ets_runtime/pulls/10806.patch",
+    "fetched_url": "https://gitee.com/openharmony/arkcompiler_ets_runtime/pulls/10806.patch",
+    "diff_sha256": "cbd624bab492dc3f9853e51bec672c8e19d80b18186f382bfa9bfb277eaaab0a",
+    "paper_line_additions": 191,
+    "paper_line_deletions": 107,
+    "paper_line_changes": 298,
+    "paper_modified_files": 6,
+    "paper_involved_functions": 5,
+    "os_layer": "Runtime/Virtual Machine Layer",
+    "affected_function": "Memory and Resource Management",
+    "trigger_scenario": "Boundary Condition Trigger",
+    "severity": "Low",
+    "files": [
+      {
+        "filepath": "ecmascript/compiler/builtins/builtins_object_stub_builder.cpp",
+        "additions": 141,
+        "deletions": 106,
+        "changes": 247,
+        "file_category": "production"
+      },
+      {
+        "filepath": "ecmascript/compiler/stub_builder-inl.h",
+        "additions": 10,
+        "deletions": 0,
+        "changes": 10,
+        "file_category": "production"
+      },
+      {
+        "filepath": "ecmascript/compiler/stub_builder.cpp",
+        "additions": 21,
+        "deletions": 0,
+        "changes": 21,
+        "file_category": "production"
+      },
+      {
+        "filepath": "ecmascript/compiler/stub_builder.h",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "file_category": "production"
+      },
+      {
+        "filepath": "test/moduletest/object/expect_output.txt",
+        "additions": 3,
+        "deletions": 0,
+        "changes": 3,
+        "file_category": "test"
+      },
+      {
+        "filepath": "test/moduletest/object/object.js",
+        "additions": 13,
+        "deletions": 2,
+        "changes": 15,
+        "file_category": "test"
+      }
+    ]
+  },
+  {
+    "os": "harmony",
+    "bug_id": "CVE-2024-56703",
+    "patch_url": "https://gitee.com/openharmony/kernel_linux_5.10/commit/9192215d7f063b2bbe9fdda962c0f51b5bc775c0.patch",
+    "fetched_url": "https://gitee.com/api/v5/repos/openharmony/kernel_linux_5.10/commits/9192215d7f063b2bbe9fdda962c0f51b5bc775c0",
+    "diff_sha256": "83039789838de246fb4ca114f30b52a0a3bb63b45e5fb4838161929e57219d6b",
+    "paper_line_additions": 297,
+    "paper_line_deletions": 19,
+    "paper_line_changes": 316,
+    "paper_modified_files": 4,
+    "paper_involved_functions": 6,
+    "os_layer": "Kernel Layer",
+    "affected_function": "Network and Communication",
+    "trigger_scenario": "Concurrency/Multi-thread Trigger",
+    "severity": "Medium",
+    "files": [
+      {
+        "filepath": "net/ipv6/ip6_fib.c",
+        "additions": 4,
+        "deletions": 4,
+        "changes": 8,
+        "file_category": "production"
+      },
+      {
+        "filepath": "net/ipv6/route.c",
+        "additions": 30,
+        "deletions": 15,
+        "changes": 45,
+        "file_category": "production"
+      },
+      {
+        "filepath": "tools/testing/selftests/net/Makefile",
+        "additions": 1,
+        "deletions": 0,
+        "changes": 1,
+        "file_category": "test"
+      },
+      {
+        "filepath": "tools/testing/selftests/net/ipv6_route_update_soft_lockup.sh",
+        "additions": 262,
+        "deletions": 0,
+        "changes": 262,
+        "file_category": "test"
+      }
+    ]
+  }
+]

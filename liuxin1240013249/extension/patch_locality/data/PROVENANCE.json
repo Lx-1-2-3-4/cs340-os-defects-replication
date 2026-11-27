@@ -1,0 +1,10 @@
+{
+  "collected_at_utc": "2026-11-27T11:19:58Z",
+  "baseline_sample_count": 52,
+  "large_candidate_count": 25,
+  "files": {
+    "baseline_diff_sample.json": "6879c9703563ef04cf9e88804e1a3b41572c85c4b0ed57c56235e27f95fb045d",
+    "large_patch_candidates.json": "b91bd4b9fd1e35359577289d217c70db19930bb44b30450381f30310e0d9c07b",
+    "large_patch_decisions.csv": "59da6d204751536cdb3efa8413442293b2168cbb61ee42f15aebfc21fda9de19"
+  }
+}

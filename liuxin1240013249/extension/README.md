@@ -80,6 +80,10 @@ biggest change is Android's `30–50` bucket, from 15.00% to 13.74%, a drop of
 1.26 percentage points.
 [`patch_link_weighting.csv`](results/patch_link_weighting.csv)
 
+## 4. Patch size vs. modification locality (`extension/patch_locality/`)
+
+Extends the size analysis by mapping file paths to logical modules (distinguishing file counts from module counts), separating production lines from test/doc lines, auditing 25 real 501–1000 line candidates (`7 included / 18 excluded`), and cross-checking against teammate Wu Yanyang's `systemd` cohort. See [`patch_locality/README.md`](patch_locality/README.md) and [`patch_locality/PRESENTATION.md`](patch_locality/PRESENTATION.md).
+
 ## Re-running
 
 `make extension` runs all three scripts and writes to `extension/results/`.

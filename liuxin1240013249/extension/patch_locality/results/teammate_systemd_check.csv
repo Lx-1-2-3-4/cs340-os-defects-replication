@@ -1,0 +1,4 @@
+cohort,n,median_raw_lines,median_prod_lines,median_files,median_prod_modules,cross_module_pct,mean_primary_module_share
+Wu_systemd_LP_le500,3,21,21,2,1,33.33,0.7679
+Wu_systemd_GH_le500,6,115.0,63.5,3.5,1.0,16.67,0.9195
+Ours_systemd_GH_501_1000,4,759.5,571.5,18.0,4.0,75.0,0.8945

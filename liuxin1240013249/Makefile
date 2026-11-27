@@ -15,6 +15,8 @@ extension:
 	$(PYTHON) extension/subsample_sensitivity.py --runs 3 --resamples 500
 	$(PYTHON) extension/severity_missing_labels.py
 	$(PYTHON) extension/patch_link_weighting.py
+	$(PYTHON) extension/patch_locality/analysis.py
+	$(PYTHON) -m unittest extension/patch_locality/test_patch_locality.py -v
 
 validate:
 	$(PYTHON) scripts/validate_results.py
